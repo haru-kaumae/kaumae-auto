@@ -1,0 +1,5 @@
+alerts_new.md
+__pycache__/
+*.pyc
+new_token.txt
+preview/

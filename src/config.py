@@ -1,0 +1,104 @@
+# -*- coding: utf-8 -*-
+"""設定。キーやトークンはコードに書かず、GitHubのSecrets（環境変数）から読む。"""
+import os
+
+# ---- 秘密情報（GitHub Secrets） -------------------------------------------
+RAKUTEN_APP_ID = os.environ.get("RAKUTEN_APP_ID", "")
+RAKUTEN_ACCESS_KEY = os.environ.get("RAKUTEN_ACCESS_KEY", "")
+RAKUTEN_AFFILIATE_ID = os.environ.get("RAKUTEN_AFFILIATE_ID", "")
+IG_USER_ID = os.environ.get("IG_USER_ID", "")
+IG_ACCESS_TOKEN = os.environ.get("IG_ACCESS_TOKEN", "")
+
+# ---- 外部APIの場所（仕様変更に備えて上書きできる） ---------------------------
+# 楽天ウェブサービスは2026年に新ドメイン（openapi.rakuten.co.jp）とAccess Key方式へ移行。
+# 末尾の日付はAPIのバージョン。公式ドキュメント（https://webservice.rakuten.co.jp/documentation）で最新を確認して上書きする。
+RAKUTEN_SEARCH_URL = os.environ.get(
+    "RAKUTEN_SEARCH_URL", "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260701")
+# Access Keyの渡し方："query"（URLパラメータ）か "header"
+RAKUTEN_ACCESS_KEY_MODE = os.environ.get("RAKUTEN_ACCESS_KEY_MODE", "query")
+IG_GRAPH = os.environ.get("IG_GRAPH", "https://graph.instagram.com")
+IG_API_VERSION = os.environ.get("IG_API_VERSION", "v23.0")
+
+# ---- 公開ページ（GitHub Pages） ---------------------------------------------
+# 例：https://haru.github.io/kaumae-auto  画像の公開URLとリンク一覧ページに使う
+SITE_URL = os.environ.get("SITE_URL", "").rstrip("/")
+
+# ---- 運用ルール --------------------------------------------------------------
+DRY_RUN = os.environ.get("DRY_RUN", "0") == "1"   # 1なら投稿せず、画像と原稿だけ作る
+FEED_WEEKDAYS = {0, 2, 4}                           # 月・水・金（日本時間）にフィード投稿
+STORY_EVERY_DAY = True
+MIN_REVIEW_COUNT = 300                              # これ未満のレビュー件数の商品は選ばない
+MIN_REVIEW_AVERAGE = 4.2
+PRODUCTS_PER_POST = 2
+REPOST_COOLDOWN_DAYS = 90                           # 同じ商品を再び紹介するまでの日数（スパム防止）
+
+# 月ごとのジャンル（楽天のジャンルID）。季節に合わせて入れ替える
+GENRES = {
+    "kitchen":  dict(id=558944, name="キッチン用品"),
+    "clean":    dict(id=100656, name="掃除用品"),
+    "storage":  dict(id=200166, name="収納家具"),
+    "daily":    dict(id=215783, name="日用品"),
+    "humid":    dict(id=204549, name="加湿器"),
+    "blanket":  dict(id=208397, name="電気毛布"),
+    "sweets":   dict(id=551167, name="おやつ・お取り寄せ"),
+    "gift":     dict(id=566732, name="カタログギフト"),
+}
+MONTH_ROTATION = {
+    1: ["storage", "clean", "kitchen", "humid", "sweets", "daily"],
+    2: ["storage", "kitchen", "daily", "humid", "sweets", "clean"],
+    3: ["storage", "kitchen", "daily", "clean", "gift", "sweets"],
+    4: ["storage", "kitchen", "daily", "clean", "sweets", "gift"],
+    5: ["kitchen", "clean", "storage", "daily", "gift", "sweets"],
+    6: ["clean", "storage", "kitchen", "daily", "sweets", "gift"],
+    7: ["kitchen", "clean", "daily", "storage", "sweets", "gift"],
+    8: ["kitchen", "clean", "daily", "storage", "sweets", "gift"],
+    9: ["storage", "kitchen", "clean", "daily", "sweets", "gift"],
+    10: ["kitchen", "storage", "clean", "humid", "blanket", "sweets"],
+    11: ["clean", "kitchen", "humid", "blanket", "gift", "sweets", "storage"],
+    12: ["clean", "gift", "kitchen", "blanket", "humid", "sweets", "storage"],
+}
+
+# ジャンルごとの「買う前の3チェック」。商品ページの数字ではなく、確認の手順だけを書く
+CHECKS = {
+    "kitchen": [("置き場所を測る", ["置きたい場所の幅・奥行・高さを測り、", "商品ページの外寸と比べる。"]),
+                ("対応の表記を見る", ["食洗機・電子レンジ・IHなど", "使いたい機器に対応しているか、", "商品ページの表記で確認する。"]),
+                ("素材とお手入れを見る", ["素材の名前と、", "お手入れ方法・使用上の注意の欄を読む。"])],
+    "clean":   [("使う場所の素材を確かめる", ["塗装・コーティング・木材など", "傷つきやすい素材に使えるか、", "注意書きを確認する。"]),
+                ("サイズと対応の表記を見る", ["対応口径・対応サイズ・対応機種が", "書かれていれば、先に自宅で測る。"]),
+                ("セット数と替えを確認", ["何個入りか、替えやフィルターを", "別に買う必要があるかを見る。"])],
+    "storage": [("置き場所の3か所を測る", ["幅・奥行・高さを測る。", "扉や引き出しが開く範囲も忘れずに。"]),
+                ("内寸と外寸を分けて見る", ["入れたい物は「内寸」、", "置き場所は「外寸」と比べる。"]),
+                ("耐荷重を確認", ["上に物を置く・重い物を入れるなら", "耐荷重の表記を確認する。", "書かれていなければ問い合わせる。"])],
+    "daily":   [("内容量とセット数", ["1個あたりの量と、何個セットかを", "商品名と商品ページで確認する。"]),
+                ("1個あたりの価格", ["合計の価格をセット数で割って、", "いつもの買い方と比べる。"]),
+                ("置き場所を決めておく", ["まとめ買いの量が", "ストックの置き場所に入るか考える。"])],
+    "humid":   [("加湿方式を確認", ["気化式・スチーム式・超音波式・", "ハイブリッド式などの方式を", "商品ページの仕様欄で確認する。"]),
+                ("適用畳数を確認", ["木造とプレハブ（鉄骨）で", "適用畳数が違うことが多い。", "使う部屋の広さと比べる。"]),
+                ("給水とお手入れ", ["上から給水か、タンクを外すか。", "フィルター交換の有無も見る。"])],
+    "blanket": [("サイズと使い方", ["敷き用・掛け用・兼用のどれか、", "サイズとあわせて確認する。"]),
+                ("消費電力と電気代の目安", ["消費電力（W）と、", "電気代の目安が書かれていれば", "計算の前提（単価）も見る。"]),
+                ("洗濯と使用上の注意", ["洗濯できるか、乾燥機の可否、", "折り曲げなどの注意を読む。"])],
+    "sweets":  [("内容量と賞味期限", ["量と、届いてからの", "賞味期限の目安を確認する。"]),
+                ("保存方法", ["常温・冷蔵・冷凍のどれか。", "冷凍なら冷凍庫の空きを先に見る。"]),
+                ("アレルギー表示", ["原材料とアレルギー表示を", "商品ページとパッケージで確認する。"])],
+    "gift":    [("予算とコース", ["贈る相手と場面に合う", "価格のコースを選ぶ。"]),
+                ("のし・包装・カード", ["のし・包装・メッセージカードに", "対応しているか確認する。"]),
+                ("届け日と有効期限", ["届け日の指定ができるか、", "カタログの申込期限も見る。"])],
+}
+
+# 表紙の改行位置ごと書く（\n）。キャプションやページでは改行を外して使う
+TITLES = ["{g}を\n買う前の3チェック", "{g}で\n失敗しない\n3つの確認", "ポチる前に見る\n{g}の\n3か所"]
+
+HASHTAGS = {
+    "kitchen": "#キッチングッズ #キッチン用品 #キッチン収納",
+    "clean": "#掃除グッズ #掃除 #大掃除",
+    "storage": "#収納 #収納アイデア #整理整頓",
+    "daily": "#日用品 #日用品ストック #まとめ買い",
+    "humid": "#加湿器 #乾燥対策 #季節家電",
+    "blanket": "#電気毛布 #寒さ対策 #冬支度",
+    "sweets": "#お取り寄せ #おやつ #楽天グルメ",
+    "gift": "#ギフト #カタログギフト #贈り物",
+}
+PR_LINE = "【PR】この投稿は楽天アフィリエイト広告を含みます"
+
+COMMON_TAGS = "#楽天市場 #買う前チェック #暮らしを整える #かうまえメモ"

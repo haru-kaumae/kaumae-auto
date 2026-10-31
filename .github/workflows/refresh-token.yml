@@ -1,0 +1,29 @@
+name: refresh-token
+# 毎月1日と15日。Instagramの長期トークン（60日有効）を延長し、Secretsを書き換える
+on:
+  schedule:
+    - cron: "0 0 1,15 * *"
+  workflow_dispatch:
+permissions:
+  issues: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      TOKEN_OUT: /tmp/ig_token.txt
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt
+      - run: python -m src.main refresh
+      - name: 新しいトークンをSecretsに保存（値はログに出さない）
+        env: { GH_TOKEN: "${{ secrets.GH_PAT }}" }
+        run: |
+          echo "::add-mask::$(cat "$TOKEN_OUT")"
+          gh secret set IG_ACCESS_TOKEN --repo "$GITHUB_REPOSITORY" < "$TOKEN_OUT"
+          rm -f "$TOKEN_OUT"
+      - if: failure()
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: gh issue create --title "【要対応】Instagramのトークン延長に失敗しました" --body "トークンの期限（60日）が切れると投稿が止まります。手順書の「トークンの再発行」を行ってください。"

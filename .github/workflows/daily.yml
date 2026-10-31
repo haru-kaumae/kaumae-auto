@@ -1,0 +1,56 @@
+name: daily
+# 毎日20:00（日本時間）。月水金はフィード、毎日ストーリーズ
+on:
+  schedule:
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "1にすると投稿せず、画像と原稿だけ作る"
+        default: "1"
+permissions:
+  contents: write
+  issues: write
+concurrency: daily
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
+      RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
+      RAKUTEN_AFFILIATE_ID: ${{ secrets.RAKUTEN_AFFILIATE_ID }}
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      SITE_URL: ${{ vars.SITE_URL }}
+      DRY_RUN: ${{ github.event.inputs.dry_run || vars.DRY_RUN || '0' }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-ipafont-gothic
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt
+      - name: 原稿と画像を作る（規約チェックつき）
+        run: python -m src.main daily
+      - name: 画像とリンク一覧ページを公開する
+        run: |
+          git config user.name "kaumae-bot"
+          git config user.email "kaumae-bot@users.noreply.github.com"
+          git add docs state
+          git commit -m "daily: $(date +%F)" || echo "変更なし"
+          git push
+      - name: Instagramに投稿する
+        run: python -m src.main publish
+      - name: 投稿結果を記録する
+        if: always()
+        run: |
+          git add docs state
+          git commit -m "publish: $(date +%F)" || echo "変更なし"
+          git push
+      - name: 問題があればIssueで知らせる
+        if: always()
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          if [ -s alerts_new.md ]; then
+            gh issue create --title "【要確認】自動投稿で止まったもの $(date +%F)" --body-file alerts_new.md
+          fi

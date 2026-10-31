@@ -1,0 +1,37 @@
+name: weekly
+# 毎週日曜21:00（日本時間）。在庫・リンクの確認と、投稿の数字の記録
+on:
+  schedule:
+    - cron: "0 12 * * 0"
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
+      RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
+      RAKUTEN_AFFILIATE_ID: ${{ secrets.RAKUTEN_AFFILIATE_ID }}
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      SITE_URL: ${{ vars.SITE_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt
+      - run: python -m src.main weekly
+      - run: |
+          git config user.name "kaumae-bot"
+          git config user.email "kaumae-bot@users.noreply.github.com"
+          git add docs state
+          git commit -m "weekly: $(date +%F)" || echo "変更なし"
+          git push
+      - if: always()
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          if [ -s alerts_new.md ]; then
+            gh issue create --title "【要確認】週次チェック $(date +%F)" --body-file alerts_new.md
+          fi
