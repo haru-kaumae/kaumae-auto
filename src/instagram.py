@@ -6,24 +6,32 @@
 - カルーセルは最大20枚、1件として数える。24時間の投稿数に上限あり
 - ストーリーズは media_type=STORIES。リンクスタンプを付ける方法は公式に記載なし
 """
-import time
+import os, time
 import requests
 from . import config as C
 
 
+def graph_host():
+    """トークンの種類で接続先を決める。Metaの「Unified login」画面で出るトークンは EAA で始まり、
+    graph.facebook.com で使う。Instagramログインのトークン（IGで始まる）は graph.instagram.com。"""
+    if C.IG_ACCESS_TOKEN.strip().startswith("EAA"):
+        return "https://graph.facebook.com"
+    return C.IG_GRAPH
+
+
 def _url(path):
-    return f"{C.IG_GRAPH}/{C.IG_API_VERSION}/{path}"
+    return f"{graph_host()}/{C.IG_API_VERSION}/{path}"
 
 
 def _post(path, **data):
-    r = requests.post(_url(path), data=dict(data, access_token=C.IG_ACCESS_TOKEN), timeout=60)
+    r = requests.post(_url(path), data=dict(data, access_token=C.IG_ACCESS_TOKEN.strip()), timeout=60)
     if not r.ok:
         raise RuntimeError(f"Instagram API エラー {r.status_code}: {r.text[:300]}")
     return r.json()
 
 
 def _get(path, **params):
-    r = requests.get(_url(path), params=dict(params, access_token=C.IG_ACCESS_TOKEN), timeout=60)
+    r = requests.get(_url(path), params=dict(params, access_token=C.IG_ACCESS_TOKEN.strip()), timeout=60)
     if not r.ok:
         raise RuntimeError(f"Instagram API エラー {r.status_code}: {r.text[:300]}")
     return r.json()
@@ -74,9 +82,28 @@ def insights(media_id):
     return out
 
 
+def token_info():
+    """トークンの有効期限などを調べる（Facebook型のトークンのみ）。"""
+    t = C.IG_ACCESS_TOKEN.strip()
+    r = requests.get(f"https://graph.facebook.com/{C.IG_API_VERSION}/debug_token",
+                     params=dict(input_token=t, access_token=t), timeout=30)
+    return r.json().get("data", r.json())
+
+
 def refresh_token():
-    """60日有効の長期トークンを延長する。"""
+    """長期トークンを延長する。Facebook型（EAA）は META_APP_ID と META_APP_SECRET があれば交換する。"""
+    t = C.IG_ACCESS_TOKEN.strip()
+    if t.startswith("EAA"):
+        app_id, secret = os.environ.get("META_APP_ID", ""), os.environ.get("META_APP_SECRET", "")
+        if not (app_id and secret):
+            return None
+        r = requests.get(f"https://graph.facebook.com/{C.IG_API_VERSION}/oauth/access_token",
+                         params=dict(grant_type="fb_exchange_token", client_id=app_id, client_secret=secret,
+                                     fb_exchange_token=t), timeout=30)
+        if not r.ok:
+            raise RuntimeError(f"トークン延長エラー {r.status_code}: {r.text[:300]}")
+        return r.json()["access_token"]
     r = requests.get(f"{C.IG_GRAPH}/refresh_access_token",
-                     params=dict(grant_type="ig_refresh_token", access_token=C.IG_ACCESS_TOKEN), timeout=30)
+                     params=dict(grant_type="ig_refresh_token", access_token=C.IG_ACCESS_TOKEN.strip()), timeout=30)
     r.raise_for_status()
     return r.json()["access_token"]

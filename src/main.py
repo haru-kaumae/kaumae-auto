@@ -167,19 +167,29 @@ def main(cmd):
     elif cmd == "check":
         # 投稿せずに、キーが正しいかだけ確かめる。トークンそのものはログに出さない
         t = C.IG_ACCESS_TOKEN
-        print(f"トークン：長さ{len(t)}、先頭{t[:3]!r}、前後の空白・改行{'あり' if t != t.strip() else 'なし'}、途中の空白{'あり' if any(ch.isspace() for ch in t.strip()) else 'なし'}")
-        print(f"IG_USER_ID：長さ{len(C.IG_USER_ID)}、先頭{C.IG_USER_ID[:5]!r}")
-        for host in ("https://graph.instagram.com", "https://graph.facebook.com"):
-            r = requests.get(f"{host}/{C.IG_API_VERSION}/me", params=dict(fields="id,username", access_token=t.strip()), timeout=30)
-            print(host, r.status_code, r.text[:200])
+        print(f"トークン：長さ{len(t)}、先頭{t[:3]!r}、接続先 {instagram.graph_host()}")
+        try:
+            me = instagram._get(C.IG_USER_ID, fields="username,media_count")
+            print(f"Instagram：@{me.get('username')}（投稿{me.get('media_count')}件）")
+        except Exception as e:
+            print("Instagram：", e)
+        if t.strip().startswith("EAA"):
+            info = instagram.token_info()
+            exp = info.get("expires_at") if isinstance(info, dict) else None
+            when = "無期限" if exp == 0 else (dt.datetime.fromtimestamp(exp, compose.JST).strftime("%Y-%m-%d %H:%M") if exp else "不明")
+            print("トークンの期限：", when, "／権限：", ",".join(info.get("scopes", [])) if isinstance(info, dict) else info)
         try:
             print("楽天：", len(rakuten.search_genre(C.GENRES["kitchen"]["id"], page=1)), "件取得")
         except Exception as e:
             print("楽天：", e)
     elif cmd == "refresh":
         # トークンはログに出さず、ワークフローが読むファイルにだけ書く
+        new = instagram.refresh_token()
+        if not new:
+            print("このトークンは自動延長の設定（META_APP_ID・META_APP_SECRET）がないため延長しません")
+            return
         with open(os.environ.get("TOKEN_OUT", "new_token.txt"), "w") as fp:
-            fp.write(instagram.refresh_token())
+            fp.write(new)
     else:
         sys.exit(f"不明なコマンド：{cmd}")
 

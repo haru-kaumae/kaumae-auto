@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      META_APP_ID: ${{ secrets.META_APP_ID }}
+      META_APP_SECRET: ${{ secrets.META_APP_SECRET }}
       TOKEN_OUT: /tmp/ig_token.txt
     steps:
       - uses: actions/checkout@v4
@@ -21,6 +23,7 @@ jobs:
       - name: 新しいトークンをSecretsに保存（値はログに出さない）
         env: { GH_TOKEN: "${{ secrets.GH_PAT }}" }
         run: |
+          [ -s "$TOKEN_OUT" ] || { echo "延長なし"; exit 0; }
           echo "::add-mask::$(cat "$TOKEN_OUT")"
           gh secret set IG_ACCESS_TOKEN --repo "$GITHUB_REPOSITORY" < "$TOKEN_OUT"
           rm -f "$TOKEN_OUT"
