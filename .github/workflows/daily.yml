@@ -1,8 +1,8 @@
 name: daily
-# 毎日20:00（日本時間）。月水金はフィード、毎日ストーリーズ
+# 毎日18:00（日本時間）に投稿。準備のため17:40に起動し、18:00まで待ってから投稿する。月水金はフィード、毎日ストーリーズ
 on:
   schedule:
-    - cron: "0 11 * * *"
+    - cron: "40 8 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -44,6 +44,11 @@ jobs:
           git add docs state
           git commit -m "daily: $(date +%F)" || echo "変更なし"
           git push
+      - name: 18:00（日本時間）まで待つ（手動実行の時は待たない）
+        if: github.event_name == 'schedule'
+        run: |
+          now=$(date -u +%s); target=$(date -u -d "today 09:00" +%s)
+          if [ "$now" -lt "$target" ]; then sleep $((target - now)); fi
       - name: Instagramに投稿する
         run: python -m src.main publish
       - name: 投稿結果を記録する
