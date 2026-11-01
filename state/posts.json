@@ -1,3 +1,164 @@
 {
- "posts": []
+ "posts": [
+  {
+   "date": "2026-11-01",
+   "genre": "clean",
+   "title": "掃除用品を買う前の3チェック",
+   "caption": "【PR】この投稿は楽天アフィリエイト広告を含みます\n\n掃除用品を選ぶ時に、買う前に確認したい3つをまとめました。\n\n✔ CHECK1　使う場所の素材を確かめる\n塗装・コーティング・木材など傷つきやすい素材に使えるか、注意書きを確認する。\n\n✔ CHECK2　サイズと対応の表記を見る\n対応口径・対応サイズ・対応機種が書かれていれば、先に自宅で測る。\n\n✔ CHECK3　セット数と替えを確認\n何個入りか、替えやフィルターを別に買う必要があるかを見る。\n\n■ 例として、2026/11/1に楽天市場でレビューの多かった商品\n・【ヤマト運輸ネコポス追跡有】ダスキン台所用スポンジ抗菌タイプ色が選べ（マザーズライフ）1,098円、★4.78／9,903件\n・ブリッツ レギュラーサイズ約200x300x2mm（ドイツの雑貨屋さん）1,000円、★4.56／8,779件\n\n※2026/11/1に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n保存しておくと、買う前に見返せます。\n\n#掃除グッズ #掃除 #大掃除 #楽天市場 #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "掃除用品｜選び方",
+     "title": "掃除用品を\n買う前の3チェック",
+     "sub": "今週の楽天市場の人気商品から"
+    },
+    {
+     "kind": "point",
+     "label": "CHECK 1",
+     "head": "使う場所の素材を確かめる",
+     "body": [
+      "塗装・コーティング・木材など",
+      "傷つきやすい素材に使えるか、",
+      "注意書きを確認する。"
+     ],
+     "note": ""
+    },
+    {
+     "kind": "point",
+     "label": "CHECK 2",
+     "head": "サイズと対応の表記を見る",
+     "body": [
+      "対応口径・対応サイズ・対応機種が",
+      "書かれていれば、先に自宅で測る。"
+     ],
+     "note": ""
+    },
+    {
+     "kind": "point",
+     "label": "CHECK 3",
+     "head": "セット数と替えを確認",
+     "body": [
+      "何個入りか、替えやフィルターを",
+      "別に買う必要があるかを見る。"
+     ],
+     "note": ""
+    },
+    {
+     "kind": "table",
+     "label": "例 1",
+     "head": "【ヤマト運輸ネコポス追跡有】ダスキン台所用スポンジ抗菌タイプ色が選べ",
+     "rows": [
+      [
+       "項目",
+       "2026/11/1の表示"
+      ],
+      [
+       "ショップ",
+       "マザーズライフ"
+      ],
+      [
+       "価格",
+       "1,098円"
+      ],
+      [
+       "レビュー",
+       "★4.78（9,903件）"
+      ],
+      [
+       "送料",
+       "送料込み"
+      ]
+     ],
+     "note": "楽天ウェブサービスAPIで取得。価格・在庫は変わります"
+    },
+    {
+     "kind": "table",
+     "label": "例 2",
+     "head": "ブリッツ レギュラーサイズ約200x300x2mm",
+     "rows": [
+      [
+       "項目",
+       "2026/11/1の表示"
+      ],
+      [
+       "ショップ",
+       "ドイツの雑貨屋さん"
+      ],
+      [
+       "価格",
+       "1,000円"
+      ],
+      [
+       "レビュー",
+       "★4.56（8,779件）"
+      ],
+      [
+       "送料",
+       "送料込み"
+      ]
+     ],
+     "note": "楽天ウェブサービスAPIで取得。価格・在庫は変わります"
+    },
+    {
+     "kind": "cta",
+     "head": "買う前のメモ",
+     "checks": [
+      "使う場所の素材を確かめる",
+      "サイズと対応の表記を見る",
+      "セット数と替えを確認"
+     ],
+     "foot": "商品はプロフィールのリンクから"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "pia-konodai:10000199",
+     "rawName": "【ヤマト運輸ネコポス追跡有】ダスキン台所用スポンジ抗菌タイプ色が選べるよりどり6個セット台所用スポンジ 抗菌 食器スポンジ 長持ち 食器",
+     "name": "【ヤマト運輸ネコポス追跡有】ダスキン台所用スポンジ抗菌タイプ色が選べ",
+     "price": 1098,
+     "shop": "マザーズライフ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rj4ro.p3pr207e.g00rj4ro.p3pr3092/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpia-konodai%2F1000001200%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpia-konodai%2Fi%2F10000199%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rj4ro.p3pr207e.g00rj4ro.p3pr3092/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpia-konodai%2F1000001200%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpia-konodai%2Fi%2F10000199%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 9903,
+     "reviewAverage": 4.78,
+     "availability": 1,
+     "postageFlag": 0
+    },
+    {
+     "itemCode": "fuji-inter:10000066",
+     "rawName": "メール送料無料☆ドイツのフキン★ブリッツ【無地2枚セット】レギュラーサイズ約200x300x2mm（乾燥時）吸水力バツグン、丈夫で長持ち、食器・ガラスも傷つけない☆窓ガラスの結露拭きに★キッチン、おそうじ、洗車に大活躍！",
+     "name": "ブリッツ レギュラーサイズ約200x300x2mm",
+     "price": 1000,
+     "shop": "ドイツの雑貨屋さん",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q4f6o.p3pr2297.g00q4f6o.p3pr3134/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffuji-inter%2Ffukifukiset2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffuji-inter%2Fi%2F10000066%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q4f6o.p3pr2297.g00q4f6o.p3pr3134/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffuji-inter%2Ffukifukiset2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffuji-inter%2Fi%2F10000066%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 8779,
+     "reviewAverage": 4.56,
+     "availability": 1,
+     "postageFlag": 0
+    }
+   ],
+   "status": "dry_run",
+   "images": [
+    "docs/media/2026-11-01_feed_01.jpg",
+    "docs/media/2026-11-01_feed_02.jpg",
+    "docs/media/2026-11-01_feed_03.jpg",
+    "docs/media/2026-11-01_feed_04.jpg",
+    "docs/media/2026-11-01_feed_05.jpg",
+    "docs/media/2026-11-01_feed_06.jpg",
+    "docs/media/2026-11-01_feed_07.jpg"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "date": "2026-11-01",
+   "title": "掃除用品を買う前の3チェック",
+   "head": "サイズと対応の表記を見る",
+   "status": "dry_run",
+   "images": [
+    "docs/media/2026-11-01_story.jpg"
+   ]
+  }
+ ]
 }
