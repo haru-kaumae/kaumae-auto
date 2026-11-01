@@ -99,6 +99,9 @@ def refresh_token():
         app_id, secret = os.environ.get("META_APP_ID", ""), os.environ.get("META_APP_SECRET", "")
         if not (app_id and secret):
             return None
+        info = token_info()
+        if isinstance(info, dict) and info.get("expires_at") == 0:
+            return None                 # システムユーザーのトークンなど、期限のないものは延長不要
         r = requests.get(f"https://graph.facebook.com/{C.IG_API_VERSION}/oauth/access_token",
                          params=dict(grant_type="fb_exchange_token", client_id=app_id, client_secret=secret,
                                      fb_exchange_token=t), timeout=30)

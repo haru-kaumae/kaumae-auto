@@ -186,7 +186,7 @@ def main(cmd):
         # トークンはログに出さず、ワークフローが読むファイルにだけ書く
         new = instagram.refresh_token()
         if not new:
-            print("このトークンは自動延長の設定（META_APP_ID・META_APP_SECRET）がないため延長しません")
+            print("延長しません（期限のないトークン、または META_APP_ID・META_APP_SECRET が未設定）")
             return
         with open(os.environ.get("TOKEN_OUT", "new_token.txt"), "w") as fp:
             fp.write(new)
