@@ -8,6 +8,9 @@ on:
       dry_run:
         description: "1にすると投稿せず、画像と原稿だけ作る"
         default: "1"
+      force_feed:
+        description: "1にすると曜日に関係なくフィードを作る（試運転用）"
+        default: "1"
 permissions:
   contents: write
   issues: write
@@ -24,6 +27,8 @@ jobs:
       IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
       SITE_URL: ${{ vars.SITE_URL }}
       DRY_RUN: ${{ github.event.inputs.dry_run || vars.DRY_RUN || '0' }}
+      FORCE_FEED: ${{ github.event.inputs.force_feed || '0' }}
+      PYTHONUNBUFFERED: "1"
     steps:
       - uses: actions/checkout@v4
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-ipafont-gothic

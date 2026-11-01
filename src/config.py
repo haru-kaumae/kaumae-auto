@@ -25,6 +25,7 @@ SITE_URL = os.environ.get("SITE_URL", "").rstrip("/")
 
 # ---- 運用ルール --------------------------------------------------------------
 DRY_RUN = os.environ.get("DRY_RUN", "0") == "1"   # 1なら投稿せず、画像と原稿だけ作る
+FORCE_FEED = os.environ.get("FORCE_FEED", "0") == "1"  # 1なら曜日に関係なくフィードを作る（手動の試運転用）
 FEED_WEEKDAYS = {0, 2, 4}                           # 月・水・金（日本時間）にフィード投稿
 STORY_EVERY_DAY = True
 MIN_REVIEW_COUNT = 300                              # これ未満のレビュー件数の商品は選ばない

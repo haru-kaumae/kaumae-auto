@@ -17,6 +17,8 @@ def pick_genre(state, day):
     order = C.MONTH_ROTATION[day.month]
     last = {}
     for p in state["posts"]:
+        if p.get("status") == "dry_run":
+            continue
         last[p["genre"]] = max(last.get(p["genre"], ""), p["date"])
     return sorted(order, key=lambda g: (last.get(g, ""), order.index(g)))[0]
 
@@ -25,7 +27,7 @@ def pick_products(items, state, day, n=C.PRODUCTS_PER_POST):
     recent = set()
     limit = (day - dt.timedelta(days=C.REPOST_COOLDOWN_DAYS)).isoformat()
     for p in state["posts"]:
-        if p["date"] >= limit:
+        if p["date"] >= limit and p.get("status") != "dry_run":
             recent.update(x["itemCode"] for x in p["products"])
     out, shops = [], set()
     for it in items:

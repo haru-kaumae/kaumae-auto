@@ -18,9 +18,10 @@ ALERTS = os.path.join(ROOT, "alerts_new.md")  # コミットしない。ワー�
 
 
 def load():
-    if os.path.exists(STATE):
-        return json.load(open(STATE, encoding="utf-8"))
-    return {"posts": [], "stories": []}
+    state = json.load(open(STATE, encoding="utf-8")) if os.path.exists(STATE) else {}
+    state.setdefault("posts", [])
+    state.setdefault("stories", [])
+    return state
 
 
 def save(state):
@@ -60,7 +61,11 @@ def wait_public(urls, timeout=900):
 def prepare(state, day):
     """画像と原稿を作り、規約チェックを通ったものを state に「ready」で積む。投稿は publish() で行う。"""
     made = []
-    if day.weekday() in C.FEED_WEEKDAYS and not any(p["date"] == day.isoformat() for p in state["posts"]):
+    # 試運転（DRY_RUN）で作ったものは "dry_run" にして、本番の投稿・選定・重複判定に使わない
+    new_status = "dry_run" if C.DRY_RUN else "ready"
+    real = {"posted", "ready", "blocked", "failed"}
+    feed_day = day.weekday() in C.FEED_WEEKDAYS or C.FORCE_FEED
+    if feed_day and not any(p["date"] == day.isoformat() and p["status"] in real for p in state["posts"]):
         genre = compose.pick_genre(state, day)
         items = rakuten.search_genre(C.GENRES[genre]["id"])
         prods = compose.pick_products(items, state, day)
@@ -71,7 +76,7 @@ def prepare(state, day):
             problems = compliance.check(post, prods)
             stem = f"{day.isoformat()}_feed"
             rec = dict(date=day.isoformat(), genre=genre, title=post["title"], caption=post["caption"],
-                       slides=post["slides"], products=prods, status="ready")
+                       slides=post["slides"], products=prods, status=new_status)
             if problems:
                 rec["status"] = "blocked"
                 alert(f"フィード「{post['title']}」を規約チェックで止めました：" + "／".join(problems))
@@ -79,11 +84,12 @@ def prepare(state, day):
                 rec["images"] = [os.path.relpath(p, ROOT) for p in slides.render_feed(post, os.path.join(DOCS, "media"), stem)]
             state["posts"].append(rec)
             made.append(rec)
-    latest = next((p for p in reversed(state["posts"]) if p["status"] in ("posted", "ready")), None)
-    if C.STORY_EVERY_DAY and latest and not any(s["date"] == day.isoformat() for s in state["stories"]):
+    usable = ("posted", "ready", "dry_run") if C.DRY_RUN else ("posted", "ready")
+    latest = next((p for p in reversed(state["posts"]) if p["status"] in usable), None)
+    if C.STORY_EVERY_DAY and latest and not any(s["date"] == day.isoformat() and s["status"] in real for s in state["stories"]):
         story = compose.build_story(latest, day)
         problems = compliance.check(story)
-        rec = dict(date=day.isoformat(), title=story["title"], head=story["head"], status="ready")
+        rec = dict(date=day.isoformat(), title=story["title"], head=story["head"], status=new_status)
         if problems:
             rec["status"] = "blocked"
             alert("ストーリーズを規約チェックで止めました：" + "／".join(problems))
@@ -147,7 +153,10 @@ def weekly(state):
 def main(cmd):
     state = load()
     if cmd == "daily":
-        prepare(state, compose.today())
+        made = prepare(state, compose.today())
+        print(f"作成：{len(made)}件", *[f"・{r.get('title')}（{r['status']}）" for r in made], sep="\n")
+        if not made:
+            print("今日は作るものがありません（フィードは月・水・金。ストーリーズは最初のフィードの後から）")
         save(state)
     elif cmd == "publish":
         publish(state)
