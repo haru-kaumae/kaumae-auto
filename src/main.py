@@ -165,12 +165,17 @@ def main(cmd):
         weekly(state)
         save(state)
     elif cmd == "check":
-        # 投稿せずに、トークンとユーザーIDが正しいかだけ確かめる
-        me = instagram._get("me", fields="user_id,username,account_type")
-        print("Instagram：@{username}（{account_type}）".format(**me))
-        print("IG_USER_ID と一致：", str(me.get("user_id")) == str(C.IG_USER_ID))
-        items = rakuten.search_genre(C.GENRES["kitchen"]["id"], page=1)
-        print("楽天：", len(items), "件取得")
+        # 投稿せずに、キーが正しいかだけ確かめる。トークンそのものはログに出さない
+        t = C.IG_ACCESS_TOKEN
+        print(f"トークン：長さ{len(t)}、先頭{t[:3]!r}、前後の空白・改行{'あり' if t != t.strip() else 'なし'}、途中の空白{'あり' if any(ch.isspace() for ch in t.strip()) else 'なし'}")
+        print(f"IG_USER_ID：長さ{len(C.IG_USER_ID)}、先頭{C.IG_USER_ID[:5]!r}")
+        for host in ("https://graph.instagram.com", "https://graph.facebook.com"):
+            r = requests.get(f"{host}/{C.IG_API_VERSION}/me", params=dict(fields="id,username", access_token=t.strip()), timeout=30)
+            print(host, r.status_code, r.text[:200])
+        try:
+            print("楽天：", len(rakuten.search_genre(C.GENRES["kitchen"]["id"], page=1)), "件取得")
+        except Exception as e:
+            print("楽天：", e)
     elif cmd == "refresh":
         # トークンはログに出さず、ワークフローが読むファイルにだけ書く
         with open(os.environ.get("TOKEN_OUT", "new_token.txt"), "w") as fp:
