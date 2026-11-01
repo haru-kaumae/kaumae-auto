@@ -85,8 +85,10 @@ def insights(media_id):
 def token_info():
     """トークンの有効期限などを調べる（Facebook型のトークンのみ）。"""
     t = C.IG_ACCESS_TOKEN.strip()
+    app_id, secret = os.environ.get("META_APP_ID", ""), os.environ.get("META_APP_SECRET", "")
+    viewer = f"{app_id}|{secret}" if app_id and secret else t
     r = requests.get(f"https://graph.facebook.com/{C.IG_API_VERSION}/debug_token",
-                     params=dict(input_token=t, access_token=t), timeout=30)
+                     params=dict(input_token=t, access_token=viewer), timeout=30)
     return r.json().get("data", r.json())
 
 
