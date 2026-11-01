@@ -64,6 +64,8 @@ def clean_name(name):
     out = ""
     for w in words:
         if len(out) + len(w) + 1 > 34:
+            if not out:             # 区切りのない長い商品名は、販促の文言を除いたものを途中で切る
+                out = w[:33] + "…"
             break
         out = (out + " " + w).strip()
     return out or name[:34]

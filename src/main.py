@@ -164,6 +164,13 @@ def main(cmd):
     elif cmd == "weekly":
         weekly(state)
         save(state)
+    elif cmd == "check":
+        # 投稿せずに、トークンとユーザーIDが正しいかだけ確かめる
+        me = instagram._get("me", fields="user_id,username,account_type")
+        print("Instagram：@{username}（{account_type}）".format(**me))
+        print("IG_USER_ID と一致：", str(me.get("user_id")) == str(C.IG_USER_ID))
+        items = rakuten.search_genre(C.GENRES["kitchen"]["id"], page=1)
+        print("楽天：", len(items), "件取得")
     elif cmd == "refresh":
         # トークンはログに出さず、ワークフローが読むファイルにだけ書く
         with open(os.environ.get("TOKEN_OUT", "new_token.txt"), "w") as fp:
