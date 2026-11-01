@@ -2,7 +2,7 @@
 """投稿画像の共通デザイン（運用キットの画像と同じ見た目）。"""
 import os
 from PIL import Image, ImageDraw, ImageFont
-HANDLE = "@kaumae_memo"
+HANDLE = "@kaumae._.memo"
 ACCOUNT = "かうまえメモ"
 
 FONT = "/usr/share/fonts/opentype/ipafont-gothic/ipagp.ttf"

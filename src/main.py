@@ -177,7 +177,7 @@ def main(cmd):
             info = instagram.token_info()
             exp = info.get("expires_at") if isinstance(info, dict) else None
             when = "無期限" if exp == 0 else (dt.datetime.fromtimestamp(exp, compose.JST).strftime("%Y-%m-%d %H:%M") if exp else "不明")
-            print("トークンの期限：", when, "／権限：", ",".join(info.get("scopes", [])) if isinstance(info, dict) else info)
+            print("トークンの期限：", when, "／権限：", ",".join(info.get("scopes", [])), "／その他：", {k: v for k, v in info.items() if k in ("type", "is_valid", "data_access_expires_at", "error")})
         try:
             print("楽天：", len(rakuten.search_genre(C.GENRES["kitchen"]["id"], page=1)), "件取得")
         except Exception as e:
