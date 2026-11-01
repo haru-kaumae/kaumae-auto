@@ -9,6 +9,10 @@ def _call(params):
     params = dict(params, applicationId=C.RAKUTEN_APP_ID, affiliateId=C.RAKUTEN_AFFILIATE_ID,
                   format="json", formatVersion=2)
     headers = {}
+    if C.SITE_URL:
+        # 楽天のアプリ設定の「許可するウェブサイト」と照合されるため、公開ページのURLを送る
+        headers["Referer"] = C.SITE_URL + "/"
+        headers["Origin"] = "/".join(C.SITE_URL.split("/")[:3])
     if C.RAKUTEN_ACCESS_KEY_MODE == "header":
         headers["accessKey"] = C.RAKUTEN_ACCESS_KEY
     else:
@@ -18,7 +22,9 @@ def _call(params):
         if r.status_code == 429:          # 呼び出しが多すぎる時は少し待つ
             time.sleep(2 + attempt * 3)
             continue
-        r.raise_for_status()
+        if r.status_code >= 400:
+            # 原因が分かるように、楽天からの返事（キーは含まない）をログに出す
+            raise RuntimeError(f"楽天APIエラー {r.status_code}：{r.text[:500]}")
         return [it.get("Item", it) for it in r.json().get("Items", [])]
     raise RuntimeError("楽天APIの呼び出し回数の上限に達しました")
 
