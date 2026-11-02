@@ -86,7 +86,7 @@ def prepare(state, day):
             else:
                 imgs = slides.render_feed(post, os.path.join(DOCS, "media"), stem)
                 rec["images"] = [os.path.relpath(p, ROOT) for p in imgs]
-                if C.REELS_ENABLED and day.toordinal() % 2 == 0:
+                if C.REELS_ENABLED and day.toordinal() % 2 == 1:
                     rec["format"] = "reel"
                     rec["video"] = os.path.relpath(slides.render_reel(imgs, os.path.join(DOCS, "media"), stem), ROOT)
                 else:
