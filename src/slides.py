@@ -50,28 +50,47 @@ def render_feed(post, outdir, stem):
 
 
 def render_story(story, outdir, stem):
+    """ストーリーズ（1080×1920）：フィードの中のページと同じデザイン。"""
     os.makedirs(outdir, exist_ok=True)
     W, H = 1080, 1920
     im = Image.new("RGB", (W, H), D.BG)
     d = ImageDraw.Draw(im)
+    # 上の濃い帯
+    d.rectangle((0, 0, W, 980), fill=D.DEEP)
     top = 200
-    d.rounded_rectangle((72, top, 72 + 560, top + 70), radius=35, fill=D.WHITE, outline=D.LINE, width=2)
-    D.text(d, (100, top + 35), "PR｜楽天アフィリエイト広告", 34, D.INK, bold=True, anchor="lm")
-    y = 420
-    D.text(d, (88, y), story["title"], 38, D.TEAL, bold=True)
+    label = "PR｜楽天アフィリエイト広告"
+    tw = D.f(34).getlength(label)
+    d.rounded_rectangle((72, top, 72 + tw + 56, top + 70), radius=35, outline=(176, 206, 200), width=2)
+    D.text(d, (100, top + 35), label, 34, D.WHITE, anchor="lm")
+    y = 360
+    D.text(d, (88, y), "TODAY'S CHECK", 40, D.MUSTARD, bold=True)
+    d.rectangle((88, y + 66, 178, y + 74), fill=D.MUSTARD)
     y += 120
-    for w in D.wrap(story["head"], 76, W - 176):
-        D.text(d, (88, y), w, 76, D.INK, bold=True)
-        y += 108
-    y += 40
+    size = 92
+    while size > 60:
+        lines = D.wrap(story["head"], size, W - 176)
+        if len(lines) <= 3 and (len(lines) == 1 or len(lines[-1]) >= 3):
+            break
+        size -= 4
+    for w in D.wrap(story["head"], size, W - 176):
+        D.text(d, (88, y), w, size, D.WHITE, bold=True)
+        y += int(size * 1.3)
+    y += 20
+    D.text(d, (88, y), story["title"], 36, (176, 206, 200), bold=True)
+    # 説明カード
+    y = 900
     tmp = ImageDraw.Draw(Image.new("RGB", (W, H)))
-    end = D.para(tmp, 130, y + 60, story["body"], 50, W - 260)
-    d.rounded_rectangle((72, y, W - 72, end + 40), radius=36, fill=D.WHITE)
-    D.para(d, 130, y + 60, story["body"], 50, W - 260)
+    end = D.para(tmp, 150, y + 130, story["body"], 54, W - 300)
+    d.rounded_rectangle((72, y, W - 72, end + 90), radius=40, fill=D.WHITE, outline=D.LINE, width=2)
+    D.pill(d, 120, y + 44, "やること", 34, D.DEEP, (255, 236, 200))
+    d.rectangle((120, y + 136, 128, end - 10), fill=D.MUSTARD)
+    D.para(d, 150, y + 130, story["body"], 54, W - 300)
+    # 誘導
     ly = 1560
-    d.rounded_rectangle((120, ly, W - 120, ly + 120), radius=60, fill=D.TEAL)
-    D.text(d, (W / 2, ly + 60), story["foot"], 40, D.WHITE, bold=True, anchor="mm")
+    d.rounded_rectangle((90, ly, W - 90, ly + 130), radius=65, fill=D.MUSTARD)
+    D.text(d, (W / 2, ly + 65), story["foot"] + "  →", 42, D.DEEP, bold=True, anchor="mm")
     D.text(d, (88, H - 120), D.HANDLE, 30, D.MUTED, anchor="ls")
+    D.text(d, (W - 88, H - 120), D.ACCOUNT, 30, D.TEAL, bold=True, anchor="rs")
     path = os.path.join(outdir, f"{stem}.jpg")
     im.save(path, "JPEG", quality=92)
     return [path]

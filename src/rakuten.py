@@ -61,14 +61,18 @@ def lookup(item_code):
 
 
 # 商品名の先頭や途中に入る販促の文言（クーポン、ランキング、期限など）を取り除く
-_BRACKETS = re.compile(r"[【\[［（(＼★☆《≪<＜].*?[】\]］）)／★☆》≫>＞]")
-_PROMO = re.compile(r"(クーポン|OFF|ＯＦＦ|%|％|ポイント|P\d+倍|倍|SALE|セール|楽天\d*位|ランキング|送料無料|限定|先着|最大|半額|マラソン|スーパーセール|期間|まで|迄|\d+/\d+)")
+# 対になる括弧ごとに中身を消す（【】の中に★などが入っていても途中で切れないように）
+_PAIRS = ["【】", "[]", "［］", "（）", "()", "『』", "《》", "≪≫", "<>", "＜＞", "〔〕", "＼／"]
+_BRACKETS = re.compile("|".join(re.escape(a) + r"[^" + re.escape(b) + r"]*" + re.escape(b) for a, b in _PAIRS))
+_SYMBOLS = re.compile(r"[★☆◆◇■□●○♪！!]+")
+_PROMO = re.compile(r"(クーポン|OFF|ＯＦＦ|%|％|ポイント|P\d+倍|倍|SALE|セール|楽天\d*位|ランキング|送料無料|限定|先着|最大|半額|マラソン|スーパーセール|期間|まで|迄|特典|プレゼント|豪華|新素材|\d+/\d+)")
 
 
 def clean_name(name):
     s = name
     for _ in range(3):
         s = _BRACKETS.sub(" ", s)
+    s = _SYMBOLS.sub(" ", s)
     words = [w for w in re.split(r"\s+", s) if w and not _PROMO.search(w)]
     out = ""
     for w in words:
