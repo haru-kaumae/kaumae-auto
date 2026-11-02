@@ -167,6 +167,26 @@ def main(cmd):
     elif cmd == "weekly":
         weekly(state)
         save(state)
+    elif cmd == "report":
+        # 投稿済みの数字を表示する（読み取りのみ）
+        acc = instagram._get(C.IG_USER_ID, fields="username,followers_count,media_count")
+        print(f"アカウント：@{acc.get('username')} フォロワー{acc.get('followers_count')} 投稿{acc.get('media_count')}")
+        for p in state["posts"] + state["stories"]:
+            if p.get("status") != "posted" or not p.get("media_id"):
+                continue
+            kind = "フィード" if "caption" in p else "ストーリーズ"
+            try:
+                m = instagram._get(p["media_id"], fields="like_count,comments_count,permalink")
+            except Exception as e:
+                m = {"error": str(e)[:120]}
+            ins = {}
+            for k in ("reach", "saved", "shares", "views", "total_interactions"):
+                try:
+                    data = instagram._get(f"{p['media_id']}/insights", metric=k).get("data", [])
+                    ins[k] = data[0].get("values", [{}])[0].get("value") if data else None
+                except Exception as e:
+                    ins[k] = "取得不可"
+            print(f"REPORT {p['date']} {kind} {p['title']} いいね{m.get('like_count')} コメント{m.get('comments_count')} {ins} {m.get('permalink', m.get('error', ''))}")
     elif cmd == "check":
         # 投稿せずに、キーが正しいかだけ確かめる。トークンそのものはログに出さない
         t = C.IG_ACCESS_TOKEN
