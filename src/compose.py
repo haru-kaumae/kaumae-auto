@@ -69,7 +69,7 @@ def build_feed(genre_key, products, day, number):
     cover = C.TITLES[number % len(C.TITLES)].format(g=topic)
     title = cover.replace("\n", "")
     date_ja = f"{day.year}/{day.month}/{day.day}"
-    slides = [dict(kind="cover", kicker=f"{g['name']}｜買う前メモ", title=cover, sub="保存して、買う前に見返してね")]
+    slides = [dict(kind="cover", kicker=f"{g['name']}｜買う前メモ", title=cover, sub="楽天市場でレビューの多い商品つき")]
     for i, (head, body) in enumerate(checks, 1):
         slides.append(dict(kind="point", label=f"CHECK {i}", head=head, body=body, note=""))
     for i, p in enumerate(products, 1):
