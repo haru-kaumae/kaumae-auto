@@ -26,8 +26,7 @@ jobs:
       IG_USER_ID: ${{ secrets.IG_USER_ID }}
       IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
       SITE_URL: ${{ vars.SITE_URL }}
-      # 2026-11-02 Metaの「自動化された操作」警告のため一時停止中（画像と原稿だけ作る）。再開は '1' を '0' に戻す
-      DRY_RUN: ${{ github.event.inputs.dry_run || vars.DRY_RUN || '1' }}
+      DRY_RUN: ${{ github.event.inputs.dry_run || vars.DRY_RUN || '0' }}
       FORCE_FEED: ${{ github.event.inputs.force_feed || '0' }}
       PYTHONUNBUFFERED: "1"
     steps:
