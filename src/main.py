@@ -65,7 +65,8 @@ def prepare(state, day):
     new_status = "dry_run" if C.DRY_RUN else "ready"
     real = {"posted", "ready", "blocked", "failed"}
     feed_day = day.weekday() in C.FEED_WEEKDAYS or C.FORCE_FEED
-    if feed_day and not any(p["date"] == day.isoformat() and p["status"] in real for p in state["posts"]):
+    preview = C.DRY_RUN and C.FORCE_FEED          # 手動の試運転：その日に投稿済みでも見本を作る
+    if feed_day and (preview or not any(p["date"] == day.isoformat() and p["status"] in real for p in state["posts"])):
         genre = compose.pick_genre(state, day)
         items = rakuten.search_genre(C.GENRES[genre]["id"])
         prods = compose.pick_products(items, state, day)
@@ -74,7 +75,7 @@ def prepare(state, day):
         else:
             post = compose.build_feed(genre, prods, day, len(state["posts"]))
             problems = compliance.check(post, prods)
-            stem = f"{day.isoformat()}_feed"
+            stem = f"{day.isoformat()}_{'preview' if preview else 'feed'}"
             rec = dict(date=day.isoformat(), genre=genre, title=post["title"], caption=post["caption"],
                        slides=post["slides"], products=prods, status=new_status)
             if problems:
