@@ -148,6 +148,155 @@
     "docs/media/2026-11-01_feed_06.jpg",
     "docs/media/2026-11-01_feed_07.jpg"
    ]
+  },
+  {
+   "date": "2026-11-02",
+   "genre": "clean",
+   "title": "掃除用品で失敗しない3つの確認",
+   "caption": "【PR】この投稿は楽天アフィリエイト広告を含みます\n\n掃除用品を選ぶ時に、買う前に確認したい3つをまとめました。\n\n✔ CHECK1　使う場所の素材を確かめる\n塗装・コーティング・木材など傷つきやすい素材に使えるか、注意書きを確認する。\n\n✔ CHECK2　サイズと対応の表記を見る\n対応口径・対応サイズ・対応機種が書かれていれば、先に自宅で測る。\n\n✔ CHECK3　セット数と替えを確認\n何個入りか、替えやフィルターを別に買う必要があるかを見る。\n\n■ 例として、2026/11/2に楽天市場でレビューの多かった商品\n・ダスキン 台所用スポンジ抗菌タイプ6個セット モノトーンカラー 新色（マザーズライフ）1,039円、★4.84／1,191件\n・スポンジ ダスタースポンジ ほこり取りスポンジ 掃除スポンジ 埃取り（Angeling(エンジェリング)）1,280円、★4.35／1,161件\n\n※2026/11/2に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n保存しておくと、買う前に見返せます。\n\n#掃除グッズ #掃除 #大掃除 #楽天市場 #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "掃除用品｜選び方",
+     "title": "掃除用品で\n失敗しない\n3つの確認",
+     "sub": "今週の楽天市場の人気商品から"
+    },
+    {
+     "kind": "point",
+     "label": "CHECK 1",
+     "head": "使う場所の素材を確かめる",
+     "body": [
+      "塗装・コーティング・木材など",
+      "傷つきやすい素材に使えるか、",
+      "注意書きを確認する。"
+     ],
+     "note": ""
+    },
+    {
+     "kind": "point",
+     "label": "CHECK 2",
+     "head": "サイズと対応の表記を見る",
+     "body": [
+      "対応口径・対応サイズ・対応機種が",
+      "書かれていれば、先に自宅で測る。"
+     ],
+     "note": ""
+    },
+    {
+     "kind": "point",
+     "label": "CHECK 3",
+     "head": "セット数と替えを確認",
+     "body": [
+      "何個入りか、替えやフィルターを",
+      "別に買う必要があるかを見る。"
+     ],
+     "note": ""
+    },
+    {
+     "kind": "table",
+     "label": "例 1",
+     "head": "ダスキン 台所用スポンジ抗菌タイプ6個セット モノトーンカラー 新色",
+     "rows": [
+      [
+       "項目",
+       "2026/11/2の表示"
+      ],
+      [
+       "ショップ",
+       "マザーズライフ"
+      ],
+      [
+       "価格",
+       "1,039円"
+      ],
+      [
+       "レビュー",
+       "★4.84（1,191件）"
+      ],
+      [
+       "送料",
+       "送料込み"
+      ]
+     ],
+     "note": "楽天ウェブサービスAPIで取得。価格・在庫は変わります"
+    },
+    {
+     "kind": "table",
+     "label": "例 2",
+     "head": "スポンジ ダスタースポンジ ほこり取りスポンジ 掃除スポンジ 埃取り",
+     "rows": [
+      [
+       "項目",
+       "2026/11/2の表示"
+      ],
+      [
+       "ショップ",
+       "Angeling(エンジェリング)"
+      ],
+      [
+       "価格",
+       "1,280円"
+      ],
+      [
+       "レビュー",
+       "★4.35（1,161件）"
+      ],
+      [
+       "送料",
+       "送料込み"
+      ]
+     ],
+     "note": "楽天ウェブサービスAPIで取得。価格・在庫は変わります"
+    },
+    {
+     "kind": "cta",
+     "head": "買う前のメモ",
+     "checks": [
+      "使う場所の素材を確かめる",
+      "サイズと対応の表記を見る",
+      "セット数と替えを確認"
+     ],
+     "foot": "商品はプロフィールのリンクから"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "pia-konodai:10000185",
+     "rawName": "【ヤマト運輸ネコポス追跡有】ダスキン 台所用スポンジ抗菌タイプ6個セット モノトーンカラー 新色 ネイビーMN 3色×2セット スポンジ キッチン 送料無料 まとめ買い 食器洗い 台所用スポンジ 食器用スポンジ 抗菌 キッチンスポンジ",
+     "name": "ダスキン 台所用スポンジ抗菌タイプ6個セット モノトーンカラー 新色",
+     "price": 1039,
+     "shop": "マザーズライフ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rj4ro.p3pr207e.g00rj4ro.p3pr3092/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpia-konodai%2F1000000652%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpia-konodai%2Fi%2F10000185%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rj4ro.p3pr207e.g00rj4ro.p3pr3092/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpia-konodai%2F1000000652%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpia-konodai%2Fi%2F10000185%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 1191,
+     "reviewAverage": 4.84,
+     "availability": 1,
+     "postageFlag": 0
+    },
+    {
+     "itemCode": "angelingg:10001033",
+     "rawName": "【最大40%オフクーポン★お買い物マラソン】ほこり取り スポンジ ダスタースポンジ ほこり取りスポンジ 掃除スポンジ 埃取り ホコリ取り 掃除用品 掃除グッズ 便利グッズ 水拭き 繰り返し使える 水洗い可能 髪の毛取り 巾木掃除 サッシ掃除 洗濯機まわり",
+     "name": "スポンジ ダスタースポンジ ほこり取りスポンジ 掃除スポンジ 埃取り",
+     "price": 1280,
+     "shop": "Angeling(エンジェリング)",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ugxho.p3pr2633.g00ugxho.p3pr3802/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fangelingg%2Fag-r-00180%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fangelingg%2Fi%2F10001033%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ugxho.p3pr2633.g00ugxho.p3pr3802/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fangelingg%2Fag-r-00180%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fangelingg%2Fi%2F10001033%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 1161,
+     "reviewAverage": 4.35,
+     "availability": 1,
+     "postageFlag": 0
+    }
+   ],
+   "status": "ready",
+   "images": [
+    "docs/media/2026-11-02_feed_01.jpg",
+    "docs/media/2026-11-02_feed_02.jpg",
+    "docs/media/2026-11-02_feed_03.jpg",
+    "docs/media/2026-11-02_feed_04.jpg",
+    "docs/media/2026-11-02_feed_05.jpg",
+    "docs/media/2026-11-02_feed_06.jpg",
+    "docs/media/2026-11-02_feed_07.jpg"
+   ]
   }
  ],
  "stories": [
@@ -158,6 +307,15 @@
    "status": "dry_run",
    "images": [
     "docs/media/2026-11-01_story.jpg"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "title": "掃除用品で失敗しない3つの確認",
+   "head": "セット数と替えを確認",
+   "status": "ready",
+   "images": [
+    "docs/media/2026-11-02_story.jpg"
    ]
   }
  ]
