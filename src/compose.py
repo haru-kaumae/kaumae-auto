@@ -23,6 +23,14 @@ def pick_genre(state, day):
     return sorted(order, key=lambda g: (last.get(g, ""), order.index(g)))[0]
 
 
+def product_word(name):
+    """商品名から商品の種類（例：水切りラック）を探す。なければ空文字。"""
+    for w in C.PRODUCT_WORDS:
+        if w in name:
+            return w
+    return ""
+
+
 def pick_products(items, state, day, n=C.PRODUCTS_PER_POST):
     recent = set()
     limit = (day - dt.timedelta(days=C.REPOST_COOLDOWN_DAYS)).isoformat()
@@ -37,9 +45,14 @@ def pick_products(items, state, day, n=C.PRODUCTS_PER_POST):
             continue
         out.append(it)
         shops.add(it["shop"])          # 同じショップの商品を並べない
-        if len(out) == n:
-            break
-    return out
+    # 1つの投稿は同じ種類の商品でそろえる（比べやすく、表紙で何の話か伝わるように）
+    by_word = {}
+    for it in out:
+        by_word.setdefault(product_word(it["name"]), []).append(it)
+    same = [g for w, g in by_word.items() if w and len(g) >= n]
+    if same:
+        return same[0][:n]
+    return out[:n]
 
 
 def yen(n):
@@ -49,10 +62,14 @@ def yen(n):
 def build_feed(genre_key, products, day, number):
     g = C.GENRES[genre_key]
     checks = C.CHECKS[genre_key]
-    cover = C.TITLES[number % len(C.TITLES)].format(g=g["name"])
+    word = product_word(products[0]["name"]) if products else ""
+    if word and not all(product_word(p["name"]) == word for p in products):
+        word = ""                       # 種類がそろわない時はジャンル名にする
+    topic = word or g["name"]
+    cover = C.TITLES[number % len(C.TITLES)].format(g=topic)
     title = cover.replace("\n", "")
     date_ja = f"{day.year}/{day.month}/{day.day}"
-    slides = [dict(kind="cover", kicker=f"{g['name']}｜選び方", title=cover, sub="今週の楽天市場の人気商品から")]
+    slides = [dict(kind="cover", kicker=f"{g['name']}｜買う前メモ", title=cover, sub="保存して、買う前に見返してね")]
     for i, (head, body) in enumerate(checks, 1):
         slides.append(dict(kind="point", label=f"CHECK {i}", head=head, body=body, note=""))
     for i, p in enumerate(products, 1):
@@ -66,7 +83,8 @@ def build_feed(genre_key, products, day, number):
             note="楽天ウェブサービスAPIで取得。価格・在庫は変わります"))
     slides.append(dict(kind="cta", head="買う前のメモ", checks=[c[0] for c in checks], foot="商品はプロフィールのリンクから"))
 
-    lines = [PR_LINE, "", f"{g['name']}を選ぶ時に、買う前に確認したい3つをまとめました。", ""]
+    lines = [PR_LINE, f"{topic}、買う前にここだけは確認👇", "",
+             f"{topic}を選ぶ時に、商品ページで先に見ておきたい3つをまとめました。", ""]
     for i, (head, body) in enumerate(checks, 1):
         lines += [f"✔ CHECK{i}　{head}", "".join(body), ""]
     lines.append(f"■ 例として、{date_ja}に楽天市場でレビューの多かった商品")
@@ -76,9 +94,11 @@ def build_feed(genre_key, products, day, number):
               f"※{date_ja}に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。",
               "※使用した感想ではなく、公開されている商品情報を整理して紹介しています。",
               "※商品画像は楽天市場の各ショップのものです。", "",
-              "紹介した商品は、プロフィールのリンク（楽天市場）から見られます。", "保存しておくと、買う前に見返せます。", "",
-              f"{C.HASHTAGS[genre_key]} {C.COMMON_TAGS}"]
-    return dict(kind="feed", genre=genre_key, title=title, slides=slides, caption="\n".join(lines))
+              "紹介した商品は、プロフィールのリンク（楽天市場）から見られます。",
+              "📌 保存しておくと、買う前に見返せます。",
+              f"💬 {topic}を選ぶ時、ほかに何を確認していますか？コメントで教えてください。", "",
+              (f"#{word} " if word else "") + f"{C.HASHTAGS[genre_key]} {C.COMMON_TAGS}"]
+    return dict(kind="feed", genre=genre_key, topic=topic, title=title, slides=slides, caption="\n".join(lines))
 
 
 def build_story(latest, day):

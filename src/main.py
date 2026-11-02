@@ -84,7 +84,13 @@ def prepare(state, day):
                 rec["status"] = "blocked"
                 alert(f"フィード「{post['title']}」を規約チェックで止めました：" + "／".join(problems))
             else:
-                rec["images"] = [os.path.relpath(p, ROOT) for p in slides.render_feed(post, os.path.join(DOCS, "media"), stem)]
+                imgs = slides.render_feed(post, os.path.join(DOCS, "media"), stem)
+                rec["images"] = [os.path.relpath(p, ROOT) for p in imgs]
+                if C.REELS_ENABLED and day.toordinal() % 2 == 0:
+                    rec["format"] = "reel"
+                    rec["video"] = os.path.relpath(slides.render_reel(imgs, os.path.join(DOCS, "media"), stem), ROOT)
+                else:
+                    rec["format"] = "carousel"
             state["posts"].append(rec)
             made.append(rec)
     usable = ("posted", "ready", "dry_run") if C.DRY_RUN else ("posted", "ready")
@@ -120,7 +126,11 @@ def publish(state):
                     raise RuntimeError(f"{it['name']} の価格が取得時から10%以上変わりました（{it['price']}→{now['price']}円）")
             urls = public_urls([os.path.join(ROOT, p) for p in rec["images"]])
             wait_public(urls)
-            if "caption" in rec:
+            if rec.get("format") == "reel":
+                video = public_urls([os.path.join(ROOT, rec["video"])])
+                wait_public(video)
+                rec["media_id"] = instagram.publish_reel(video[0], rec["caption"], cover_url=urls[0])
+            elif "caption" in rec:
                 rec["media_id"] = instagram.publish_carousel(urls, rec["caption"])
             else:
                 rec["media_id"] = instagram.publish_story(urls[0])

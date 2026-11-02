@@ -94,3 +94,33 @@ def render_story(story, outdir, stem):
     path = os.path.join(outdir, f"{stem}.jpg")
     im.save(path, "JPEG", quality=92)
     return [path]
+
+
+def render_reel(image_paths, outdir, stem):
+    """スライド（1080×1350）を縦長の動画（1080×1920、H.264、無音の音声トラック付き）にする。
+    表紙3秒、ほかは1枚2.5秒。ffmpegを使う（GitHub Actionsのubuntuに入っている）。"""
+    import subprocess, tempfile
+    os.makedirs(outdir, exist_ok=True)
+    tmpd = tempfile.mkdtemp()
+    lst = []
+    for i, p in enumerate(image_paths):
+        src = Image.open(p).convert("RGB")
+        canvas = Image.new("RGB", (1080, 1920), D.BG)
+        canvas.paste(src, (0, (1920 - src.height) // 2))
+        fp = os.path.join(tmpd, f"{i:02d}.jpg")
+        canvas.save(fp, "JPEG", quality=92)
+        lst.append((fp, 3.0 if i == 0 else 2.5))
+    concat = os.path.join(tmpd, "list.txt")
+    with open(concat, "w") as fp:
+        for f_, dur in lst:
+            fp.write(f"file '{f_}'\nduration {dur}\n")
+        fp.write(f"file '{lst[-1][0]}'\n")
+    total = sum(d for _, d in lst)
+    out = os.path.join(outdir, f"{stem}.mp4")
+    cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", concat,
+           "-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100",
+           "-t", str(total), "-vf", "fps=30,format=yuv420p", "-c:v", "libx264", "-profile:v", "high",
+           "-preset", "medium", "-crf", "20", "-c:a", "aac", "-b:a", "128k", "-shortest",
+           "-movflags", "+faststart", out]
+    subprocess.run(cmd, check=True)
+    return out

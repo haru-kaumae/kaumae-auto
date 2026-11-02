@@ -37,14 +37,14 @@ def _get(path, **params):
     return r.json()
 
 
-def _wait(container_id, tries=30):
+def _wait(container_id, tries=30, interval=5):
     for _ in range(tries):
         st = _get(container_id, fields="status_code").get("status_code")
         if st == "FINISHED":
             return
         if st in ("ERROR", "EXPIRED"):
             raise RuntimeError(f"メディアの準備に失敗しました（{st}）")
-        time.sleep(5)
+        time.sleep(interval)
     raise RuntimeError("メディアの準備が時間内に終わりませんでした")
 
 
@@ -57,6 +57,16 @@ def publish_carousel(image_urls, caption):
     parent = _post(f"{C.IG_USER_ID}/media", media_type="CAROUSEL", children=",".join(children), caption=caption)["id"]
     _wait(parent)
     return _post(f"{C.IG_USER_ID}/media_publish", creation_id=parent)["id"]
+
+
+def publish_reel(video_url, caption, cover_url=None):
+    """リールとして投稿し、フィードにも表示する。動画の処理に数分かかることがある。"""
+    data = dict(media_type="REELS", video_url=video_url, caption=caption, share_to_feed="true")
+    if cover_url:
+        data["cover_url"] = cover_url
+    c = _post(f"{C.IG_USER_ID}/media", **data)["id"]
+    _wait(c, tries=60, interval=10)
+    return _post(f"{C.IG_USER_ID}/media_publish", creation_id=c)["id"]
 
 
 def publish_story(image_url):
