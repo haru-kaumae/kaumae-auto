@@ -1,8 +1,8 @@
 name: daily
-# 毎日13:00（日本時間）に投稿。準備のため12:40に起動し、13:00まで待ってから投稿する。月水金はフィード、毎日ストーリーズ
+# 毎日13:00（日本時間）に投稿。GitHubの起動が遅れることがあるため12:00に起動し、13:00まで待ってから投稿する。月水金はフィード、毎日ストーリーズ
 on:
   schedule:
-    - cron: "40 3 * * *"
+    - cron: "0 3 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -18,7 +18,7 @@ concurrency: daily
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 120
     env:
       RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
       RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
