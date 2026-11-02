@@ -287,7 +287,7 @@
      "postageFlag": 0
     }
    ],
-   "status": "ready",
+   "status": "failed",
    "images": [
     "docs/media/2026-11-02_feed_01.jpg",
     "docs/media/2026-11-02_feed_02.jpg",
@@ -313,7 +313,7 @@
    "date": "2026-11-02",
    "title": "掃除用品で失敗しない3つの確認",
    "head": "セット数と替えを確認",
-   "status": "ready",
+   "status": "failed",
    "images": [
     "docs/media/2026-11-02_story.jpg"
    ]
