@@ -459,6 +459,167 @@
     "docs/media/2026-11-02_preview_08.jpg",
     "docs/media/2026-11-02_preview_09.jpg"
    ]
+  },
+  {
+   "date": "2026-11-02",
+   "genre": "kitchen",
+   "title": "キッチン用品を買う前の3チェック",
+   "caption": "【PR】この投稿は楽天アフィリエイト広告を含みます\n\nキッチン用品を選ぶ時に、買う前に確認したい3つをまとめました。\n\n✔ CHECK1　置き場所を測る\n置きたい場所の幅・奥行・高さを測り、商品ページの外寸と比べる。\n\n✔ CHECK2　対応の表記を見る\n食洗機・電子レンジ・IHなど使いたい機器に対応しているか、商品ページの表記で確認する。\n\n✔ CHECK3　素材とお手入れを見る\n素材の名前と、お手入れ方法・使用上の注意の欄を読む。\n\n■ 例として、2026/11/2に楽天市場でレビューの多かった商品\n・『新レシピ本200選』豪華プレゼント特典有!!】 高さ調整輪付（NSW SHOP）2,680円、★4.62／5,248件\n・ブレッドケース パンケース おしゃれ ブレッドボックス パン入れ（インテリアショップ roomy）13,200円、★4.66／5,223件\n\n※2026/11/2に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n保存しておくと、買う前に見返せます。\n\n#キッチングッズ #キッチン用品 #キッチン収納 #楽天市場 #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "キッチン用品｜選び方",
+     "title": "キッチン用品を\n買う前の3チェック",
+     "sub": "今週の楽天市場の人気商品から"
+    },
+    {
+     "kind": "point",
+     "label": "CHECK 1",
+     "head": "置き場所を測る",
+     "body": [
+      "置きたい場所の幅・奥行・高さを測り、",
+      "商品ページの外寸と比べる。"
+     ],
+     "note": ""
+    },
+    {
+     "kind": "point",
+     "label": "CHECK 2",
+     "head": "対応の表記を見る",
+     "body": [
+      "食洗機・電子レンジ・IHなど",
+      "使いたい機器に対応しているか、",
+      "商品ページの表記で確認する。"
+     ],
+     "note": ""
+    },
+    {
+     "kind": "point",
+     "label": "CHECK 3",
+     "head": "素材とお手入れを見る",
+     "body": [
+      "素材の名前と、",
+      "お手入れ方法・使用上の注意の欄を読む。"
+     ],
+     "note": ""
+    },
+    {
+     "kind": "photo",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/nswshop/cabinet/09017179/10810933/11831786/imgrc0340399114.jpg?_ex=600x600"
+    },
+    {
+     "kind": "table",
+     "label": "例 1",
+     "head": "『新レシピ本200選』豪華プレゼント特典有!!】 高さ調整輪付",
+     "rows": [
+      [
+       "項目",
+       "2026/11/2の表示"
+      ],
+      [
+       "ショップ",
+       "NSW SHOP"
+      ],
+      [
+       "価格",
+       "2,680円"
+      ],
+      [
+       "レビュー",
+       "★4.62（5,248件）"
+      ],
+      [
+       "送料",
+       "送料込み"
+      ]
+     ],
+     "note": "楽天ウェブサービスAPIで取得。価格・在庫は変わります"
+    },
+    {
+     "kind": "photo",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/roomy/cabinet/500cart_all/500cart_11g/p10n-8/bws5505-sz011-0_gt01.jpg?_ex=600x600"
+    },
+    {
+     "kind": "table",
+     "label": "例 2",
+     "head": "ブレッドケース パンケース おしゃれ ブレッドボックス パン入れ",
+     "rows": [
+      [
+       "項目",
+       "2026/11/2の表示"
+      ],
+      [
+       "ショップ",
+       "インテリアショップ roomy"
+      ],
+      [
+       "価格",
+       "13,200円"
+      ],
+      [
+       "レビュー",
+       "★4.66（5,223件）"
+      ],
+      [
+       "送料",
+       "送料込み"
+      ]
+     ],
+     "note": "楽天ウェブサービスAPIで取得。価格・在庫は変わります"
+    },
+    {
+     "kind": "cta",
+     "head": "買う前のメモ",
+     "checks": [
+      "置き場所を測る",
+      "対応の表記を見る",
+      "素材とお手入れを見る"
+     ],
+     "foot": "商品はプロフィールのリンクから"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "nswshop:10000199",
+     "rawName": "【1,000円OFF SALE★『新レシピ本200選』豪華プレゼント特典有!!】 高さ調整輪付 新素材!! プレミアム炭化竹 せいろ 受け台 セット 竹 18cm 21cm 24cm 2段 蒸篭 蒸し器 蒸し板 中華せいろ 竹製 セイロ 蒸籠 天然 seiro",
+     "name": "『新レシピ本200選』豪華プレゼント特典有!!】 高さ調整輪付",
+     "price": 2680,
+     "shop": "NSW SHOP",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u7bdo.p3pr26bb.g00u7bdo.p3pr3890/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnswshop%2Fsero-001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnswshop%2Fi%2F10000199%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u7bdo.p3pr26bb.g00u7bdo.p3pr3890/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnswshop%2Fsero-001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnswshop%2Fi%2F10000199%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 5248,
+     "reviewAverage": 4.62,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/nswshop/cabinet/09017179/10810933/11831786/imgrc0340399114.jpg?_ex=600x600"
+    },
+    {
+     "itemCode": "roomy:10015227",
+     "rawName": "ブレッドケース パンケース【特典付き】おしゃれ ブレッドボックス パン入れ 食パン入れ 収納 一斤 1斤 引き出し キッチン 北欧 トースター ラック 食パンケース カウンター上収納 キッチン収納 調味料 お菓子収納 一人暮らし ミニ［ UtaU ブレッドドロワー シリーズ ］",
+     "name": "ブレッドケース パンケース おしゃれ ブレッドボックス パン入れ",
+     "price": 13200,
+     "shop": "インテリアショップ roomy",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qb0lo.p3pr216f.g00qb0lo.p3pr329c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Fbws21aug06h01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Froomy%2Fi%2F10015227%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qb0lo.p3pr216f.g00qb0lo.p3pr329c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Fbws21aug06h01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Froomy%2Fi%2F10015227%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 5223,
+     "reviewAverage": 4.66,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/roomy/cabinet/500cart_all/500cart_11g/p10n-8/bws5505-sz011-0_gt01.jpg?_ex=600x600"
+    }
+   ],
+   "status": "dry_run",
+   "images": [
+    "docs/media/2026-11-02_preview2_01.jpg",
+    "docs/media/2026-11-02_preview2_02.jpg",
+    "docs/media/2026-11-02_preview2_03.jpg",
+    "docs/media/2026-11-02_preview2_04.jpg",
+    "docs/media/2026-11-02_preview2_05.jpg",
+    "docs/media/2026-11-02_preview2_06.jpg",
+    "docs/media/2026-11-02_preview2_07.jpg",
+    "docs/media/2026-11-02_preview2_08.jpg",
+    "docs/media/2026-11-02_preview2_09.jpg"
+   ]
   }
  ],
  "stories": [
@@ -476,6 +637,15 @@
    "title": "掃除用品で失敗しない3つの確認",
    "head": "セット数と替えを確認",
    "status": "skipped",
+   "images": [
+    "docs/media/2026-11-02_story.jpg"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "title": "キッチン用品を買う前の3チェック",
+   "head": "素材とお手入れを見る",
+   "status": "dry_run",
    "images": [
     "docs/media/2026-11-02_story.jpg"
    ]
