@@ -56,6 +56,9 @@ def build_feed(genre_key, products, day, number):
     for i, (head, body) in enumerate(checks, 1):
         slides.append(dict(kind="point", label=f"CHECK {i}", head=head, body=body, note=""))
     for i, p in enumerate(products, 1):
+        if p.get("image"):
+            # 商品画像は加工せず、無地の1枚として置く（文字は次の表の1枚に分ける）
+            slides.append(dict(kind="photo", url=p["image"]))
         slides.append(dict(kind="table", label=f"例 {i}", head=p["name"], rows=[
             ["項目", f"{date_ja}の表示"], ["ショップ", p["shop"]], ["価格", yen(p["price"])],
             ["レビュー", f"★{p['reviewAverage']:.2f}（{p['reviewCount']:,}件）"],
@@ -71,7 +74,8 @@ def build_feed(genre_key, products, day, number):
         lines.append(f"・{p['name']}（{p['shop']}）{yen(p['price'])}、★{p['reviewAverage']:.2f}／{p['reviewCount']:,}件")
     lines += ["",
               f"※{date_ja}に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。",
-              "※使用した感想ではなく、公開されている商品情報を整理して紹介しています。", "",
+              "※使用した感想ではなく、公開されている商品情報を整理して紹介しています。",
+              "※商品画像は楽天市場の各ショップのものです。", "",
               "紹介した商品は、プロフィールのリンク（楽天市場）から見られます。", "保存しておくと、買う前に見返せます。", "",
               f"{C.HASHTAGS[genre_key]} {C.COMMON_TAGS}"]
     return dict(kind="feed", genre=genre_key, title=title, slides=slides, caption="\n".join(lines))

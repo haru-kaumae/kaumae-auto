@@ -1,18 +1,48 @@
 # -*- coding: utf-8 -*-
 """原稿からJPEG画像を書き出す（Instagram APIはJPEGのみ対応）。"""
-import os
+import io, os
+import requests
 from PIL import Image, ImageDraw
 from . import design as D
+
+
+def photo_slide(url, W=1080, H=1350):
+    """楽天の商品画像を、そのまま（文字入れ・切り抜きなし、サイズ変更のみ）無地の背景の中央に置く。
+    楽天アフィリエイトのガイドライン（2026-11-02確認 https://affiliate.rakuten.co.jp/guideline/rule/）：
+    「画像の上に直接文字や装飾を入れること、画像の一部を切り取って使用することは禁止」「サイズ変更…は可能」。
+    取得できなければ None（その商品の画像の1枚を省くだけで、投稿は止めない）。"""
+    if not url:
+        return None
+    try:
+        r = requests.get(url, timeout=30)
+        r.raise_for_status()
+        src = Image.open(io.BytesIO(r.content)).convert("RGB")
+    except Exception:
+        return None
+    scale = min(960 / src.width, 960 / src.height)
+    src = src.resize((max(1, int(src.width * scale)), max(1, int(src.height * scale))), Image.LANCZOS)
+    im = Image.new("RGB", (W, H), D.WHITE)
+    im.paste(src, ((W - src.width) // 2, (H - src.height) // 2))
+    return im
 
 KIND = dict(cover=D.slide_cover, point=D.slide_point, table=D.slide_table, cta=D.slide_cta)
 
 
 def render_feed(post, outdir, stem):
     os.makedirs(outdir, exist_ok=True)
-    files, n = [], len(post["slides"])
-    for i, s in enumerate(post["slides"], 1):
-        im, d = D.frame(1080, 1350, i, n)
-        KIND[s["kind"]](s, im, d, 1080, 1350)
+    pages = []
+    for s in post["slides"]:
+        if s["kind"] == "photo":
+            im = photo_slide(s.get("url"))
+            if im is not None:
+                pages.append(("photo", im))
+        else:
+            pages.append((s, None))
+    files, n = [], len(pages)
+    for i, (s, im) in enumerate(pages, 1):
+        if im is None:
+            im, d = D.frame(1080, 1350, i, n)
+            KIND[s["kind"]](s, im, d, 1080, 1350)
         path = os.path.join(outdir, f"{stem}_{i:02d}.jpg")
         im.save(path, "JPEG", quality=92)
         files.append(path)

@@ -35,7 +35,16 @@ def _normalize(it):
         price=int(it.get("itemPrice") or 0), shop=it.get("shopName", ""), itemUrl=it.get("itemUrl", ""),
         affiliateUrl=it.get("affiliateUrl", ""), reviewCount=int(it.get("reviewCount") or 0),
         reviewAverage=float(it.get("reviewAverage") or 0), availability=int(it.get("availability", 1) or 0),
-        postageFlag=int(it.get("postageFlag", 1) or 0))
+        postageFlag=int(it.get("postageFlag", 1) or 0), image=_image(it))
+
+
+def _image(it):
+    """商品の1枚目の画像URL（楽天の画像サーバー）。大きめのサイズを指定する。"""
+    urls = it.get("mediumImageUrls") or []
+    u = urls[0] if urls else ""
+    if isinstance(u, dict):
+        u = u.get("imageUrl", "")
+    return re.sub(r"_ex=\d+x\d+", "_ex=600x600", u)
 
 
 def search_genre(genre_id, page=None):
