@@ -298,6 +298,167 @@
     "docs/media/2026-11-02_feed_07.jpg"
    ],
    "media_id": "17954439294331079"
+  },
+  {
+   "date": "2026-11-02",
+   "genre": "kitchen",
+   "title": "ポチる前に見るキッチン用品の3か所",
+   "caption": "【PR】この投稿は楽天アフィリエイト広告を含みます\n\nキッチン用品を選ぶ時に、買う前に確認したい3つをまとめました。\n\n✔ CHECK1　置き場所を測る\n置きたい場所の幅・奥行・高さを測り、商品ページの外寸と比べる。\n\n✔ CHECK2　対応の表記を見る\n食洗機・電子レンジ・IHなど使いたい機器に対応しているか、商品ページの表記で確認する。\n\n✔ CHECK3　素材とお手入れを見る\n素材の名前と、お手入れ方法・使用上の注意の欄を読む。\n\n■ 例として、2026/11/2に楽天市場でレビューの多かった商品\n・水切りラック シンク上 シンク内 スリム 水切りマット 水切り（ラチュナ キングジム直営店）1,900円、★4.69／3,975件\n・NEWめっちゃ便利な 玉子焼 卵焼器スリム お弁当用卵焼き器（メーカーズショップ・リボン）2,130円、★4.51／3,965件\n\n※2026/11/2に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n保存しておくと、買う前に見返せます。\n\n#キッチングッズ #キッチン用品 #キッチン収納 #楽天市場 #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "キッチン用品｜選び方",
+     "title": "ポチる前に見る\nキッチン用品の\n3か所",
+     "sub": "今週の楽天市場の人気商品から"
+    },
+    {
+     "kind": "point",
+     "label": "CHECK 1",
+     "head": "置き場所を測る",
+     "body": [
+      "置きたい場所の幅・奥行・高さを測り、",
+      "商品ページの外寸と比べる。"
+     ],
+     "note": ""
+    },
+    {
+     "kind": "point",
+     "label": "CHECK 2",
+     "head": "対応の表記を見る",
+     "body": [
+      "食洗機・電子レンジ・IHなど",
+      "使いたい機器に対応しているか、",
+      "商品ページの表記で確認する。"
+     ],
+     "note": ""
+    },
+    {
+     "kind": "point",
+     "label": "CHECK 3",
+     "head": "素材とお手入れを見る",
+     "body": [
+      "素材の名前と、",
+      "お手入れ方法・使用上の注意の欄を読む。"
+     ],
+     "note": ""
+    },
+    {
+     "kind": "photo",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/latuna/cabinet/items/07673659/rack_big.jpg?_ex=600x600"
+    },
+    {
+     "kind": "table",
+     "label": "例 1",
+     "head": "水切りラック シンク上 シンク内 スリム 水切りマット 水切り",
+     "rows": [
+      [
+       "項目",
+       "2026/11/2の表示"
+      ],
+      [
+       "ショップ",
+       "ラチュナ キングジム直営店"
+      ],
+      [
+       "価格",
+       "1,900円"
+      ],
+      [
+       "レビュー",
+       "★4.69（3,975件）"
+      ],
+      [
+       "送料",
+       "送料込み"
+      ]
+     ],
+     "note": "楽天ウェブサービスAPIで取得。価格・在庫は変わります"
+    },
+    {
+     "kind": "photo",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/taniguchi-metal/cabinet/newthum/imgrc0093322942.jpg?_ex=600x600"
+    },
+    {
+     "kind": "table",
+     "label": "例 2",
+     "head": "NEWめっちゃ便利な 玉子焼 卵焼器スリム お弁当用卵焼き器",
+     "rows": [
+      [
+       "項目",
+       "2026/11/2の表示"
+      ],
+      [
+       "ショップ",
+       "メーカーズショップ・リボン"
+      ],
+      [
+       "価格",
+       "2,130円"
+      ],
+      [
+       "レビュー",
+       "★4.51（3,965件）"
+      ],
+      [
+       "送料",
+       "送料込み"
+      ]
+     ],
+     "note": "楽天ウェブサービスAPIで取得。価格・在庫は変わります"
+    },
+    {
+     "kind": "cta",
+     "head": "買う前のメモ",
+     "checks": [
+      "置き場所を測る",
+      "対応の表記を見る",
+      "素材とお手入れを見る"
+     ],
+     "foot": "商品はプロフィールのリンクから"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "latuna:10000000",
+     "rawName": "【楽天4冠達成!!】 ＼コーナータイプ新発売!!／ 水切りラック シンク上 シンク内 スリム 水切りマット 水切り マット ラック 折りたたみ コンパクト シリコン 折り畳み水切り キッチン 一人暮らし 抗菌 収納 フラット 52cm 33cm 42cm 24cm Latuna ラチュナ 新生活",
+     "name": "水切りラック シンク上 シンク内 スリム 水切りマット 水切り",
+     "price": 1900,
+     "shop": "ラチュナ キングジム直営店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tnrso.p3pr2ac7.g00tnrso.p3pr3b2b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flatuna%2F10000000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flatuna%2Fi%2F10000000%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tnrso.p3pr2ac7.g00tnrso.p3pr3b2b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flatuna%2F10000000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flatuna%2Fi%2F10000000%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 3975,
+     "reviewAverage": 4.69,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/latuna/cabinet/items/07673659/rack_big.jpg?_ex=600x600"
+    },
+    {
+     "itemCode": "taniguchi-metal:10000795",
+     "rawName": "★【IH〜ガス火対応】NEWめっちゃ便利な　玉子焼 卵焼器スリム　お弁当用卵焼き器　卵一個で厚焼玉子　たまご1個で　玉子1個で　玉子焼き器 【送料無料ただし北海道・離島・沖縄県を除く　☆メディアで紹介！☆25/10/30【日本テレビ DayDay.】",
+     "name": "NEWめっちゃ便利な 玉子焼 卵焼器スリム お弁当用卵焼き器",
+     "price": 2130,
+     "shop": "メーカーズショップ・リボン",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qvwdo.p3pr2b8f.g00qvwdo.p3pr3093/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftaniguchi-metal%2Ftamago%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftaniguchi-metal%2Fi%2F10000795%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qvwdo.p3pr2b8f.g00qvwdo.p3pr3093/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftaniguchi-metal%2Ftamago%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftaniguchi-metal%2Fi%2F10000795%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 3965,
+     "reviewAverage": 4.51,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/taniguchi-metal/cabinet/newthum/imgrc0093322942.jpg?_ex=600x600"
+    }
+   ],
+   "status": "dry_run",
+   "images": [
+    "docs/media/2026-11-02_preview_01.jpg",
+    "docs/media/2026-11-02_preview_02.jpg",
+    "docs/media/2026-11-02_preview_03.jpg",
+    "docs/media/2026-11-02_preview_04.jpg",
+    "docs/media/2026-11-02_preview_05.jpg",
+    "docs/media/2026-11-02_preview_06.jpg",
+    "docs/media/2026-11-02_preview_07.jpg",
+    "docs/media/2026-11-02_preview_08.jpg",
+    "docs/media/2026-11-02_preview_09.jpg"
+   ]
   }
  ],
  "stories": [
