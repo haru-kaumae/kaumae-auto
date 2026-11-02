@@ -33,16 +33,28 @@ def text(d, xy, s, size, fill=INK, bold=False, anchor="la"):
 
 
 def wrap(s, size, width):
-    """幅に収まるよう1文字ずつ折り返す（日本語向け）。"""
+    """幅に収まるよう折り返す。空白で区切れる所では単語を割らない（日本語は1文字ずつ）。"""
     out, cur = [], ""
-    for ch in s:
-        if f(size).getlength(cur + ch) > width:
+    for tok in [t for t in __import__("re").split(r"( )", s) if t != ""]:
+        if f(size).getlength(cur + tok) <= width:
+            cur += tok
+            continue
+        if tok == " ":
             out.append(cur)
-            cur = ch
-        else:
-            cur += ch
+            cur = ""
+            continue
+        if cur and f(size).getlength(tok) <= width:
+            out.append(cur.rstrip())
+            cur = tok
+            continue
+        for ch in tok:
+            if f(size).getlength(cur + ch) > width:
+                out.append(cur)
+                cur = ch
+            else:
+                cur += ch
     out.append(cur)
-    return out
+    return [o.strip() for o in out if o.strip()] or [""]
 
 
 def para(d, x, y, lines, size, width, fill=INK, bold=False, gap=1.5):
@@ -56,18 +68,28 @@ def para(d, x, y, lines, size, width, fill=INK, bold=False, gap=1.5):
     return y
 
 
-def frame(W, H, idx=None, total=None):
-    im = Image.new("RGB", (W, H), BG)
+DEEP = (18, 74, 70)          # 濃いティール（強調ページの背景）
+CREAM = (250, 246, 236)
+
+
+def frame(W, H, idx=None, total=None, dark=False):
+    im = Image.new("RGB", (W, H), DEEP if dark else BG)
     d = ImageDraw.Draw(im)
+    fg, sub = (WHITE, (176, 206, 200)) if dark else (INK, MUTED)
     # PR表記（ファーストビュー上部）
     label = "PR｜楽天アフィリエイト広告を含みます"
     tw = f(30).getlength(label)
-    d.rounded_rectangle((72, 64, 72 + tw + 48, 64 + 56), radius=28, fill=WHITE, outline=LINE, width=2)
-    text(d, (96, 92), label, 30, INK, anchor="lm")
+    d.rounded_rectangle((72, 64, 72 + tw + 48, 64 + 56), radius=28,
+                        fill=DEEP if dark else WHITE, outline=sub if dark else LINE, width=2)
+    text(d, (96, 92), label, 30, fg, anchor="lm")
     if idx is not None:
-        text(d, (W - 72, 92), f"{idx}/{total}", 30, MUTED, anchor="rm")
-    text(d, (72, H - 72), HANDLE, 30, MUTED, anchor="ls")
-    text(d, (W - 72, H - 72), ACCOUNT, 30, TEAL, bold=True, anchor="rs")
+        text(d, (W - 72, 92), f"{idx}/{total}", 30, sub, anchor="rm")
+        # 進み具合のバー
+        bx0, bx1, by = 72, W - 72, H - 128
+        d.rounded_rectangle((bx0, by, bx1, by + 6), radius=3, fill=(40, 98, 93) if dark else LINE)
+        d.rounded_rectangle((bx0, by, bx0 + (bx1 - bx0) * idx / total, by + 6), radius=3, fill=MUSTARD)
+    text(d, (72, H - 64), HANDLE, 30, sub, anchor="ls")
+    text(d, (W - 72, H - 64), ACCOUNT, 30, MUSTARD if dark else TEAL, bold=True, anchor="rs")
     return im, d
 
 
@@ -105,50 +127,82 @@ def slide_cover(s, im, d, W, H):
 
 
 def slide_point(s, im, d, W, H):
-    y = pill(d, 88, 210, s["label"])
-    y += 60
-    for w in wrap(s["head"], 64, W - 176):
-        text(d, (88, y), w, 64, INK, bold=True)
-        y += 90
-    y += 30
+    """チェックのページ：上半分に大きな番号と見出し、下に説明のカード。"""
+    num = "".join(ch for ch in s["label"] if ch.isdigit()) or "1"
+    band = 700
+    d.rectangle((0, 150, W, band), fill=DEEP)
+    # 大きな番号（背景の飾り）
+    text(d, (W - 60, 175), f"0{num}", 340, (34, 98, 92), bold=True, anchor="ra")
+    text(d, (88, 210), "CHECK", 40, MUSTARD, bold=True)
+    text(d, (88 + f(40).getlength("CHECK") + 16, 210), f"0{num}", 40, MUSTARD, bold=True)
+    d.rectangle((88, 272, 88 + 90, 280), fill=MUSTARD)
+    y = 360
+    size = 84
+    while size > 56:
+        lines = wrap(s["head"], size, W - 176)
+        if len(lines) <= 2 and (len(lines) == 1 or len(lines[-1]) >= 3):
+            break
+        size -= 4
+    for w in wrap(s["head"], size, W - 176):
+        text(d, (88, y), w, size, WHITE, bold=True)
+        y += int(size * 1.32)
+    # 説明カード
+    top = band - 50
     tmp = ImageDraw.Draw(Image.new("RGB", (W, H)))
-    end = para(tmp, 120, y + 60, s["body"], 46, W - 240)
-    d.rounded_rectangle((72, y, W - 72, min(end + 40, H - 220)), radius=32, fill=WHITE)
-    para(d, 120, y + 60, s["body"], 46, W - 240)
+    end = para(tmp, 150, top + 120, s["body"], 52, W - 300)
+    d.rounded_rectangle((72, top, W - 72, end + 80), radius=36, fill=WHITE, outline=LINE, width=2)
+    pill(d, 120, top + 40, "やること", 32, DEEP, (255, 236, 200))
+    d.rectangle((120, top + 126, 128, end - 10), fill=MUSTARD)
+    para(d, 150, top + 120, s["body"], 52, W - 300)
+    # ひとこと
+    hint_y = min(max(end + 130, H - 360), H - 230)
+    check_icon(d, 112, hint_y + 22, 26)
+    text(d, (156, hint_y + 22), "商品ページの表記で確かめてから選ぶ", 38, TEAL, bold=True, anchor="lm")
     if s.get("note"):
-        text(d, (88, H - 170), "※" + s["note"], 28, MUTED)
+        text(d, (88, H - 180), "※" + s["note"], 28, MUTED)
 
 
 def slide_table(s, im, d, W, H):
-    y = pill(d, 88, 210, s["label"])
-    y += 60
-    for w in wrap(s["head"], 64, W - 176):
-        text(d, (88, y), w, 64, INK, bold=True)
-        y += 90
+    """例のページ：商品名と、価格・レビュー・送料の大きな数字のタイル。"""
+    rows = {r[0]: r[1] for r in s["rows"][1:]}
+    date = s["rows"][0][1]
+    num = "".join(ch for ch in s["label"] if ch.isdigit()) or "1"
+    y = 200
+    text(d, (88, y), f"EXAMPLE 0{num}", 36, TEAL, bold=True)
+    text(d, (W - 88, y), "レビュー件数の多い商品", 32, MUSTARD, bold=True, anchor="ra")
+    y += 70
+    lines = wrap(s["head"], 60, W - 176)[:3]
+    for w in lines:
+        text(d, (88, y), w, 60, INK, bold=True)
+        y += 84
     y += 30
-    rows = s["rows"]
-    ncol = len(rows[0])
-    x0, x1 = 72, W - 72
-    first = 0.42 if ncol == 2 else 0.4
-    if ncol == 2:
-        xs = [x0, x0 + (x1 - x0) * first, x1]
-    else:
-        rest = (1 - first) / (ncol - 1)
-        xs = [x0] + [x0 + (x1 - x0) * (first + rest * (i - 1)) for i in range(1, ncol)] + [x1]
-    rh = 118 if len(rows) <= 4 else 100
-    size = 40 if len(rows) <= 4 else 36
-    for r, row in enumerate(rows):
-        top = y + r * rh
-        fill = TEAL if r == 0 else (WHITE if r % 2 else (250, 251, 250))
-        rad = 24 if r in (0, len(rows) - 1) else 0
-        d.rounded_rectangle((x0, top, x1, top + rh), radius=rad, fill=fill)
-        for c, cell in enumerate(row):
-            cw = xs[c + 1] - xs[c] - 48
-            ls = wrap(cell, size, cw)
-            cy = top + rh / 2 - (len(ls) - 1) * size * 0.6
-            for i, ln in enumerate(ls):
-                text(d, (xs[c] + 28, cy + i * size * 1.2), ln, size,
-                     WHITE if r == 0 else INK, bold=(r == 0 or c == 0), anchor="lm")
+    gap = 24
+    tw = (W - 144 - gap) / 2
+    # 価格（大）
+    def tile(x0, y0, x1, y1, label, value, sub=None, fill=WHITE, fg=INK, vsize=72):
+        d.rounded_rectangle((x0, y0, x1, y1), radius=32, fill=fill, outline=None if fill != WHITE else LINE, width=2)
+        text(d, (x0 + 36, y0 + 36), label, 30, fg if fill != WHITE else MUTED, bold=True)
+        size = vsize
+        while f(size).getlength(value) > (x1 - x0 - 72) and size > 36:
+            size -= 4
+        text(d, (x0 + 36, y0 + 82), value, size, fg, bold=True)
+        if sub:
+            text(d, (x0 + 36, y1 - 36), sub, 28, fg if fill != WHITE else MUTED, anchor="ls")
+    price = rows.get("価格", "")
+    tile(72, y, W - 72, y + 270, "価格（表示時点）", price, f"{date.replace('の表示', '')}時点の楽天市場の表示", fill=DEEP, fg=WHITE, vsize=104)
+    y += 270 + gap
+    rv = rows.get("レビュー", "")
+    star, _, cnt = rv.partition("（")
+    tile(72, y, 72 + tw, y + 240, "レビュー", star, "（" + cnt if cnt else None, fill=(255, 236, 200), fg=INK, vsize=72)
+    tile(72 + tw + gap, y, W - 72, y + 240, "送料", rows.get("送料", ""), None, vsize=60)
+    y += 240 + gap
+    d.rounded_rectangle((72, y, W - 72, y + 120), radius=28, fill=WHITE, outline=LINE, width=2)
+    y += 5
+    text(d, (108, y + 55), "ショップ", 30, MUTED, bold=True, anchor="lm")
+    shop = rows.get("ショップ", "")
+    while f(36).getlength(shop) > W - 380 and len(shop) > 4:
+        shop = shop[:-2] + "…"
+    text(d, (260, y + 55), shop, 36, INK, bold=True, anchor="lm")
     if s.get("note"):
         text(d, (88, H - 170), "※" + s["note"], 28, MUTED)
 
@@ -187,20 +241,28 @@ def slide_product(s, im, d, W, H):
 
 
 def slide_cta(s, im, d, W, H):
-    y = 230
-    text(d, (88, y), s["head"], 72, INK, bold=True)
+    """まとめのページ（濃い背景）：チェックリストと保存・リンクの案内。"""
+    y = 190
+    text(d, (88, y), "SAVE THIS", 36, MUSTARD, bold=True)
+    y += 66
+    text(d, (88, y), s["head"], 80, WHITE, bold=True)
     y += 150
-    d.rounded_rectangle((72, y, W - 72, y + 120 + 130 * len(s["checks"])), radius=32, fill=WHITE)
-    y += 70
-    for c in s["checks"]:
-        d.rounded_rectangle((128, y, 188, y + 60), radius=12, outline=TEAL, width=5)
-        for w in wrap(c, 44, W - 360)[:2]:
-            text(d, (220, y + 30), w, 44, INK, anchor="lm")
-        y += 130
-    y += 110
-    d.rounded_rectangle((72, y, W - 72, y + 150), radius=75, fill=TEAL)
-    text(d, (W / 2, y + 75), s["foot"], 42, WHITE, bold=True, anchor="mm")
-    text(d, (W / 2, y + 220), "リンク先は楽天市場です。価格・在庫はリンク先で確認してください", 28, MUTED, anchor="mm")
+    for i, c in enumerate(s["checks"], 1):
+        d.rounded_rectangle((72, y, W - 72, y + 116), radius=28, fill=(28, 92, 87))
+        d.rounded_rectangle((108, y + 30, 164, y + 86), radius=12, outline=MUSTARD, width=5)
+        text(d, (196, y + 58), f"0{i}", 34, MUSTARD, bold=True, anchor="lm")
+        for w in wrap(c, 42, W - 400)[:1]:
+            text(d, (262, y + 58), w, 42, WHITE, bold=True, anchor="lm")
+        y += 140
+    y += 50
+    # 保存のアイコン（しおり）
+    bx = 88
+    d.polygon([(bx, y), (bx + 44, y), (bx + 44, y + 60), (bx + 22, y + 44), (bx, y + 60)], fill=MUSTARD)
+    text(d, (bx + 70, y + 30), "保存して、買う前に見返す", 40, WHITE, bold=True, anchor="lm")
+    y += 100
+    d.rounded_rectangle((72, y, W - 72, y + 130), radius=65, fill=MUSTARD)
+    text(d, (W / 2, y + 65), s["foot"] + "  →", 42, DEEP, bold=True, anchor="mm")
+    text(d, (W / 2, y + 180), "リンク先は楽天市場です。価格・在庫はリンク先で確認してください", 28, (176, 206, 200), anchor="mm")
 
 
 KIND = dict(cover=slide_cover, point=slide_point, table=slide_table, product=slide_product, cta=slide_cta)

@@ -41,7 +41,7 @@ def render_feed(post, outdir, stem):
     files, n = [], len(pages)
     for i, (s, im) in enumerate(pages, 1):
         if im is None:
-            im, d = D.frame(1080, 1350, i, n)
+            im, d = D.frame(1080, 1350, i, n, dark=(s["kind"] == "cta"))
             KIND[s["kind"]](s, im, d, 1080, 1350)
         path = os.path.join(outdir, f"{stem}_{i:02d}.jpg")
         im.save(path, "JPEG", quality=92)
