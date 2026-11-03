@@ -1764,6 +1764,255 @@
    ],
    "video": "docs/media/2026-11-03_reel2.mp4",
    "media_id": "18012484227004914"
+  },
+  {
+   "date": "2026-11-04",
+   "genre": "gift",
+   "title": "カタログギフト選びで見落としやすい3つのこと",
+   "caption": "【PR】カタログギフト、買う前にここだけは確認👇\n\nカタログギフトを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　予算とコース\n贈る相手と場面に合う価格のコースを選ぶ。\n\n✔ CHECK2　のし・包装・カード\nのし・包装・メッセージカードに対応しているか確認する。\n\n✔ CHECK3　届け日と有効期限\n届け日の指定ができるか、カタログの申込期限も見る。\n\n■ 例として、2026/11/4に楽天市場でレビューの多かった商品\n・カタログギフト 5900円 5000円コース ギフトカタログ（ソムリエ@ギフト）4,840円、★4.68／21,070件\n・当日出荷 カタログギフト 内祝い 出産祝い 5900円コース（愛dealギフト-内祝い・引き出物）5,018円、★4.70／3,523件\n・高評価 4.65 最高級カタログギフトSCENE 内祝い お返し（【公式】ギフトフィールドマリー）8,580円、★4.64／2,517件\n\n※2026/11/4に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 カタログギフトを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#カタログギフト #ギフト #カタログギフト #贈り物 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "カタログギフト｜買う前メモ",
+     "title": "カタログギフト選びで\n見落としやすい\n3つのこと",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "gift",
+     "topic": "カタログギフト",
+     "pre": "見落としやすい",
+     "num": "3",
+     "post": "つのこと",
+     "month": "2026.11月",
+     "seed": "2026-11-0411"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "カタログギフト 5900円 5000円コース ギフトカタログ",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellevie-harima/cabinet/1104/gift/catalog5800_bs.jpg?_ex=700x700",
+     "price": "4,840円",
+     "review": "★4.68",
+     "count": "21,070件",
+     "postage": "送料別",
+     "shop": "ソムリエ@ギフト",
+     "check": "予算とコース",
+     "body": [
+      "贈る相手と場面に合う",
+      "価格のコースを選ぶ。"
+     ],
+     "date": "2026/11/4"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "当日出荷 カタログギフト 内祝い 出産祝い 5900円コース",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/jyoei/cabinet/e-choice_kouga/5775-3.jpg?_ex=700x700",
+     "price": "5,018円",
+     "review": "★4.70",
+     "count": "3,523件",
+     "postage": "送料込み",
+     "shop": "愛dealギフト-内祝い・引き出物",
+     "check": "のし・包装・カード",
+     "body": [
+      "のし・包装・メッセージカードに",
+      "対応しているか確認する。"
+     ],
+     "date": "2026/11/4"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "高評価 4.65 最高級カタログギフトSCENE 内祝い お返し",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/marry-gift/cabinet/event_scene/test/vprecious-aoo_1.jpg?_ex=700x700",
+     "price": "8,580円",
+     "review": "★4.64",
+     "count": "2,517件",
+     "postage": "送料別",
+     "shop": "【公式】ギフトフィールドマリー",
+     "check": "届け日と有効期限",
+     "body": [
+      "届け日の指定ができるか、",
+      "カタログの申込期限も見る。"
+     ],
+     "date": "2026/11/4"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "bellevie-harima:10013190",
+     "rawName": "カタログギフト 楽天1位ギフト大賞 [ソムリエアットギフト 最高級 ザ プレミアムカタログギフト ブラック シルバー ゴールド] 5900円(S-EO) 5000円コース ギフトカタログ 出産内祝い 結婚祝い 内祝い お返し (グルメ/ブランド）gws 七五三内祝い お歳暮",
+     "name": "カタログギフト 5900円 5000円コース ギフトカタログ",
+     "price": 4840,
+     "shop": "ソムリエ@ギフト",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q1q9o.p3pr2fa6.g00q1q9o.p3pr34c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellevie-harima%2F10013190%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellevie-harima%2Fi%2F10013190%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q1q9o.p3pr2fa6.g00q1q9o.p3pr34c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellevie-harima%2F10013190%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellevie-harima%2Fi%2F10013190%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 21070,
+     "reviewAverage": 4.68,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellevie-harima/cabinet/1104/gift/catalog5800_bs.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "jyoei:10000607",
+     "rawName": "当日出荷 カタログギフト 内祝い 出産祝い 5900円コース 結婚内祝い お返し カタログ E-EO-X ギフトカタログ グルメ 出産内祝い 結婚祝い 快気祝い おしゃれ 引き出物 引出物 法人 企業 5000円 香典返し 七五三 お歳暮",
+     "name": "当日出荷 カタログギフト 内祝い 出産祝い 5900円コース",
+     "price": 5018,
+     "shop": "愛dealギフト-内祝い・引き出物",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pzibo.p3pr2386.g00pzibo.p3pr333f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyoei%2F5775%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjyoei%2Fi%2F10000607%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pzibo.p3pr2386.g00pzibo.p3pr333f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyoei%2F5775%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjyoei%2Fi%2F10000607%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 3523,
+     "reviewAverage": 4.7,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/jyoei/cabinet/e-choice_kouga/5775-3.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "marry-gift:10055927",
+     "rawName": "【マラソン限定 P8倍】高評価★4.65 最高級カタログギフトSCENE 内祝い お返し カタログギフト【 選べる8コース 】1万円コース 2万円 3万円 香典返し グルメ 出産内祝い 結婚内祝い 結婚 出産祝い 結婚祝い お祝いギフトカード 出産祝い",
+     "name": "高評価 4.65 最高級カタログギフトSCENE 内祝い お返し",
+     "price": 8580,
+     "shop": "【公式】ギフトフィールドマリー",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qa7ro.p3pr2564.g00qa7ro.p3pr3a1d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmarry-gift%2Fprecious_aoo%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmarry-gift%2Fi%2F10055927%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qa7ro.p3pr2564.g00qa7ro.p3pr3a1d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmarry-gift%2Fprecious_aoo%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmarry-gift%2Fi%2F10055927%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 2517,
+     "reviewAverage": 4.64,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/marry-gift/cabinet/event_scene/test/vprecious-aoo_1.jpg?_ex=700x700"
+    }
+   ],
+   "status": "dry_run",
+   "format": "carousel",
+   "images": [
+    "docs/media/2026-11-04_preview_carousel_01.jpg",
+    "docs/media/2026-11-04_preview_carousel_02.jpg",
+    "docs/media/2026-11-04_preview_carousel_03.jpg",
+    "docs/media/2026-11-04_preview_carousel_04.jpg"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "genre": "gift",
+   "title": "カタログギフト、買う前にここ見て",
+   "caption": "【PR】カタログギフト、買う前にここだけは確認👇\n\nカタログギフトを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　予算とコース\n贈る相手と場面に合う価格のコースを選ぶ。\n\n✔ CHECK2　のし・包装・カード\nのし・包装・メッセージカードに対応しているか確認する。\n\n✔ CHECK3　届け日と有効期限\n届け日の指定ができるか、カタログの申込期限も見る。\n\n■ 例として、2026/11/4に楽天市場でレビューの多かった商品\n・カタログギフト 5900円 5000円コース ギフトカタログ（ソムリエ@ギフト）4,840円、★4.68／21,070件\n・当日出荷 カタログギフト 内祝い 出産祝い 5900円コース（愛dealギフト-内祝い・引き出物）5,018円、★4.70／3,523件\n・高評価 4.65 最高級カタログギフトSCENE 内祝い お返し（【公式】ギフトフィールドマリー）8,580円、★4.64／2,517件\n\n※2026/11/4に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 カタログギフトを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#カタログギフト #ギフト #カタログギフト #贈り物 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "カタログギフト｜買う前メモ",
+     "title": "カタログギフト、\n買う前に\nここ見て",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "gift",
+     "topic": "カタログギフト",
+     "pre": "買う前にここ見て",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-0412"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "カタログギフト 5900円 5000円コース ギフトカタログ",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellevie-harima/cabinet/1104/gift/catalog5800_bs.jpg?_ex=700x700",
+     "price": "4,840円",
+     "review": "★4.68",
+     "count": "21,070件",
+     "postage": "送料別",
+     "shop": "ソムリエ@ギフト",
+     "check": "予算とコース",
+     "body": [
+      "贈る相手と場面に合う",
+      "価格のコースを選ぶ。"
+     ],
+     "date": "2026/11/4"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "当日出荷 カタログギフト 内祝い 出産祝い 5900円コース",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/jyoei/cabinet/e-choice_kouga/5775-3.jpg?_ex=700x700",
+     "price": "5,018円",
+     "review": "★4.70",
+     "count": "3,523件",
+     "postage": "送料込み",
+     "shop": "愛dealギフト-内祝い・引き出物",
+     "check": "のし・包装・カード",
+     "body": [
+      "のし・包装・メッセージカードに",
+      "対応しているか確認する。"
+     ],
+     "date": "2026/11/4"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "高評価 4.65 最高級カタログギフトSCENE 内祝い お返し",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/marry-gift/cabinet/event_scene/test/vprecious-aoo_1.jpg?_ex=700x700",
+     "price": "8,580円",
+     "review": "★4.64",
+     "count": "2,517件",
+     "postage": "送料別",
+     "shop": "【公式】ギフトフィールドマリー",
+     "check": "届け日と有効期限",
+     "body": [
+      "届け日の指定ができるか、",
+      "カタログの申込期限も見る。"
+     ],
+     "date": "2026/11/4"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "bellevie-harima:10013190",
+     "rawName": "カタログギフト 楽天1位ギフト大賞 [ソムリエアットギフト 最高級 ザ プレミアムカタログギフト ブラック シルバー ゴールド] 5900円(S-EO) 5000円コース ギフトカタログ 出産内祝い 結婚祝い 内祝い お返し (グルメ/ブランド）gws 七五三内祝い お歳暮",
+     "name": "カタログギフト 5900円 5000円コース ギフトカタログ",
+     "price": 4840,
+     "shop": "ソムリエ@ギフト",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q1q9o.p3pr2fa6.g00q1q9o.p3pr34c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellevie-harima%2F10013190%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellevie-harima%2Fi%2F10013190%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q1q9o.p3pr2fa6.g00q1q9o.p3pr34c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellevie-harima%2F10013190%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellevie-harima%2Fi%2F10013190%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 21070,
+     "reviewAverage": 4.68,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellevie-harima/cabinet/1104/gift/catalog5800_bs.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "jyoei:10000607",
+     "rawName": "当日出荷 カタログギフト 内祝い 出産祝い 5900円コース 結婚内祝い お返し カタログ E-EO-X ギフトカタログ グルメ 出産内祝い 結婚祝い 快気祝い おしゃれ 引き出物 引出物 法人 企業 5000円 香典返し 七五三 お歳暮",
+     "name": "当日出荷 カタログギフト 内祝い 出産祝い 5900円コース",
+     "price": 5018,
+     "shop": "愛dealギフト-内祝い・引き出物",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pzibo.p3pr2386.g00pzibo.p3pr333f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyoei%2F5775%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjyoei%2Fi%2F10000607%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pzibo.p3pr2386.g00pzibo.p3pr333f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyoei%2F5775%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjyoei%2Fi%2F10000607%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 3523,
+     "reviewAverage": 4.7,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/jyoei/cabinet/e-choice_kouga/5775-3.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "marry-gift:10055927",
+     "rawName": "【マラソン限定 P8倍】高評価★4.65 最高級カタログギフトSCENE 内祝い お返し カタログギフト【 選べる8コース 】1万円コース 2万円 3万円 香典返し グルメ 出産内祝い 結婚内祝い 結婚 出産祝い 結婚祝い お祝いギフトカード 出産祝い",
+     "name": "高評価 4.65 最高級カタログギフトSCENE 内祝い お返し",
+     "price": 8580,
+     "shop": "【公式】ギフトフィールドマリー",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qa7ro.p3pr2564.g00qa7ro.p3pr3a1d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmarry-gift%2Fprecious_aoo%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmarry-gift%2Fi%2F10055927%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qa7ro.p3pr2564.g00qa7ro.p3pr3a1d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmarry-gift%2Fprecious_aoo%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmarry-gift%2Fi%2F10055927%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 2517,
+     "reviewAverage": 4.64,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/marry-gift/cabinet/event_scene/test/vprecious-aoo_1.jpg?_ex=700x700"
+    }
+   ],
+   "status": "dry_run",
+   "format": "reel",
+   "images": [
+    "docs/media/2026-11-04_preview_reel_01.jpg",
+    "docs/media/2026-11-04_preview_reel_02.jpg",
+    "docs/media/2026-11-04_preview_reel_03.jpg",
+    "docs/media/2026-11-04_preview_reel_04.jpg"
+   ],
+   "video": "docs/media/2026-11-04_preview_reel.mp4"
   }
  ],
  "stories": [
@@ -1840,6 +2089,15 @@
     "docs/media/2026-11-03_story.jpg"
    ],
    "media_id": "18581624113073699"
+  },
+  {
+   "date": "2026-11-04",
+   "title": "カタログギフト、買う前にここ見て",
+   "head": "のし・包装・カード",
+   "status": "dry_run",
+   "images": [
+    "docs/media/2026-11-04_story.jpg"
+   ]
   }
  ]
 }
