@@ -1586,7 +1586,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kirinkokusai/cabinet/08770151/imgrc0123198743.jpg?_ex=600x600"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "carousel",
    "images": [
     "docs/media/2026-11-03_carousel_01.jpg",
@@ -1598,7 +1598,8 @@
     "docs/media/2026-11-03_carousel_07.jpg",
     "docs/media/2026-11-03_carousel_08.jpg",
     "docs/media/2026-11-03_carousel_09.jpg"
-   ]
+   ],
+   "media_id": "18021841943944049"
   },
   {
    "date": "2026-11-03",
@@ -1748,7 +1749,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sunshine-store/cabinet/11065869/imgrc0163967000.jpg?_ex=600x600"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "images": [
     "docs/media/2026-11-03_reel2_01.jpg",
@@ -1761,7 +1762,8 @@
     "docs/media/2026-11-03_reel2_08.jpg",
     "docs/media/2026-11-03_reel2_09.jpg"
    ],
-   "video": "docs/media/2026-11-03_reel2.mp4"
+   "video": "docs/media/2026-11-03_reel2.mp4",
+   "media_id": "18012484227004914"
   }
  ],
  "stories": [
@@ -1833,10 +1835,11 @@
    "date": "2026-11-03",
    "title": "ポチる前に！ブランケットの確認リスト",
    "head": "サイズと使い方",
-   "status": "ready",
+   "status": "posted",
    "images": [
     "docs/media/2026-11-03_story.jpg"
-   ]
+   ],
+   "media_id": "18581624113073699"
   }
  ]
 }
