@@ -6,6 +6,106 @@ from PIL import Image, ImageDraw
 from . import design as D
 
 
+def fetch_image(url):
+    if not url:
+        return None
+    try:
+        r = requests.get(url, timeout=30)
+        r.raise_for_status()
+        return Image.open(io.BytesIO(r.content)).convert("RGB")
+    except Exception:
+        return None
+
+
+CHAR = (44, 46, 47)        # 商品ページの背景（濃いグレー）
+CHAR2 = (58, 61, 62)
+
+
+def item_page(s, idx, total, W=1080, H=1350):
+    """商品ページ：上に番号・商品名・価格、中央に商品画像（加工なし・サイズ変更のみ）、下にレビューと買う前のチェック。
+    楽天アフィリエイトのガイドライン（2026-11-02確認）：画像の上に文字や装飾を入れない・切り抜かない。
+    画像の外側（周りの帯）に文字を置くのは「周辺部分への加工」として可能。"""
+    im = Image.new("RGB", (W, H), CHAR)
+    d = ImageDraw.Draw(im)
+    rf = D.rf
+    # PRと枚数
+    d.rounded_rectangle((60, 48, 150, 98), radius=25, fill=CHAR2)
+    d.text((105, 73), "PR", font=rf(28), fill=D.WHITE, anchor="mm")
+    d.rounded_rectangle((W - 160, 48, W - 60, 98), radius=25, fill=CHAR2)
+    d.text((W - 110, 73), f"{idx}/{total}", font=rf(28), fill=D.WHITE, anchor="mm")
+    # 番号｜商品名　価格
+    top = 130
+    d.text((70, top + 110), f"{s['no']:02d}", font=rf(96), fill=D.WHITE, anchor="lm")
+    d.line([(225, top + 30), (225, top + 190)], fill=(150, 150, 150), width=4)
+    name_w = W - 260 - 70
+    size = 52
+    while size > 36:
+        lines = D.wrap(s["head"], size, name_w) if False else _wrap_r(s["head"], size, name_w)
+        if len(lines) <= 3:
+            break
+        size -= 4
+    lines = lines[:3]
+    ny = top + 110 - (len(lines) - 1) * size * 0.65
+    for ln in lines:
+        d.text((260, ny), ln, font=rf(size), fill=D.WHITE, anchor="lm")
+        ny += size * 1.3
+    d.text((W - 70, top + 245), s["price"], font=rf(54), fill=D.MUSTARD, anchor="rs")
+    d.text((260, top + 242), f"{s['date']}時点", font=rf(26), fill=(170, 170, 170), anchor="ls")
+    # 商品画像の帯（白）
+    band_top, band_h = 400, 560
+    d.rectangle((0, band_top, W, band_top + band_h), fill=D.WHITE)
+    src = fetch_image(s.get("url"))
+    if src is not None:
+        scale = min((band_h - 20) / src.height, (W - 40) / src.width)
+        src = src.resize((max(1, int(src.width * scale)), max(1, int(src.height * scale))), Image.LANCZOS)
+        im.paste(src, ((W - src.width) // 2, band_top + (band_h - src.height) // 2))
+    else:
+        d.text((W / 2, band_top + band_h / 2), "画像は商品ページで確認してください", font=rf(36), fill=D.MUTED, anchor="mm")
+    # レビュー・送料・ショップ
+    y = band_top + band_h + 28
+    d.text((70, y + 30), s["review"], font=rf(58), fill=D.MUSTARD, anchor="lm")
+    rw = rf(58).getlength(s["review"])
+    d.text((70 + rw + 14, y + 38), f"（{s['count']}）", font=rf(30), fill=(200, 200, 200), anchor="lm")
+    pill_txt = s["postage"]
+    pw = rf(30).getlength(pill_txt) + 44
+    d.rounded_rectangle((W - 70 - pw, y + 8, W - 70, y + 56), radius=24, outline=(200, 200, 200), width=2)
+    d.text((W - 70 - pw / 2, y + 32), pill_txt, font=rf(30), fill=D.WHITE, anchor="mm")
+    shop = s["shop"]
+    while rf(28).getlength(shop) > W - 140 and len(shop) > 4:
+        shop = shop[:-2] + "…"
+    d.text((70, y + 92), shop, font=rf(28), fill=(170, 170, 170), anchor="lm")
+    # 買う前のチェック
+    y += 132
+    d.rounded_rectangle((60, y, W - 60, H - 70), radius=28, fill=CHAR2)
+    d.text((100, y + 46), "買う前に", font=rf(30), fill=D.MUSTARD, anchor="lm")
+    d.text((100 + rf(30).getlength("買う前に") + 20, y + 46), s["check"], font=rf(40), fill=D.WHITE, anchor="lm")
+    body = "".join(s["body"])
+    by = y + 98
+    for ln in _wrap_r(body, 30, W - 200)[:2]:
+        d.text((100, by), ln, font=rf(30), fill=(215, 215, 215), anchor="lm")
+        by += 44
+    return im
+
+
+def _wrap_r(text, size, width):
+    out, cur = [], ""
+    for tok in [t for t in __import__("re").split(r"( )", text) if t]:
+        if D.rf(size).getlength(cur + tok) <= width:
+            cur += tok
+        elif tok == " ":
+            out.append(cur); cur = ""
+        elif cur and D.rf(size).getlength(tok) <= width:
+            out.append(cur.strip()); cur = tok
+        else:
+            for ch in tok:
+                if D.rf(size).getlength(cur + ch) > width:
+                    out.append(cur); cur = ch
+                else:
+                    cur += ch
+    out.append(cur)
+    return [o.strip() for o in out if o.strip()] or [""]
+
+
 def photo_slide(url, W=1080, H=1350):
     """楽天の商品画像を、そのまま（文字入れ・切り抜きなし、サイズ変更のみ）無地の背景の中央に置く。
     楽天アフィリエイトのガイドライン（2026-11-02確認 https://affiliate.rakuten.co.jp/guideline/rule/）：
@@ -32,6 +132,9 @@ def render_feed(post, outdir, stem):
     os.makedirs(outdir, exist_ok=True)
     pages = []
     for s in post["slides"]:
+        if s["kind"] == "item":
+            pages.append(("item", s))
+            continue
         if s["kind"] == "photo":
             im = photo_slide(s.get("url"))
             if im is not None:
@@ -40,6 +143,8 @@ def render_feed(post, outdir, stem):
             pages.append((s, None))
     files, n = [], len(pages)
     for i, (s, im) in enumerate(pages, 1):
+        if s == "item":
+            s, im = im, item_page(im, i, n)
         if im is None and s["kind"] == "cover":
             im = D.photo_cover(s, Image.new("RGB", (1080, 1350)), 1080, 1350, i, n)
         if im is None:

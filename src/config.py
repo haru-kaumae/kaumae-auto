@@ -33,7 +33,7 @@ STORY_EVERY_DAY = True
 REELS_ENABLED = os.environ.get("REELS_ENABLED", "1") == "1"
 MIN_REVIEW_COUNT = 300                              # これ未満のレビュー件数の商品は選ばない
 MIN_REVIEW_AVERAGE = 4.2
-PRODUCTS_PER_POST = 2
+PRODUCTS_PER_POST = 3                               # 1投稿の商品数（商品ごとに1ページ、チェックを1つずつ）
 REPOST_COOLDOWN_DAYS = 90                           # 同じ商品を再び紹介するまでの日数（スパム防止）
 
 # 月ごとのジャンル（楽天のジャンルID）。季節に合わせて入れ替える

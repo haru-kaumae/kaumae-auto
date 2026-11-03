@@ -39,7 +39,7 @@ def check(post, products=()):
             problems.append("ハッシュタグが30個を超えています")
         if "確認してください" not in cap or "取得" not in cap:
             problems.append("確認日と注意書きがありません")
-        if not 3 <= len(post["slides"]) <= 20:
+        if not 2 <= len(post["slides"]) <= 20:
             problems.append("スライド枚数が範囲外です")
     text = _texts(post)
     for w in BANNED:

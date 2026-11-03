@@ -44,7 +44,7 @@ def _image(it):
     u = urls[0] if urls else ""
     if isinstance(u, dict):
         u = u.get("imageUrl", "")
-    return re.sub(r"_ex=\d+x\d+", "_ex=600x600", u)
+    return re.sub(r"_ex=\d+x\d+", "_ex=700x700", u)
 
 
 def search_genre(genre_id, page=None):

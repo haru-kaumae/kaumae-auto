@@ -73,18 +73,13 @@ def build_feed(genre_key, products, day, number):
     slides = [dict(kind="cover", kicker=f"{g['name']}｜買う前メモ", title=cover, sub="楽天市場でレビューの多い商品つき",
                    genre=genre_key, topic=topic, pre=pre, num=num, post=post, month=f"{day.year}.{day.month}月",
                    seed=f"{day.isoformat()}{number}")]
-    for i, (head, body) in enumerate(checks, 1):
-        slides.append(dict(kind="point", label=f"CHECK {i}", head=head, body=body, note=""))
+    # 2枚目からは商品ごとに1ページ（商品画像・名前・価格・レビュー・買う前のチェック1つ）
     for i, p in enumerate(products, 1):
-        if p.get("image"):
-            # 商品画像は加工せず、無地の1枚として置く（文字は次の表の1枚に分ける）
-            slides.append(dict(kind="photo", url=p["image"]))
-        slides.append(dict(kind="table", label=f"例 {i}", head=p["name"], rows=[
-            ["項目", f"{date_ja}の表示"], ["ショップ", p["shop"]], ["価格", yen(p["price"])],
-            ["レビュー", f"★{p['reviewAverage']:.2f}（{p['reviewCount']:,}件）"],
-            ["送料", "送料込み" if p["postageFlag"] == 0 else "送料別・条件あり"]],
-            note="楽天ウェブサービスAPIで取得。価格・在庫は変わります"))
-    slides.append(dict(kind="cta", head="買う前のメモ", checks=[c[0] for c in checks], foot="商品はプロフィールのリンクから"))
+        head, body = checks[(i - 1) % len(checks)]
+        slides.append(dict(kind="item", no=i, head=p["name"], url=p.get("image", ""), price=yen(p["price"]),
+                           review=f"★{p['reviewAverage']:.2f}", count=f"{p['reviewCount']:,}件",
+                           postage="送料込み" if p["postageFlag"] == 0 else "送料別",
+                           shop=p["shop"], check=head, body=body, date=date_ja))
 
     lines = [f"{PR_LINE}{topic}、買う前にここだけは確認👇", "",
              f"{topic}を選ぶ時に、商品ページで先に見ておきたい3つをまとめました。", ""]
@@ -106,7 +101,10 @@ def build_feed(genre_key, products, day, number):
 
 def build_story(latest, day):
     """直近のフィード投稿のチェックを1つずつ紹介する。リンクはプロフィールへ誘導。"""
-    checks = [s for s in latest["slides"] if s["kind"] == "point"]
-    c = checks[day.toordinal() % len(checks)]
+    checks = [(s["head"], s["body"]) for s in latest["slides"] if s["kind"] == "point"]
+    checks += [(s["check"], s["body"]) for s in latest["slides"] if s["kind"] == "item"]
+    if not checks:
+        checks = C.CHECKS.get(latest["genre"], [("買う前に確認", ["サイズと仕様を商品ページで確かめる。"])])
+    head, body = checks[day.toordinal() % len(checks)]
     return dict(kind="story", genre=latest["genre"], title=latest["title"],
-                head=c["head"], body=c["body"], foot="商品の一覧はプロフィールのリンクから")
+                head=head, body=body, foot="商品の一覧はプロフィールのリンクから")
