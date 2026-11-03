@@ -117,10 +117,19 @@ def render_reel(image_paths, outdir, stem):
         fp.write(f"file '{lst[-1][0]}'\n")
     total = sum(d for _, d in lst)
     out = os.path.join(outdir, f"{stem}.mp4")
-    cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", concat,
-           "-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100",
-           "-t", str(total), "-vf", "fps=30,format=yuv420p", "-c:v", "libx264", "-profile:v", "high",
-           "-preset", "medium", "-crf", "20", "-c:a", "aac", "-b:a", "128k", "-shortest",
+    # BGM：assets/bgm のオリジナル曲（tools/make_bgm.py で合成）を日替わりで使う。動画より短ければ繰り返す
+    bgm_dir = os.path.join(os.path.dirname(__file__), "..", "assets", "bgm")
+    tracks = sorted(f for f in os.listdir(bgm_dir) if f.endswith(".m4a")) if os.path.isdir(bgm_dir) else []
+    if tracks:
+        track = os.path.join(bgm_dir, tracks[sum(map(ord, stem)) % len(tracks)])
+        audio_in = ["-stream_loop", "-1", "-i", track]
+        afilter = ["-af", f"loudnorm=I=-16:TP=-1.5:LRA=7,afade=t=in:d=0.3,afade=t=out:st={total - 1.2}:d=1.2"]
+    else:
+        audio_in = ["-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100"]
+        afilter = []
+    cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", concat, *audio_in,
+           "-t", str(total), "-vf", "fps=30,format=yuv420p", *afilter, "-c:v", "libx264", "-profile:v", "high",
+           "-preset", "medium", "-crf", "20", "-c:a", "aac", "-b:a", "160k", "-ar", "44100",
            "-movflags", "+faststart", out]
     subprocess.run(cmd, check=True)
     return out
