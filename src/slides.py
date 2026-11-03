@@ -58,7 +58,7 @@ def render_story(story, outdir, stem):
     # 上の濃い帯
     d.rectangle((0, 0, W, 980), fill=D.DEEP)
     top = 200
-    label = "PR｜楽天アフィリエイト広告"
+    label = "PR"
     tw = D.f(34).getlength(label)
     d.rounded_rectangle((72, top, 72 + tw + 56, top + 70), radius=35, outline=(176, 206, 200), width=2)
     D.text(d, (100, top + 35), label, 34, D.WHITE, anchor="lm")

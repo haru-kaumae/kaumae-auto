@@ -83,7 +83,7 @@ def build_feed(genre_key, products, day, number):
             note="楽天ウェブサービスAPIで取得。価格・在庫は変わります"))
     slides.append(dict(kind="cta", head="買う前のメモ", checks=[c[0] for c in checks], foot="商品はプロフィールのリンクから"))
 
-    lines = [PR_LINE, f"{topic}、買う前にここだけは確認👇", "",
+    lines = [f"{PR_LINE}{topic}、買う前にここだけは確認👇", "",
              f"{topic}を選ぶ時に、商品ページで先に見ておきたい3つをまとめました。", ""]
     for i, (head, body) in enumerate(checks, 1):
         lines += [f"✔ CHECK{i}　{head}", "".join(body), ""]

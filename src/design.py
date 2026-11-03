@@ -77,7 +77,7 @@ def frame(W, H, idx=None, total=None, dark=False):
     d = ImageDraw.Draw(im)
     fg, sub = (WHITE, (176, 206, 200)) if dark else (INK, MUTED)
     # PR表記（ファーストビュー上部）
-    label = "PR｜楽天アフィリエイト広告を含みます"
+    label = "PR"
     tw = f(30).getlength(label)
     d.rounded_rectangle((72, 64, 72 + tw + 48, 64 + 56), radius=28,
                         fill=DEEP if dark else WHITE, outline=sub if dark else LINE, width=2)

@@ -30,7 +30,7 @@ def check(post, products=()):
     if post["kind"] == "feed":
         cap = post["caption"]
         if not cap.startswith(PR_LINE):
-            problems.append("キャプション1行目にPR表記がありません")
+            problems.append("キャプションの最初にPR表記がありません")
         if re.search(r"https?://", cap):
             problems.append("キャプションにURLがあります（フィードではURLを書かない方針）")
         if len(cap) > 2200:
