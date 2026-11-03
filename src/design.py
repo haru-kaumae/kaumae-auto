@@ -107,6 +107,111 @@ def pill(d, x, y, s, size=34, fg=WHITE, bgc=TEAL):
     return y + size + 30
 
 
+ROUND = os.path.join(os.path.dirname(__file__), "..", "assets", "fonts", "MPLUSRounded1c-ExtraBold.ttf")
+BGDIR = os.path.join(os.path.dirname(__file__), "..", "assets", "bg")
+_rc = {}
+
+
+def rf(size):
+    if size not in _rc:
+        _rc[size] = ImageFont.truetype(ROUND, size)
+    return _rc[size]
+
+
+def pick_bg(genre, seed):
+    """ジャンルの背景写真（assets/bg、CC0・パブリックドメインのみ）を1枚選ぶ。少なければ暮らし全般から足す。"""
+    pool = []
+    for g in (genre, "daily"):
+        gd = os.path.join(BGDIR, g)
+        if os.path.isdir(gd):
+            pool += [os.path.join(gd, f) for f in sorted(os.listdir(gd)) if f.endswith(".jpg")]
+        if len(pool) >= 3:
+            break
+    if not pool:
+        return None
+    return pool[sum(map(ord, seed)) % len(pool)]
+
+
+def cover_crop(path, W, H):
+    src = Image.open(path).convert("RGB")
+    scale = max(W / src.width, H / src.height)
+    src = src.resize((int(src.width * scale) + 1, int(src.height * scale) + 1), Image.LANCZOS)
+    x = (src.width - W) // 2
+    y = (src.height - H) // 2
+    return src.crop((x, y, x + W, y + H))
+
+
+def shadow_text(im, xy, s, font, fill=WHITE, anchor="mm", blur=10, alpha=150, stroke=0):
+    """読みやすいように、ぼかした影をつけた文字を書く。"""
+    from PIL import ImageFilter
+    layer = Image.new("L", im.size, 0)
+    ImageDraw.Draw(layer).text(xy, s, font=font, fill=alpha, anchor=anchor, stroke_width=stroke + 4)
+    layer = layer.filter(ImageFilter.GaussianBlur(blur))
+    im.paste(Image.new("RGB", im.size, (20, 20, 20)), (0, 0), layer)
+    ImageDraw.Draw(im).text(xy, s, font=font, fill=fill, anchor=anchor, stroke_width=stroke, stroke_fill=fill)
+
+
+def fit(s, size, width, font=None):
+    font = font or rf
+    while size > 40 and font(size).getlength(s) > width:
+        size -= 6
+    return size
+
+
+def photo_cover(s, im, W, H, idx=None, total=None):
+    """表紙（写真の背景＋大きな白い丸ゴシック）。背景写真が無ければ None を返す。"""
+    path = pick_bg(s.get("genre", ""), s.get("seed", ""))
+    if not path:
+        return None
+    from PIL import ImageEnhance
+    bg = cover_crop(path, W, H)
+    bg = ImageEnhance.Color(bg).enhance(0.9)
+    # 文字の周りを少し暗くする（上下は明るさを残す）。明るい写真ほど強く
+    from PIL import ImageStat
+    lum = ImageStat.Stat(bg.convert("L").crop((0, int(H * 0.25), W, int(H * 0.75)))).mean[0]
+    base = max(60, min(150, (lum - 90) * 1.1 + 60))
+    shade = Image.new("L", (W, H), 0)
+    sd = ImageDraw.Draw(shade)
+    for y in range(H):
+        t = 1 - abs(y - H * 0.52) / (H * 0.52)
+        sd.line([(0, y), (W, y)], fill=int(base + 60 * max(0, t)))
+    bg.paste(Image.new("RGB", (W, H), (25, 25, 25)), (0, 0), shade)
+    im.paste(bg)
+    d = ImageDraw.Draw(im, "RGBA")
+    # PR表記と枚数
+    d.rounded_rectangle((60, 60, 160, 116), radius=28, fill=(255, 255, 255, 230))
+    d.text((110, 88), "PR", font=rf(32), fill=INK, anchor="mm")
+    if idx is not None:
+        d.rounded_rectangle((W - 170, 60, W - 60, 116), radius=28, fill=(40, 40, 40, 170))
+        d.text((W - 115, 88), f"{idx}/{total}", font=rf(30), fill=WHITE, anchor="mm")
+    cx = W // 2
+    # 日付の帯
+    y = 400
+    d.rounded_rectangle((cx - 330, y - 52, cx + 330, y + 52), radius=52, fill=(255, 255, 255, 215))
+    d.text((cx, y), s.get("month", ""), font=rf(52), fill=(80, 74, 66), anchor="mm")
+    # 上の小さい行
+    y += 150
+    pre = s.get("pre", "")
+    shadow_text(im, (cx, y), pre, rf(fit(pre, 78, W - 160)))
+    # 商品の種類（いちばん大きく）
+    y += 175
+    topic = s.get("topic", "")
+    shadow_text(im, (cx, y), topic, rf(fit(topic, 190, W - 120)), blur=14, alpha=170)
+    # 数字＋あと
+    y += 200
+    num, post = s.get("num", ""), s.get("post", "")
+    nf, pf = rf(150), rf(84)
+    wn, wp = nf.getlength(num), pf.getlength(post)
+    x0 = cx - (wn + 12 + wp) / 2
+    shadow_text(im, (x0, y + 30), num, nf, anchor="ls")
+    shadow_text(im, (x0 + wn + 12, y + 30), post, pf, anchor="ls")
+    # 下の案内
+    d = ImageDraw.Draw(im)
+    d.text((W - 72, H - 80), "swipe  ›››", font=rf(38), fill=WHITE, anchor="rs")
+    d.text((72, H - 80), HANDLE, font=rf(30), fill=WHITE, anchor="ls")
+    return im
+
+
 def slide_cover(s, im, d, W, H):
     y = 260
     text(d, (88, y), s["kicker"], 40, TEAL, bold=True)

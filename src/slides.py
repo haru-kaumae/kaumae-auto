@@ -40,6 +40,8 @@ def render_feed(post, outdir, stem):
             pages.append((s, None))
     files, n = [], len(pages)
     for i, (s, im) in enumerate(pages, 1):
+        if im is None and s["kind"] == "cover":
+            im = D.photo_cover(s, Image.new("RGB", (1080, 1350)), 1080, 1350, i, n)
         if im is None:
             im, d = D.frame(1080, 1350, i, n, dark=(s["kind"] == "cta"))
             KIND[s["kind"]](s, im, d, 1080, 1350)

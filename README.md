@@ -108,3 +108,10 @@
 | `state/posts.json` | 投稿の記録（何をいつ紹介したか） |
 | `state/metrics.csv` | 毎週の数字 |
 | `tests/test_offline.py` | ネットなしの動作確認 `python -m tests.test_offline` |
+
+## 素材のライセンス
+
+- 表紙の背景写真：`assets/bg/`。Openverse から CC0・パブリックドメインの写真だけを `tools/fetch_backgrounds.py` で取得し、作者・出どころ・ライセンスを `assets/bg/credits.json` に記録。人物の顔・酒類・古い白黒写真は目視で除外（2026-11-04）
+- フォント：`assets/fonts/`（M PLUS Rounded 1c、SIL Open Font License）
+- リールのBGM：`assets/bgm/`。`tools/make_bgm.py` で合成したオリジナル曲
+- 商品画像：楽天市場の各ショップの画像を、文字入れ・切り抜きなしで使用（楽天アフィリエイトのガイドラインに従う）

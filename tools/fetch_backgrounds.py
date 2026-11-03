@@ -62,7 +62,10 @@ def main():
                     print("取得失敗", it["url"], e)
                     continue
                 im.thumbnail((1600, 1600))
-                name = f"{genre}/{have + 1:02d}.jpg"
+                k = 1
+                while os.path.exists(os.path.join(OUT, f"{genre}/{k:02d}.jpg")):
+                    k += 1
+                name = f"{genre}/{k:02d}.jpg"
                 im.save(os.path.join(OUT, name), "JPEG", quality=88)
                 credits[name] = dict(id=it["id"], title=it.get("title"), creator=it.get("creator"),
                                      source=it.get("source"), landing=it.get("foreign_landing_url"),

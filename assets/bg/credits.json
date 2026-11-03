@@ -1,15 +1,4 @@
 {
- "kitchen/01.jpg": {
-  "id": "2cd8c53a-a0b9-4c9f-8ac8-a404f1941895",
-  "title": "Cleaning Kitchen Counter",
-  "creator": null,
-  "source": "rawpixel",
-  "landing": "https://www.rawpixel.com/image/6074009/cleaning-kitchen-counter",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "kitchen counter",
-  "fetched": "2026-11-03"
- },
  "kitchen/02.jpg": {
   "id": "849628fd-1cfd-4b94-8c46-e168e241cba3",
   "title": "Cooking Food",
@@ -19,7 +8,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "kitchen counter",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "kitchen/03.jpg": {
   "id": "9f4e0d96-1d73-4c54-92f2-6114a848535a",
@@ -30,7 +20,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "kitchen counter",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "kitchen/04.jpg": {
   "id": "a507f006-198b-4b6f-b1ba-a347230b7423",
@@ -41,7 +32,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "kitchen counter",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "kitchen/05.jpg": {
   "id": "5533e95d-7d60-46c0-bf45-2e488e84c23f",
@@ -52,7 +44,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "kitchen counter",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "kitchen/06.jpg": {
   "id": "c6b1bca4-7448-44c9-bddc-0459ddc4739a",
@@ -63,7 +56,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "kitchen counter",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "kitchen/07.jpg": {
   "id": "4f75bbdf-e9fb-46b9-8a0c-1137ce59a28a",
@@ -74,7 +68,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "kitchen counter",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "kitchen/08.jpg": {
   "id": "0293dfd0-5c5e-4a62-8087-b5c36bf8c146",
@@ -85,95 +80,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "kitchen counter",
-  "fetched": "2026-11-03"
- },
- "clean/01.jpg": {
-  "id": "9774a7b4-f36e-4b84-83e3-e44ec6c89f96",
-  "title": "Boiler laundry rooms Agua Fria",
-  "creator": "libraryofcongress",
-  "source": "rawpixel",
-  "landing": "https://www.rawpixel.com/image/12149415/image-person-art-sky",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "laundry room",
-  "fetched": "2026-11-03"
- },
- "clean/02.jpg": {
-  "id": "bc80432f-58a4-47c7-948c-bea962d65960",
-  "title": "Laundry room model house. Greendale",
-  "creator": "libraryofcongress",
-  "source": "rawpixel",
-  "landing": "https://www.rawpixel.com/image/12148555/image-person-art-vintage",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "laundry room",
-  "fetched": "2026-11-03"
- },
- "clean/03.jpg": {
-  "id": "826642e2-2398-4f9f-ac8d-187e5adf0a45",
-  "title": "Lieden ääressä, 1884, Albert Edelfelt",
-  "creator": null,
-  "source": "rawpixel",
-  "landing": "https://www.rawpixel.com/image/8865456/lieden-aaressa-1884-albert-edelfelt",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "laundry room",
-  "fetched": "2026-11-03"
- },
- "clean/04.jpg": {
-  "id": "24d4b741-d36b-467b-ba1c-8c5e49b4f3eb",
-  "title": "Corner room sharecropper cabin. Southeast",
-  "creator": "libraryofcongress",
-  "source": "rawpixel",
-  "landing": "https://www.rawpixel.com/image/12147910/image-background-person-art",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "laundry room",
-  "fetched": "2026-11-03"
- },
- "clean/05.jpg": {
-  "id": "9d58b3a4-a334-4033-94c0-21829db48078",
-  "title": "Original public domain image Wikimedia",
-  "creator": null,
-  "source": "rawpixel",
-  "landing": "https://www.rawpixel.com/image/3291928/free-photo-image-laundry-boat-brick-wall",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "laundry room",
-  "fetched": "2026-11-03"
- },
- "clean/06.jpg": {
-  "id": "e5d6e6bf-6005-478f-8644-4a763434867b",
-  "title": "Sunshine Laundry",
-  "creator": "libraryofcongress",
-  "source": "rawpixel",
-  "landing": "https://www.rawpixel.com/image/6998222/sunshine-laundry",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "laundry room",
-  "fetched": "2026-11-03"
- },
- "clean/07.jpg": {
-  "id": "6f357149-0f63-459a-a11a-38ad559c82c9",
-  "title": "Free washing machine self service",
-  "creator": null,
-  "source": "rawpixel",
-  "landing": "https://www.rawpixel.com/image/5924928/photo-image-background-public-domain-person",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "laundry room",
-  "fetched": "2026-11-03"
- },
- "clean/08.jpg": {
-  "id": "dc14b7c1-b623-45c2-ad19-42e87dbec873",
-  "title": "Social Hygiene Society",
-  "creator": "libraryofcongress",
-  "source": "rawpixel",
-  "landing": "https://www.rawpixel.com/image/6892837/social-hygiene-society",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "laundry room",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "storage/01.jpg": {
   "id": "6d8e49bc-659b-4f71-a630-daa4bc0501d2",
@@ -184,7 +92,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "storage shelves home",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "storage/02.jpg": {
   "id": "2d3191c4-dd13-48dc-b70e-346672b8ebe9",
@@ -195,40 +104,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "closet organization",
-  "fetched": "2026-11-03"
- },
- "storage/03.jpg": {
-  "id": "bd6a3f41-dd00-493c-9771-425809b7921b",
-  "title": "Free library shelves many books",
-  "creator": null,
-  "source": "rawpixel",
-  "landing": "https://www.rawpixel.com/image/5924710/photo-image-book-public-domain-room",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "bookshelf interior",
-  "fetched": "2026-11-03"
- },
- "storage/04.jpg": {
-  "id": "17787ae6-ab67-466b-9340-35b4b893076a",
-  "title": "Free antique books shelf photo",
-  "creator": null,
-  "source": "rawpixel",
-  "landing": "https://www.rawpixel.com/image/5920440/photo-image-book-public-domain-wood",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "bookshelf interior",
-  "fetched": "2026-11-03"
- },
- "storage/05.jpg": {
-  "id": "28bc0173-9706-4d36-a71b-e33323094b4f",
-  "title": "Free library shelves many books",
-  "creator": null,
-  "source": "rawpixel",
-  "landing": "https://www.rawpixel.com/image/5912530/image-book-public-domain-table",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "bookshelf interior",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "daily/01.jpg": {
   "id": "4d47e4f8-3f06-436d-8653-09b1e7206cdd",
@@ -239,7 +116,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "living room interior",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "daily/02.jpg": {
   "id": "e57ad1ca-41ae-4419-80a5-55f8afc9ca65",
@@ -250,7 +128,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "living room interior",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "daily/03.jpg": {
   "id": "750a327c-f6d8-427e-b9b2-8bc7090bb05d",
@@ -261,7 +140,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "living room interior",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "daily/04.jpg": {
   "id": "613306f6-12f5-41d4-8061-f636638fb579",
@@ -272,7 +152,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "living room interior",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "daily/05.jpg": {
   "id": "ab2997e5-f264-474a-a933-63cf94045cba",
@@ -283,7 +164,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "living room interior",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "daily/06.jpg": {
   "id": "7f3cecda-6e04-4c06-be66-6c50cf50cf9e",
@@ -294,7 +176,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "living room interior",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "daily/07.jpg": {
   "id": "4f4787e2-88ed-4954-bed2-03a3eeb3082c",
@@ -305,7 +188,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "living room interior",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "daily/08.jpg": {
   "id": "506b3afc-da89-4989-b4e1-faf38ba62e2f",
@@ -316,7 +200,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "living room interior",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "humid/01.jpg": {
   "id": "0a071352-446f-49b9-b26d-bb16800bcb58",
@@ -327,7 +212,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "cozy bedroom",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "humid/02.jpg": {
   "id": "5e1ac595-11df-4e66-829c-e3a309fb3621",
@@ -338,29 +224,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "cozy bedroom",
-  "fetched": "2026-11-03"
- },
- "humid/03.jpg": {
-  "id": "e9602104-74e4-43a5-98e9-458214c7959f",
-  "title": "Woman Bed",
-  "creator": "Healthy Living",
-  "source": "stocksnap",
-  "landing": "https://stocksnap.io/photo/woman-bed-MVXBTWQR0H",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "cozy bedroom",
-  "fetched": "2026-11-03"
- },
- "humid/04.jpg": {
-  "id": "7baf821b-c649-4344-a904-76e23053f545",
-  "title": "Woman Relaxing",
-  "creator": "Beauty and Fashion",
-  "source": "stocksnap",
-  "landing": "https://stocksnap.io/photo/woman-relaxing-H8VWCOFQFT",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "cozy bedroom",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "humid/05.jpg": {
   "id": "9bc5caa8-2204-40a5-8fc6-6b9a3b3faeb4",
@@ -371,7 +236,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "cozy bedroom",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "humid/06.jpg": {
   "id": "8ed3e0d1-0c7f-4f1d-af75-7502965ba503",
@@ -382,40 +248,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "cozy bedroom",
-  "fetched": "2026-11-03"
- },
- "humid/07.jpg": {
-  "id": "63937e4d-971e-4b33-aed6-b67e73d2d29e",
-  "title": "Close white blanket",
-  "creator": null,
-  "source": "rawpixel",
-  "landing": "https://www.rawpixel.com/image/3301005/free-photo-image-stain-cozy-sleep",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "cozy bedroom",
-  "fetched": "2026-11-03"
- },
- "humid/08.jpg": {
-  "id": "3dbb0432-47f3-4f0e-afcf-b2f1651480dd",
-  "title": "Original public domain image Wikimedia",
-  "creator": null,
-  "source": "rawpixel",
-  "landing": "https://www.rawpixel.com/image/3300836/free-photo-image-bed-anthropologie-bedding",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "cozy bedroom",
-  "fetched": "2026-11-03"
- },
- "blanket/01.jpg": {
-  "id": "ea53181c-1eb4-4a60-82cb-eee31926115b",
-  "title": "Phone Mockup",
-  "creator": "Matt Bango",
-  "source": "stocksnap",
-  "landing": "https://stocksnap.io/photo/phone-mockup-X61BLU7P3E",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "cozy blanket",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "blanket/02.jpg": {
   "id": "b0133742-f256-4d2d-98f4-630f5abdc259",
@@ -426,7 +260,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "cozy blanket",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "blanket/03.jpg": {
   "id": "be17d26a-f488-4afd-8e8f-2ccab6b997ba",
@@ -437,7 +272,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "cozy blanket",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "sweets/01.jpg": {
   "id": "464b18ba-bac1-49ec-ad4c-82b72e7eed39",
@@ -448,7 +284,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "snacks table",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "sweets/02.jpg": {
   "id": "b2f07c3c-765d-4417-8f6c-8cdd5e1fbbf0",
@@ -459,7 +296,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "snacks table",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "sweets/03.jpg": {
   "id": "eeb04402-9b34-449f-b26e-cdeefbf68608",
@@ -470,62 +308,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "snacks table",
-  "fetched": "2026-11-03"
- },
- "sweets/04.jpg": {
-  "id": "cad2bb62-957e-408d-a161-ff092ac3952c",
-  "title": "People Man",
-  "creator": "Toa Heftiba",
-  "source": "stocksnap",
-  "landing": "https://stocksnap.io/photo/people-man-XKJDEWN1B6",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "snacks table",
-  "fetched": "2026-11-03"
- },
- "sweets/05.jpg": {
-  "id": "d043f82c-d862-4202-b3fb-5b912acf223e",
-  "title": "Food Burger",
-  "creator": "Eaters Collective",
-  "source": "stocksnap",
-  "landing": "https://stocksnap.io/photo/food-burger-WYL5KWIPUD",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "snacks table",
-  "fetched": "2026-11-03"
- },
- "sweets/06.jpg": {
-  "id": "49b00e65-752e-45a7-80b2-798feef7dae4",
-  "title": "Food Fruits",
-  "creator": "Brooke Lark",
-  "source": "stocksnap",
-  "landing": "https://stocksnap.io/photo/food-fruits-N7YQYVFWOU",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "snacks table",
-  "fetched": "2026-11-03"
- },
- "sweets/07.jpg": {
-  "id": "ae44b933-edbb-4364-8f71-2a3178ebb018",
-  "title": "Olives Cheese",
-  "creator": "ISO Republic",
-  "source": "stocksnap",
-  "landing": "https://stocksnap.io/photo/olives-cheese-VUAQNMLAPF",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "snacks table",
-  "fetched": "2026-11-03"
- },
- "sweets/08.jpg": {
-  "id": "0c4ca1e3-1f03-4a5a-bacd-69a4e8080fbd",
-  "title": "Snacks Wooden",
-  "creator": "Snapwire",
-  "source": "stocksnap",
-  "landing": "https://stocksnap.io/photo/snacks-wooden-UCHRHJWAD3",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "snacks table",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "gift/01.jpg": {
   "id": "dc6ffa5c-2c1a-4c75-b7ea-cfc3532a5110",
@@ -536,7 +320,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "wrapped present",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "gift/02.jpg": {
   "id": "8387793d-3b21-4c50-ba2e-ee5a052b500c",
@@ -547,7 +332,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "wrapped present",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "gift/03.jpg": {
   "id": "cdfa89fa-dc2c-4682-8e53-eab3a5ccc5bb",
@@ -558,7 +344,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "wrapped present",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "gift/04.jpg": {
   "id": "d1b74b97-ac85-48c9-b5a2-85228b0ab291",
@@ -569,7 +356,8 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "wrapped present",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
  "gift/05.jpg": {
   "id": "5ed1bfba-d438-4eb9-a554-28c782d21dd9",
@@ -580,39 +368,19 @@
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
   "query": "wrapped present",
-  "fetched": "2026-11-03"
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  },
- "gift/06.jpg": {
-  "id": "e91d9327-4e6e-4581-9be7-53a1970912cd",
-  "title": "Gift Box",
-  "creator": "George Dolgikh",
-  "source": "stocksnap",
-  "landing": "https://stocksnap.io/photo/gift-box-PXJKQ8OFB8",
+ "clean/01.jpg": {
+  "id": "2cd8c53a-a0b9-4c9f-8ac8-a404f1941895",
+  "title": "Cleaning Kitchen Counter",
+  "creator": null,
+  "source": "rawpixel",
+  "landing": "https://www.rawpixel.com/image/6074009/cleaning-kitchen-counter",
   "license": "cc0",
   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "wrapped present",
-  "fetched": "2026-11-03"
- },
- "gift/07.jpg": {
-  "id": "7eb1e424-039d-4c5b-a3ee-a2e72024600a",
-  "title": "Aged Fabric",
-  "creator": "Ylanite Koppens",
-  "source": "stocksnap",
-  "landing": "https://stocksnap.io/photo/aged-fabric-DM03SHWJHY",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "wrapped present",
-  "fetched": "2026-11-03"
- },
- "gift/08.jpg": {
-  "id": "be16841c-d137-4b48-b4bd-98e671a1ce58",
-  "title": "Gift Box",
-  "creator": "George Dolgikh",
-  "source": "stocksnap",
-  "landing": "https://stocksnap.io/photo/gift-box-7SYGJMUNPI",
-  "license": "cc0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "query": "wrapped present",
-  "fetched": "2026-11-03"
+  "query": "kitchen counter",
+  "fetched": "2026-11-03",
+  "checked": "2026-11-04 Claudeが目視で選定（人物の顔・酒類・古い白黒写真を除外）"
  }
 }
