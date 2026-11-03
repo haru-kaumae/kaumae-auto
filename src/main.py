@@ -82,7 +82,7 @@ def prepare(state, day):
         post = compose.build_feed(genre, prods, day, len(state["posts"]))
         problems = compliance.check(post, prods)
         nth = sum(1 for p in state["posts"] if p["date"] == day.isoformat() and p["status"] in real)
-        stem = f"{day.isoformat()}_{'preview' if preview else fmt}{nth + 1 if nth else ''}"
+        stem = f"{day.isoformat()}_{'preview_' + fmt if preview else fmt}{nth + 1 if nth else ''}"
         rec = dict(date=day.isoformat(), genre=genre, title=post["title"], caption=post["caption"],
                    slides=post["slides"], products=prods, status=new_status, format=fmt)
         if problems:
