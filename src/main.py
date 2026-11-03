@@ -67,32 +67,34 @@ def prepare(state, day):
     feed_day = day.weekday() in C.FEED_WEEKDAYS or C.FORCE_FEED
     preview = C.DRY_RUN and C.FORCE_FEED          # 手動の試運転：その日に投稿済みでも見本を作る
     extra = C.FORCE_FEED and not C.DRY_RUN         # 手動の追加投稿：その日に投稿済みでももう1本作る
-    if feed_day and (preview or extra or not any(p["date"] == day.isoformat() and p["status"] in real for p in state["posts"])):
+    formats = ["carousel", "reel"] if C.REELS_ENABLED else ["carousel"]   # 毎日、カルーセルとリールを1本ずつ（別のジャンル）
+    for fmt in formats:
+        done = any(p["date"] == day.isoformat() and p["status"] in real and p.get("format", "carousel") == fmt
+                   for p in state["posts"])
+        if not feed_day or (done and not (preview or extra)):
+            continue
         genre = compose.pick_genre(state, day)
         items = rakuten.search_genre(C.GENRES[genre]["id"])
         prods = compose.pick_products(items, state, day)
         if len(prods) < 1:
-            alert(f"{C.GENRES[genre]['name']}で条件に合う商品が見つからず、フィード投稿を見送りました")
+            alert(f"{C.GENRES[genre]['name']}で条件に合う商品が見つからず、{fmt}の投稿を見送りました")
+            continue
+        post = compose.build_feed(genre, prods, day, len(state["posts"]))
+        problems = compliance.check(post, prods)
+        nth = sum(1 for p in state["posts"] if p["date"] == day.isoformat() and p["status"] in real)
+        stem = f"{day.isoformat()}_{'preview' if preview else fmt}{nth + 1 if nth else ''}"
+        rec = dict(date=day.isoformat(), genre=genre, title=post["title"], caption=post["caption"],
+                   slides=post["slides"], products=prods, status=new_status, format=fmt)
+        if problems:
+            rec["status"] = "blocked"
+            alert(f"「{post['title']}」を規約チェックで止めました：" + "／".join(problems))
         else:
-            post = compose.build_feed(genre, prods, day, len(state["posts"]))
-            problems = compliance.check(post, prods)
-            nth = sum(1 for p in state["posts"] if p["date"] == day.isoformat() and p["status"] in real)
-            stem = f"{day.isoformat()}_{'preview' if preview else 'feed'}{nth + 1 if nth else ''}"
-            rec = dict(date=day.isoformat(), genre=genre, title=post["title"], caption=post["caption"],
-                       slides=post["slides"], products=prods, status=new_status)
-            if problems:
-                rec["status"] = "blocked"
-                alert(f"フィード「{post['title']}」を規約チェックで止めました：" + "／".join(problems))
-            else:
-                imgs = slides.render_feed(post, os.path.join(DOCS, "media"), stem)
-                rec["images"] = [os.path.relpath(p, ROOT) for p in imgs]
-                if C.REELS_ENABLED and day.toordinal() % 2 == 1:
-                    rec["format"] = "reel"
-                    rec["video"] = os.path.relpath(slides.render_reel(imgs, os.path.join(DOCS, "media"), stem), ROOT)
-                else:
-                    rec["format"] = "carousel"
-            state["posts"].append(rec)
-            made.append(rec)
+            imgs = slides.render_feed(post, os.path.join(DOCS, "media"), stem)
+            rec["images"] = [os.path.relpath(p, ROOT) for p in imgs]
+            if fmt == "reel":
+                rec["video"] = os.path.relpath(slides.render_reel(imgs, os.path.join(DOCS, "media"), stem), ROOT)
+        state["posts"].append(rec)
+        made.append(rec)
     usable = ("posted", "ready", "dry_run") if C.DRY_RUN else ("posted", "ready")
     latest = next((p for p in reversed(state["posts"]) if p["status"] in usable), None)
     if C.STORY_EVERY_DAY and latest and not any(s["date"] == day.isoformat() and s["status"] in real for s in state["stories"]):
