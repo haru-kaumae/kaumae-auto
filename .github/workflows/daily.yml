@@ -1,9 +1,9 @@
 name: daily
-# 毎日13:00と20:00（日本時間）の2回投稿。GitHubの起動が遅れることがあるため1時間前に起動し、時刻まで待ってから投稿する。1回ごとにカルーセル・リール・ストーリーズを1本ずつ
+# 毎日7:00と13:00（日本時間）の2回投稿。GitHubの起動が遅れることがあるため1時間前に起動し、時刻まで待ってから投稿する。1回ごとにカルーセル・リール・ストーリーズを1本ずつ
 on:
   schedule:
     - cron: "0 3 * * *"    # 13:00の回
-    - cron: "0 10 * * *"   # 20:00の回
+    - cron: "0 21 * * *"   # 7:00の回（前日21:00 UTC起動、22:00 UTC＝7:00に投稿）
   workflow_dispatch:
     inputs:
       dry_run:
@@ -13,7 +13,7 @@ on:
         description: "1にすると曜日に関係なくフィードを作る（試運転用）"
         default: "1"
       slot:
-        description: "1＝13:00の回、2＝20:00の回"
+        description: "1＝13:00の回、2＝7:00の回"
         default: "1"
 permissions:
   contents: write
@@ -32,7 +32,7 @@ jobs:
       SITE_URL: ${{ vars.SITE_URL }}
       DRY_RUN: ${{ github.event.inputs.dry_run || vars.DRY_RUN || '0' }}
       FORCE_FEED: ${{ github.event.inputs.force_feed || '0' }}
-      SLOT: ${{ github.event.inputs.slot || (github.event.schedule == '0 10 * * *' && '2') || '1' }}
+      SLOT: ${{ github.event.inputs.slot || (github.event.schedule == '0 21 * * *' && '2') || '1' }}
       PYTHONUNBUFFERED: "1"
     steps:
       - uses: actions/checkout@v4
@@ -50,10 +50,10 @@ jobs:
           git commit -m "daily: $(date +%F)" || echo "変更なし"
           git pull --rebase -q || true
           git push
-      - name: 投稿時刻（13:00か20:00）まで待つ（手動実行の時は待たない）
+      - name: 投稿時刻（7:00か13:00）まで待つ（手動実行の時は待たない）
         if: github.event_name == 'schedule'
         run: |
-          [ "$SLOT" = "2" ] && hh=11:00 || hh=04:00
+          [ "$SLOT" = "2" ] && hh=22:00 || hh=04:00
           now=$(date -u +%s); target=$(date -u -d "today $hh" +%s)
           if [ "$now" -lt "$target" ]; then sleep $((target - now)); fi
       - name: Instagramに投稿する

@@ -28,7 +28,7 @@ DRY_RUN = os.environ.get("DRY_RUN", "0") == "1"   # 1なら投稿せず、画像
 FORCE_FEED = os.environ.get("FORCE_FEED", "0") == "1"  # 1なら曜日に関係なくフィードを作る（手動の試運転用）
 FEED_WEEKDAYS = {0, 1, 2, 3, 4, 5, 6}               # 毎日フィード投稿（2026-11-02 Haruの希望）
 STORY_EVERY_DAY = True
-SLOT = os.environ.get("SLOT", "1")   # 1日2回投稿：1＝13:00、2＝20:00（日本時間）。回ごとにカルーセル・リール・ストーリーズを1本ずつ
+SLOT = os.environ.get("SLOT", "1")   # 1日2回投稿：1＝13:00、2＝7:00（日本時間）。回ごとにカルーセル・リール・ストーリーズを1本ずつ
 # フィードの形式：1日おきにリール（スライドを動画にしたもの）とカルーセルを交互に出す。
 # 新しいアカウントはリールの方がフォロワー以外にも表示されやすいため。"0"でカルーセルのみ
 REELS_ENABLED = os.environ.get("REELS_ENABLED", "1") == "1"
