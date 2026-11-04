@@ -70,7 +70,7 @@ def prepare(state, day):
     formats = ["carousel", "reel"] if C.REELS_ENABLED else ["carousel"]   # 毎日、カルーセルとリールを1本ずつ（別のジャンル）
     for fmt in formats:
         done = any(p["date"] == day.isoformat() and p["status"] in real and p.get("format", "carousel") == fmt
-                   for p in state["posts"])
+                   and p.get("slot", "1") == C.SLOT for p in state["posts"])
         if not feed_day or (done and not (preview or extra)):
             continue
         genre = compose.pick_genre(state, day)
@@ -83,8 +83,10 @@ def prepare(state, day):
         problems = compliance.check(post, prods)
         nth = sum(1 for p in state["posts"] if p["date"] == day.isoformat() and p["status"] in real)
         stem = f"{day.isoformat()}_{'preview_' + fmt if preview else fmt}{nth + 1 if nth else ''}"
+        if C.SLOT != "1" and not preview:
+            stem = f"{day.isoformat()}_s{C.SLOT}_{fmt}"
         rec = dict(date=day.isoformat(), genre=genre, title=post["title"], caption=post["caption"],
-                   slides=post["slides"], products=prods, status=new_status, format=fmt)
+                   slides=post["slides"], products=prods, status=new_status, format=fmt, slot=C.SLOT)
         if problems:
             rec["status"] = "blocked"
             alert(f"「{post['title']}」を規約チェックで止めました：" + "／".join(problems))
@@ -97,15 +99,16 @@ def prepare(state, day):
         made.append(rec)
     usable = ("posted", "ready", "dry_run") if C.DRY_RUN else ("posted", "ready")
     latest = next((p for p in reversed(state["posts"]) if p["status"] in usable), None)
-    if C.STORY_EVERY_DAY and latest and not any(s["date"] == day.isoformat() and s["status"] in real for s in state["stories"]):
+    if C.STORY_EVERY_DAY and latest and not any(s["date"] == day.isoformat() and s["status"] in real
+                                                                   and s.get("slot", "1") == C.SLOT for s in state["stories"]):
         story = compose.build_story(latest, day)
         problems = compliance.check(story)
-        rec = dict(date=day.isoformat(), title=story["title"], head=story["head"], status=new_status)
+        rec = dict(date=day.isoformat(), title=story["title"], head=story["head"], status=new_status, slot=C.SLOT)
         if problems:
             rec["status"] = "blocked"
             alert("ストーリーズを規約チェックで止めました：" + "／".join(problems))
         else:
-            rec["images"] = [os.path.relpath(p, ROOT) for p in slides.render_story(story, os.path.join(DOCS, "media"), f"{day.isoformat()}_story")]
+            rec["images"] = [os.path.relpath(p, ROOT) for p in slides.render_story(story, os.path.join(DOCS, "media"), f"{day.isoformat()}_story" + ("" if C.SLOT == "1" else f"_s{C.SLOT}"))]
         state["stories"].append(rec)
         made.append(rec)
     site.build(state, DOCS)
