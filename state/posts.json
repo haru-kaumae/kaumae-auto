@@ -2264,6 +2264,259 @@
    ],
    "video": "docs/media/2026-11-04_reel2.mp4",
    "media_id": "18114803252581452"
+  },
+  {
+   "date": "2026-11-05",
+   "genre": "storage",
+   "title": "ラック選びで見落としやすい3つのこと",
+   "caption": "【PR】ラック、買う前にここだけは確認👇\n\nラックを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　置き場所の3か所を測る\n幅・奥行・高さを測る。扉や引き出しが開く範囲も忘れずに。\n\n✔ CHECK2　内寸と外寸を分けて見る\n入れたい物は「内寸」、置き場所は「外寸」と比べる。\n\n✔ CHECK3　耐荷重を確認\n上に物を置く・重い物を入れるなら耐荷重の表記を確認する。書かれていなければ問い合わせる。\n\n■ 例として、2026/11/5に楽天市場でレビューの多かった商品\n・スチール ラック 5段 4段 幅90 ルミナス シルバー ラック（パーフェクトスペース）7,480円、★4.58／3,226件\n・シューズラック 10段 日本製 靴 収納 大容量 スリム 靴箱（プラスチックの店キララ）2,640円、★4.68／2,842件\n・壁面収納 壁面ラック 壁掛け 3本セット 幅45cm×奥行き9cm（エバーフレッシュ）2,980円、★4.47／2,736件\n\n※2026/11/5に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 ラックを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#ラック #収納 #収納アイデア #整理整頓 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "収納家具｜買う前メモ",
+     "title": "ラック選びで\n見落としやすい\n3つのこと",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "storage",
+     "topic": "ラック",
+     "pre": "見落としやすい",
+     "num": "3",
+     "post": "つのこと",
+     "month": "2026.11月",
+     "seed": "2026-11-0515"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "スチール ラック 5段 4段 幅90 ルミナス シルバー ラック",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/perfect-space/cabinet/m/el25-90185_m.jpg?_ex=700x700",
+     "price": "7,480円",
+     "review": "★4.58",
+     "count": "3,226件",
+     "postage": "送料込み",
+     "shop": "パーフェクトスペース",
+     "check": "置き場所の3か所を測る",
+     "body": [
+      "幅・奥行・高さを測る。",
+      "扉や引き出しが開く範囲も忘れずに。"
+     ],
+     "date": "2026/11/5"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "シューズラック 10段 日本製 靴 収納 大容量 スリム 靴箱",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/kirara-pla/cabinet/pitcher/imgrc0097291167.jpg?_ex=700x700",
+     "price": "2,640円",
+     "review": "★4.68",
+     "count": "2,842件",
+     "postage": "送料別",
+     "shop": "プラスチックの店キララ",
+     "check": "内寸と外寸を分けて見る",
+     "body": [
+      "入れたい物は「内寸」、",
+      "置き場所は「外寸」と比べる。"
+     ],
+     "date": "2026/11/5"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "壁面収納 壁面ラック 壁掛け 3本セット 幅45cm×奥行き9cm",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/dsm-am/cabinet/10759412/10000007-tana.jpg?_ex=700x700",
+     "price": "2,980円",
+     "review": "★4.47",
+     "count": "2,736件",
+     "postage": "送料込み",
+     "shop": "エバーフレッシュ",
+     "check": "耐荷重を確認",
+     "body": [
+      "上に物を置く・重い物を入れるなら",
+      "耐荷重の表記を確認する。",
+      "書かれていなければ問い合わせる。"
+     ],
+     "date": "2026/11/5"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "perfect-space:10002783",
+     "rawName": "★P10倍★ スチール ラック 5段 4段 幅90 ルミナス シルバー ラック キャスター 付き 収納 レンジ ラック 収納 棚 収納ラック オープン シェルフ ルミナス ポール 25mm 棚 耐荷重 80kg ワイヤー シェルフ 防 錆 銀 ラック 頑丈 家庭 用",
+     "name": "スチール ラック 5段 4段 幅90 ルミナス シルバー ラック",
+     "price": 7480,
+     "shop": "パーフェクトスペース",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qwh6o.p3pr219b.g00qwh6o.p3pr3c91/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fperfect-space%2Fsw1890-5%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fperfect-space%2Fi%2F10002783%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qwh6o.p3pr219b.g00qwh6o.p3pr3c91/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fperfect-space%2Fsw1890-5%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fperfect-space%2Fi%2F10002783%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 3226,
+     "reviewAverage": 4.58,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/perfect-space/cabinet/m/el25-90185_m.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "kirara-pla:10000101",
+     "rawName": "シューズラック 10段【送料無料】日本製 靴 収納 大容量 スリム 靴箱 省スペース",
+     "name": "シューズラック 10段 日本製 靴 収納 大容量 スリム 靴箱",
+     "price": 2640,
+     "shop": "プラスチックの店キララ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qlafo.p3pr2f9a.g00qlafo.p3pr3df9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkirara-pla%2F10000097%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkirara-pla%2Fi%2F10000101%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qlafo.p3pr2f9a.g00qlafo.p3pr3df9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkirara-pla%2F10000097%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkirara-pla%2Fi%2F10000101%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 2842,
+     "reviewAverage": 4.68,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kirara-pla/cabinet/pitcher/imgrc0097291167.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "dsm-am:10000007",
+     "rawName": "壁面収納 壁面ラック 壁掛け 3本セット 幅45cm×奥行き9cm ウォール シェルフ ラック 飾り棚 おしゃれ 取り付け簡単 神棚 ランドリー リビング トイレ 玄関 インテリア 北欧 人気 おすすめ 賃貸 安心 DIY 省スペース 人気",
+     "name": "壁面収納 壁面ラック 壁掛け 3本セット 幅45cm×奥行き9cm",
+     "price": 2980,
+     "shop": "エバーフレッシュ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rxrxo.p3pr24fd.g00rxrxo.p3pr3cd8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdsm-am%2F10000007%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdsm-am%2Fi%2F10000007%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rxrxo.p3pr24fd.g00rxrxo.p3pr3cd8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdsm-am%2F10000007%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdsm-am%2Fi%2F10000007%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 2736,
+     "reviewAverage": 4.47,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/dsm-am/cabinet/10759412/10000007-tana.jpg?_ex=700x700"
+    }
+   ],
+   "status": "dry_run",
+   "format": "carousel",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-05_s2_carousel_01.jpg",
+    "docs/media/2026-11-05_s2_carousel_02.jpg",
+    "docs/media/2026-11-05_s2_carousel_03.jpg",
+    "docs/media/2026-11-05_s2_carousel_04.jpg"
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "genre": "storage",
+   "title": "ラック、買う前にここ見て",
+   "caption": "【PR】ラック、買う前にここだけは確認👇\n\nラックを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　置き場所の3か所を測る\n幅・奥行・高さを測る。扉や引き出しが開く範囲も忘れずに。\n\n✔ CHECK2　内寸と外寸を分けて見る\n入れたい物は「内寸」、置き場所は「外寸」と比べる。\n\n✔ CHECK3　耐荷重を確認\n上に物を置く・重い物を入れるなら耐荷重の表記を確認する。書かれていなければ問い合わせる。\n\n■ 例として、2026/11/5に楽天市場でレビューの多かった商品\n・スチール ラック 5段 4段 幅90 ルミナス シルバー ラック（パーフェクトスペース）7,480円、★4.58／3,226件\n・シューズラック 10段 日本製 靴 収納 大容量 スリム 靴箱（プラスチックの店キララ）2,640円、★4.68／2,842件\n・壁面収納 壁面ラック 壁掛け 3本セット 幅45cm×奥行き9cm（エバーフレッシュ）2,980円、★4.47／2,736件\n\n※2026/11/5に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 ラックを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#ラック #収納 #収納アイデア #整理整頓 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "収納家具｜買う前メモ",
+     "title": "ラック、\n買う前に\nここ見て",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "storage",
+     "topic": "ラック",
+     "pre": "買う前にここ見て",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-0516"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "スチール ラック 5段 4段 幅90 ルミナス シルバー ラック",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/perfect-space/cabinet/m/el25-90185_m.jpg?_ex=700x700",
+     "price": "7,480円",
+     "review": "★4.58",
+     "count": "3,226件",
+     "postage": "送料込み",
+     "shop": "パーフェクトスペース",
+     "check": "置き場所の3か所を測る",
+     "body": [
+      "幅・奥行・高さを測る。",
+      "扉や引き出しが開く範囲も忘れずに。"
+     ],
+     "date": "2026/11/5"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "シューズラック 10段 日本製 靴 収納 大容量 スリム 靴箱",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/kirara-pla/cabinet/pitcher/imgrc0097291167.jpg?_ex=700x700",
+     "price": "2,640円",
+     "review": "★4.68",
+     "count": "2,842件",
+     "postage": "送料別",
+     "shop": "プラスチックの店キララ",
+     "check": "内寸と外寸を分けて見る",
+     "body": [
+      "入れたい物は「内寸」、",
+      "置き場所は「外寸」と比べる。"
+     ],
+     "date": "2026/11/5"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "壁面収納 壁面ラック 壁掛け 3本セット 幅45cm×奥行き9cm",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/dsm-am/cabinet/10759412/10000007-tana.jpg?_ex=700x700",
+     "price": "2,980円",
+     "review": "★4.47",
+     "count": "2,736件",
+     "postage": "送料込み",
+     "shop": "エバーフレッシュ",
+     "check": "耐荷重を確認",
+     "body": [
+      "上に物を置く・重い物を入れるなら",
+      "耐荷重の表記を確認する。",
+      "書かれていなければ問い合わせる。"
+     ],
+     "date": "2026/11/5"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "perfect-space:10002783",
+     "rawName": "★P10倍★ スチール ラック 5段 4段 幅90 ルミナス シルバー ラック キャスター 付き 収納 レンジ ラック 収納 棚 収納ラック オープン シェルフ ルミナス ポール 25mm 棚 耐荷重 80kg ワイヤー シェルフ 防 錆 銀 ラック 頑丈 家庭 用",
+     "name": "スチール ラック 5段 4段 幅90 ルミナス シルバー ラック",
+     "price": 7480,
+     "shop": "パーフェクトスペース",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qwh6o.p3pr219b.g00qwh6o.p3pr3c91/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fperfect-space%2Fsw1890-5%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fperfect-space%2Fi%2F10002783%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qwh6o.p3pr219b.g00qwh6o.p3pr3c91/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fperfect-space%2Fsw1890-5%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fperfect-space%2Fi%2F10002783%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 3226,
+     "reviewAverage": 4.58,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/perfect-space/cabinet/m/el25-90185_m.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "kirara-pla:10000101",
+     "rawName": "シューズラック 10段【送料無料】日本製 靴 収納 大容量 スリム 靴箱 省スペース",
+     "name": "シューズラック 10段 日本製 靴 収納 大容量 スリム 靴箱",
+     "price": 2640,
+     "shop": "プラスチックの店キララ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qlafo.p3pr2f9a.g00qlafo.p3pr3df9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkirara-pla%2F10000097%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkirara-pla%2Fi%2F10000101%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qlafo.p3pr2f9a.g00qlafo.p3pr3df9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkirara-pla%2F10000097%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkirara-pla%2Fi%2F10000101%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 2842,
+     "reviewAverage": 4.68,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kirara-pla/cabinet/pitcher/imgrc0097291167.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "dsm-am:10000007",
+     "rawName": "壁面収納 壁面ラック 壁掛け 3本セット 幅45cm×奥行き9cm ウォール シェルフ ラック 飾り棚 おしゃれ 取り付け簡単 神棚 ランドリー リビング トイレ 玄関 インテリア 北欧 人気 おすすめ 賃貸 安心 DIY 省スペース 人気",
+     "name": "壁面収納 壁面ラック 壁掛け 3本セット 幅45cm×奥行き9cm",
+     "price": 2980,
+     "shop": "エバーフレッシュ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rxrxo.p3pr24fd.g00rxrxo.p3pr3cd8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdsm-am%2F10000007%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdsm-am%2Fi%2F10000007%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rxrxo.p3pr24fd.g00rxrxo.p3pr3cd8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdsm-am%2F10000007%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdsm-am%2Fi%2F10000007%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 2736,
+     "reviewAverage": 4.47,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/dsm-am/cabinet/10759412/10000007-tana.jpg?_ex=700x700"
+    }
+   ],
+   "status": "dry_run",
+   "format": "reel",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-05_s2_reel_01.jpg",
+    "docs/media/2026-11-05_s2_reel_02.jpg",
+    "docs/media/2026-11-05_s2_reel_03.jpg",
+    "docs/media/2026-11-05_s2_reel_04.jpg"
+   ],
+   "video": "docs/media/2026-11-05_s2_reel.mp4"
   }
  ],
  "stories": [
@@ -2359,6 +2612,16 @@
     "docs/media/2026-11-04_story.jpg"
    ],
    "media_id": "18132031927773496"
+  },
+  {
+   "date": "2026-11-05",
+   "title": "ラック、買う前にここ見て",
+   "head": "耐荷重を確認",
+   "status": "dry_run",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-05_story_s2.jpg"
+   ]
   }
  ]
 }
