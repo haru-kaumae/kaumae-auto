@@ -2129,14 +2129,15 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/marry-gift/cabinet/event_scene/marason/precious_naoo1-11.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "carousel",
    "images": [
     "docs/media/2026-11-04_carousel_01.jpg",
     "docs/media/2026-11-04_carousel_02.jpg",
     "docs/media/2026-11-04_carousel_03.jpg",
     "docs/media/2026-11-04_carousel_04.jpg"
-   ]
+   ],
+   "media_id": "18221934586353902"
   },
   {
    "date": "2026-11-04",
@@ -2253,7 +2254,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/cafe-primula/cabinet/imgrc0125871904.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "images": [
     "docs/media/2026-11-04_reel2_01.jpg",
@@ -2261,7 +2262,8 @@
     "docs/media/2026-11-04_reel2_03.jpg",
     "docs/media/2026-11-04_reel2_04.jpg"
    ],
-   "video": "docs/media/2026-11-04_reel2.mp4"
+   "video": "docs/media/2026-11-04_reel2.mp4",
+   "media_id": "18114803252581452"
   }
  ],
  "stories": [
@@ -2352,10 +2354,11 @@
    "date": "2026-11-04",
    "title": "ポチる前に！おやつ・お取り寄せの確認リスト",
    "head": "保存方法",
-   "status": "ready",
+   "status": "posted",
    "images": [
     "docs/media/2026-11-04_story.jpg"
-   ]
+   ],
+   "media_id": "18132031927773496"
   }
  ]
 }
