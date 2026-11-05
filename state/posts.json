@@ -2772,6 +2772,260 @@
    ],
    "video": "docs/media/2026-11-05_reel2.mp4",
    "media_id": "18074828288761870"
+  },
+  {
+   "date": "2026-11-06",
+   "genre": "kitchen",
+   "title": "フライパン選びで見落としやすい3つのこと",
+   "caption": "【PR】フライパン、買う前にここだけは確認👇\n\nフライパンを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　置き場所を測る\n置きたい場所の幅・奥行・高さを測り、商品ページの外寸と比べる。\n\n✔ CHECK2　対応の表記を見る\n食洗機・電子レンジ・IHなど使いたい機器に対応しているか、商品ページの表記で確認する。\n\n✔ CHECK3　素材とお手入れを見る\n素材の名前と、お手入れ方法・使用上の注意の欄を読む。\n\n■ 例として、2026/11/6に楽天市場でレビューの多かった商品\n・CAROTE カローテ フライパン セット 18点 鍋セット（CAROTEキッチン用品 shop）3,998円、★4.51／3,917件\n・初心者でも簡単 リバーライト 極JAPAN 鉄フライパン 20cm（フライパン専門店 鐵兎堂 TETTODO）5,500円、★4.49／3,529件\n・超軽量 フライパン 深型 28cm 炒め鍋 いため鍋（グットライフショップ）2,728円、★4.46／3,188件\n\n※2026/11/6に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 フライパンを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#フライパン #キッチングッズ #キッチン用品 #キッチン収納 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "キッチン用品｜買う前メモ",
+     "title": "フライパン選びで\n見落としやすい\n3つのこと",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "kitchen",
+     "topic": "フライパン",
+     "pre": "見落としやすい",
+     "num": "3",
+     "post": "つのこと",
+     "month": "2026.11月",
+     "seed": "2026-11-0619"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "CAROTE カローテ フライパン セット 18点 鍋セット",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/cookware-carote/cabinet/13957793/imgrc0120637298.jpg?_ex=700x700",
+     "price": "3,998円",
+     "review": "★4.51",
+     "count": "3,917件",
+     "postage": "送料込み",
+     "shop": "CAROTEキッチン用品 shop",
+     "check": "置き場所を測る",
+     "body": [
+      "置きたい場所の幅・奥行・高さを測り、",
+      "商品ページの外寸と比べる。"
+     ],
+     "date": "2026/11/6"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "初心者でも簡単 リバーライト 極JAPAN 鉄フライパン 20cm",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/ganbareokusan/cabinet/r/riverlight_fry05.jpg?_ex=700x700",
+     "price": "5,500円",
+     "review": "★4.49",
+     "count": "3,529件",
+     "postage": "送料込み",
+     "shop": "フライパン専門店 鐵兎堂 TETTODO",
+     "check": "対応の表記を見る",
+     "body": [
+      "食洗機・電子レンジ・IHなど",
+      "使いたい機器に対応しているか、",
+      "商品ページの表記で確認する。"
+     ],
+     "date": "2026/11/6"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "超軽量 フライパン 深型 28cm 炒め鍋 いため鍋",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/goodlifeshop/cabinet/kitchen7/h3594-0001-re.jpg?_ex=700x700",
+     "price": "2,728円",
+     "review": "★4.46",
+     "count": "3,188件",
+     "postage": "送料別",
+     "shop": "グットライフショップ",
+     "check": "素材とお手入れを見る",
+     "body": [
+      "素材の名前と、",
+      "お手入れ方法・使用上の注意の欄を読む。"
+     ],
+     "date": "2026/11/6"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "cookware-carote:10000114",
+     "rawName": "【本日限定！18点が11680円⇒9180円だけ！】CAROTE カローテ フライパン セット 18点 鍋セット IH対応 PFOA PFOS フリー 取っ手が取れる 卵焼き 鍋セット16点 三徳包丁2点 マーブルコート くっつきにくい 一年保証 ICE CREAM ベージュ（16+2点エッグパン単品）",
+     "name": "CAROTE カローテ フライパン セット 18点 鍋セット",
+     "price": 3998,
+     "shop": "CAROTEキッチン用品 shop",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u4hdo.p3pr290c.g00u4hdo.p3pr334c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcookware-carote%2Fj05836%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcookware-carote%2Fi%2F10000114%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u4hdo.p3pr290c.g00u4hdo.p3pr334c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcookware-carote%2Fj05836%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcookware-carote%2Fi%2F10000114%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 3917,
+     "reviewAverage": 4.51,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/cookware-carote/cabinet/13957793/imgrc0120637298.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "ganbareokusan:10002197",
+     "rawName": "初心者でも簡単！【★限定特典付き】【3年保証＆名入れ無料】リバーライト 極JAPAN 鉄フライパン 20cm 24cm 26cm 28cm 日本製 IH対応 ガス火対応 窒化鉄 錆びにくい 焦げ付きにくい PFASフリー コーティングなし 鉄分補給 ブラシ付き River Light 正規品 公式 ギフト",
+     "name": "初心者でも簡単 リバーライト 極JAPAN 鉄フライパン 20cm",
+     "price": 5500,
+     "shop": "フライパン専門店 鐵兎堂 TETTODO",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00raigo.p3pr2fa3.g00raigo.p3pr3f0d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fganbareokusan%2Fokmr-700%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fganbareokusan%2Fi%2F10002197%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00raigo.p3pr2fa3.g00raigo.p3pr3f0d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fganbareokusan%2Fokmr-700%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fganbareokusan%2Fi%2F10002197%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 3529,
+     "reviewAverage": 4.49,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ganbareokusan/cabinet/r/riverlight_fry05.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "goodlifeshop:10005472",
+     "rawName": "＼1000円クーポン配布中!／超軽量 フライパン 深型 28cm 炒め鍋 いため鍋 キャスト製なのに軽い ガス火専用 軽いね！ガス火専用 ストロングマーブル 両面コーティング マーブルコート 内面4層＋外面3層 鋳物 フッ素加工 汚れ 傷に 強い キャスト製 PFOA PFOS フリー",
+     "name": "超軽量 フライパン 深型 28cm 炒め鍋 いため鍋",
+     "price": 2728,
+     "shop": "グットライフショップ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pyb7o.p3pr2bcd.g00pyb7o.p3pr3714/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgoodlifeshop%2Fph-3594%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgoodlifeshop%2Fi%2F10005472%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pyb7o.p3pr2bcd.g00pyb7o.p3pr3714/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgoodlifeshop%2Fph-3594%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgoodlifeshop%2Fi%2F10005472%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 3188,
+     "reviewAverage": 4.46,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/goodlifeshop/cabinet/kitchen7/h3594-0001-re.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "carousel",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-06_s2_carousel_01.jpg",
+    "docs/media/2026-11-06_s2_carousel_02.jpg",
+    "docs/media/2026-11-06_s2_carousel_03.jpg",
+    "docs/media/2026-11-06_s2_carousel_04.jpg"
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "genre": "humid",
+   "title": "加湿器、買う前にここ見て",
+   "caption": "【PR】加湿器、買う前にここだけは確認👇\n\n加湿器を選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　加湿方式を確認\n気化式・スチーム式・超音波式・ハイブリッド式などの方式を商品ページの仕様欄で確認する。\n\n✔ CHECK2　適用畳数を確認\n木造とプレハブ（鉄骨）で適用畳数が違うことが多い。使う部屋の広さと比べる。\n\n✔ CHECK3　給水とお手入れ\n上から給水か、タンクを外すか。フィルター交換の有無も見る。\n\n■ 例として、2026/11/6に楽天市場でレビューの多かった商品\n・カドー 加湿器 大容量 STEM500H オートクリーン 加熱除菌（インテリアショップ roomy）38,500円、★4.66／438件\n・卓上 小型 加湿器 超音波式 ダブル噴霧 抗菌 90°回転ミスト（Sinessy 通販ショップ）1,980円、★4.44／437件\n・加湿器 大容量 上から給水 お手入れ簡単 卓上 超音波式 4.3L（エアロボ楽天市場店）4,299円、★4.61／424件\n\n※2026/11/6に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 加湿器を選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#加湿器 #加湿器 #乾燥対策 #季節家電 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "加湿器｜買う前メモ",
+     "title": "加湿器、\n買う前に\nここ見て",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "humid",
+     "topic": "加湿器",
+     "pre": "買う前にここ見て",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-0620"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "カドー 加湿器 大容量 STEM500H オートクリーン 加熱除菌",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/roomy/cabinet/500cart_all/500cart_11g/p10n-4/ecl2011-my010-1_gt01.jpg?_ex=700x700",
+     "price": "38,500円",
+     "review": "★4.66",
+     "count": "438件",
+     "postage": "送料込み",
+     "shop": "インテリアショップ roomy",
+     "check": "加湿方式を確認",
+     "body": [
+      "気化式・スチーム式・超音波式・",
+      "ハイブリッド式などの方式を",
+      "商品ページの仕様欄で確認する。"
+     ],
+     "date": "2026/11/6"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "卓上 小型 加湿器 超音波式 ダブル噴霧 抗菌 90°回転ミスト",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/sinessy/cabinet/12488389/12488394/12488398/imgrc0136603741.jpg?_ex=700x700",
+     "price": "1,980円",
+     "review": "★4.44",
+     "count": "437件",
+     "postage": "送料込み",
+     "shop": "Sinessy 通販ショップ",
+     "check": "適用畳数を確認",
+     "body": [
+      "木造とプレハブ（鉄骨）で",
+      "適用畳数が違うことが多い。",
+      "使う部屋の広さと比べる。"
+     ],
+     "date": "2026/11/6"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "加湿器 大容量 上から給水 お手入れ簡単 卓上 超音波式 4.3L",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/airrobo/cabinet/09610283/hu45002.jpg?_ex=700x700",
+     "price": "4,299円",
+     "review": "★4.61",
+     "count": "424件",
+     "postage": "送料込み",
+     "shop": "エアロボ楽天市場店",
+     "check": "給水とお手入れ",
+     "body": [
+      "上から給水か、タンクを外すか。",
+      "フィルター交換の有無も見る。"
+     ],
+     "date": "2026/11/6"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "roomy:10015539",
+     "rawName": "【2大特典付】カドー 加湿器 大容量 STEM500H オートクリーン 加熱除菌 5L 上から給水 上部給水 ハイブリッド式 ハイブリット 超音波式 加熱式 加湿 卓上 床置き 静音 静か 省エネ 内部乾燥 タイマー おしゃれ 寝室 ステム 除菌 加湿機 HM-C500H［ cado 加湿器 STEM 500H ］",
+     "name": "カドー 加湿器 大容量 STEM500H オートクリーン 加熱除菌",
+     "price": 38500,
+     "shop": "インテリアショップ roomy",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qb0lo.p3pr216f.g00qb0lo.p3pr329c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Fecl19dec10h03%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Froomy%2Fi%2F10015539%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qb0lo.p3pr216f.g00qb0lo.p3pr329c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Fecl19dec10h03%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Froomy%2Fi%2F10015539%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 438,
+     "reviewAverage": 4.66,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/roomy/cabinet/500cart_all/500cart_11g/p10n-4/ecl2011-my010-1_gt01.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "sinessy:10000020",
+     "rawName": "＼2026新モデル・多機能加湿器／卓上 小型 加湿器 超音波式 ダブル噴霧 抗菌 90°回転ミスト 25dB静音 大容量バッテリー内蔵 コードレス アロマ対応 LEDライト タイマー機能 空焚き防止 300ml大容量 次亜塩素酸水対応 車載/寝室/オフィス/リビング対応 花粉症/肌荒れ対策",
+     "name": "卓上 小型 加湿器 超音波式 ダブル噴霧 抗菌 90°回転ミスト",
+     "price": 1980,
+     "shop": "Sinessy 通販ショップ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uqv5o.p3pr2bed.g00uqv5o.p3pr3f3a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsinessy%2Fh16l%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsinessy%2Fi%2F10000020%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uqv5o.p3pr2bed.g00uqv5o.p3pr3f3a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsinessy%2Fh16l%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsinessy%2Fi%2F10000020%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 437,
+     "reviewAverage": 4.44,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sinessy/cabinet/12488389/12488394/12488398/imgrc0136603741.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "airrobo:10000003",
+     "rawName": "【クーポンで500円OFF＋P2倍】加湿器 大容量 上から給水 お手入れ簡単 卓上 超音波式 4.3L 28畳 26dB 静音 43時間連続稼働 360°噴霧 最大300ml/h 空焚き防止 自動停止 水漏れ防止 次亜塩素酸水対応 乾燥対策 省エネ オフィス リビング 季節家電 引っ越し 1年間保証",
+     "name": "加湿器 大容量 上から給水 お手入れ簡単 卓上 超音波式 4.3L",
+     "price": 4299,
+     "shop": "エアロボ楽天市場店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ucbfo.p3pr240d.g00ucbfo.p3pr3c6a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fairrobo%2Fairrobo-hu450%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fairrobo%2Fi%2F10000003%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ucbfo.p3pr240d.g00ucbfo.p3pr3c6a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fairrobo%2Fairrobo-hu450%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fairrobo%2Fi%2F10000003%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 424,
+     "reviewAverage": 4.61,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/airrobo/cabinet/09610283/hu45002.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-06_s2_reel_01.jpg",
+    "docs/media/2026-11-06_s2_reel_02.jpg",
+    "docs/media/2026-11-06_s2_reel_03.jpg",
+    "docs/media/2026-11-06_s2_reel_04.jpg"
+   ],
+   "video": "docs/media/2026-11-06_s2_reel.mp4"
   }
  ],
  "stories": [
@@ -2888,6 +3142,16 @@
     "docs/media/2026-11-05_story.jpg"
    ],
    "media_id": "18308677135305098"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "加湿器、買う前にここ見て",
+   "head": "加湿方式を確認",
+   "status": "ready",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-06_story_s2.jpg"
+   ]
   }
  ]
 }
