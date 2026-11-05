@@ -2634,7 +2634,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/dsm-am/cabinet/10759412/10000007-tana.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "carousel",
    "slot": "1",
    "images": [
@@ -2642,7 +2642,8 @@
     "docs/media/2026-11-05_carousel_02.jpg",
     "docs/media/2026-11-05_carousel_03.jpg",
     "docs/media/2026-11-05_carousel_04.jpg"
-   ]
+   ],
+   "media_id": "17966757297208995"
   },
   {
    "date": "2026-11-05",
@@ -2760,7 +2761,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/muronoya/cabinet/01131251/dezine/imagefloor-2025-10.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "1",
    "images": [
@@ -2769,7 +2770,8 @@
     "docs/media/2026-11-05_reel2_03.jpg",
     "docs/media/2026-11-05_reel2_04.jpg"
    ],
-   "video": "docs/media/2026-11-05_reel2.mp4"
+   "video": "docs/media/2026-11-05_reel2.mp4",
+   "media_id": "18074828288761870"
   }
  ],
  "stories": [
@@ -2880,11 +2882,12 @@
    "date": "2026-11-05",
    "title": "ポチる前に！モップの確認リスト",
    "head": "セット数と替えを確認",
-   "status": "ready",
+   "status": "posted",
    "slot": "1",
    "images": [
     "docs/media/2026-11-05_story.jpg"
-   ]
+   ],
+   "media_id": "18308677135305098"
   }
  ]
 }
