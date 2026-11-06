@@ -68,17 +68,25 @@ def prepare(state, day):
     preview = C.DRY_RUN and C.FORCE_FEED          # 手動の試運転：その日に投稿済みでも見本を作る
     extra = C.FORCE_FEED and not C.DRY_RUN         # 手動の追加投稿：その日に投稿済みでももう1本作る
     formats = ["carousel", "reel"] if C.REELS_ENABLED else ["carousel"]   # 毎日、カルーセルとリールを1本ずつ（別のジャンル）
+    used_now = set()   # この回で使ったジャンル（カルーセルとリールで別のジャンルにする）
     for fmt in formats:
         done = any(p["date"] == day.isoformat() and p["status"] in real and p.get("format", "carousel") == fmt
                    and p.get("slot", "1") == C.SLOT for p in state["posts"])
         if not feed_day or (done and not (preview or extra)):
             continue
-        genre = compose.pick_genre(state, day)
-        items = rakuten.search_genre(C.GENRES[genre]["id"])
-        prods = compose.pick_products(items, state, day)
-        if len(prods) < 1:
-            alert(f"{C.GENRES[genre]['name']}で条件に合う商品が見つからず、{fmt}の投稿を見送りました")
+        # 商品が足りないジャンルは飛ばして、次に使っていないジャンルを試す（最大4つ）
+        genre, prods, skipped = None, [], []
+        for g in [g for g in compose.rank_genres(state, day) if g not in used_now][:4]:
+            items = rakuten.search_genre(C.GENRES[g]["id"])
+            prods = compose.pick_products(items, state, day)
+            if len(prods) >= 2:
+                genre = g
+                break
+            skipped.append(C.GENRES[g]["name"])
+        if not genre:
+            alert(f"{'・'.join(skipped)}で条件に合う商品が見つからず、{fmt}の投稿を見送りました")
             continue
+        used_now.add(genre)
         post = compose.build_feed(genre, prods, day, len(state["posts"]))
         problems = compliance.check(post, prods)
         nth = sum(1 for p in state["posts"] if p["date"] == day.isoformat() and p["status"] in real)

@@ -13,14 +13,18 @@ def today():
 
 
 def pick_genre(state, day):
-    """今月のローテーションのうち、最近いちばん使っていないジャンルを選ぶ。"""
+    return rank_genres(state, day)[0]
+
+
+def rank_genres(state, day):
+    """今月のローテーションを、最近使っていない順に並べる。"""
     order = C.MONTH_ROTATION[day.month]
     last = {}
     for p in state["posts"]:
         if p.get("status") == "dry_run":
             continue
         last[p["genre"]] = max(last.get(p["genre"], ""), p["date"])
-    return sorted(order, key=lambda g: (last.get(g, ""), order.index(g)))[0]
+    return sorted(order, key=lambda g: (last.get(g, ""), order.index(g)))
 
 
 def product_word(name):
