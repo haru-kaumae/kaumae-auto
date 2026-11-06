@@ -31,8 +31,9 @@ def item_page(s, idx, total, W=1080, H=1350):
     # PRと枚数
     d.rounded_rectangle((60, 48, 150, 98), radius=25, fill=CHAR2)
     d.text((105, 73), "PR", font=rf(28), fill=D.WHITE, anchor="mm")
-    d.rounded_rectangle((W - 160, 48, W - 60, 98), radius=25, fill=CHAR2)
-    if total: d.text((W - 110, 73), f"{idx}/{total}", font=rf(28), fill=D.WHITE, anchor="mm")
+    if total:
+        d.rounded_rectangle((W - 160, 48, W - 60, 98), radius=25, fill=CHAR2)
+        d.text((W - 110, 73), f"{idx}/{total}", font=rf(28), fill=D.WHITE, anchor="mm")
     # 番号｜商品名　価格
     top = 130
     d.text((70, top + 110), f"{s['no']:02d}", font=rf(96), fill=D.WHITE, anchor="lm")
