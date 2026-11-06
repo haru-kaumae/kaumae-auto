@@ -32,7 +32,7 @@ def item_page(s, idx, total, W=1080, H=1350):
     d.rounded_rectangle((60, 48, 150, 98), radius=25, fill=CHAR2)
     d.text((105, 73), "PR", font=rf(28), fill=D.WHITE, anchor="mm")
     d.rounded_rectangle((W - 160, 48, W - 60, 98), radius=25, fill=CHAR2)
-    d.text((W - 110, 73), f"{idx}/{total}", font=rf(28), fill=D.WHITE, anchor="mm")
+    if total: d.text((W - 110, 73), f"{idx}/{total}", font=rf(28), fill=D.WHITE, anchor="mm")
     # 番号｜商品名　価格
     top = 130
     d.text((70, top + 110), f"{s['no']:02d}", font=rf(96), fill=D.WHITE, anchor="lm")
@@ -156,10 +156,35 @@ def render_feed(post, outdir, stem):
     return files
 
 
+def story_item(story, W=1080, H=1920):
+    rf = D.rf
+    """ストーリーズ：商品ページ（画像・価格・レビュー・買う前のチェック）をそのまま縦長に置き、上に見出し、下に誘導。"""
+    im = Image.new("RGB", (W, H), CHAR)
+    d = ImageDraw.Draw(im)
+    title = story["title"]
+    size = 64
+    while size > 40 and rf(size).getlength(title) > W - 140:
+        size -= 2
+    d.text((W / 2, 175), "今日の買う前メモ", font=rf(36), fill=(232, 178, 60), anchor="mm")
+    d.text((W / 2, 250), title, font=rf(size), fill=(255, 255, 255), anchor="mm")
+    page = item_page(story["item"], 0, 0)
+    im.paste(page, (0, 320))
+    ly = 1700
+    d.rounded_rectangle((90, ly, W - 90, ly + 120), radius=60, fill=(232, 178, 60))
+    d.text((W / 2, ly + 60), f"ほか{max(story.get('count', 1) - 1, 0)}商品はプロフィールのリンクから →" if story.get("count", 1) > 1
+           else "商品はプロフィールのリンクから →", font=rf(40), fill=CHAR, anchor="mm")
+    d.text((W / 2, H - 60), D.HANDLE, font=rf(28), fill=(170, 170, 170), anchor="mm")
+    return im
+
+
 def render_story(story, outdir, stem):
-    """ストーリーズ（1080×1920）：フィードの中のページと同じデザイン。"""
+    """ストーリーズ（1080×1920）。商品があれば商品画像つきのページ、なければ文字のページ。"""
     os.makedirs(outdir, exist_ok=True)
     W, H = 1080, 1920
+    if story.get("item"):
+        path = os.path.join(outdir, f"{stem}.jpg")
+        story_item(story).save(path, "JPEG", quality=92)
+        return [path]
     im = Image.new("RGB", (W, H), D.BG)
     d = ImageDraw.Draw(im)
     # 上の濃い帯

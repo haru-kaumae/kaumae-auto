@@ -106,5 +106,7 @@ def build_story(latest, day):
     if not checks:
         checks = C.CHECKS.get(latest["genre"], [("買う前に確認", ["サイズと仕様を商品ページで確かめる。"])])
     head, body = checks[day.toordinal() % len(checks)]
-    return dict(kind="story", genre=latest["genre"], title=latest["title"],
-                head=head, body=body, foot="商品の一覧はプロフィールのリンクから")
+    items = [s for s in latest["slides"] if s["kind"] == "item"]
+    item = items[0] if items else None      # 1枚目の商品（いちばんレビューの多いもの）を画像つきで見せる
+    return dict(kind="story", genre=latest["genre"], title=latest["title"], topic=latest.get("topic", ""),
+                head=head, body=body, item=item, count=len(items), foot="商品の一覧はプロフィールのリンクから")
