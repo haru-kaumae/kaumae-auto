@@ -247,7 +247,7 @@ show(0);
 const jst = () => new Date(Date.now() + 9 * 3600e3);
 const hm = d => `${String(d.getUTCHours()).padStart(2,'0')}:${String(d.getUTCMinutes()).padStart(2,'0')}`;
 const tr = $('track');
-[[6,"6:00","7:00の準備",0],[7,"7:00","投稿",1],[12,"12:00","13:00の準備",0],[13,"13:00","投稿",1]].forEach(([h,t,l,p]) => {
+[[6,"6:00","準備",0],[7,"7:00","投稿",1],[12,"12:00","準備",0],[13,"13:00","投稿",1]].forEach(([h,t,l,p]) => {
   const e = document.createElement('div'); e.className = 'ev' + (p ? ' post' : ''); e.style.left = (h/24*100) + '%';
   e.innerHTML = `<i></i><b>${t}</b><em>${l}</em>`; tr.appendChild(e);
 });
