@@ -3291,6 +3291,16 @@
    "images": [
     "docs/media/2026-11-06_story.jpg"
    ]
+  },
+  {
+   "date": "2026-11-06",
+   "title": "加湿器、買う前にここ見て",
+   "head": "加湿方式を確認",
+   "status": "ready",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-06_story.jpg"
+   ]
   }
  ]
 }
