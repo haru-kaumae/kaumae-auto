@@ -3154,6 +3154,257 @@
     "docs/media/2026-11-06_preview_carousel3_03.jpg",
     "docs/media/2026-11-06_preview_carousel3_04.jpg"
    ]
+  },
+  {
+   "date": "2026-11-07",
+   "genre": "gift",
+   "title": "ポチる前に！カタログギフトの確認リスト",
+   "caption": "【PR】カタログギフト、買う前にここだけは確認👇\n\nカタログギフトを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　予算とコース\n贈る相手と場面に合う価格のコースを選ぶ。\n\n✔ CHECK2　のし・包装・カード\nのし・包装・メッセージカードに対応しているか確認する。\n\n✔ CHECK3　届け日と有効期限\n届け日の指定ができるか、カタログの申込期限も見る。\n\n■ 例として、2026/11/7に楽天市場でレビューの多かった商品\n・カタログギフト 10000円 1万円コース 出産祝い 出産内祝い（ソムリエ@ギフト）8,640円、★4.67／16,025件\n・出産内祝い カタログギフト 6490円コース 写真入り 名入れ（ギフト工房 愛来-内祝・引出物通販）4,980円、★4.86／2,120件\n・お返し・内祝いに カタログギフト Dolce ヴィオラ（PIARY(ピアリー)楽天市場店）4,550円、★4.44／2,044件\n\n※2026/11/7に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 カタログギフトを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#カタログギフト #ギフト #カタログギフト #贈り物 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "カタログギフト｜買う前メモ",
+     "title": "ポチる前に！\nカタログギフトの\n確認リスト",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "gift",
+     "topic": "カタログギフト",
+     "pre": "ポチる前に！",
+     "num": "3",
+     "post": "つの確認",
+     "month": "2026.11月",
+     "seed": "2026-11-0722"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "カタログギフト 10000円 1万円コース 出産祝い 出産内祝い",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellevie-harima/cabinet/1104/gift/catalog10800_bs.jpg?_ex=700x700",
+     "price": "8,640円",
+     "review": "★4.67",
+     "count": "16,025件",
+     "postage": "送料別",
+     "shop": "ソムリエ@ギフト",
+     "check": "予算とコース",
+     "body": [
+      "贈る相手と場面に合う",
+      "価格のコースを選ぶ。"
+     ],
+     "date": "2026/11/7"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "出産内祝い カタログギフト 6490円コース 写真入り 名入れ",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/aikuru/cabinet/event/1104_osu_5900.jpg?_ex=700x700",
+     "price": "4,980円",
+     "review": "★4.86",
+     "count": "2,120件",
+     "postage": "送料込み",
+     "shop": "ギフト工房 愛来-内祝・引出物通販",
+     "check": "のし・包装・カード",
+     "body": [
+      "のし・包装・メッセージカードに",
+      "対応しているか確認する。"
+     ],
+     "date": "2026/11/7"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "お返し・内祝いに カタログギフト Dolce ヴィオラ",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/piary/cabinet/shohin/cataloggift/cg06.jpg?_ex=700x700",
+     "price": "4,550円",
+     "review": "★4.44",
+     "count": "2,044件",
+     "postage": "送料込み",
+     "shop": "PIARY(ピアリー)楽天市場店",
+     "check": "届け日と有効期限",
+     "body": [
+      "届け日の指定ができるか、",
+      "カタログの申込期限も見る。"
+     ],
+     "date": "2026/11/7"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "bellevie-harima:10013197",
+     "rawName": "カタログギフト 楽天1位ギフト大賞 [ソムリエアットギフト 最高級 ザ プレミアムカタログギフト ブラック シルバー ゴールド] 10000円(S-AOO) 1万円コース 出産祝い 出産内祝い 結婚祝い 結婚内祝い 新築祝い 内祝い お返し グルメ gws 七五三内祝い お歳暮 冬ギフト",
+     "name": "カタログギフト 10000円 1万円コース 出産祝い 出産内祝い",
+     "price": 8640,
+     "shop": "ソムリエ@ギフト",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q1q9o.p3pr2fa6.g00q1q9o.p3pr34c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellevie-harima%2F10013197%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellevie-harima%2Fi%2F10013197%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q1q9o.p3pr2fa6.g00q1q9o.p3pr34c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellevie-harima%2F10013197%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellevie-harima%2Fi%2F10013197%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 16025,
+     "reviewAverage": 4.67,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellevie-harima/cabinet/1104/gift/catalog10800_bs.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "aikuru:10036318",
+     "rawName": "出産内祝い カタログギフト 6490円コース 写真入り 名入れ オリジナルBOX 愛来 ギフト お返し 結婚内祝い グルメ 送料無料 ゆうパケット",
+     "name": "出産内祝い カタログギフト 6490円コース 写真入り 名入れ",
+     "price": 4980,
+     "shop": "ギフト工房 愛来-内祝・引出物通販",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pye9o.p3pr24ad.g00pye9o.p3pr35b7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faikuru%2F10036318%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faikuru%2Fi%2F10036318%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pye9o.p3pr24ad.g00pye9o.p3pr35b7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faikuru%2F10036318%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faikuru%2Fi%2F10036318%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 2120,
+     "reviewAverage": 4.86,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/aikuru/cabinet/event/1104_osu_5900.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "piary:10006931",
+     "rawName": "お返し・内祝いに！カタログギフト Dolce【5800円コース】ヴィオラ(カタログギフト 出産祝い 出産内祝い 内祝い 結婚祝い 結婚内祝い 香典返し)",
+     "name": "お返し・内祝いに カタログギフト Dolce ヴィオラ",
+     "price": 4550,
+     "shop": "PIARY(ピアリー)楽天市場店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ri1to.p3pr2777.g00ri1to.p3pr3f62/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpiary%2Fcg06%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpiary%2Fi%2F10006931%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ri1to.p3pr2777.g00ri1to.p3pr3f62/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpiary%2Fcg06%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpiary%2Fi%2F10006931%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 2044,
+     "reviewAverage": 4.44,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/piary/cabinet/shohin/cataloggift/cg06.jpg?_ex=700x700"
+    }
+   ],
+   "status": "dry_run",
+   "format": "carousel",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-07_preview_carousel_01.jpg",
+    "docs/media/2026-11-07_preview_carousel_02.jpg",
+    "docs/media/2026-11-07_preview_carousel_03.jpg",
+    "docs/media/2026-11-07_preview_carousel_04.jpg"
+   ]
+  },
+  {
+   "date": "2026-11-07",
+   "genre": "sweets",
+   "title": "おやつ・お取り寄せ選びで見落としやすい3つのこと",
+   "caption": "【PR】おやつ・お取り寄せ、買う前にここだけは確認👇\n\nおやつ・お取り寄せを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　内容量と賞味期限\n量と、届いてからの賞味期限の目安を確認する。\n\n✔ CHECK2　保存方法\n常温・冷蔵・冷凍のどれか。冷凍なら冷凍庫の空きを先に見る。\n\n✔ CHECK3　アレルギー表示\n原材料とアレルギー表示を商品ページとパッケージで確認する。\n\n■ 例として、2026/11/7に楽天市場でレビューの多かった商品\n・6種類24個入り フロム蔵王 Hybrid（フロム蔵王楽天市場店）3,780円、★4.53／8,288件\n・ミックスナッツ 無添加 無塩 素焼き ナッツ 小分け 個包装 小袋（ナッツクリエイト このみみ）1,200円、★4.76／7,697件\n・自然派クルミ 無添加-800g（タマチャンショップ）2,600円、★4.54／7,163件\n\n※2026/11/7に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 おやつ・お取り寄せを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#お取り寄せ #おやつ #楽天グルメ #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "おやつ・お取り寄せ｜買う前メモ",
+     "title": "おやつ・お取り寄せ選びで\n見落としやすい\n3つのこと",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "sweets",
+     "topic": "おやつ・お取り寄せ",
+     "pre": "見落としやすい",
+     "num": "3",
+     "post": "つのこと",
+     "month": "2026.11月",
+     "seed": "2026-11-0723"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "6種類24個入り フロム蔵王 Hybrid",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/from-zao/cabinet/ice/multiice-neo720.jpg?_ex=700x700",
+     "price": "3,780円",
+     "review": "★4.53",
+     "count": "8,288件",
+     "postage": "送料込み",
+     "shop": "フロム蔵王楽天市場店",
+     "check": "内容量と賞味期限",
+     "body": [
+      "量と、届いてからの",
+      "賞味期限の目安を確認する。"
+     ],
+     "date": "2026/11/7"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "ミックスナッツ 無添加 無塩 素焼き ナッツ 小分け 個包装 小袋",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/konomimi/cabinet/08620685/imgrc0083786181.jpg?_ex=700x700",
+     "price": "1,200円",
+     "review": "★4.76",
+     "count": "7,697件",
+     "postage": "送料別",
+     "shop": "ナッツクリエイト このみみ",
+     "check": "保存方法",
+     "body": [
+      "常温・冷蔵・冷凍のどれか。",
+      "冷凍なら冷凍庫の空きを先に見る。"
+     ],
+     "date": "2026/11/7"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "自然派クルミ 無添加-800g",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/kyunan/cabinet/nats/kurumi01/kurumi800_tm1.jpg?_ex=700x700",
+     "price": "2,600円",
+     "review": "★4.54",
+     "count": "7,163件",
+     "postage": "送料込み",
+     "shop": "タマチャンショップ",
+     "check": "アレルギー表示",
+     "body": [
+      "原材料とアレルギー表示を",
+      "商品ページとパッケージで確認する。"
+     ],
+     "date": "2026/11/7"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "from-zao:10000308",
+     "rawName": "6種類24個入り 【送料無料】フロム蔵王 Hybrid NEOマルチアイスBOX24【アイスクリーム ギフト 詰め合わせ】",
+     "name": "6種類24個入り フロム蔵王 Hybrid",
+     "price": 3780,
+     "shop": "フロム蔵王楽天市場店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pxiao.p3pr26e3.g00pxiao.p3pr355f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffrom-zao%2F1027763%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffrom-zao%2Fi%2F10000308%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pxiao.p3pr26e3.g00pxiao.p3pr355f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffrom-zao%2F1027763%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffrom-zao%2Fi%2F10000308%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 8288,
+     "reviewAverage": 4.53,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/from-zao/cabinet/ice/multiice-neo720.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "konomimi:10000084",
+     "rawName": "送料無料 ミックスナッツ 無添加 無塩 素焼き ナッツ 小分け 個包装 小袋 256g 320g (個包装込) ピーカンナッツ入り 選べる 贅沢このみみミックスナッツ アーモンド ピスタチオ カシューナッツ マカダミア ヘーゼルナッツ オイル不使用",
+     "name": "ミックスナッツ 無添加 無塩 素焼き ナッツ 小分け 個包装 小袋",
+     "price": 1200,
+     "shop": "ナッツクリエイト このみみ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tncoo.p3pr25fd.g00tncoo.p3pr3b29/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkonomimi%2F764%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkonomimi%2Fi%2F10000084%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tncoo.p3pr25fd.g00tncoo.p3pr3b29/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkonomimi%2F764%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkonomimi%2Fi%2F10000084%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 7697,
+     "reviewAverage": 4.76,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/konomimi/cabinet/08620685/imgrc0083786181.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "kyunan:10003793",
+     "rawName": "＼楽天グルメ大賞受賞／自然派クルミ 無添加-800g(200g×4)本場のプロが推薦するカリフォルニア北部産料理・スイーツにも胡桃 無塩 無油 生くるみ 800g 無添加 無塩 小分けお取り寄せグルメ おつまみ オートファジー",
+     "name": "自然派クルミ 無添加-800g",
+     "price": 2600,
+     "shop": "タマチャンショップ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pwf8o.p3pr299d.g00pwf8o.p3pr341a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkyunan%2Fkurumi-1kg%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkyunan%2Fi%2F10003793%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pwf8o.p3pr299d.g00pwf8o.p3pr341a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkyunan%2Fkurumi-1kg%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkyunan%2Fi%2F10003793%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 7163,
+     "reviewAverage": 4.54,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kyunan/cabinet/nats/kurumi01/kurumi800_tm1.jpg?_ex=700x700"
+    }
+   ],
+   "status": "dry_run",
+   "format": "reel",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-07_preview_reel_01.jpg",
+    "docs/media/2026-11-07_preview_reel_02.jpg",
+    "docs/media/2026-11-07_preview_reel_03.jpg",
+    "docs/media/2026-11-07_preview_reel_04.jpg"
+   ],
+   "video": "docs/media/2026-11-07_preview_reel.mp4"
   }
  ],
  "stories": [
@@ -3302,6 +3553,16 @@
     "docs/media/2026-11-06_story.jpg"
    ],
    "media_id": "18100934477452803"
+  },
+  {
+   "date": "2026-11-07",
+   "title": "おやつ・お取り寄せ選びで見落としやすい3つのこと",
+   "head": "保存方法",
+   "status": "dry_run",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-07_story.jpg"
+   ]
   }
  ]
 }
