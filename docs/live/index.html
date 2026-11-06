@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>かうまえメモ 運用マップ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;800&family=Noto+Sans+JP:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: 制御盤。上に「今どこ」、中央に流れ図（ノードを光が流れる）、下に役割分担と最新の数字 */
+:root{
+  --bg:#141a22; --panel:#1b232d; --panel2:#222c38; --line:#334152;
+  --fg:#e7ecf1; --muted:#93a1b0; --accent:#e8b23c; --teal:#5fb8a8; --warn:#e07a5f; --ok:#7cc48a;
+  --display:"M PLUS Rounded 1c","Hiragino Maru Gothic ProN",system-ui,sans-serif;
+  --body:"Noto Sans JP","Hiragino Sans",system-ui,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){
+  --bg:#f3f1ec; --panel:#ffffff; --panel2:#f7f5f0; --line:#ddd8cd; --fg:#232a31; --muted:#68727c;
+  --accent:#b9831a; --teal:#2e8576; --warn:#c0573c; --ok:#3f8f52; color-scheme:light}}
+:root[data-theme="light"]{--bg:#f3f1ec; --panel:#ffffff; --panel2:#f7f5f0; --line:#ddd8cd; --fg:#232a31; --muted:#68727c;
+  --accent:#b9831a; --teal:#2e8576; --warn:#c0573c; --ok:#3f8f52; color-scheme:light}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.65;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 56px}
+.wrap{max-width:1120px;margin:0 auto;display:grid;gap:28px}
+h1,h2,h3{font-family:var(--display);font-weight:800;margin:0;text-wrap:balance;line-height:1.3}
+h1{font-size:clamp(26px,4vw,38px)}
+h2{font-size:20px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+h2 small{font-family:var(--body);font-weight:400;font-size:13px;color:var(--muted)}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.12em;color:var(--accent);text-transform:uppercase}
+.muted{color:var(--muted)}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+header{display:grid;gap:10px}
+.snap{display:inline-flex;gap:8px;align-items:center;font-size:13px;color:var(--muted)}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 0 var(--ok);animation:ping 2.4s infinite}
+@keyframes ping{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--ok) 60%,transparent)}70%{box-shadow:0 0 0 9px transparent}100%{box-shadow:0 0 0 0 transparent}}
+
+/* 1日の時間割 */
+.day{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 18px 14px}
+.track{position:relative;height:74px;margin-top:14px}
+.axis{position:absolute;left:0;right:0;top:34px;height:2px;background:var(--line)}
+.now{position:absolute;top:18px;width:2px;height:34px;background:var(--accent)}
+.now span{position:absolute;top:-20px;left:50%;transform:translateX(-50%);font-family:var(--mono);font-size:11px;color:var(--accent);white-space:nowrap}
+.ev{position:absolute;top:26px;transform:translateX(-50%);display:grid;justify-items:center;gap:6px}
+.ev i{width:18px;height:18px;border-radius:50%;border:3px solid var(--bg);background:var(--teal)}
+.ev.post i{background:var(--accent);width:22px;height:22px;margin-top:-2px}
+.ev b{font-family:var(--mono);font-size:12px;font-weight:500}
+.ev em{font-style:normal;font-size:11px;color:var(--muted);white-space:nowrap}
+.ticks{display:flex;justify-content:space-between;font-family:var(--mono);font-size:10px;color:var(--muted);margin-top:2px}
+.sched{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.chip{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:3px 10px;background:var(--panel2)}
+.chip b{color:var(--accent);font-weight:600}
+
+/* 流れ図 */
+.flow{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;position:relative}
+.node{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 14px 12px;
+  display:grid;gap:6px;align-content:start;cursor:pointer;text-align:left;color:inherit;font:inherit;transition:border-color .2s,transform .2s}
+.node:hover,.node:focus-visible{border-color:var(--accent);outline:none;transform:translateY(-2px)}
+.node[aria-pressed="true"]{border-color:var(--accent);background:var(--panel2)}
+.node .no{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.node h3{font-size:15px}
+.node p{margin:0;font-size:12.5px;color:var(--muted);line-height:1.55}
+.who{justify-self:start;font-size:11px;border-radius:6px;padding:1px 7px;font-weight:600}
+.who.auto{background:color-mix(in srgb,var(--teal) 22%,transparent);color:var(--teal)}
+.who.haru{background:color-mix(in srgb,var(--accent) 22%,transparent);color:var(--accent)}
+.who.claude{background:color-mix(in srgb,var(--warn) 22%,transparent);color:var(--warn)}
+.node.live::after{content:"";position:absolute;inset:-1px;border-radius:12px;border:1px solid var(--accent);opacity:0;animation:flash 10s infinite;animation-delay:var(--d)}
+@keyframes flash{0%,100%{opacity:0}3%{opacity:1}9%{opacity:0}}
+.arrow{position:absolute;right:-13px;top:50%;width:12px;height:2px;background:var(--line)}
+.lane{display:grid;gap:10px}
+.lane-label{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.08em}
+.detail{background:var(--panel2);border:1px dashed var(--line);border-radius:12px;padding:14px 16px;font-size:14px}
+.detail h3{font-size:16px;margin-bottom:6px}
+.detail ul{margin:6px 0 0;padding-left:1.2em}
+
+/* 役割分担 */
+.roles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.role{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:8px;align-content:start}
+.role ul{margin:0;padding-left:1.2em;font-size:13.5px}
+.role h3{font-size:16px;display:flex;gap:8px;align-items:center}
+
+/* 数字 */
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px}
+.kpi b{display:block;font-family:var(--display);font-size:28px;font-variant-numeric:tabular-nums}
+.kpi span{font-size:12px;color:var(--muted)}
+.tbl{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:12px}
+table{border-collapse:collapse;width:100%;min-width:620px;font-size:13.5px}
+th,td{padding:9px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle}
+th{font-size:11.5px;color:var(--muted);font-weight:600;letter-spacing:.04em}
+td.n{font-family:var(--mono);text-align:right;font-variant-numeric:tabular-nums}
+.bar{height:8px;border-radius:4px;background:var(--accent);min-width:2px}
+.fmt{font-size:11px;border-radius:6px;padding:1px 7px;border:1px solid var(--line)}
+.fmt.reel{color:var(--accent);border-color:color-mix(in srgb,var(--accent) 50%,transparent)}
+.miss td{color:var(--warn)}
+.links{display:flex;flex-wrap:wrap;gap:10px}
+.links a{color:var(--fg);text-decoration:none;border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:10px 14px;font-size:13.5px}
+.links a:hover,.links a:focus-visible{border-color:var(--accent);outline:none}
+.links a small{display:block;color:var(--muted);font-size:11.5px}
+footer{font-size:12px;color:var(--muted)}
+
+@media (max-width:900px){.flow{grid-template-columns:repeat(2,minmax(0,1fr))}.arrow{display:none}.roles{grid-template-columns:1fr}.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.flow{grid-template-columns:1fr}.ev em{display:none}}
+@media (prefers-reduced-motion:reduce){.dot,.node.live::after{animation:none}.node{transition:none}}
+</style>
+<style>
+.live-panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px;display:grid;gap:14px}
+.state{display:flex;flex-wrap:wrap;align-items:center;gap:12px}
+.badge{font-family:var(--display);font-weight:800;font-size:15px;border-radius:999px;padding:4px 14px}
+.badge.run{background:color-mix(in srgb,var(--accent) 25%,transparent);color:var(--accent)}
+.badge.idle{background:color-mix(in srgb,var(--teal) 22%,transparent);color:var(--teal)}
+.badge.err{background:color-mix(in srgb,var(--warn) 22%,transparent);color:var(--warn)}
+.count{font-family:var(--mono);font-size:30px;font-variant-numeric:tabular-nums}
+.steps{display:grid;gap:4px;font-size:13px}
+.st{display:flex;gap:10px;align-items:center;padding:4px 8px;border-radius:8px}
+.st i{width:10px;height:10px;border-radius:50%;background:var(--line);flex:none}
+.st.done i{background:var(--ok)} .st.fail i{background:var(--warn)}
+.st.now{background:var(--panel2)} .st.now i{background:var(--accent);animation:ping2 1.2s infinite}
+.st .t{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--muted)}
+@keyframes ping2{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--accent) 70%,transparent)}80%{box-shadow:0 0 0 8px transparent}}
+.node.active{border-color:var(--accent);background:var(--panel2);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 30%,transparent)}
+.node.active::before{content:"実行中";position:absolute;top:10px;right:12px;font-size:11px;color:var(--accent);font-weight:600}
+.node.passed{opacity:.75}
+.node.passed .no::after{content:" ✓";color:var(--ok)}
+.runs{display:flex;flex-wrap:wrap;gap:6px}
+.runs a{font-family:var(--mono);font-size:11.5px;text-decoration:none;color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:2px 8px}
+.runs a.ok{border-color:color-mix(in srgb,var(--ok) 50%,transparent)} .runs a.ng{border-color:var(--warn);color:var(--warn)}
+@media (prefers-reduced-motion:reduce){.st.now i{animation:none}}
+</style>
+</head><body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">kaumae-auto ／ 運用マップ（ライブ）</div>
+    <h1>かうまえメモが今どう動いているか</h1>
+    <div class="snap"><span class="dot" aria-hidden="true"></span><span id="sync">読み込み中…</span></div>
+  </header>
+
+  <section class="live-panel" aria-labelledby="h-live">
+    <h2 id="h-live">いまの状態 <small>GitHub Actionsの実行状況を自動で読み込みます</small></h2>
+    <div class="state"><span class="badge idle" id="badge">待機中</span><span id="stateText" class="muted"></span></div>
+    <div><div class="muted" style="font-size:12px" id="countLabel">次の投稿まで</div><div class="count" id="count">--:--:--</div></div>
+    <div class="steps" id="steps" hidden></div>
+    <div><div class="muted" style="font-size:12px;margin-bottom:6px">最近の実行（緑＝成功、赤＝失敗）</div><div class="runs" id="runs"></div></div>
+  </section>
+
+  <section class="day" aria-labelledby="h-day">
+    <h2 id="h-day">1日の流れ <small>黄色が投稿の時刻、緑が準備の開始</small></h2>
+    <div class="track" id="track"><div class="axis"></div></div>
+    <div class="ticks" aria-hidden="true"><span>0時</span><span>6時</span><span>12時</span><span>18時</span><span>24時</span></div>
+    <div class="sched">
+      <span class="chip"><b>7:00</b> カルーセル＋リール＋ストーリーズ</span>
+      <span class="chip"><b>13:00</b> カルーセル＋リール＋ストーリーズ</span>
+      <span class="chip">2時間ごと 数字の集計</span>
+      <span class="chip">毎週日曜 21:00 在庫確認</span>
+    </div>
+  </section>
+
+  <section class="lane" aria-labelledby="h-flow">
+    <h2 id="h-flow">1回の投稿ができるまで <small>実行中は今のステップが光ります。押すと説明が出ます</small></h2>
+    <div class="lane-label">準備（投稿の1時間前に自動で始まる）</div>
+    <div class="flow" id="flow1"></div>
+    <div class="lane-label">公開（投稿の時刻）</div>
+    <div class="flow" id="flow2"></div>
+    <div class="detail" id="detail" aria-live="polite"></div>
+  </section>
+
+  <section class="lane" aria-labelledby="h-num">
+    <h2 id="h-num">最新の数字 <small id="numTime">リーチ＝見た人の数</small></h2>
+    <div class="kpis">
+      <div class="kpi"><b class="mono" id="k1">-</b><span>フォロワー</span></div>
+      <div class="kpi"><b class="mono" id="k2">-</b><span>投稿数</span></div>
+      <div class="kpi"><b class="mono" id="k3">-</b><span>リーチ合計（フィード・リール）</span></div>
+      <div class="kpi"><b class="mono" id="k4">-</b><span>いいね・保存の合計</span></div>
+    </div>
+    <div class="tbl"><table>
+      <thead><tr><th>投稿日・回</th><th>形式</th><th>タイトル</th><th style="text-align:right">リーチ</th><th style="width:24%"></th><th style="text-align:right">いいね</th><th style="text-align:right">保存</th></tr></thead>
+      <tbody id="rows"><tr><td colspan="7" class="muted">数字を読み込み中です</td></tr></tbody>
+    </table></div>
+    <p class="muted" style="margin:0;font-size:13px">数字は2時間ごとに自動で集計されます。楽天の報酬は楽天アフィリエイトのレポートで確認してください。</p>
+  </section>
+
+  <section class="lane" aria-labelledby="h-roles">
+    <h2 id="h-roles">だれが何をしているか</h2>
+    <div class="roles">
+      <div class="role"><h3><span class="who auto">自動</span>GitHub Actions</h3>
+        <ul><li>決まった時刻に起動して、上の流れを最後まで実行</li><li>商品探し、画像と動画づくり、投稿、集計まで人の操作なし</li><li>止まった時はGitHubのIssueでお知らせ</li></ul></div>
+      <div class="role"><h3><span class="who claude">Claude</span>チャット</h3>
+        <ul><li>頼まれた時に結果を報告</li><li>デザインや投稿回数などの変更を仕組みに反映</li><li>止まった原因を調べて直す</li></ul></div>
+      <div class="role"><h3><span class="who haru">Haruさん</span>手でやること</h3>
+        <ul><li>関連アカウントを1日10件ほどフォロー・いいね</li><li>楽天アフィリエイトのレポートで報酬を確認</li><li>お知らせのIssueを閉じる</li></ul></div>
+    </div>
+  </section>
+
+  <section class="lane"><div class="links">
+    <a href="https://www.instagram.com/kaumae._.memo/" target="_blank" rel="noopener">Instagram<small>@kaumae._.memo</small></a>
+    <a href="../" target="_blank" rel="noopener">商品一覧ページ<small>プロフィールのリンク先</small></a>
+    <a href="https://github.com/haru-kaumae/kaumae-auto/actions" target="_blank" rel="noopener">実行の記録<small>GitHub Actions</small></a>
+    <a href="https://github.com/haru-kaumae/kaumae-auto/issues" target="_blank" rel="noopener">お知らせ<small>GitHub Issues</small></a>
+  </div></section>
+</div>
+
+<script>
+const REPO = "haru-kaumae/kaumae-auto";
+const API = "https://api.github.com/repos/" + REPO;
+const steps = [
+ {lane:1,t:"売れ筋を集める",who:"auto",s:"楽天の公式APIで、そのジャンルの人気商品を取得",
+  d:["ジャンルは月ごとの回転表から、最近使っていないものを選ぶ","商品が足りないジャンルは飛ばして次へ"]},
+ {lane:1,t:"商品を選ぶ",who:"auto",s:"レビュー数・評価・在庫で絞り、同じ種類を3つそろえる",
+  d:["在庫なし、禁止ワード、最近紹介した商品は外す","カルーセルとリールは別のジャンルにする"]},
+ {lane:1,t:"原稿を書く",who:"auto",s:"表紙の言葉、確認ポイント、キャプション、ハッシュタグ",
+  d:["先頭は必ず【PR】","体験談は書かず、商品ページの情報だけで書く","価格は取得日つき"]},
+ {lane:1,t:"規約チェック",who:"auto",s:"PR表記、禁止表現、枚数などを確認",
+  d:["引っかかった投稿は自動で止めて、Issueでお知らせ"]},
+ {lane:1,t:"画像と動画を作る",who:"auto",s:"写真背景の表紙、商品ページ、BGM付きリール、ストーリーズ",
+  d:["表紙の背景はCC0などのフリー写真","商品画像は加工せず、周りの帯に文字を置く"]},
+ {lane:2,t:"ネットに置く",who:"auto",s:"画像と商品一覧ページをGitHub Pagesで公開",
+  d:["Instagramは公開URLの画像しか受け取れないため"]},
+ {lane:2,t:"時刻まで待つ",who:"auto",s:"1時間前に始めて、7:00か13:00まで待つ",
+  d:["GitHubの定時起動は遅れることがあるため"]},
+ {lane:2,t:"直前の再確認",who:"auto",s:"在庫切れ・価格の大きな変化がないか確認",
+  d:["在庫切れや10%以上の値動きがあれば、その投稿だけ止める"]},
+ {lane:2,t:"Instagramに投稿",who:"auto",s:"カルーセル、リール、ストーリーズを公開",
+  d:["Meta公式のAPIを使用（パスワードは使わない）"]},
+ {lane:2,t:"記録と集計",who:"auto",s:"結果を記録。数字は2時間ごとに自動集計",
+  d:["リーチ、保存、いいね、コメントを取得","Claudeが数字を見て内容を調整"]}
+];
+// GitHub Actions のステップ名 → 上のステップ番号（0始まり）
+const STEPMAP = [["原稿と画像", [0,1,2,3,4]], ["公開する", [5]], ["まで待つ", [6]], ["Instagramに投稿", [7,8]], ["投稿結果", [9]], ["Issue", [9]]];
+const lab = {auto:"自動", claude:"Claude", haru:"Haruさん"};
+const $ = id => document.getElementById(id);
+const nodes = [];
+steps.forEach((s, i) => {
+  const b = document.createElement('button'); b.className = 'node'; b.type = 'button';
+  b.innerHTML = `<span class="no">STEP ${i+1}</span><h3>${s.t}</h3><p>${s.s}</p><span class="who ${s.who}">${lab[s.who]}</span>` +
+    ((i % 5) < 4 ? '<span class="arrow" aria-hidden="true"></span>' : '');
+  b.addEventListener('click', () => show(i));
+  ($(s.lane === 1 ? 'flow1' : 'flow2')).appendChild(b); nodes.push(b);
+});
+function show(i) {
+  nodes.forEach((n, k) => n.setAttribute('aria-pressed', k === i ? 'true' : 'false'));
+  const s = steps[i];
+  $('detail').innerHTML = `<h3>STEP ${i+1}　${s.t}</h3><div class="muted">${s.s}</div><ul>${s.d.map(x => `<li>${x}</li>`).join('')}</ul>`;
+}
+show(0);
+
+// 時刻（日本時間）
+const jst = () => new Date(Date.now() + 9 * 3600e3);
+const hm = d => `${String(d.getUTCHours()).padStart(2,'0')}:${String(d.getUTCMinutes()).padStart(2,'0')}`;
+const tr = $('track');
+[[6,"6:00","7:00の準備",0],[7,"7:00","投稿",1],[12,"12:00","13:00の準備",0],[13,"13:00","投稿",1]].forEach(([h,t,l,p]) => {
+  const e = document.createElement('div'); e.className = 'ev' + (p ? ' post' : ''); e.style.left = (h/24*100) + '%';
+  e.innerHTML = `<i></i><b>${t}</b><em>${l}</em>`; tr.appendChild(e);
+});
+function tick() {
+  const n = jst(), h = n.getUTCHours() + n.getUTCMinutes()/60 + n.getUTCSeconds()/3600;
+  let m = tr.querySelector('.now'); if (!m) { m = document.createElement('div'); m.className = 'now'; tr.appendChild(m); }
+  m.style.left = (h/24*100) + '%'; m.innerHTML = `<span>いま ${hm(n)}</span>`;
+  // 次の投稿までのカウントダウン
+  const targets = [7, 13, 31].map(x => x - h).filter(x => x > 0);
+  const left = Math.min(...targets) * 3600, H = Math.floor(left/3600), M = Math.floor(left%3600/60), S = Math.floor(left%60);
+  $('count').textContent = `${String(H).padStart(2,'0')}:${String(M).padStart(2,'0')}:${String(S).padStart(2,'0')}`;
+  $('countLabel').textContent = `次の投稿（${h < 7 || h >= 13 ? '7:00' : '13:00'}）まで`;
+}
+tick(); setInterval(tick, 1000);
+
+// 実行中のステップを光らせる（作業の中はステップを順に流す）
+let active = [], cyc = 0;
+setInterval(() => {
+  nodes.forEach(n => n.classList.remove('active'));
+  if (!active.length) return;
+  const i = active[cyc % active.length]; cyc++;
+  nodes[i].classList.add('active');
+}, 1600);
+
+let timer = null;
+function schedule(sec) { clearTimeout(timer); timer = setTimeout(poll, sec * 1000); }
+async function gh(path) {
+  const r = await fetch(API + path, {headers: {Accept: "application/vnd.github+json"}});
+  if (r.status === 403 || r.status === 429) throw new Error("limit");
+  if (!r.ok) throw new Error("http " + r.status);
+  return r.json();
+}
+async function poll() {
+  try {
+    const runs = (await gh("/actions/workflows/daily.yml/runs?per_page=8")).workflow_runs || [];
+    const real = runs.filter(r => r.event === "schedule");
+    $('runs').innerHTML = real.slice(0, 6).map(r => {
+      const d = new Date(new Date(r.created_at).getTime() + 9*3600e3 + 3600e3);   // 起動の1時間後が投稿時刻
+      const label = `${d.getUTCMonth()+1}/${d.getUTCDate()} ${d.getUTCHours() < 10 ? '7:00' : '13:00'}`;
+      const cls = r.status !== "completed" ? "" : (r.conclusion === "success" ? "ok" : "ng");
+      return `<a class="${cls}" href="${r.html_url}" target="_blank" rel="noopener">${label}${r.status !== "completed" ? " 実行中" : ""}</a>`;
+    }).join('');
+    const cur = runs.find(r => r.status !== "completed");
+    if (!cur) {
+      active = [];
+      nodes.forEach(n => n.classList.remove('passed'));
+      $('steps').hidden = true;
+      $('badge').className = 'badge idle'; $('badge').textContent = '待機中';
+      const last = real[0];
+      $('stateText').textContent = last ? `前回の実行は${last.conclusion === "success" ? "成功" : "失敗"}しました。投稿の1時間前に自動で始まります。` : '';
+      $('sync').textContent = `${hm(jst())} に確認しました（3分ごとに自動で確認）`;
+      return schedule(180);
+    }
+    const jobs = (await gh(`/actions/runs/${cur.id}/jobs`)).jobs || [];
+    const st = (jobs[0] && jobs[0].steps) || [];
+    const now = st.find(s => s.status === "in_progress");
+    $('steps').hidden = false;
+    $('steps').innerHTML = st.filter(s => !/^(Post |Complete job)/.test(s.name)).map(s => {
+      const c = s.status === "in_progress" ? "now" : s.conclusion === "success" ? "done" : s.conclusion === "failure" ? "fail" : "";
+      const t = s.started_at ? hm(new Date(new Date(s.started_at).getTime() + 9*3600e3)) : "";
+      return `<div class="st ${c}"><i></i><span>${s.name.replace(/^Run /, '')}</span><span class="t">${t}</span></div>`;
+    }).join('');
+    let idx = [];
+    if (now) { const hit = STEPMAP.find(([k]) => now.name.includes(k)); idx = hit ? hit[1] : []; }
+    const first = idx.length ? idx[0] : 0;
+    nodes.forEach((n, k) => n.classList.toggle('passed', k < first));
+    active = idx; cyc = 0;
+    $('badge').className = 'badge run'; $('badge').textContent = '実行中';
+    $('stateText').textContent = now ? `いま「${now.name.replace(/^Run /, '')}」をしています` : '準備しています';
+    $('sync').textContent = `${hm(jst())} に確認しました（実行中は1分ごとに自動で確認）`;
+    schedule(now && now.name.includes("まで待つ") ? 150 : 70);
+  } catch (e) {
+    $('badge').className = 'badge err'; $('badge').textContent = '確認できません';
+    $('stateText').textContent = e.message === "limit" ? "GitHubの読み込み回数の上限です。数分後に自動で再開します。" : "通信できませんでした。少し後で自動で再開します。";
+    schedule(300);
+  }
+}
+poll();
+document.addEventListener('visibilitychange', () => { if (!document.hidden) poll(); });
+
+// 数字（2時間ごとの集計ファイル）
+async function loadMetrics() {
+  try {
+    const m = await (await fetch("metrics.json?" + Date.now())).json();
+    const ps = m.posts.filter(p => p.kind !== "story");
+    const sum = k => ps.reduce((a, p) => a + (p[k] || 0), 0);
+    $('k1').textContent = m.followers ?? '-'; $('k2').textContent = m.media ?? '-';
+    $('k3').textContent = sum('reach'); $('k4').textContent = sum('likes') + sum('saved');
+    $('numTime').textContent = `${m.updated} 集計。リーチ＝見た人の数`;
+    const max = Math.max(1, ...ps.map(p => p.reach || 0));
+    const rows = ps.slice().sort((a, b) => (b.date + (b.slot === "2" ? "0" : "1")).localeCompare(a.date + (a.slot === "2" ? "0" : "1")));
+    $('rows').innerHTML = rows.map(p => `<tr><td class="mono">${p.date.slice(5).replace('-', '/')} ${p.slot === "2" ? "7:00" : "13:00"}</td>
+      <td><span class="fmt ${p.kind}">${p.kind === "reel" ? "リール" : "カルーセル"}</span></td>
+      <td>${p.permalink ? `<a href="${p.permalink}" target="_blank" rel="noopener" style="color:inherit">${p.title}</a>` : p.title}</td>
+      <td class="n">${p.reach ?? '-'}</td><td><div class="bar" style="width:${(p.reach || 0)/max*100}%"></div></td>
+      <td class="n">${p.likes ?? '-'}</td><td class="n">${p.saved ?? '-'}</td></tr>`).join('');
+  } catch (e) {
+    $('rows').innerHTML = '<tr><td colspan="7" class="muted">数字はまだ集計されていません（2時間ごとに自動で集計されます）</td></tr>';
+  }
+}
+loadMetrics(); setInterval(loadMetrics, 300000);
+
+</script>
+</body></html>

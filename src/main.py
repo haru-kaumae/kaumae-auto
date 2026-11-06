@@ -191,25 +191,40 @@ def main(cmd):
         weekly(state)
         save(state)
     elif cmd == "report":
-        # 投稿済みの数字を表示する（読み取りのみ）
+        # 投稿済みの数字を集めて表示し、運用マップ用に docs/live/*.json に書く（Instagramへは読み取りのみ）
+        import json, datetime as _dt
         acc = instagram._get(C.IG_USER_ID, fields="username,followers_count,media_count")
         print(f"アカウント：@{acc.get('username')} フォロワー{acc.get('followers_count')} 投稿{acc.get('media_count')}")
+        now = _dt.datetime.now(compose.JST)
+        out = []
         for p in state["posts"] + state["stories"]:
             if p.get("status") != "posted" or not p.get("media_id"):
                 continue
             kind = "フィード" if "caption" in p else "ストーリーズ"
+            if kind == "ストーリーズ" and p["date"] < (now.date() - _dt.timedelta(days=1)).isoformat():
+                continue                      # 24時間で消えたストーリーズは読みに行かない
             try:
                 m = instagram._get(p["media_id"], fields="like_count,comments_count,permalink")
             except Exception as e:
                 m = {"error": str(e)[:120]}
             ins = {}
-            for k in ("reach", "saved", "shares", "views", "total_interactions"):
-                try:
-                    data = instagram._get(f"{p['media_id']}/insights", metric=k).get("data", [])
-                    ins[k] = data[0].get("values", [{}])[0].get("value") if data else None
-                except Exception as e:
-                    ins[k] = "取得不可"
+            keys = ("reach", "saved", "shares", "views", "total_interactions")
+            try:
+                for d in instagram._get(f"{p['media_id']}/insights", metric=",".join(keys)).get("data", []):
+                    ins[d["name"]] = d.get("values", [{}])[0].get("value")
+            except Exception:
+                for k in keys:
+                    ins.setdefault(k, "取得不可")
             print(f"REPORT {p['date']} {kind} {p['title']} いいね{m.get('like_count')} コメント{m.get('comments_count')} {ins} {m.get('permalink', m.get('error', ''))}")
+            out.append(dict(date=p["date"], slot=p.get("slot", "1"), kind=("story" if kind == "ストーリーズ" else p.get("format", "carousel")),
+                            title=p["title"], genre=p.get("genre", ""), likes=m.get("like_count"), comments=m.get("comments_count"),
+                            permalink=m.get("permalink", ""), **{k: (v if isinstance(v, int) else None) for k, v in ins.items()}))
+        skipped = [dict(date=p["date"], slot=p.get("slot", "1"), kind=p.get("format", "carousel"), title=p["title"], status=p["status"])
+                   for p in state["posts"] if p.get("status") in ("blocked", "failed")]
+        os.makedirs(os.path.join(DOCS, "live"), exist_ok=True)
+        with open(os.path.join(DOCS, "live", "metrics.json"), "w", encoding="utf-8") as f:
+            json.dump(dict(updated=now.strftime("%Y-%m-%d %H:%M"), followers=acc.get("followers_count"),
+                           media=acc.get("media_count"), posts=out, problems=skipped), f, ensure_ascii=False, indent=1)
     elif cmd == "check":
         # 投稿せずに、キーが正しいかだけ確かめる。トークンそのものはログに出さない
         t = C.IG_ACCESS_TOKEN

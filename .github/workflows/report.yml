@@ -1,6 +1,12 @@
 name: report
-# 手動で実行：投稿の数字を表示する（読み取りのみ）
-on: workflow_dispatch
+# 投稿の数字を集めて、運用マップ（docs/live/）に書く。2時間ごと＋手動。Instagramへは読み取りのみ
+on:
+  schedule:
+    - cron: "30 */2 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: report
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -20,3 +26,10 @@ jobs:
         with: { python-version: "3.12" }
       - run: pip install -r requirements.txt
       - run: python -m src.main report
+      - name: 運用マップの数字を公開する
+        run: |
+          git config user.name "kaumae-bot"
+          git config user.email "kaumae-bot@users.noreply.github.com"
+          git add docs/live
+          git commit -m "report: $(date +%F_%H%M)" || exit 0
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
