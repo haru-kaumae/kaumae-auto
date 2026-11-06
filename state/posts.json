@@ -3521,7 +3521,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ringbellshop/cabinet/event_ma/catalog/7hoshi/cghokkaido_3.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "carousel",
    "slot": "2",
    "images": [
@@ -3529,7 +3529,8 @@
     "docs/media/2026-11-07_s2_carousel_02.jpg",
     "docs/media/2026-11-07_s2_carousel_03.jpg",
     "docs/media/2026-11-07_s2_carousel_04.jpg"
-   ]
+   ],
+   "media_id": "17952713937342979"
   },
   {
    "date": "2026-11-07",
@@ -3646,7 +3647,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kyunan/cabinet/nats/kurumi01/kurumi800_tm1.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -3655,7 +3656,8 @@
     "docs/media/2026-11-07_s2_reel_03.jpg",
     "docs/media/2026-11-07_s2_reel_04.jpg"
    ],
-   "video": "docs/media/2026-11-07_s2_reel.mp4"
+   "video": "docs/media/2026-11-07_s2_reel.mp4",
+   "media_id": "18115103501135093"
   }
  ],
  "stories": [
@@ -3819,11 +3821,12 @@
    "date": "2026-11-07",
    "title": "おやつ・お取り寄せを買う前の3チェック",
    "head": "保存方法",
-   "status": "ready",
+   "status": "posted",
    "slot": "2",
    "images": [
     "docs/media/2026-11-07_story_s2.jpg"
-   ]
+   ],
+   "media_id": "18110400956192437"
   }
  ]
 }
