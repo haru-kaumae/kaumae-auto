@@ -3658,6 +3658,259 @@
    ],
    "video": "docs/media/2026-11-07_s2_reel.mp4",
    "media_id": "18115103501135093"
+  },
+  {
+   "date": "2026-11-07",
+   "genre": "blanket",
+   "title": "ポチる前に！電気毛布の確認リスト",
+   "caption": "【PR】電気毛布、買う前にここだけは確認👇\n\n電気毛布を選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　サイズと使い方\n敷き用・掛け用・兼用のどれか、サイズとあわせて確認する。\n\n✔ CHECK2　消費電力と電気代の目安\n消費電力（W）と、電気代の目安が書かれていれば計算の前提（単価）も見る。\n\n✔ CHECK3　洗濯と使用上の注意\n洗濯できるか、乾燥機の可否、折り曲げなどの注意を読む。\n\n■ 例として、2026/11/7に楽天市場でレビューの多かった商品\n・電気毛布 電気敷毛布 電気掛敷毛布 敷き 掛け敷き 丸洗い 洗える（くらしのeショップ）2,980円、★4.37／4,107件\n・1時間たった0.6円 電気毛布 掛け敷き 洗える ふわとろ毛布（エムパウジャパン楽天市場店）8,900円、★4.63／3,455件\n・電気毛布 掛け敷き 65℃速暖 USB/DC給電（Rakuhome）7,760円、★4.52／2,893件\n\n※2026/11/7に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 電気毛布を選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#電気毛布 #電気毛布 #寒さ対策 #冬支度 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "電気毛布｜買う前メモ",
+     "title": "ポチる前に！\n電気毛布の\n確認リスト",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "blanket",
+     "topic": "電気毛布",
+     "pre": "ポチる前に！",
+     "num": "3",
+     "post": "つの確認",
+     "month": "2026.11月",
+     "seed": "2026-11-0726"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "電気毛布 電気敷毛布 電気掛敷毛布 敷き 掛け敷き 丸洗い 洗える",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/main-img/021/main-xadpq.jpg?_ex=700x700",
+     "price": "2,980円",
+     "review": "★4.37",
+     "count": "4,107件",
+     "postage": "送料込み",
+     "shop": "くらしのeショップ",
+     "check": "サイズと使い方",
+     "body": [
+      "敷き用・掛け用・兼用のどれか、",
+      "サイズとあわせて確認する。"
+     ],
+     "date": "2026/11/7"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "1時間たった0.6円 電気毛布 掛け敷き 洗える ふわとろ毛布",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/mpowjapan/cabinet/dailylife/eb525aljp0/2026re/525main07.jpg?_ex=700x700",
+     "price": "8,900円",
+     "review": "★4.63",
+     "count": "3,455件",
+     "postage": "送料込み",
+     "shop": "エムパウジャパン楽天市場店",
+     "check": "消費電力と電気代の目安",
+     "body": [
+      "消費電力（W）と、",
+      "電気代の目安が書かれていれば",
+      "計算の前提（単価）も見る。"
+     ],
+     "date": "2026/11/7"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "電気毛布 掛け敷き 65℃速暖 USB/DC給電",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/ennshopstore/cabinet/12171840/x88pj_zt1015.jpg?_ex=700x700",
+     "price": "7,760円",
+     "review": "★4.52",
+     "count": "2,893件",
+     "postage": "送料込み",
+     "shop": "Rakuhome",
+     "check": "洗濯と使用上の注意",
+     "body": [
+      "洗濯できるか、乾燥機の可否、",
+      "折り曲げなどの注意を読む。"
+     ],
+     "date": "2026/11/7"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "e-kurashi:10000628",
+     "rawName": "【P15倍 11/11 9:59迄】 電気毛布 電気敷毛布 電気掛敷毛布 敷き 掛け敷き 丸洗い 洗える ダニ対策 温度調節 省エネ 節電 YMS-40 YMK-60 130×80cm 188×130cm 冷え対策 寒さ対策 あったか 暖房器具 山善　YAMAZEN 【送料無料】",
+     "name": "電気毛布 電気敷毛布 電気掛敷毛布 敷き 掛け敷き 丸洗い 洗える",
+     "price": 2980,
+     "shop": "くらしのeショップ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pui9o.p3pr24f7.g00pui9o.p3pr3e49/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F1338101%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-kurashi%2Fi%2F10000628%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pui9o.p3pr24f7.g00pui9o.p3pr3e49/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F1338101%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-kurashi%2Fi%2F10000628%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 4107,
+     "reviewAverage": 4.37,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/main-img/021/main-xadpq.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "mpowjapan:10000823",
+     "rawName": "【楽天1位】 1時間たった0.6円 電気毛布 掛け敷き 洗える ふわとろ毛布 電気ひざ掛け 12Hタイマー 9段階温度 抗菌防臭 自動電源オフ 電気ブランケット ダブル シングル 省エネ 電気掛け毛布 車中泊 厚手 あったかい プレゼント EPEIOS",
+     "name": "1時間たった0.6円 電気毛布 掛け敷き 洗える ふわとろ毛布",
+     "price": 8900,
+     "shop": "エムパウジャパン楽天市場店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tqkeo.p3pr26ae.g00tqkeo.p3pr383d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmpowjapan%2Fgfeb013000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmpowjapan%2Fi%2F10000823%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tqkeo.p3pr26ae.g00tqkeo.p3pr383d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmpowjapan%2Fgfeb013000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmpowjapan%2Fi%2F10000823%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 3455,
+     "reviewAverage": 4.63,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/mpowjapan/cabinet/dailylife/eb525aljp0/2026re/525main07.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "ennshopstore:10000061",
+     "rawName": "【COUPONで3,492円〜・SNS超人気】 電気毛布 掛け敷き 65℃速暖 楽天1位 USB/DC給電 1枚7WAY&日本製ヒーター ふわとろ 毛布 バッテリー付き 電気ブランケット ブランケット 電気毛布 USB 3段階調温 電熱毛布 電気ひざ掛け 洗える タイマー ひざ掛け 大判サイズ",
+     "name": "電気毛布 掛け敷き 65℃速暖 USB/DC給電",
+     "price": 7760,
+     "shop": "Rakuhome",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ubfso.p3pr2f7f.g00ubfso.p3pr37fd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fennshopstore%2Fbx88pj%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fennshopstore%2Fi%2F10000061%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ubfso.p3pr2f7f.g00ubfso.p3pr37fd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fennshopstore%2Fbx88pj%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fennshopstore%2Fi%2F10000061%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 2893,
+     "reviewAverage": 4.52,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ennshopstore/cabinet/12171840/x88pj_zt1015.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "carousel",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-07_carousel3_01.jpg",
+    "docs/media/2026-11-07_carousel3_02.jpg",
+    "docs/media/2026-11-07_carousel3_03.jpg",
+    "docs/media/2026-11-07_carousel3_04.jpg"
+   ]
+  },
+  {
+   "date": "2026-11-07",
+   "genre": "clean",
+   "title": "ブラシ選びで見落としやすい3つのこと",
+   "caption": "【PR】ブラシ、買う前にここだけは確認👇\n\nブラシを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　使う場所の素材を確かめる\n塗装・コーティング・木材など傷つきやすい素材に使えるか、注意書きを確認する。\n\n✔ CHECK2　サイズと対応の表記を見る\n対応口径・対応サイズ・対応機種が書かれていれば、先に自宅で測る。\n\n✔ CHECK3　セット数と替えを確認\n何個入りか、替えやフィルターを別に買う必要があるかを見る。\n\n■ 例として、2026/11/7に楽天市場でレビューの多かった商品\n・浅草アートブラシ 白馬毛の洋服ブラシ 日本製 ベーシック ホコリ（i-shopさくら2号店）2,950円、★4.32／711件\n・トイレブラシスタンド ゴミ箱 ごみ箱 ダストボックス おしゃれ（モノギャラリー）1,760円、★4.52／565件\n・静電気除去 洋服ブラシ IKC-3623（防水シーツとママにイイコトあーる）6,280円、★4.60／550件\n\n※2026/11/7に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 ブラシを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#ブラシ #掃除グッズ #掃除 #大掃除 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "掃除用品｜買う前メモ",
+     "title": "ブラシ選びで\n見落としやすい\n3つのこと",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "clean",
+     "topic": "ブラシ",
+     "pre": "見落としやすい",
+     "num": "3",
+     "post": "つのこと",
+     "month": "2026.11月",
+     "seed": "2026-11-0727"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "浅草アートブラシ 白馬毛の洋服ブラシ 日本製 ベーシック ホコリ",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/sakura002/cabinet/10/08-0110_1.jpg?_ex=700x700",
+     "price": "2,950円",
+     "review": "★4.32",
+     "count": "711件",
+     "postage": "送料別",
+     "shop": "i-shopさくら2号店",
+     "check": "使う場所の素材を確かめる",
+     "body": [
+      "塗装・コーティング・木材など",
+      "傷つきやすい素材に使えるか、",
+      "注意書きを確認する。"
+     ],
+     "date": "2026/11/7"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "トイレブラシスタンド ゴミ箱 ごみ箱 ダストボックス おしゃれ",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/monogallery/cabinet/olink/047a-006d1.jpg?_ex=700x700",
+     "price": "1,760円",
+     "review": "★4.52",
+     "count": "565件",
+     "postage": "送料別",
+     "shop": "モノギャラリー",
+     "check": "サイズと対応の表記を見る",
+     "body": [
+      "対応口径・対応サイズ・対応機種が",
+      "書かれていれば、先に自宅で測る。"
+     ],
+     "date": "2026/11/7"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "静電気除去 洋服ブラシ IKC-3623",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/kaimin-rs/cabinet/005/ikc3623-0.jpg?_ex=700x700",
+     "price": "6,280円",
+     "review": "★4.60",
+     "count": "550件",
+     "postage": "送料込み",
+     "shop": "防水シーツとママにイイコトあーる",
+     "check": "セット数と替えを確認",
+     "body": [
+      "何個入りか、替えやフィルターを",
+      "別に買う必要があるかを見る。"
+     ],
+     "date": "2026/11/7"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "sakura002:10004602",
+     "rawName": "【あす楽】【アートブラシ正規取扱店】【テレビで紹介】浅草アートブラシ 白馬毛の洋服ブラシ 日本製 ベーシック ホコリ 花粉 除去 クリーナー 天然木使用で持ちやすい [全長21.5cm]",
+     "name": "浅草アートブラシ 白馬毛の洋服ブラシ 日本製 ベーシック ホコリ",
+     "price": 2950,
+     "shop": "i-shopさくら2号店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r07xo.p3pr2478.g00r07xo.p3pr30fd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsakura002%2F08-0110%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsakura002%2Fi%2F10004602%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r07xo.p3pr2478.g00r07xo.p3pr30fd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsakura002%2F08-0110%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsakura002%2Fi%2F10004602%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 711,
+     "reviewAverage": 4.32,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sakura002/cabinet/10/08-0110_1.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "monogallery:10002028",
+     "rawName": "トイレブラシスタンド ゴミ箱 ごみ箱 ダストボックス おしゃれ かわいい サニタリーポット トイレ掃除ブラシ トイレ掃除用品 トイレそうじ ホワイト 白 北欧 トイレ用品 トイレタリー・衛生用品 サニタリー用品 収納( マーナ スクエア トイレポット トイレブラシセット )",
+     "name": "トイレブラシスタンド ゴミ箱 ごみ箱 ダストボックス おしゃれ",
+     "price": 1760,
+     "shop": "モノギャラリー",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q5zpo.p3pr2759.g00q5zpo.p3pr300f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmonogallery%2F047a-006%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmonogallery%2Fi%2F10002028%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q5zpo.p3pr2759.g00q5zpo.p3pr300f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmonogallery%2F047a-006%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmonogallery%2Fi%2F10002028%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 565,
+     "reviewAverage": 4.52,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/monogallery/cabinet/olink/047a-006d1.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "kaimin-rs:10001548",
+     "rawName": "静電気除去 洋服ブラシ IKC-3623 黒馬毛+豚毛×導電繊維で帯電を抑えホコリ取り カシミヤコート スーツの身だしなみをケア アフターケア 手入れ メンテナンス 池本ブラシ イケモトブラシ IKMTブラシ (KENTブラシ から リニューアル)",
+     "name": "静電気除去 洋服ブラシ IKC-3623",
+     "price": 6280,
+     "shop": "防水シーツとママにイイコトあーる",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ptgqo.p3pr2d89.g00ptgqo.p3pr3106/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkaimin-rs%2Fknc3623%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkaimin-rs%2Fi%2F10001548%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ptgqo.p3pr2d89.g00ptgqo.p3pr3106/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkaimin-rs%2Fknc3623%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkaimin-rs%2Fi%2F10001548%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 550,
+     "reviewAverage": 4.6,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kaimin-rs/cabinet/005/ikc3623-0.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-07_reel4_01.jpg",
+    "docs/media/2026-11-07_reel4_02.jpg",
+    "docs/media/2026-11-07_reel4_03.jpg",
+    "docs/media/2026-11-07_reel4_04.jpg"
+   ],
+   "video": "docs/media/2026-11-07_reel4.mp4"
   }
  ],
  "stories": [
@@ -3827,6 +4080,16 @@
     "docs/media/2026-11-07_story_s2.jpg"
    ],
    "media_id": "18110400956192437"
+  },
+  {
+   "date": "2026-11-07",
+   "title": "ブラシ選びで見落としやすい3つのこと",
+   "head": "サイズと対応の表記を見る",
+   "status": "ready",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-07_story.jpg"
+   ]
   }
  ]
 }
