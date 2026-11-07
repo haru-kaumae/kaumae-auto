@@ -4293,6 +4293,261 @@
     "docs/media/2026-11-07_preview_carousel1_03.jpg",
     "docs/media/2026-11-07_preview_carousel1_04.jpg"
    ]
+  },
+  {
+   "date": "2026-11-08",
+   "genre": "humid",
+   "title": "加湿器選びで見落としやすい3つのこと",
+   "caption": "【PR】加湿器、買う前にここだけは確認👇\n\n加湿器を選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　加湿方式を確認\n気化式・スチーム式・超音波式・ハイブリッド式などの方式を商品ページの仕様欄で確認する。\n\n✔ CHECK2　適用畳数を確認\n木造とプレハブ（鉄骨）で適用畳数が違うことが多い。使う部屋の広さと比べる。\n\n✔ CHECK3　給水とお手入れ\n上から給水か、タンクを外すか。フィルター交換の有無も見る。\n\n■ 例として、2026/11/8に楽天市場でレビューの多かった商品\n・加湿器 大容量 8L ハイブリッド式 加湿器 卓上 AI恒湿 除菌（レインボー商事）13,960円、★4.36／447件\n・加湿器 卓上 加湿器 お手入れ簡単 小型 加湿器 超音波 超静音（Lively Life(ライブリーライフ)）1,980円、★4.24／402件\n・4.5L 加湿器 おしゃれ アロマ 大容量 4.5L超音波加湿器（YIHAI生活館）7,960円、★4.48／395件\n\n※2026/11/8に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 加湿器を選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#加湿器 #加湿器 #乾燥対策 #季節家電 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "加湿器｜買う前メモ",
+     "title": "加湿器選びで\n見落としやすい\n3つのこと",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "humid",
+     "topic": "加湿器",
+     "pre": "見落としやすい",
+     "num": "3",
+     "post": "つのこと",
+     "month": "2026.11月",
+     "seed": "2026-11-0831"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "加湿器 大容量 8L ハイブリッド式 加湿器 卓上 AI恒湿 除菌",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/rainbowshoji/cabinet/hq001/imgrc0089115519.jpg?_ex=700x700",
+     "price": "13,960円",
+     "review": "★4.36",
+     "count": "447件",
+     "postage": "送料込み",
+     "shop": "レインボー商事",
+     "check": "加湿方式を確認",
+     "body": [
+      "気化式・スチーム式・超音波式・",
+      "ハイブリッド式などの方式を",
+      "商品ページの仕様欄で確認する。"
+     ],
+     "date": "2026/11/8"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "加湿器 卓上 加湿器 お手入れ簡単 小型 加湿器 超音波 超静音",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/livelylife/cabinet/08546160/j302436/j302436-03.jpg?_ex=700x700",
+     "price": "1,980円",
+     "review": "★4.24",
+     "count": "402件",
+     "postage": "送料込み",
+     "shop": "Lively Life(ライブリーライフ)",
+     "check": "適用畳数を確認",
+     "body": [
+      "木造とプレハブ（鉄骨）で",
+      "適用畳数が違うことが多い。",
+      "使う部屋の広さと比べる。"
+     ],
+     "date": "2026/11/8"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "4.5L 加湿器 おしゃれ アロマ 大容量 4.5L超音波加湿器",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/rise0828/cabinet/13650578/6598844563.jpg?_ex=700x700",
+     "price": "7,960円",
+     "review": "★4.48",
+     "count": "395件",
+     "postage": "送料込み",
+     "shop": "YIHAI生活館",
+     "check": "給水とお手入れ",
+     "body": [
+      "上から給水か、タンクを外すか。",
+      "フィルター交換の有無も見る。"
+     ],
+     "date": "2026/11/8"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "rainbowshoji:10002394",
+     "rawName": "【クーポンで6,980円】 ＼楽天1位／ 加湿器 大容量 8L ハイブリッド式 加湿器 卓上 AI恒湿 除菌 UVライト除菌 上から給水 超音波加湿器 自動湿度調節 タイマー付き リモコン付き スチーム 抗菌 省エネ 静音 7色ライト 100℃加熱 ぬめり防止",
+     "name": "加湿器 大容量 8L ハイブリッド式 加湿器 卓上 AI恒湿 除菌",
+     "price": 13960,
+     "shop": "レインボー商事",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s4g9o.p3pr2831.g00s4g9o.p3pr3d30/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frainbowshoji%2Fjsq-2402%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frainbowshoji%2Fi%2F10002394%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s4g9o.p3pr2831.g00s4g9o.p3pr3d30/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frainbowshoji%2Fjsq-2402%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frainbowshoji%2Fi%2F10002394%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 447,
+     "reviewAverage": 4.36,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/rainbowshoji/cabinet/hq001/imgrc0089115519.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "livelylife:10002822",
+     "rawName": "＼クーポンで1点1480円！／【2026改良版・コードレス】 加湿器 卓上 加湿器 お手入れ簡単 小型 加湿器 超音波 超静音 400ml大容量 車載用 加湿器 かわいい コンパクト 卓上加湿器 車用加湿器 ライト付き 静音 節電 超細微ミスト 乾燥対策 オフィス 持ち運び 花粉症対策 寝室",
+     "name": "加湿器 卓上 加湿器 お手入れ簡単 小型 加湿器 超音波 超静音",
+     "price": 1980,
+     "shop": "Lively Life(ライブリーライフ)",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00simto.p3pr27aa.g00simto.p3pr3bd9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flivelylife%2Fa301678%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flivelylife%2Fi%2F10002822%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00simto.p3pr27aa.g00simto.p3pr3bd9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flivelylife%2Fa301678%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flivelylife%2Fi%2F10002822%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 402,
+     "reviewAverage": 4.24,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/livelylife/cabinet/08546160/j302436/j302436-03.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "rise0828:10000089",
+     "rawName": "【クーポンで3742円！数限定】 【マイナスイオン空気清浄】 4.5L 加湿器 おしゃれ アロマ 大容量 4.5L超音波加湿器 リモコン付き 超音波式 大容量 4.5L お手入れ簡単 アロマ対応 花粉 ギフト プレゼント 寝室 リビング インテリア",
+     "name": "4.5L 加湿器 おしゃれ アロマ 大容量 4.5L超音波加湿器",
+     "price": 7960,
+     "shop": "YIHAI生活館",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tskeo.p3pr2a2c.g00tskeo.p3pr3617/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frise0828%2Fbyh045b%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frise0828%2Fi%2F10000089%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tskeo.p3pr2a2c.g00tskeo.p3pr3617/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frise0828%2Fbyh045b%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frise0828%2Fi%2F10000089%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 395,
+     "reviewAverage": 4.48,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/rise0828/cabinet/13650578/6598844563.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-08_s2_reel1_01.jpg",
+    "docs/media/2026-11-08_s2_reel1_02.jpg",
+    "docs/media/2026-11-08_s2_reel1_03.jpg",
+    "docs/media/2026-11-08_s2_reel1_04.jpg"
+   ],
+   "video": "docs/media/2026-11-08_s2_reel1.mp4"
+  },
+  {
+   "date": "2026-11-08",
+   "genre": "blanket",
+   "title": "電気毛布、買う前にここ見て",
+   "caption": "【PR】電気毛布、買う前にここだけは確認👇\n\n電気毛布を選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　サイズと使い方\n敷き用・掛け用・兼用のどれか、サイズとあわせて確認する。\n\n✔ CHECK2　消費電力と電気代の目安\n消費電力（W）と、電気代の目安が書かれていれば計算の前提（単価）も見る。\n\n✔ CHECK3　洗濯と使用上の注意\n洗濯できるか、乾燥機の可否、折り曲げなどの注意を読む。\n\n■ 例として、2026/11/8に楽天市場でレビューの多かった商品\n・ふわとろ毛布 電気毛布 掛け敷き 130*190 シングル 即暖（売却ラボ楽天市場店）7,980円、★4.50／596件\n・電気毛布 敷き 掛け敷き 毛布 敷き毛布 掛け敷き毛布 暖房（くらしのeショップ）3,980円、★4.34／566件\n・FOGABER正規品 電気毛布 掛け敷き 190*130cm（nexmoov楽天市場店）4,580円、★4.66／556件\n\n※2026/11/8に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 電気毛布を選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#電気毛布 #電気毛布 #寒さ対策 #冬支度 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "電気毛布｜買う前メモ",
+     "title": "電気毛布、\n買う前に\nここ見て",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "blanket",
+     "topic": "電気毛布",
+     "pre": "買う前にここ見て",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-0832"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "ふわとろ毛布 電気毛布 掛け敷き 130*190 シングル 即暖",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/baikyakulabo/cabinet/new25/611-1.jpg?_ex=700x700",
+     "price": "7,980円",
+     "review": "★4.50",
+     "count": "596件",
+     "postage": "送料別",
+     "shop": "売却ラボ楽天市場店",
+     "check": "サイズと使い方",
+     "body": [
+      "敷き用・掛け用・兼用のどれか、",
+      "サイズとあわせて確認する。"
+     ],
+     "date": "2026/11/8"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "電気毛布 敷き 掛け敷き 毛布 敷き毛布 掛け敷き毛布 暖房",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/main-img/021/main-xadrg.jpg?_ex=700x700",
+     "price": "3,980円",
+     "review": "★4.34",
+     "count": "566件",
+     "postage": "送料込み",
+     "shop": "くらしのeショップ",
+     "check": "消費電力と電気代の目安",
+     "body": [
+      "消費電力（W）と、",
+      "電気代の目安が書かれていれば",
+      "計算の前提（単価）も見る。"
+     ],
+     "date": "2026/11/8"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "FOGABER正規品 電気毛布 掛け敷き 190*130cm",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/nexmoov/cabinet/11291439/13932762/main1104-1.jpg?_ex=700x700",
+     "price": "4,580円",
+     "review": "★4.66",
+     "count": "556件",
+     "postage": "送料込み",
+     "shop": "nexmoov楽天市場店",
+     "check": "洗濯と使用上の注意",
+     "body": [
+      "洗濯できるか、乾燥機の可否、",
+      "折り曲げなどの注意を読む。"
+     ],
+     "date": "2026/11/8"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "baikyakulabo:10000154",
+     "rawName": "【クーポンで最安4,980円】「楽天1位」 ふわとろ毛布 電気毛布 掛け敷き 130*190 シングル 即暖 保温 2枚合わせ ひざ掛け 洗える 電気敷毛布 12時間 タイマー付き 9段階温度 ダニ退治 過熱保護 自動電源オフ 電気ひざ掛け 肩掛け 膝掛け 敷き 電気ブランケット 防寒対策",
+     "name": "ふわとろ毛布 電気毛布 掛け敷き 130*190 シングル 即暖",
+     "price": 7980,
+     "shop": "売却ラボ楽天市場店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00umbso.p3pr2f5a.g00umbso.p3pr3ae9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbaikyakulabo%2F6280-0801%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbaikyakulabo%2Fi%2F10000154%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00umbso.p3pr2f5a.g00umbso.p3pr3ae9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbaikyakulabo%2F6280-0801%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbaikyakulabo%2Fi%2F10000154%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 596,
+     "reviewAverage": 4.5,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/baikyakulabo/cabinet/new25/611-1.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "e-kurashi:10000629",
+     "rawName": "【P10倍 11/11 9:59迄】 電気毛布 敷き 掛け敷き 毛布 敷き毛布 掛け敷き毛布 暖房 パーソナル暖房 省エネ 丸洗い ダニ対策 温度調節 ダニ退治 洗濯 丸洗い 清潔 毛布 タイマー 山善 YAMAZEN 【送料無料】",
+     "name": "電気毛布 敷き 掛け敷き 毛布 敷き毛布 掛け敷き毛布 暖房",
+     "price": 3980,
+     "shop": "くらしのeショップ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pui9o.p3pr24f7.g00pui9o.p3pr3e49/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F1338102%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-kurashi%2Fi%2F10000629%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pui9o.p3pr24f7.g00pui9o.p3pr3e49/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F1338102%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-kurashi%2Fi%2F10000629%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 566,
+     "reviewAverage": 4.34,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/main-img/021/main-xadrg.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "nexmoov:10000071",
+     "rawName": "【今だけ激安値下げ 】FOGABER正規品 電気毛布 掛け敷き 190*130cm 140*80cm 1-10時間 タイマー付き 8段階温度 抗菌防臭 ダニ退治 自動電源オフ 丸洗い ダブル 2人 掛け 電気ひざ掛け 膝掛け 電気ブランケット 送料無料",
+     "name": "FOGABER正規品 電気毛布 掛け敷き 190*130cm",
+     "price": 4580,
+     "shop": "nexmoov楽天市場店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uimro.p3pr2fd8.g00uimro.p3pr3425/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnexmoov%2Fppr-blanket%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnexmoov%2Fi%2F10000071%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uimro.p3pr2fd8.g00uimro.p3pr3425/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnexmoov%2Fppr-blanket%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnexmoov%2Fi%2F10000071%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 556,
+     "reviewAverage": 4.66,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/nexmoov/cabinet/11291439/13932762/main1104-1.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-08_s2_reel2_01.jpg",
+    "docs/media/2026-11-08_s2_reel2_02.jpg",
+    "docs/media/2026-11-08_s2_reel2_03.jpg",
+    "docs/media/2026-11-08_s2_reel2_04.jpg"
+   ],
+   "video": "docs/media/2026-11-08_s2_reel2.mp4"
   }
  ],
  "stories": [
@@ -4473,6 +4728,16 @@
     "docs/media/2026-11-07_story.jpg"
    ],
    "media_id": "18120237587043062"
+  },
+  {
+   "date": "2026-11-08",
+   "title": "電気毛布、買う前にここ見て",
+   "head": "洗濯と使用上の注意",
+   "status": "ready",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-08_story_s2.jpg"
+   ]
   }
  ]
 }
