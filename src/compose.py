@@ -24,7 +24,14 @@ def rank_genres(state, day):
         if p.get("status") == "dry_run":
             continue
         last[p["genre"]] = max(last.get(p["genre"], ""), p["date"])
-    return sorted(order, key=lambda g: (last.get(g, ""), order.index(g)))
+    seasonal = C.SEASONAL.get(day.month, [])
+
+    def key(g):
+        d = last.get(g, "")
+        if d and g in seasonal:        # 季節もののジャンルは「2日前に使った」扱いにして、多めに回す
+            d = (dt.date.fromisoformat(d) - dt.timedelta(days=2)).isoformat()
+        return (d, 0 if g in seasonal else 1, order.index(g))
+    return sorted(order, key=key)
 
 
 def product_word(name):

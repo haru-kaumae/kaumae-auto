@@ -229,40 +229,95 @@ def render_story(story, outdir, stem):
     return [path]
 
 
-def render_reel(image_paths, outdir, stem):
-    """スライド（1080×1350）を縦長の動画（1080×1920、H.264、無音の音声トラック付き）にする。
-    表紙3秒、ほかは1枚2.5秒。ffmpegを使う（GitHub Actionsのubuntuに入っている）。"""
+def reel_hook(post, W=1080, H=1920):
+    """リールの最初の1.5秒。表紙で離脱されていたため（平均視聴0.7〜2.7秒、2026-11-07）、
+    いきなり商品写真・価格・「失敗しがちな点」を見せる。商品画像は加工せず白い帯に置き、文字は帯の外に書く。"""
+    rf = D.rf
+    items = [x for x in post["slides"] if x["kind"] == "item"]
+    if not items:
+        return None
+    it = items[0]
+    cover = post["slides"][0]
+    topic = cover.get("topic") or post.get("topic", "")
+    im = Image.new("RGB", (W, H), CHAR)
+    d = ImageDraw.Draw(im)
+    d.rounded_rectangle((60, 70, 150, 120), radius=25, fill=CHAR2)
+    d.text((105, 95), "PR", font=rf(28), fill=D.WHITE, anchor="mm")
+    y = 230
+    size = 92
+    while size > 56 and rf(size).getlength(f"{topic}を買う前に") > W - 120:
+        size -= 4
+    d.text((W / 2, y), f"{topic}を買う前に", font=rf(size), fill=D.WHITE, anchor="mm")
+    head = f"「{it['check']}」見てる？"
+    hs = 76
+    while hs > 46 and rf(hs).getlength(head) > W - 120:
+        hs -= 4
+    d.text((W / 2, y + 125), head, font=rf(hs), fill=(232, 178, 60), anchor="mm")
+    # 商品画像（加工なし、サイズ変更のみ）
+    band_top, band_h = 470, 820
+    d.rectangle((0, band_top, W, band_top + band_h), fill=(255, 255, 255))
+    pic = fetch_image(it.get("url", ""))
+    if pic is not None:
+        pic = pic.convert("RGB")
+        sc = min((W - 120) / pic.width, (band_h - 60) / pic.height)
+        pic = pic.resize((max(1, int(pic.width * sc)), max(1, int(pic.height * sc))), Image.LANCZOS)
+        im.paste(pic, ((W - pic.width) // 2, band_top + (band_h - pic.height) // 2))
+    y = band_top + band_h + 110
+    d.text((W / 2, y), it["price"], font=rf(110), fill=(232, 178, 60), anchor="mm")
+    d.text((W / 2, y + 120), f"{it['review']}（{it['count']}）　{it['postage']}", font=rf(46), fill=D.WHITE, anchor="mm")
+    d.text((W / 2, H - 120), f"{it['date']}時点　ほか{len(items) - 1}商品と確認ポイントは次へ", font=rf(30), fill=(170, 170, 170), anchor="mm")
+    return im
+
+
+def render_reel(image_paths, outdir, stem, hook=None):
+    """リール（1080×1920、H.264、BGM付き）。hook があれば最初に1.5秒出し、表紙は動画に入れない
+    （表紙はサムネイル cover_url として使う）。各ページは2.2秒で、横にスライドして切り替える。
+    商品画像を切り抜かないよう、拡大などの動きは使わない。"""
     import subprocess, tempfile
     os.makedirs(outdir, exist_ok=True)
     tmpd = tempfile.mkdtemp()
-    lst = []
-    for i, p in enumerate(image_paths):
+    frames = []
+    if hook is not None:
+        fp = os.path.join(tmpd, "hook.jpg")
+        hook.save(fp, "JPEG", quality=92)
+        frames.append((fp, 1.5))
+        pages = image_paths[1:]
+    else:
+        pages = image_paths
+    for i, p in enumerate(pages):
         src = Image.open(p).convert("RGB")
-        canvas = Image.new("RGB", (1080, 1920), D.BG)
+        canvas = Image.new("RGB", (1080, 1920), CHAR)
         canvas.paste(src, (0, (1920 - src.height) // 2))
         fp = os.path.join(tmpd, f"{i:02d}.jpg")
         canvas.save(fp, "JPEG", quality=92)
-        lst.append((fp, 3.0 if i == 0 else 2.5))
-    concat = os.path.join(tmpd, "list.txt")
-    with open(concat, "w") as fp:
-        for f_, dur in lst:
-            fp.write(f"file '{f_}'\nduration {dur}\n")
-        fp.write(f"file '{lst[-1][0]}'\n")
-    total = sum(d for _, d in lst)
+        frames.append((fp, 3.0 if (hook is None and i == 0) else 2.2))
+    fade = 0.3
+    total = sum(dur for _, dur in frames) - fade * (len(frames) - 1)
     out = os.path.join(outdir, f"{stem}.mp4")
+    inputs = []
+    for fp, dur in frames:
+        inputs += ["-loop", "1", "-t", str(dur), "-i", fp]
+    chain, last, offset = [], "[0:v]", 0.0
+    for i in range(1, len(frames)):
+        offset += frames[i - 1][1] - fade
+        tag = f"[v{i}]"
+        chain.append(f"{last}[{i}:v]xfade=transition=slideleft:duration={fade}:offset={offset:.2f}{tag}")
+        last = tag
+    vf = ";".join(chain + [f"{last}fps=30,format=yuv420p[vout]"]) if chain else "[0:v]fps=30,format=yuv420p[vout]"
     # BGM：assets/bgm のオリジナル曲（tools/make_bgm.py で合成）を日替わりで使う。動画より短ければ繰り返す
     bgm_dir = os.path.join(os.path.dirname(__file__), "..", "assets", "bgm")
     tracks = sorted(f for f in os.listdir(bgm_dir) if f.endswith(".m4a")) if os.path.isdir(bgm_dir) else []
+    n = len(frames)
     if tracks:
         track = os.path.join(bgm_dir, tracks[sum(map(ord, stem)) % len(tracks)])
         audio_in = ["-stream_loop", "-1", "-i", track]
-        afilter = ["-af", f"loudnorm=I=-16:TP=-1.5:LRA=7,afade=t=in:d=0.3,afade=t=out:st={total - 1.2}:d=1.2"]
+        af = f"[{n}:a]loudnorm=I=-16:TP=-1.5:LRA=7,afade=t=in:d=0.3,afade=t=out:st={total - 1.0:.2f}:d=1.0[aout]"
     else:
         audio_in = ["-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100"]
-        afilter = []
-    cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", concat, *audio_in,
-           "-t", str(total), "-vf", "fps=30,format=yuv420p", *afilter, "-c:v", "libx264", "-profile:v", "high",
-           "-preset", "medium", "-crf", "20", "-c:a", "aac", "-b:a", "160k", "-ar", "44100",
-           "-movflags", "+faststart", out]
+        af = f"[{n}:a]anull[aout]"
+    cmd = ["ffmpeg", "-y", "-loglevel", "error", *inputs, *audio_in,
+           "-filter_complex", vf + ";" + af, "-map", "[vout]", "-map", "[aout]", "-t", f"{total:.2f}",
+           "-c:v", "libx264", "-profile:v", "high", "-preset", "medium", "-crf", "20",
+           "-c:a", "aac", "-b:a", "160k", "-ar", "44100", "-movflags", "+faststart", out]
     subprocess.run(cmd, check=True)
     return out

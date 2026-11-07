@@ -6,7 +6,7 @@
   python -m src.main publish  # 規約チェックを通った投稿をInstagramに公開
   python -m src.main refresh  # Instagramのトークンを延長してファイルに書く
 """
-import csv, datetime as dt, json, os, sys, time
+import csv, datetime as dt, json, os, random, sys, time
 import requests
 from . import config as C, rakuten, compose, compliance, slides, instagram, site
 
@@ -67,18 +67,25 @@ def prepare(state, day):
     feed_day = day.weekday() in C.FEED_WEEKDAYS or C.FORCE_FEED
     preview = C.DRY_RUN and C.FORCE_FEED          # 手動の試運転：その日に投稿済みでも見本を作る
     extra = C.FORCE_FEED and not C.DRY_RUN         # 手動の追加投稿：その日に投稿済みでももう1本作る
-    formats = ["carousel", "reel"] if C.REELS_ENABLED else ["carousel"]   # 毎日、カルーセルとリールを1本ずつ（別のジャンル）
+    # 2026-11-07 Haruの了承：リールの方が見られるので、7:00はリール2本、13:00はリール2本とカルーセル1本
+    formats = C.SLOT_FORMATS.get(C.SLOT, ["reel", "carousel"]) if C.REELS_ENABLED else ["carousel"]
     used_now = set()   # この回で使ったジャンル（カルーセルとリールで別のジャンルにする）
-    for fmt in formats:
-        done = any(p["date"] == day.isoformat() and p["status"] in real and p.get("format", "carousel") == fmt
-                   and p.get("slot", "1") == C.SLOT for p in state["posts"])
+    for k, fmt in enumerate(formats):
+        need = formats[:k + 1].count(fmt)       # この回で、この形式の何本目か
+        have = sum(1 for p in state["posts"] if p["date"] == day.isoformat() and p["status"] in real
+                   and p.get("format", "carousel") == fmt and p.get("slot", "1") == C.SLOT)
+        done = have >= need
         if not feed_day or (done and not (preview or extra)):
             continue
         # 商品が足りないジャンルは飛ばして、次に使っていないジャンルを試す（最大4つ）
         genre, prods, skipped = None, [], []
         for g in [g for g in compose.rank_genres(state, day) if g not in used_now][:4]:
-            items = rakuten.search_genre(C.GENRES[g]["id"])
-            prods = compose.pick_products(items, state, day)
+            for page in random.sample([1, 2, 3, 4, 5], 3):     # 1ページで足りなければ別のページも見る
+                items = rakuten.search_genre(C.GENRES[g]["id"], page=page)
+                prods = compose.pick_products(items, state, day)
+                if len(prods) >= 3:
+                    break
+                time.sleep(1)
             if len(prods) >= 2:
                 genre = g
                 break
@@ -90,9 +97,12 @@ def prepare(state, day):
         post = compose.build_feed(genre, prods, day, len(state["posts"]))
         problems = compliance.check(post, prods)
         nth = sum(1 for p in state["posts"] if p["date"] == day.isoformat() and p["status"] in real)
-        stem = f"{day.isoformat()}_{'preview_' + fmt if preview else fmt}{nth + 1 if nth else ''}"
-        if C.SLOT != "1" and not preview:
-            stem = f"{day.isoformat()}_s{C.SLOT}_{fmt}"
+        if preview:
+            stem = f"{day.isoformat()}_preview_{fmt}{need}"
+        elif extra:
+            stem = f"{day.isoformat()}_extra{nth + 1}_{fmt}"
+        else:
+            stem = f"{day.isoformat()}_s{C.SLOT}_{fmt}{need}"
         rec = dict(date=day.isoformat(), genre=genre, title=post["title"], caption=post["caption"],
                    slides=post["slides"], products=prods, status=new_status, format=fmt, slot=C.SLOT)
         if problems:
@@ -102,7 +112,8 @@ def prepare(state, day):
             imgs = slides.render_feed(post, os.path.join(DOCS, "media"), stem)
             rec["images"] = [os.path.relpath(p, ROOT) for p in imgs]
             if fmt == "reel":
-                rec["video"] = os.path.relpath(slides.render_reel(imgs, os.path.join(DOCS, "media"), stem), ROOT)
+                hook = slides.reel_hook(post)
+                rec["video"] = os.path.relpath(slides.render_reel(imgs, os.path.join(DOCS, "media"), stem, hook=hook), ROOT)
         state["posts"].append(rec)
         made.append(rec)
     usable = ("posted", "ready", "dry_run") if C.DRY_RUN else ("posted", "ready")
