@@ -4411,7 +4411,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/rise0828/cabinet/13650578/6598844563.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -4420,7 +4420,8 @@
     "docs/media/2026-11-08_s2_reel1_03.jpg",
     "docs/media/2026-11-08_s2_reel1_04.jpg"
    ],
-   "video": "docs/media/2026-11-08_s2_reel1.mp4"
+   "video": "docs/media/2026-11-08_s2_reel1.mp4",
+   "media_id": "18131555584842447"
   },
   {
    "date": "2026-11-08",
@@ -4538,7 +4539,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/nexmoov/cabinet/11291439/13932762/main1104-1.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -4547,7 +4548,8 @@
     "docs/media/2026-11-08_s2_reel2_03.jpg",
     "docs/media/2026-11-08_s2_reel2_04.jpg"
    ],
-   "video": "docs/media/2026-11-08_s2_reel2.mp4"
+   "video": "docs/media/2026-11-08_s2_reel2.mp4",
+   "media_id": "18360238117219443"
   }
  ],
  "stories": [
@@ -4733,11 +4735,12 @@
    "date": "2026-11-08",
    "title": "電気毛布、買う前にここ見て",
    "head": "洗濯と使用上の注意",
-   "status": "ready",
+   "status": "posted",
    "slot": "2",
    "images": [
     "docs/media/2026-11-08_story_s2.jpg"
-   ]
+   ],
+   "media_id": "18139452622646144"
   }
  ]
 }
