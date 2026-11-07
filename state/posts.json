@@ -3775,7 +3775,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ennshopstore/cabinet/12171840/x88pj_zt1015.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "carousel",
    "slot": "1",
    "images": [
@@ -3783,7 +3783,8 @@
     "docs/media/2026-11-07_carousel3_02.jpg",
     "docs/media/2026-11-07_carousel3_03.jpg",
     "docs/media/2026-11-07_carousel3_04.jpg"
-   ]
+   ],
+   "media_id": "18132567667801642"
   },
   {
    "date": "2026-11-07",
@@ -3901,7 +3902,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kaimin-rs/cabinet/005/ikc3623-0.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "1",
    "images": [
@@ -3910,7 +3911,8 @@
     "docs/media/2026-11-07_reel4_03.jpg",
     "docs/media/2026-11-07_reel4_04.jpg"
    ],
-   "video": "docs/media/2026-11-07_reel4.mp4"
+   "video": "docs/media/2026-11-07_reel4.mp4",
+   "media_id": "18132528514699008"
   }
  ],
  "stories": [
@@ -4085,11 +4087,12 @@
    "date": "2026-11-07",
    "title": "ブラシ選びで見落としやすい3つのこと",
    "head": "サイズと対応の表記を見る",
-   "status": "ready",
+   "status": "posted",
    "slot": "1",
    "images": [
     "docs/media/2026-11-07_story.jpg"
-   ]
+   ],
+   "media_id": "18120237587043062"
   }
  ]
 }
