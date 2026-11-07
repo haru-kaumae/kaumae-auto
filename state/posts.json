@@ -3913,6 +3913,386 @@
    ],
    "video": "docs/media/2026-11-07_reel4.mp4",
    "media_id": "18132528514699008"
+  },
+  {
+   "date": "2026-11-07",
+   "genre": "humid",
+   "title": "加湿器、買う前にここ見て",
+   "caption": "【PR】加湿器、買う前にここだけは確認👇\n\n加湿器を選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　加湿方式を確認\n気化式・スチーム式・超音波式・ハイブリッド式などの方式を商品ページの仕様欄で確認する。\n\n✔ CHECK2　適用畳数を確認\n木造とプレハブ（鉄骨）で適用畳数が違うことが多い。使う部屋の広さと比べる。\n\n✔ CHECK3　給水とお手入れ\n上から給水か、タンクを外すか。フィルター交換の有無も見る。\n\n■ 例として、2026/11/7に楽天市場でレビューの多かった商品\n・加湿器 超音波加湿器 次亜塩素酸水対応 タワー型 おしゃれ（モダンデコ）5,499円、★4.28／12,988件\n・ハイブリッド加湿器 大容量 5L 超音波式 加熱式 加湿器 おしゃれ（LIBER-E）6,780円、★4.29／11,435件\n・」加湿器 卓上 超音波 七色LED 次亜塩素酸水対応 350ml（mili cute アクア）1,880円、★4.45／9,585件\n\n※2026/11/7に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 加湿器を選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#加湿器 #加湿器 #乾燥対策 #季節家電 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "加湿器｜買う前メモ",
+     "title": "加湿器、\n買う前に\nここ見て",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "humid",
+     "topic": "加湿器",
+     "pre": "買う前にここ見て",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-0728"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "加湿器 超音波加湿器 次亜塩素酸水対応 タワー型 おしゃれ",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/dondon/cabinet/htjs-002_3.jpg?_ex=700x700",
+     "price": "5,499円",
+     "review": "★4.28",
+     "count": "12,988件",
+     "postage": "送料込み",
+     "shop": "モダンデコ",
+     "check": "加湿方式を確認",
+     "body": [
+      "気化式・スチーム式・超音波式・",
+      "ハイブリッド式などの方式を",
+      "商品ページの仕様欄で確認する。"
+     ],
+     "date": "2026/11/7"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "ハイブリッド加湿器 大容量 5L 超音波式 加熱式 加湿器 おしゃれ",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/liberesta/cabinet/12178158/12277475/m1-5580.jpg?_ex=700x700",
+     "price": "6,780円",
+     "review": "★4.29",
+     "count": "11,435件",
+     "postage": "送料込み",
+     "shop": "LIBER-E",
+     "check": "適用畳数を確認",
+     "body": [
+      "木造とプレハブ（鉄骨）で",
+      "適用畳数が違うことが多い。",
+      "使う部屋の広さと比べる。"
+     ],
+     "date": "2026/11/7"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "」加湿器 卓上 超音波 七色LED 次亜塩素酸水対応 350ml",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/milicute-himawari/cabinet/10096580/1504-06.jpg?_ex=700x700",
+     "price": "1,880円",
+     "review": "★4.45",
+     "count": "9,585件",
+     "postage": "送料込み",
+     "shop": "mili cute アクア",
+     "check": "給水とお手入れ",
+     "body": [
+      "上から給水か、タンクを外すか。",
+      "フィルター交換の有無も見る。"
+     ],
+     "date": "2026/11/7"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "dondon:10003669",
+     "rawName": "[6%クーポン／11日2時まで] 加湿器 超音波加湿器 次亜塩素酸水対応 タワー型 おしゃれ 卓上加湿器 超音波式加湿器 アロマ加湿器 卓上 オフィス 大容量 小型 コンパクト 自動停止機能 LEDライト付き 静音 省エネ 節電 エコ",
+     "name": "加湿器 超音波加湿器 次亜塩素酸水対応 タワー型 おしゃれ",
+     "price": 5499,
+     "shop": "モダンデコ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qqpqo.p3pr2f03.g00qqpqo.p3pr3341/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdondon%2Fhtjs-002%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdondon%2Fi%2F10003669%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qqpqo.p3pr2f03.g00qqpqo.p3pr3341/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdondon%2Fhtjs-002%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdondon%2Fi%2F10003669%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 12988,
+     "reviewAverage": 4.28,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/dondon/cabinet/htjs-002_3.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "liberesta:10000108",
+     "rawName": "【クーポンで最安5580円】「楽天1位」加湿器 ハイブリッド加湿器 大容量 5L 超音波式 加熱式 加湿器 おしゃれ 4重除菌 6段階調節 卓上加湿器 上部給水 湿度設定 自動湿度調節 空焚き防止 UVライト付き タイマー アロマ対応 静音 節電 省エネ エコ 軽量",
+     "name": "ハイブリッド加湿器 大容量 5L 超音波式 加熱式 加湿器 おしゃれ",
+     "price": 6780,
+     "shop": "LIBER-E",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u2jdo.p3pr225b.g00u2jdo.p3pr3b64/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fliberesta%2Faqua-m1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fliberesta%2Fi%2F10000108%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u2jdo.p3pr225b.g00u2jdo.p3pr3b64/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fliberesta%2Faqua-m1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fliberesta%2Fi%2F10000108%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 11435,
+     "reviewAverage": 4.29,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/liberesta/cabinet/12178158/12277475/m1-5580.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "milicute-himawari:10000017",
+     "rawName": "「クーポンで最安1,504円」「楽天1位！」加湿器 卓上 超音波 七色LED 次亜塩素酸水対応 350ml 大容量 2種類加湿モード 空焚き防止 水漏れ防止 静音 保湿 車載 USB給電式 充電式 ミニ 乾燥/花粉症対策 車用 寝室 家庭 子供部屋 お手入れ簡単 オフィス 2026",
+     "name": "」加湿器 卓上 超音波 七色LED 次亜塩素酸水対応 350ml",
+     "price": 1880,
+     "shop": "mili cute アクア",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uhmwo.p3pr29f7.g00uhmwo.p3pr3448/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmilicute-himawari%2Fx06-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmilicute-himawari%2Fi%2F10000017%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uhmwo.p3pr29f7.g00uhmwo.p3pr3448/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmilicute-himawari%2Fx06-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmilicute-himawari%2Fi%2F10000017%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 9585,
+     "reviewAverage": 4.45,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/milicute-himawari/cabinet/10096580/1504-06.jpg?_ex=700x700"
+    }
+   ],
+   "status": "dry_run",
+   "format": "reel",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-07_preview_reel1_01.jpg",
+    "docs/media/2026-11-07_preview_reel1_02.jpg",
+    "docs/media/2026-11-07_preview_reel1_03.jpg",
+    "docs/media/2026-11-07_preview_reel1_04.jpg"
+   ],
+   "video": "docs/media/2026-11-07_preview_reel1.mp4"
+  },
+  {
+   "date": "2026-11-07",
+   "genre": "blanket",
+   "title": "ブランケットを買う前の3チェック",
+   "caption": "【PR】ブランケット、買う前にここだけは確認👇\n\nブランケットを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　サイズと使い方\n敷き用・掛け用・兼用のどれか、サイズとあわせて確認する。\n\n✔ CHECK2　消費電力と電気代の目安\n消費電力（W）と、電気代の目安が書かれていれば計算の前提（単価）も見る。\n\n✔ CHECK3　洗濯と使用上の注意\n洗濯できるか、乾燥機の可否、折り曲げなどの注意を読む。\n\n■ 例として、2026/11/7に楽天市場でレビューの多かった商品\n・電気毛布 掛け敷き モコモコブランケット 極上ふわとろ（Hitidear）12,900円、★4.56／3,763件\n・ふわとろ毛布 電気毛布 掛け敷き兼用 極上ふわとろ 毛布ブランケット（カタリヤショップ）7,480円、★4.57／1,837件\n・ふわとろ毛布 電気毛布 掛け敷き ブランケット ふわふわ 毛布（Varya）11,980円、★4.62／1,403件\n\n※2026/11/7に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 ブランケットを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#ブランケット #電気毛布 #寒さ対策 #冬支度 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "電気毛布｜買う前メモ",
+     "title": "ブランケットを買う前の\n3チェック",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "blanket",
+     "topic": "ブランケット",
+     "pre": "買う前の",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-0729"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "電気毛布 掛け敷き モコモコブランケット 極上ふわとろ",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/hitidear/cabinet/10065696/10914652/g1-5805.jpg?_ex=700x700",
+     "price": "12,900円",
+     "review": "★4.56",
+     "count": "3,763件",
+     "postage": "送料込み",
+     "shop": "Hitidear",
+     "check": "サイズと使い方",
+     "body": [
+      "敷き用・掛け用・兼用のどれか、",
+      "サイズとあわせて確認する。"
+     ],
+     "date": "2026/11/7"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "ふわとろ毛布 電気毛布 掛け敷き兼用 極上ふわとろ 毛布ブランケット",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/katariyashop/cabinet/13923030/6005.jpg?_ex=700x700",
+     "price": "7,480円",
+     "review": "★4.57",
+     "count": "1,837件",
+     "postage": "送料込み",
+     "shop": "カタリヤショップ",
+     "check": "消費電力と電気代の目安",
+     "body": [
+      "消費電力（W）と、",
+      "電気代の目安が書かれていれば",
+      "計算の前提（単価）も見る。"
+     ],
+     "date": "2026/11/7"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "ふわとろ毛布 電気毛布 掛け敷き ブランケット ふわふわ 毛布",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/kukuya/cabinet/10021708/hdt/r2-5391-6.jpg?_ex=700x700",
+     "price": "11,980円",
+     "review": "★4.62",
+     "count": "1,403件",
+     "postage": "送料込み",
+     "shop": "Varya",
+     "check": "洗濯と使用上の注意",
+     "body": [
+      "洗濯できるか、乾燥機の可否、",
+      "折り曲げなどの注意を読む。"
+     ],
+     "date": "2026/11/7"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "hitidear:10000173",
+     "rawName": "【クーポンで最安5805円】「楽天1位」ふわとろ毛布 電気毛布 掛け敷き モコモコブランケット 極上ふわとろ 毛布ブランケット もこもこ ふわふわ シングル 即暖 保温 電気毛布 ひざ掛け シングル 電気ブランケット 洗える ふわもこ 2枚合わせ毛布 厚手 あったかい",
+     "name": "電気毛布 掛け敷き モコモコブランケット 極上ふわとろ",
+     "price": 12900,
+     "shop": "Hitidear",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uab6o.p3pr2d2e.g00uab6o.p3pr386b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhitidear%2Fcozywave-g1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhitidear%2Fi%2F10000173%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uab6o.p3pr2d2e.g00uab6o.p3pr386b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhitidear%2Fcozywave-g1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhitidear%2Fi%2F10000173%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 3763,
+     "reviewAverage": 4.56,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/hitidear/cabinet/10065696/10914652/g1-5805.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "katariyashop:10000441",
+     "rawName": "クーポンで3,980円～「楽天1位」【AI自動温度調節×炭素繊維ヒーター】 ふわとろ毛布 電気毛布 掛け敷き兼用 極上ふわとろ 毛布ブランケット もこもこ ふわふわ シングル ダブル 即暖 保温 電気毛布 ひざ掛け シングル 電気ブランケット 洗える ふわもこ 厚手 あったかい",
+     "name": "ふわとろ毛布 電気毛布 掛け敷き兼用 極上ふわとろ 毛布ブランケット",
+     "price": 7480,
+     "shop": "カタリヤショップ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u552o.p3pr205f.g00u552o.p3pr3129/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkatariyashop%2Fflrmt%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkatariyashop%2Fi%2F10000441%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u552o.p3pr205f.g00u552o.p3pr3129/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkatariyashop%2Fflrmt%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkatariyashop%2Fi%2F10000441%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 1837,
+     "reviewAverage": 4.57,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/katariyashop/cabinet/13923030/6005.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "kukuya:10000147",
+     "rawName": "＼クーポンで最安5,391円～／【楽天1位】ふわとろ毛布 電気毛布 掛け敷き ブランケット ふわふわ 毛布 ポコポコ 洗える モコモコブランケット 電気ひざ掛け 肩掛け 膝掛け 敷き 電気ブランケット 毛布収納 シングル ダブル 厚手 防寒対策",
+     "name": "ふわとろ毛布 電気毛布 掛け敷き ブランケット ふわふわ 毛布",
+     "price": 11980,
+     "shop": "Varya",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ugkto.p3pr28bb.g00ugkto.p3pr3b0b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkukuya%2Fcozywave-r2-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkukuya%2Fi%2F10000147%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ugkto.p3pr28bb.g00ugkto.p3pr3b0b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkukuya%2Fcozywave-r2-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkukuya%2Fi%2F10000147%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 1403,
+     "reviewAverage": 4.62,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kukuya/cabinet/10021708/hdt/r2-5391-6.jpg?_ex=700x700"
+    }
+   ],
+   "status": "dry_run",
+   "format": "reel",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-07_preview_reel2_01.jpg",
+    "docs/media/2026-11-07_preview_reel2_02.jpg",
+    "docs/media/2026-11-07_preview_reel2_03.jpg",
+    "docs/media/2026-11-07_preview_reel2_04.jpg"
+   ],
+   "video": "docs/media/2026-11-07_preview_reel2.mp4"
+  },
+  {
+   "date": "2026-11-07",
+   "genre": "gift",
+   "title": "ポチる前に！カタログギフトの確認リスト",
+   "caption": "【PR】カタログギフト、買う前にここだけは確認👇\n\nカタログギフトを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　予算とコース\n贈る相手と場面に合う価格のコースを選ぶ。\n\n✔ CHECK2　のし・包装・カード\nのし・包装・メッセージカードに対応しているか確認する。\n\n✔ CHECK3　届け日と有効期限\n届け日の指定ができるか、カタログの申込期限も見る。\n\n■ 例として、2026/11/7に楽天市場でレビューの多かった商品\n・愛来オリジナル カタログギフト 3,740円コース（ギフト工房 愛来-内祝・引出物通販）3,350円、★4.89／1,093件\n・当日出荷 カタログギフト 内祝い 3400円コース グルメ 出産祝い（愛dealギフト-内祝い・引き出物）3,157円、★4.75／991件\n・ザ プレミアムカタログギフト ブラック シルバー ゴールド（ソムリエ@ギフト）4,360円、★4.63／982件\n\n※2026/11/7に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 カタログギフトを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#カタログギフト #ギフト #カタログギフト #贈り物 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "カタログギフト｜買う前メモ",
+     "title": "ポチる前に！\nカタログギフトの\n確認リスト",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "gift",
+     "topic": "カタログギフト",
+     "pre": "ポチる前に！",
+     "num": "3",
+     "post": "つの確認",
+     "month": "2026.11月",
+     "seed": "2026-11-0730"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "愛来オリジナル カタログギフト 3,740円コース",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/aikuru/cabinet/event/1104_osu_3400.jpg?_ex=700x700",
+     "price": "3,350円",
+     "review": "★4.89",
+     "count": "1,093件",
+     "postage": "送料込み",
+     "shop": "ギフト工房 愛来-内祝・引出物通販",
+     "check": "予算とコース",
+     "body": [
+      "贈る相手と場面に合う",
+      "価格のコースを選ぶ。"
+     ],
+     "date": "2026/11/7"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "当日出荷 カタログギフト 内祝い 3400円コース グルメ 出産祝い",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/jyoei/cabinet/e-choice_kouga/3150-3.jpg?_ex=700x700",
+     "price": "3,157円",
+     "review": "★4.75",
+     "count": "991件",
+     "postage": "送料別",
+     "shop": "愛dealギフト-内祝い・引き出物",
+     "check": "のし・包装・カード",
+     "body": [
+      "のし・包装・メッセージカードに",
+      "対応しているか確認する。"
+     ],
+     "date": "2026/11/7"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "ザ プレミアムカタログギフト ブラック シルバー ゴールド",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellevie-harima/cabinet/1104/gift/catalog4800_m.jpg?_ex=700x700",
+     "price": "4,360円",
+     "review": "★4.63",
+     "count": "982件",
+     "postage": "送料込み",
+     "shop": "ソムリエ@ギフト",
+     "check": "届け日と有効期限",
+     "body": [
+      "届け日の指定ができるか、",
+      "カタログの申込期限も見る。"
+     ],
+     "date": "2026/11/7"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "aikuru:10036314",
+     "rawName": "愛来オリジナル カタログギフト 3,740円コース",
+     "name": "愛来オリジナル カタログギフト 3,740円コース",
+     "price": 3350,
+     "shop": "ギフト工房 愛来-内祝・引出物通販",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pye9o.p3pr24ad.g00pye9o.p3pr35b7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faikuru%2F10036314%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faikuru%2Fi%2F10036314%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pye9o.p3pr24ad.g00pye9o.p3pr35b7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faikuru%2F10036314%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faikuru%2Fi%2F10036314%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 1093,
+     "reviewAverage": 4.89,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/aikuru/cabinet/event/1104_osu_3400.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "jyoei:10000603",
+     "rawName": "当日出荷 カタログギフト 内祝い 3400円コース グルメ 出産祝い 出産内祝い 結婚内祝い お返し カタログ E-BE-X 選べる ギフトカタログ 結婚祝い 快気祝い 退職祝い おしゃれ 引き出物 引出物 法人 企業 記念品 七五三 お歳暮",
+     "name": "当日出荷 カタログギフト 内祝い 3400円コース グルメ 出産祝い",
+     "price": 3157,
+     "shop": "愛dealギフト-内祝い・引き出物",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pzibo.p3pr2386.g00pzibo.p3pr333f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyoei%2F3150%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjyoei%2Fi%2F10000603%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pzibo.p3pr2386.g00pzibo.p3pr333f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyoei%2F3150%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjyoei%2Fi%2F10000603%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 991,
+     "reviewAverage": 4.75,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/jyoei/cabinet/e-choice_kouga/3150-3.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "bellevie-harima:10046945",
+     "rawName": "【最高級 プレミアム カタログギフト】 ザ プレミアムカタログギフト ブラック シルバー ゴールド 4900円コース ギフトカタログ （S-DO）(メール便)(手提げ袋不可) 引き出物 結婚内祝い 内祝いお返し 大量 ポスト投函 (ヴァンコース) gws 送料無料 お歳暮 冬ギフト",
+     "name": "ザ プレミアムカタログギフト ブラック シルバー ゴールド",
+     "price": 4360,
+     "shop": "ソムリエ@ギフト",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q1q9o.p3pr2fa6.g00q1q9o.p3pr34c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellevie-harima%2Fcatalog-selection-mail_4500%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellevie-harima%2Fi%2F10046945%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q1q9o.p3pr2fa6.g00q1q9o.p3pr34c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellevie-harima%2Fcatalog-selection-mail_4500%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellevie-harima%2Fi%2F10046945%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 982,
+     "reviewAverage": 4.63,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellevie-harima/cabinet/1104/gift/catalog4800_m.jpg?_ex=700x700"
+    }
+   ],
+   "status": "dry_run",
+   "format": "carousel",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-07_preview_carousel1_01.jpg",
+    "docs/media/2026-11-07_preview_carousel1_02.jpg",
+    "docs/media/2026-11-07_preview_carousel1_03.jpg",
+    "docs/media/2026-11-07_preview_carousel1_04.jpg"
+   ]
   }
  ],
  "stories": [
