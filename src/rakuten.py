@@ -73,6 +73,7 @@ def clean_name(name):
     for _ in range(3):
         s = _BRACKETS.sub(" ", s)
     s = _SYMBOLS.sub(" ", s)
+    s = re.sub(r"[「」『』【】\[\]（）()〔〕<>＜＞]", " ", s)      # 対になっていない括弧も消す
     words = [w for w in re.split(r"\s+", s) if w and not _PROMO.search(w)]
     out = ""
     for w in words:

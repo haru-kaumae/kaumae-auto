@@ -48,12 +48,14 @@ def pick_products(items, state, day, n=C.PRODUCTS_PER_POST):
     for p in state["posts"]:
         if p["date"] >= limit and p.get("status") != "dry_run":
             recent.update(x["itemCode"] for x in p["products"])
-    out, shops = [], set()
+    out, shops, names = [], set(), set()
     for it in items:
         if (it["itemCode"] in recent or it["shop"] in shops or not it["availability"]
                 or it["reviewCount"] < C.MIN_REVIEW_COUNT or it["reviewAverage"] < C.MIN_REVIEW_AVERAGE
-                or not it["affiliateUrl"] or any(w in it["name"] for w in BANNED)):
+                or not it["affiliateUrl"] or any(w in it["name"] for w in BANNED)
+                or it["name"][:16] in names):       # 名前がほぼ同じ商品（同じ商品の別出品）は1つだけ
             continue
+        names.add(it["name"][:16])
         out.append(it)
         shops.add(it["shop"])          # 同じショップの商品を並べない
     # 1つの投稿は同じ種類の商品でそろえる（比べやすく、表紙で何の話か伝わるように）
