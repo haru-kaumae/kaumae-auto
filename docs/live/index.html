@@ -173,8 +173,8 @@ footer{font-size:12px;color:var(--muted)}
       <div class="kpi"><b class="mono" id="k4">-</b><span>いいね・保存の合計</span></div>
     </div>
     <div class="tbl"><table>
-      <thead><tr><th>投稿日・回</th><th>形式</th><th>タイトル</th><th style="text-align:right">リーチ</th><th style="width:24%"></th><th style="text-align:right">いいね</th><th style="text-align:right">保存</th></tr></thead>
-      <tbody id="rows"><tr><td colspan="7" class="muted">数字を読み込み中です</td></tr></tbody>
+      <thead><tr><th>投稿日・回</th><th>形式</th><th>タイトル</th><th style="text-align:right">リーチ</th><th style="width:24%"></th><th style="text-align:right">いいね</th><th style="text-align:right">保存</th><th style="text-align:right">平均視聴</th></tr></thead>
+      <tbody id="rows"><tr><td colspan="8" class="muted">数字を読み込み中です</td></tr></tbody>
     </table></div>
     <p class="muted" style="margin:0;font-size:13px">数字は2時間ごとに自動で集計されます。楽天の報酬は楽天アフィリエイトのレポートで確認してください。</p>
   </section>
@@ -343,9 +343,9 @@ async function loadMetrics() {
       <td><span class="fmt ${p.kind}">${p.kind === "reel" ? "リール" : "カルーセル"}</span></td>
       <td>${p.permalink ? `<a href="${p.permalink}" target="_blank" rel="noopener" style="color:inherit">${p.title}</a>` : p.title}</td>
       <td class="n">${p.reach ?? '-'}</td><td><div class="bar" style="width:${(p.reach || 0)/max*100}%"></div></td>
-      <td class="n">${p.likes ?? '-'}</td><td class="n">${p.saved ?? '-'}</td></tr>`).join('');
+      <td class="n">${p.likes ?? '-'}</td><td class="n">${p.saved ?? '-'}</td><td class="n">${p.avg_watch != null ? p.avg_watch + '秒' : '-'}</td></tr>`).join('');
   } catch (e) {
-    $('rows').innerHTML = '<tr><td colspan="7" class="muted">数字はまだ集計されていません（2時間ごとに自動で集計されます）</td></tr>';
+    $('rows').innerHTML = '<tr><td colspan="8" class="muted">数字はまだ集計されていません（2時間ごとに自動で集計されます）</td></tr>';
   }
 }
 loadMetrics(); setInterval(loadMetrics, 300000);

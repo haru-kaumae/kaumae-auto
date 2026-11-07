@@ -215,10 +215,16 @@ def main(cmd):
             except Exception:
                 for k in keys:
                     ins.setdefault(k, "取得不可")
+            if p.get("format") == "reel":
+                try:   # リールの平均視聴時間（ミリ秒）。どこで離脱しているかの目安
+                    d = instagram._get(f"{p['media_id']}/insights", metric="ig_reels_avg_watch_time").get("data", [])
+                    ins["avg_watch"] = round(d[0]["values"][0]["value"] / 1000, 1) if d else None
+                except Exception:
+                    ins["avg_watch"] = None
             print(f"REPORT {p['date']} {kind} {p['title']} いいね{m.get('like_count')} コメント{m.get('comments_count')} {ins} {m.get('permalink', m.get('error', ''))}")
             out.append(dict(date=p["date"], slot=p.get("slot", "1"), kind=("story" if kind == "ストーリーズ" else p.get("format", "carousel")),
                             title=p["title"], genre=p.get("genre", ""), likes=m.get("like_count"), comments=m.get("comments_count"),
-                            permalink=m.get("permalink", ""), **{k: (v if isinstance(v, int) else None) for k, v in ins.items()}))
+                            permalink=m.get("permalink", ""), **{k: (v if isinstance(v, (int, float)) else None) for k, v in ins.items()}))
         skipped = [dict(date=p["date"], slot=p.get("slot", "1"), kind=p.get("format", "carousel"), title=p["title"], status=p["status"])
                    for p in state["posts"] if p.get("status") in ("blocked", "failed")]
         os.makedirs(os.path.join(DOCS, "live"), exist_ok=True)
