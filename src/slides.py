@@ -248,7 +248,12 @@ def reel_hook(post, W=1080, H=1920):
     while size > 56 and rf(size).getlength(f"{topic}を買う前に") > W - 120:
         size -= 4
     d.text((W / 2, y), f"{topic}を買う前に", font=rf(size), fill=D.WHITE, anchor="mm")
-    head = f"「{it['check']}」見てる？"
+    point = it["check"]
+    for tail in ("を確認する", "を確認", "を確かめる", "をチェック", "を見る"):
+        if point.endswith(tail):
+            point = point[: -len(tail)]
+            break
+    head = f"「{point}」見てる？"
     hs = 76
     while hs > 46 and rf(hs).getlength(head) > W - 120:
         hs -= 4
