@@ -271,7 +271,8 @@
      "reviewCount": 1191,
      "reviewAverage": 4.84,
      "availability": 1,
-     "postageFlag": 0
+     "postageFlag": 0,
+     "soldOut": false
     },
     {
      "itemCode": "angelingg:10001033",
@@ -284,7 +285,8 @@
      "reviewCount": 1161,
      "reviewAverage": 4.35,
      "availability": 1,
-     "postageFlag": 0
+     "postageFlag": 0,
+     "soldOut": false
     }
    ],
    "status": "posted",
@@ -752,7 +754,8 @@
      "reviewAverage": 4.69,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/latuna/cabinet/items/07673659/rack_big.jpg?_ex=600x600"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/latuna/cabinet/items/07673659/rack_big.jpg?_ex=600x600",
+     "soldOut": false
     },
     {
      "itemCode": "taniguchi-metal:10000795",
@@ -766,7 +769,8 @@
      "reviewAverage": 4.51,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/taniguchi-metal/cabinet/newthum/imgrc0093322942.jpg?_ex=600x600"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/taniguchi-metal/cabinet/newthum/imgrc0093322942.jpg?_ex=600x600",
+     "soldOut": false
     }
    ],
    "status": "posted",
@@ -1569,7 +1573,8 @@
      "reviewAverage": 4.29,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/enetroom/cabinet/jishahin47/imgrc0095280014.jpg?_ex=600x600"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/enetroom/cabinet/jishahin47/imgrc0095280014.jpg?_ex=600x600",
+     "soldOut": false
     },
     {
      "itemCode": "kirinkokusai:10000156",
@@ -1583,7 +1588,8 @@
      "reviewAverage": 4.54,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kirinkokusai/cabinet/08770151/imgrc0123198743.jpg?_ex=600x600"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kirinkokusai/cabinet/08770151/imgrc0123198743.jpg?_ex=600x600",
+     "soldOut": false
     }
    ],
    "status": "posted",
@@ -1732,7 +1738,8 @@
      "reviewAverage": 4.35,
      "availability": 1,
      "postageFlag": 1,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/dantotsu-online/cabinet/maker/sugibo/2025_na-052h_1r.jpg?_ex=600x600"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/dantotsu-online/cabinet/maker/sugibo/2025_na-052h_1r.jpg?_ex=600x600",
+     "soldOut": false
     },
     {
      "itemCode": "sunshine-store:10000466",
@@ -1746,7 +1753,8 @@
      "reviewAverage": 4.47,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sunshine-store/cabinet/11065869/imgrc0163967000.jpg?_ex=600x600"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sunshine-store/cabinet/11065869/imgrc0163967000.jpg?_ex=600x600",
+     "soldOut": false
     }
    ],
    "status": "posted",
@@ -2098,7 +2106,8 @@
      "reviewAverage": 4.68,
      "availability": 1,
      "postageFlag": 1,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellevie-harima/cabinet/1104/gift/catalog5800_bs.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellevie-harima/cabinet/1104/gift/catalog5800_bs.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "jyoei:10000607",
@@ -2112,7 +2121,8 @@
      "reviewAverage": 4.7,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/jyoei/cabinet/e-choice_kouga/5775-3.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/jyoei/cabinet/e-choice_kouga/5775-3.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "marry-gift:10055927",
@@ -2126,7 +2136,8 @@
      "reviewAverage": 4.64,
      "availability": 1,
      "postageFlag": 1,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/marry-gift/cabinet/event_scene/marason/precious_naoo1-11.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/marry-gift/cabinet/event_scene/marason/precious_naoo1-11.jpg?_ex=700x700",
+     "soldOut": false
     }
    ],
    "status": "posted",
@@ -2223,7 +2234,8 @@
      "reviewAverage": 4.75,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/cerestshop/cabinet/chocolate/40348-1-2610a.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/cerestshop/cabinet/chocolate/40348-1-2610a.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "auc-sansei-shop:10000063",
@@ -2237,7 +2249,8 @@
      "reviewAverage": 4.67,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/auc-sansei-shop/cabinet/tin_01/new09.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/auc-sansei-shop/cabinet/tin_01/new09.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "cafe-primula:10000019",
@@ -2251,7 +2264,8 @@
      "reviewAverage": 4.56,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/cafe-primula/cabinet/imgrc0125871904.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/cafe-primula/cabinet/imgrc0125871904.jpg?_ex=700x700",
+     "soldOut": false
     }
    ],
    "status": "posted",
@@ -2603,7 +2617,8 @@
      "reviewAverage": 4.58,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/perfect-space/cabinet/m/el25-90185_m.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/perfect-space/cabinet/m/el25-90185_m.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "kirara-pla:10000101",
@@ -2617,7 +2632,8 @@
      "reviewAverage": 4.68,
      "availability": 1,
      "postageFlag": 1,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kirara-pla/cabinet/pitcher/imgrc0097291167.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kirara-pla/cabinet/pitcher/imgrc0097291167.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "dsm-am:10000007",
@@ -2631,7 +2647,8 @@
      "reviewAverage": 4.47,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/dsm-am/cabinet/10759412/10000007-tana.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/dsm-am/cabinet/10759412/10000007-tana.jpg?_ex=700x700",
+     "soldOut": false
     }
    ],
    "status": "posted",
@@ -2730,7 +2747,8 @@
      "reviewAverage": 4.46,
      "availability": 1,
      "postageFlag": 1,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/nanobig/cabinet/02988222/oragem300/oragem300_main.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/nanobig/cabinet/02988222/oragem300/oragem300_main.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "bandc:10030592",
@@ -2744,7 +2762,8 @@
      "reviewAverage": 4.28,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bandc/cabinet/tenposien/jishahin1/536508k.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bandc/cabinet/tenposien/jishahin1/536508k.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "muronoya:10000245",
@@ -2758,7 +2777,8 @@
      "reviewAverage": 4.47,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/muronoya/cabinet/01131251/dezine/imagefloor-2025-10.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/muronoya/cabinet/01131251/dezine/imagefloor-2025-10.jpg?_ex=700x700",
+     "soldOut": false
     }
    ],
    "status": "posted",
@@ -2858,7 +2878,8 @@
      "reviewAverage": 4.51,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/cookware-carote/cabinet/13957793/imgrc0120637298.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/cookware-carote/cabinet/13957793/imgrc0120637298.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "ganbareokusan:10002197",
@@ -2872,7 +2893,8 @@
      "reviewAverage": 4.49,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ganbareokusan/cabinet/r/riverlight_fry05.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ganbareokusan/cabinet/r/riverlight_fry05.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "goodlifeshop:10005472",
@@ -2886,7 +2908,8 @@
      "reviewAverage": 4.46,
      "availability": 1,
      "postageFlag": 1,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/goodlifeshop/cabinet/kitchen7/h3594-0001-re.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/goodlifeshop/cabinet/kitchen7/h3594-0001-re.jpg?_ex=700x700",
+     "soldOut": false
     }
    ],
    "status": "posted",
@@ -2986,7 +3009,8 @@
      "reviewAverage": 4.66,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/roomy/cabinet/500cart_all/500cart_11g/p10n-4/ecl2011-my010-1_gt01.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/roomy/cabinet/500cart_all/500cart_11g/p10n-4/ecl2011-my010-1_gt01.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "sinessy:10000020",
@@ -3000,7 +3024,8 @@
      "reviewAverage": 4.44,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sinessy/cabinet/12488389/12488394/12488398/imgrc0136603741.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sinessy/cabinet/12488389/12488394/12488398/imgrc0136603741.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "airrobo:10000003",
@@ -3014,7 +3039,8 @@
      "reviewAverage": 4.61,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/airrobo/cabinet/09610283/hu45002.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/airrobo/cabinet/09610283/hu45002.jpg?_ex=700x700",
+     "soldOut": false
     }
    ],
    "status": "posted",
@@ -3490,7 +3516,8 @@
      "reviewAverage": 4.59,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellevie-harima/cabinet/1104/gift/catalog5800_m.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellevie-harima/cabinet/1104/gift/catalog5800_m.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "jyoei:10000602",
@@ -3504,7 +3531,8 @@
      "reviewAverage": 4.73,
      "availability": 1,
      "postageFlag": 1,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/jyoei/cabinet/e-choice_kouga/2625-3.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/jyoei/cabinet/e-choice_kouga/2625-3.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "ringbellshop:10000663",
@@ -3518,7 +3546,8 @@
      "reviewAverage": 4.73,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ringbellshop/cabinet/event_ma/catalog/7hoshi/cghokkaido_3.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ringbellshop/cabinet/event_ma/catalog/7hoshi/cghokkaido_3.jpg?_ex=700x700",
+     "soldOut": false
     }
    ],
    "status": "posted",
@@ -3616,7 +3645,8 @@
      "reviewAverage": 4.53,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/from-zao/cabinet/ice/multiice-neo720.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/from-zao/cabinet/ice/multiice-neo720.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "konomimi:10000084",
@@ -3630,7 +3660,8 @@
      "reviewAverage": 4.76,
      "availability": 1,
      "postageFlag": 1,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/konomimi/cabinet/08620685/imgrc0083786181.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/konomimi/cabinet/08620685/imgrc0083786181.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "kyunan:10003793",
@@ -3644,7 +3675,8 @@
      "reviewAverage": 4.54,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kyunan/cabinet/nats/kurumi01/kurumi800_tm1.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kyunan/cabinet/nats/kurumi01/kurumi800_tm1.jpg?_ex=700x700",
+     "soldOut": false
     }
    ],
    "status": "posted",
@@ -3744,7 +3776,8 @@
      "reviewAverage": 4.37,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/main-img/021/main-xadpq.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/main-img/021/main-xadpq.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "mpowjapan:10000823",
@@ -3758,7 +3791,8 @@
      "reviewAverage": 4.63,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/mpowjapan/cabinet/dailylife/eb525aljp0/2026re/525main07.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/mpowjapan/cabinet/dailylife/eb525aljp0/2026re/525main07.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "ennshopstore:10000061",
@@ -3772,7 +3806,8 @@
      "reviewAverage": 4.52,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ennshopstore/cabinet/12171840/x88pj_zt1015.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ennshopstore/cabinet/12171840/x88pj_zt1015.jpg?_ex=700x700",
+     "soldOut": false
     }
    ],
    "status": "posted",
@@ -3871,7 +3906,8 @@
      "reviewAverage": 4.32,
      "availability": 1,
      "postageFlag": 1,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sakura002/cabinet/10/08-0110_1.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sakura002/cabinet/10/08-0110_1.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "monogallery:10002028",
@@ -3885,7 +3921,8 @@
      "reviewAverage": 4.52,
      "availability": 1,
      "postageFlag": 1,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/monogallery/cabinet/olink/047a-006d1.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/monogallery/cabinet/olink/047a-006d1.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "kaimin-rs:10001548",
@@ -3899,7 +3936,8 @@
      "reviewAverage": 4.6,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kaimin-rs/cabinet/005/ikc3623-0.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kaimin-rs/cabinet/005/ikc3623-0.jpg?_ex=700x700",
+     "soldOut": false
     }
    ],
    "status": "posted",
@@ -4380,7 +4418,8 @@
      "reviewAverage": 4.36,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/rainbowshoji/cabinet/hq001/imgrc0089115519.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/rainbowshoji/cabinet/hq001/imgrc0089115519.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "livelylife:10002822",
@@ -4394,7 +4433,8 @@
      "reviewAverage": 4.24,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/livelylife/cabinet/08546160/j302436/j302436-03.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/livelylife/cabinet/08546160/j302436/j302436-03.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "rise0828:10000089",
@@ -4408,7 +4448,8 @@
      "reviewAverage": 4.48,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/rise0828/cabinet/13650578/6598844563.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/rise0828/cabinet/13650578/6598844563.jpg?_ex=700x700",
+     "soldOut": false
     }
    ],
    "status": "posted",
@@ -4508,7 +4549,8 @@
      "reviewAverage": 4.5,
      "availability": 1,
      "postageFlag": 1,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/baikyakulabo/cabinet/new25/611-1.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/baikyakulabo/cabinet/new25/611-1.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "e-kurashi:10000629",
@@ -4522,7 +4564,8 @@
      "reviewAverage": 4.34,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/main-img/021/main-xadrg.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/main-img/021/main-xadrg.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "nexmoov:10000071",
@@ -4536,7 +4579,8 @@
      "reviewAverage": 4.66,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/nexmoov/cabinet/11291439/13932762/main1104-1.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/nexmoov/cabinet/11291439/13932762/main1104-1.jpg?_ex=700x700",
+     "soldOut": false
     }
    ],
    "status": "posted",
@@ -4635,7 +4679,8 @@
      "reviewAverage": 4.89,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/aikuru/cabinet/event/1104_osu_3400.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/aikuru/cabinet/event/1104_osu_3400.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "jyoei:10000603",
@@ -4649,7 +4694,8 @@
      "reviewAverage": 4.75,
      "availability": 1,
      "postageFlag": 1,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/jyoei/cabinet/e-choice_kouga/3150-3.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/jyoei/cabinet/e-choice_kouga/3150-3.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "bellevie-harima:10046945",
@@ -4663,7 +4709,8 @@
      "reviewAverage": 4.63,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellevie-harima/cabinet/1104/gift/catalog4800_m.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellevie-harima/cabinet/1104/gift/catalog4800_m.jpg?_ex=700x700",
+     "soldOut": false
     }
    ],
    "status": "posted",
@@ -4763,7 +4810,8 @@
      "reviewAverage": 4.6,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kurashikenkou/cabinet/jisyakura2/i217292-rank.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kurashikenkou/cabinet/jisyakura2/i217292-rank.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "air-rhizome:10001878",
@@ -4777,7 +4825,8 @@
      "reviewAverage": 4.35,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/air-rhizome/cabinet/test/cbkagosouryou.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/air-rhizome/cabinet/test/cbkagosouryou.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "rack-kan:10006059",
@@ -4791,7 +4840,8 @@
      "reviewAverage": 4.63,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/rack-kan/cabinet/eigyou01/11601399/imgrc0107936449.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/rack-kan/cabinet/eigyou01/11601399/imgrc0107936449.jpg?_ex=700x700",
+     "soldOut": false
     }
    ],
    "status": "posted",
@@ -4892,7 +4942,8 @@
      "reviewAverage": 4.55,
      "availability": 1,
      "postageFlag": 1,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/vlab/cabinet/cmp/rakuten_sale/zia_sale-cpn_06.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/vlab/cabinet/cmp/rakuten_sale/zia_sale-cpn_06.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "quads:10000019",
@@ -4906,7 +4957,8 @@
      "reviewAverage": 4.52,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/quads/cabinet/26aw/top_tmb/qs328_top_tmb.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/quads/cabinet/26aw/top_tmb/qs328_top_tmb.jpg?_ex=700x700",
+     "soldOut": false
     },
     {
      "itemCode": "e-kurashi:10000601",
@@ -4920,7 +4972,8 @@
      "reviewAverage": 4.23,
      "availability": 1,
      "postageFlag": 0,
-     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/main-img/018/main-s4e79.jpg?_ex=700x700"
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/main-img/018/main-s4e79.jpg?_ex=700x700",
+     "soldOut": false
     }
    ],
    "status": "posted",
