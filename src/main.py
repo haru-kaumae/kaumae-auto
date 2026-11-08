@@ -79,7 +79,10 @@ def prepare(state, day):
             continue
         # 商品が足りないジャンルは飛ばして、次に使っていないジャンルを試す（最大4つ）
         genre, prods, skipped = None, [], []
-        for g in [g for g in compose.rank_genres(state, day) if g not in used_now][:4]:
+        today_g = {p["genre"] for p in state["posts"] if p["date"] == day.isoformat() and p["status"] in real}
+        cands = [g for g in compose.rank_genres(state, day) if g not in used_now]
+        cands = [g for g in cands if g not in today_g] + [g for g in cands if g in today_g]   # 同じ日に同じジャンルはなるべく避ける
+        for g in cands[:4]:
             for page in random.sample([1, 2, 3, 4, 5], 3):     # 1ページで足りなければ別のページも見る
                 items = rakuten.search_genre(C.GENRES[g]["id"], page=page)
                 prods = compose.pick_products(items, state, day)
@@ -150,14 +153,21 @@ def publish(state):
                     raise RuntimeError(f"{it['name']} の価格が取得時から10%以上変わりました（{it['price']}→{now['price']}円）")
             urls = public_urls([os.path.join(ROOT, p) for p in rec["images"]])
             wait_public(urls)
-            if rec.get("format") == "reel":
-                video = public_urls([os.path.join(ROOT, rec["video"])])
-                wait_public(video)
-                rec["media_id"] = instagram.publish_reel(video[0], rec["caption"], cover_url=urls[0])
-            elif "caption" in rec:
-                rec["media_id"] = instagram.publish_carousel(urls, rec["caption"])
-            else:
-                rec["media_id"] = instagram.publish_story(urls[0])
+            for attempt in range(3):     # Instagram側の画像の読み込み失敗（2207052など）は少し待ってやり直す
+                try:
+                    if rec.get("format") == "reel":
+                        video = public_urls([os.path.join(ROOT, rec["video"])])
+                        wait_public(video)
+                        rec["media_id"] = instagram.publish_reel(video[0], rec["caption"], cover_url=urls[0])
+                    elif "caption" in rec:
+                        rec["media_id"] = instagram.publish_carousel(urls, rec["caption"])
+                    else:
+                        rec["media_id"] = instagram.publish_story(urls[0])
+                    break
+                except RuntimeError as e:
+                    if attempt == 2 or not any(k in str(e) for k in ("2207052", "2207003", "9004", "is_transient\":true")):
+                        raise
+                    time.sleep(90)
             rec["status"] = "posted"
         except Exception as e:  # 1件の失敗で他を止めない
             rec["status"] = "failed"
