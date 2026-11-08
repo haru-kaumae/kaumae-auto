@@ -4550,6 +4550,386 @@
    ],
    "video": "docs/media/2026-11-08_s2_reel2.mp4",
    "media_id": "18360238117219443"
+  },
+  {
+   "date": "2026-11-08",
+   "genre": "gift",
+   "title": "カタログギフトを買う前の3チェック",
+   "caption": "【PR】カタログギフト、買う前にここだけは確認👇\n\nカタログギフトを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　予算とコース\n贈る相手と場面に合う価格のコースを選ぶ。\n\n✔ CHECK2　のし・包装・カード\nのし・包装・メッセージカードに対応しているか確認する。\n\n✔ CHECK3　届け日と有効期限\n届け日の指定ができるか、カタログの申込期限も見る。\n\n■ 例として、2026/11/8に楽天市場でレビューの多かった商品\n・愛来オリジナル カタログギフト 3,740円コース（ギフト工房 愛来-内祝・引出物通販）3,350円、★4.89／1,093件\n・当日出荷 カタログギフト 内祝い 3400円コース グルメ 出産祝い（愛dealギフト-内祝い・引き出物）3,157円、★4.75／991件\n・ザ プレミアムカタログギフト ブラック シルバー ゴールド（ソムリエ@ギフト）4,360円、★4.63／982件\n\n※2026/11/8に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 カタログギフトを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#カタログギフト #ギフト #カタログギフト #贈り物 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "カタログギフト｜買う前メモ",
+     "title": "カタログギフトを買う前の\n3チェック",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "gift",
+     "topic": "カタログギフト",
+     "pre": "買う前の",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-0833"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "愛来オリジナル カタログギフト 3,740円コース",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/aikuru/cabinet/event/1104_osu_3400.jpg?_ex=700x700",
+     "price": "3,350円",
+     "review": "★4.89",
+     "count": "1,093件",
+     "postage": "送料込み",
+     "shop": "ギフト工房 愛来-内祝・引出物通販",
+     "check": "予算とコース",
+     "body": [
+      "贈る相手と場面に合う",
+      "価格のコースを選ぶ。"
+     ],
+     "date": "2026/11/8"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "当日出荷 カタログギフト 内祝い 3400円コース グルメ 出産祝い",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/jyoei/cabinet/e-choice_kouga/3150-3.jpg?_ex=700x700",
+     "price": "3,157円",
+     "review": "★4.75",
+     "count": "991件",
+     "postage": "送料別",
+     "shop": "愛dealギフト-内祝い・引き出物",
+     "check": "のし・包装・カード",
+     "body": [
+      "のし・包装・メッセージカードに",
+      "対応しているか確認する。"
+     ],
+     "date": "2026/11/8"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "ザ プレミアムカタログギフト ブラック シルバー ゴールド",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellevie-harima/cabinet/1104/gift/catalog4800_m.jpg?_ex=700x700",
+     "price": "4,360円",
+     "review": "★4.63",
+     "count": "982件",
+     "postage": "送料込み",
+     "shop": "ソムリエ@ギフト",
+     "check": "届け日と有効期限",
+     "body": [
+      "届け日の指定ができるか、",
+      "カタログの申込期限も見る。"
+     ],
+     "date": "2026/11/8"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "aikuru:10036314",
+     "rawName": "愛来オリジナル カタログギフト 3,740円コース",
+     "name": "愛来オリジナル カタログギフト 3,740円コース",
+     "price": 3350,
+     "shop": "ギフト工房 愛来-内祝・引出物通販",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pye9o.p3pr24ad.g00pye9o.p3pr35b7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faikuru%2F10036314%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faikuru%2Fi%2F10036314%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pye9o.p3pr24ad.g00pye9o.p3pr35b7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faikuru%2F10036314%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faikuru%2Fi%2F10036314%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 1093,
+     "reviewAverage": 4.89,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/aikuru/cabinet/event/1104_osu_3400.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "jyoei:10000603",
+     "rawName": "当日出荷 カタログギフト 内祝い 3400円コース グルメ 出産祝い 出産内祝い 結婚内祝い お返し カタログ E-BE-X 選べる ギフトカタログ 結婚祝い 快気祝い 退職祝い おしゃれ 引き出物 引出物 法人 企業 記念品 七五三 お歳暮",
+     "name": "当日出荷 カタログギフト 内祝い 3400円コース グルメ 出産祝い",
+     "price": 3157,
+     "shop": "愛dealギフト-内祝い・引き出物",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pzibo.p3pr2386.g00pzibo.p3pr333f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyoei%2F3150%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjyoei%2Fi%2F10000603%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pzibo.p3pr2386.g00pzibo.p3pr333f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyoei%2F3150%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjyoei%2Fi%2F10000603%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 991,
+     "reviewAverage": 4.75,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/jyoei/cabinet/e-choice_kouga/3150-3.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "bellevie-harima:10046945",
+     "rawName": "【最高級 プレミアム カタログギフト】 ザ プレミアムカタログギフト ブラック シルバー ゴールド 4900円コース ギフトカタログ （S-DO）(メール便)(手提げ袋不可) 引き出物 結婚内祝い 内祝いお返し 大量 ポスト投函 (ヴァンコース) gws 送料無料 お歳暮 冬ギフト",
+     "name": "ザ プレミアムカタログギフト ブラック シルバー ゴールド",
+     "price": 4360,
+     "shop": "ソムリエ@ギフト",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q1q9o.p3pr2fa6.g00q1q9o.p3pr34c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellevie-harima%2Fcatalog-selection-mail_4500%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellevie-harima%2Fi%2F10046945%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q1q9o.p3pr2fa6.g00q1q9o.p3pr34c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellevie-harima%2Fcatalog-selection-mail_4500%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellevie-harima%2Fi%2F10046945%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 982,
+     "reviewAverage": 4.63,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellevie-harima/cabinet/1104/gift/catalog4800_m.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-08_s1_reel1_01.jpg",
+    "docs/media/2026-11-08_s1_reel1_02.jpg",
+    "docs/media/2026-11-08_s1_reel1_03.jpg",
+    "docs/media/2026-11-08_s1_reel1_04.jpg"
+   ],
+   "video": "docs/media/2026-11-08_s1_reel1.mp4"
+  },
+  {
+   "date": "2026-11-08",
+   "genre": "storage",
+   "title": "ポチる前に！収納ボックスの確認リスト",
+   "caption": "【PR】収納ボックス、買う前にここだけは確認👇\n\n収納ボックスを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　置き場所の3か所を測る\n幅・奥行・高さを測る。扉や引き出しが開く範囲も忘れずに。\n\n✔ CHECK2　内寸と外寸を分けて見る\n入れたい物は「内寸」、置き場所は「外寸」と比べる。\n\n✔ CHECK3　耐荷重を確認\n上に物を置く・重い物を入れるなら耐荷重の表記を確認する。書かれていなければ問い合わせる。\n\n■ 例として、2026/11/8に楽天市場でレビューの多かった商品\n・収納ボックス チェスト 完成品 3段 幅54 奥行40 収納ケース（暮らし健康ネット館）5,260円、★4.60／2,917件\n・収納棚 収納ボックス ラック 棚 おしゃれ 本棚 キューブボックス（エア・リゾーム インテリア）1,486円、★4.35／2,639件\n・収納ケース 収納ボックス 収納チェスト クリア コンテナ（収納・家具・寝具の収納宅配館）2,780円、★4.63／2,255件\n\n※2026/11/8に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 収納ボックスを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#収納ボックス #収納 #収納アイデア #整理整頓 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "収納家具｜買う前メモ",
+     "title": "ポチる前に！\n収納ボックスの\n確認リスト",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "storage",
+     "topic": "収納ボックス",
+     "pre": "ポチる前に！",
+     "num": "3",
+     "post": "つの確認",
+     "month": "2026.11月",
+     "seed": "2026-11-0834"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "収納ボックス チェスト 完成品 3段 幅54 奥行40 収納ケース",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/kurashikenkou/cabinet/jisyakura2/i217292-rank.jpg?_ex=700x700",
+     "price": "5,260円",
+     "review": "★4.60",
+     "count": "2,917件",
+     "postage": "送料込み",
+     "shop": "暮らし健康ネット館",
+     "check": "置き場所の3か所を測る",
+     "body": [
+      "幅・奥行・高さを測る。",
+      "扉や引き出しが開く範囲も忘れずに。"
+     ],
+     "date": "2026/11/8"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "収納棚 収納ボックス ラック 棚 おしゃれ 本棚 キューブボックス",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/air-rhizome/cabinet/test/cbkagosouryou.jpg?_ex=700x700",
+     "price": "1,486円",
+     "review": "★4.35",
+     "count": "2,639件",
+     "postage": "送料込み",
+     "shop": "エア・リゾーム インテリア",
+     "check": "内寸と外寸を分けて見る",
+     "body": [
+      "入れたい物は「内寸」、",
+      "置き場所は「外寸」と比べる。"
+     ],
+     "date": "2026/11/8"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "収納ケース 収納ボックス 収納チェスト クリア コンテナ",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/rack-kan/cabinet/eigyou01/11601399/imgrc0107936449.jpg?_ex=700x700",
+     "price": "2,780円",
+     "review": "★4.63",
+     "count": "2,255件",
+     "postage": "送料込み",
+     "shop": "収納・家具・寝具の収納宅配館",
+     "check": "耐荷重を確認",
+     "body": [
+      "上に物を置く・重い物を入れるなら",
+      "耐荷重の表記を確認する。",
+      "書かれていなければ問い合わせる。"
+     ],
+     "date": "2026/11/8"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "kurashikenkou:10001650",
+     "rawName": "＼ランキング1位／ 収納ボックス チェスト 完成品 3段 幅54 奥行40 収納ケース プラスチック 引き出し ローラー付き タンス シンプル 衣装ケース 押入れ クローゼット 収納 衣類収納 押し入れ アイリスオーヤマ ワイドチェスト W-543 #",
+     "name": "収納ボックス チェスト 完成品 3段 幅54 奥行40 収納ケース",
+     "price": 5260,
+     "shop": "暮らし健康ネット館",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qhoao.p3pr20ce.g00qhoao.p3pr382a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkurashikenkou%2Fi217292%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkurashikenkou%2Fi%2F10001650%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qhoao.p3pr20ce.g00qhoao.p3pr382a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkurashikenkou%2Fi217292%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkurashikenkou%2Fi%2F10001650%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 2917,
+     "reviewAverage": 4.6,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kurashikenkou/cabinet/jisyakura2/i217292-rank.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "air-rhizome:10001878",
+     "rawName": "収納棚 収納ボックス ラック 棚 おしゃれ 本棚 キューブボックス カラーボックス 木製 収納ラック 家具 オープンラック 扉付き 収納 インテリア 棚付き 積み重ねOK 収納 シェルフ キャビネット 北欧 シンプル CUBE",
+     "name": "収納棚 収納ボックス ラック 棚 おしゃれ 本棚 キューブボックス",
+     "price": 1486,
+     "shop": "エア・リゾーム インテリア",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q5lio.p3pr2c79.g00q5lio.p3pr3ede/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fair-rhizome%2Fmiy-cb35%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fair-rhizome%2Fi%2F10001878%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q5lio.p3pr2c79.g00q5lio.p3pr3ede/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fair-rhizome%2Fmiy-cb35%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fair-rhizome%2Fi%2F10001878%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 2639,
+     "reviewAverage": 4.35,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/air-rhizome/cabinet/test/cbkagosouryou.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "rack-kan:10006059",
+     "rawName": "【10％OFFクーポン★30日0時〜11日10時迄】【選べる個数】 収納ケース 収納ボックス 収納チェスト クリア コンテナ プラスチック 引出し 引き出し Lサイズ 浅型 透明 積み重ね 最大4段 押入 押し入れ クローゼット 衣類 服 アイリスオーヤマ チェスト I *[SA]",
+     "name": "収納ケース 収納ボックス 収納チェスト クリア コンテナ",
+     "price": 2780,
+     "shop": "収納・家具・寝具の収納宅配館",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pr3yo.p3pr2481.g00pr3yo.p3pr3132/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frack-kan%2F523960%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frack-kan%2Fi%2F10006059%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pr3yo.p3pr2481.g00pr3yo.p3pr3132/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frack-kan%2F523960%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frack-kan%2Fi%2F10006059%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 2255,
+     "reviewAverage": 4.63,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/rack-kan/cabinet/eigyou01/11601399/imgrc0107936449.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-08_s1_reel2_01.jpg",
+    "docs/media/2026-11-08_s1_reel2_02.jpg",
+    "docs/media/2026-11-08_s1_reel2_03.jpg",
+    "docs/media/2026-11-08_s1_reel2_04.jpg"
+   ],
+   "video": "docs/media/2026-11-08_s1_reel2.mp4"
+  },
+  {
+   "date": "2026-11-08",
+   "genre": "humid",
+   "title": "加湿器選びで見落としやすい3つのこと",
+   "caption": "【PR】加湿器、買う前にここだけは確認👇\n\n加湿器を選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　加湿方式を確認\n気化式・スチーム式・超音波式・ハイブリッド式などの方式を商品ページの仕様欄で確認する。\n\n✔ CHECK2　適用畳数を確認\n木造とプレハブ（鉄骨）で適用畳数が違うことが多い。使う部屋の広さと比べる。\n\n✔ CHECK3　給水とお手入れ\n上から給水か、タンクを外すか。フィルター交換の有無も見る。\n\n■ 例として、2026/11/8に楽天市場でレビューの多かった商品\n・超音波加湿器 次亜塩素酸水 対応 500ppm 次亜塩素酸（ジアニスト）5,490円、★4.55／791件\n・スチーム加湿器 大容量 上部給水 タイマー チャイルドロック（QUADS公式楽天市場店）6,780円、★4.52／790件\n・加湿器 スチーム式加湿器 スチーム加湿器 アロマ対応 コンパクト（くらしのeショップ）4,480円、★4.23／775件\n\n※2026/11/8に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 加湿器を選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#加湿器 #加湿器 #乾燥対策 #季節家電 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "加湿器｜買う前メモ",
+     "title": "加湿器選びで\n見落としやすい\n3つのこと",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "humid",
+     "topic": "加湿器",
+     "pre": "見落としやすい",
+     "num": "3",
+     "post": "つのこと",
+     "month": "2026.11月",
+     "seed": "2026-11-0835"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "超音波加湿器 次亜塩素酸水 対応 500ppm 次亜塩素酸",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/vlab/cabinet/cmp/rakuten_sale/zia_sale-cpn_06.jpg?_ex=700x700",
+     "price": "5,490円",
+     "review": "★4.55",
+     "count": "791件",
+     "postage": "送料別",
+     "shop": "ジアニスト",
+     "check": "加湿方式を確認",
+     "body": [
+      "気化式・スチーム式・超音波式・",
+      "ハイブリッド式などの方式を",
+      "商品ページの仕様欄で確認する。"
+     ],
+     "date": "2026/11/8"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "スチーム加湿器 大容量 上部給水 タイマー チャイルドロック",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/quads/cabinet/26aw/top_tmb/qs328_top_tmb.jpg?_ex=700x700",
+     "price": "6,780円",
+     "review": "★4.52",
+     "count": "790件",
+     "postage": "送料込み",
+     "shop": "QUADS公式楽天市場店",
+     "check": "適用畳数を確認",
+     "body": [
+      "木造とプレハブ（鉄骨）で",
+      "適用畳数が違うことが多い。",
+      "使う部屋の広さと比べる。"
+     ],
+     "date": "2026/11/8"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "加湿器 スチーム式加湿器 スチーム加湿器 アロマ対応 コンパクト",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/main-img/018/main-s4e79.jpg?_ex=700x700",
+     "price": "4,480円",
+     "review": "★4.23",
+     "count": "775件",
+     "postage": "送料込み",
+     "shop": "くらしのeショップ",
+     "check": "給水とお手入れ",
+     "body": [
+      "上から給水か、タンクを外すか。",
+      "フィルター交換の有無も見る。"
+     ],
+     "date": "2026/11/8"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "vlab:10000575",
+     "rawName": "超音波加湿器 次亜塩素酸水 対応 500ppm 次亜塩素酸 ジアニスト2.5L付 お部屋の除菌消臭 次亜塩素酸水対応 ペット 犬 猫 臭い消し 加湿器 噴霧器 手を使わずに付着菌除去 ウイルス 細菌 カビ 花粉 経口 吸入 眼 皮膚刺激試験 室内付着菌 浮遊菌テスト済",
+     "name": "超音波加湿器 次亜塩素酸水 対応 500ppm 次亜塩素酸",
+     "price": 5490,
+     "shop": "ジアニスト",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rvaeo.p3pr2921.g00rvaeo.p3pr370f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvlab%2F116-006%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fvlab%2Fi%2F10000575%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rvaeo.p3pr2921.g00rvaeo.p3pr370f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvlab%2F116-006%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fvlab%2Fi%2F10000575%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 791,
+     "reviewAverage": 4.55,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/vlab/cabinet/cmp/rakuten_sale/zia_sale-cpn_06.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "quads:10000019",
+     "rawName": "【QUADS公式】[マラソンSALE] スチーム加湿器 大容量 上部給水 タイマー チャイルドロック 簡単お手入れ スチーム式 クワッズ公式【メーカー保証付き】",
+     "name": "スチーム加湿器 大容量 上部給水 タイマー チャイルドロック",
+     "price": 6780,
+     "shop": "QUADS公式楽天市場店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ugo6o.p3pr2f94.g00ugo6o.p3pr3bbe/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fquads%2Fqs328%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fquads%2Fi%2F10000019%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ugo6o.p3pr2f94.g00ugo6o.p3pr3bbe/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fquads%2Fqs328%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fquads%2Fi%2F10000019%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 790,
+     "reviewAverage": 4.52,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/quads/cabinet/26aw/top_tmb/qs328_top_tmb.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "e-kurashi:10000601",
+     "rawName": "加湿器 スチーム式加湿器 スチーム加湿器 アロマ対応 コンパクト 小型 木造約4畳 プレハブ約7畳 タンク容量2.5L KKS1-B25E(W)/(G) 加湿器 加湿機 スチーム加湿器 スチーム加湿機 おしゃれ シンプル 潤い 山善 YAMAZEN 【送料無料】",
+     "name": "加湿器 スチーム式加湿器 スチーム加湿器 アロマ対応 コンパクト",
+     "price": 4480,
+     "shop": "くらしのeショップ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pui9o.p3pr24f7.g00pui9o.p3pr3e49/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F1338061%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-kurashi%2Fi%2F10000601%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pui9o.p3pr24f7.g00pui9o.p3pr3e49/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F1338061%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-kurashi%2Fi%2F10000601%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 775,
+     "reviewAverage": 4.23,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/main-img/018/main-s4e79.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "carousel",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-08_s1_carousel1_01.jpg",
+    "docs/media/2026-11-08_s1_carousel1_02.jpg",
+    "docs/media/2026-11-08_s1_carousel1_03.jpg",
+    "docs/media/2026-11-08_s1_carousel1_04.jpg"
+   ]
   }
  ],
  "stories": [
@@ -4741,6 +5121,16 @@
     "docs/media/2026-11-08_story_s2.jpg"
    ],
    "media_id": "18139452622646144"
+  },
+  {
+   "date": "2026-11-08",
+   "title": "加湿器選びで見落としやすい3つのこと",
+   "head": "給水とお手入れ",
+   "status": "ready",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-08_story.jpg"
+   ]
   }
  ]
 }
