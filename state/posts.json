@@ -5104,7 +5104,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/milicute-himawari/cabinet/10096580/1504-06.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -5113,7 +5113,8 @@
     "docs/media/2026-11-09_s2_reel1_03.jpg",
     "docs/media/2026-11-09_s2_reel1_04.jpg"
    ],
-   "video": "docs/media/2026-11-09_s2_reel1.mp4"
+   "video": "docs/media/2026-11-09_s2_reel1.mp4",
+   "media_id": "18644941609050356"
   },
   {
    "date": "2026-11-09",
@@ -5231,7 +5232,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/homeycozy/cabinet/10128404/11199489/12434002/3299-hm.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -5240,7 +5241,8 @@
     "docs/media/2026-11-09_s2_reel2_03.jpg",
     "docs/media/2026-11-09_s2_reel2_04.jpg"
    ],
-   "video": "docs/media/2026-11-09_s2_reel2.mp4"
+   "video": "docs/media/2026-11-09_s2_reel2.mp4",
+   "media_id": "17983861638125714"
   }
  ],
  "stories": [
@@ -5448,11 +5450,12 @@
    "date": "2026-11-09",
    "title": "電気毛布を買う前の3チェック",
    "head": "サイズと使い方",
-   "status": "ready",
+   "status": "posted",
    "slot": "2",
    "images": [
     "docs/media/2026-11-09_story_s2.jpg"
-   ]
+   ],
+   "media_id": "18117487226594567"
   }
  ]
 }
