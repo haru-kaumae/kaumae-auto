@@ -4923,7 +4923,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/main-img/018/main-s4e79.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "carousel",
    "slot": "1",
    "images": [
@@ -4931,7 +4931,8 @@
     "docs/media/2026-11-08_s1_carousel1_02.jpg",
     "docs/media/2026-11-08_s1_carousel1_03.jpg",
     "docs/media/2026-11-08_s1_carousel1_04.jpg"
-   ]
+   ],
+   "media_id": "17961873555253053"
   }
  ],
  "stories": [
