@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-08 12:18",
+ "updated": "2026-11-08 14:19",
  "followers": 5,
- "media": 16,
+ "media": 18,
  "posts": [
   {
    "date": "2026-11-02",
@@ -212,12 +212,12 @@
    "likes": 0,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/DfbRkvDiOdu/",
-   "reach": 10,
+   "reach": 14,
    "saved": 0,
    "shares": 0,
-   "views": 9,
+   "views": 13,
    "total_interactions": 0,
-   "avg_watch": 2.4
+   "avg_watch": 2.0
   },
   {
    "date": "2026-11-08",
@@ -244,12 +244,44 @@
    "likes": 0,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/DfdNJyenMuU/",
-   "reach": 10,
+   "reach": 13,
    "saved": 0,
    "shares": 0,
-   "views": 11,
+   "views": 14,
    "total_interactions": 0,
-   "avg_watch": 2.2
+   "avg_watch": 2.0
+  },
+  {
+   "date": "2026-11-08",
+   "slot": "1",
+   "kind": "reel",
+   "title": "カタログギフトを買う前の3チェック",
+   "genre": "gift",
+   "likes": 0,
+   "comments": 0,
+   "permalink": "https://www.instagram.com/reel/Dfd2YZdkQ5x/",
+   "reach": 0,
+   "saved": 0,
+   "shares": 0,
+   "views": 0,
+   "total_interactions": 0,
+   "avg_watch": 0.0
+  },
+  {
+   "date": "2026-11-08",
+   "slot": "1",
+   "kind": "reel",
+   "title": "ポチる前に！収納ボックスの確認リスト",
+   "genre": "storage",
+   "likes": 0,
+   "comments": 0,
+   "permalink": "https://www.instagram.com/reel/Dfd2eBOFMiC/",
+   "reach": 80,
+   "saved": 0,
+   "shares": 0,
+   "views": 98,
+   "total_interactions": 0,
+   "avg_watch": 2.6
   },
   {
    "date": "2026-11-07",
@@ -272,9 +304,9 @@
    "kind": "story",
    "title": "ブラシ選びで見落としやすい3つのこと",
    "genre": "",
-   "likes": 0,
-   "comments": 0,
-   "permalink": "https://www.instagram.com/stories/kaumae._.memo/4024888324133045980",
+   "likes": null,
+   "comments": null,
+   "permalink": "",
    "reach": null,
    "saved": null,
    "shares": null,
@@ -295,7 +327,30 @@
    "shares": null,
    "views": null,
    "total_interactions": null
+  },
+  {
+   "date": "2026-11-08",
+   "slot": "1",
+   "kind": "story",
+   "title": "加湿器選びで見落としやすい3つのこと",
+   "genre": "",
+   "likes": 0,
+   "comments": 0,
+   "permalink": "https://www.instagram.com/stories/kaumae._.memo/4025613575440647602",
+   "reach": null,
+   "saved": null,
+   "shares": null,
+   "views": null,
+   "total_interactions": null
   }
  ],
- "problems": []
+ "problems": [
+  {
+   "date": "2026-11-08",
+   "slot": "1",
+   "kind": "carousel",
+   "title": "加湿器選びで見落としやすい3つのこと",
+   "status": "failed"
+  }
+ ]
 }
