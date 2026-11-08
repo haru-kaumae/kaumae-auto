@@ -4986,6 +4986,261 @@
     "docs/media/2026-11-08_s1_carousel1_04.jpg"
    ],
    "media_id": "17961873555253053"
+  },
+  {
+   "date": "2026-11-09",
+   "genre": "humid",
+   "title": "加湿器、買う前にここ見て",
+   "caption": "【PR】加湿器、買う前にここだけは確認👇\n\n加湿器を選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　加湿方式を確認\n気化式・スチーム式・超音波式・ハイブリッド式などの方式を商品ページの仕様欄で確認する。\n\n✔ CHECK2　適用畳数を確認\n木造とプレハブ（鉄骨）で適用畳数が違うことが多い。使う部屋の広さと比べる。\n\n✔ CHECK3　給水とお手入れ\n上から給水か、タンクを外すか。フィルター交換の有無も見る。\n\n■ 例として、2026/11/9に楽天市場でレビューの多かった商品\n・加湿器 超音波加湿器 次亜塩素酸水対応 タワー型 おしゃれ（モダンデコ）5,499円、★4.28／12,988件\n・加湿器 ハイブリッド加湿器 大容量 5L 超音波式 加熱式 加湿器（LIBER-E）6,780円、★4.29／11,469件\n・加湿器 卓上 超音波 七色LED 次亜塩素酸水対応 350ml（mili cute アクア）1,880円、★4.45／9,603件\n\n※2026/11/9に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 加湿器を選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#加湿器 #加湿器 #乾燥対策 #季節家電 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "加湿器｜買う前メモ",
+     "title": "加湿器、\n買う前に\nここ見て",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "humid",
+     "topic": "加湿器",
+     "pre": "買う前にここ見て",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-0936"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "加湿器 超音波加湿器 次亜塩素酸水対応 タワー型 おしゃれ",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/dondon/cabinet/htjs-002_3.jpg?_ex=700x700",
+     "price": "5,499円",
+     "review": "★4.28",
+     "count": "12,988件",
+     "postage": "送料込み",
+     "shop": "モダンデコ",
+     "check": "加湿方式を確認",
+     "body": [
+      "気化式・スチーム式・超音波式・",
+      "ハイブリッド式などの方式を",
+      "商品ページの仕様欄で確認する。"
+     ],
+     "date": "2026/11/9"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "加湿器 ハイブリッド加湿器 大容量 5L 超音波式 加熱式 加湿器",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/liberesta/cabinet/12178158/12277475/m1-5580.jpg?_ex=700x700",
+     "price": "6,780円",
+     "review": "★4.29",
+     "count": "11,469件",
+     "postage": "送料込み",
+     "shop": "LIBER-E",
+     "check": "適用畳数を確認",
+     "body": [
+      "木造とプレハブ（鉄骨）で",
+      "適用畳数が違うことが多い。",
+      "使う部屋の広さと比べる。"
+     ],
+     "date": "2026/11/9"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "加湿器 卓上 超音波 七色LED 次亜塩素酸水対応 350ml",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/milicute-himawari/cabinet/10096580/1504-06.jpg?_ex=700x700",
+     "price": "1,880円",
+     "review": "★4.45",
+     "count": "9,603件",
+     "postage": "送料込み",
+     "shop": "mili cute アクア",
+     "check": "給水とお手入れ",
+     "body": [
+      "上から給水か、タンクを外すか。",
+      "フィルター交換の有無も見る。"
+     ],
+     "date": "2026/11/9"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "dondon:10003669",
+     "rawName": "[6%クーポン／11日2時まで] 加湿器 超音波加湿器 次亜塩素酸水対応 タワー型 おしゃれ 卓上加湿器 超音波式加湿器 アロマ加湿器 卓上 オフィス 大容量 小型 コンパクト 自動停止機能 LEDライト付き 静音 省エネ 節電 エコ",
+     "name": "加湿器 超音波加湿器 次亜塩素酸水対応 タワー型 おしゃれ",
+     "price": 5499,
+     "shop": "モダンデコ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qqpqo.p3pr2f03.g00qqpqo.p3pr3341/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdondon%2Fhtjs-002%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdondon%2Fi%2F10003669%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qqpqo.p3pr2f03.g00qqpqo.p3pr3341/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdondon%2Fhtjs-002%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdondon%2Fi%2F10003669%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 12988,
+     "reviewAverage": 4.28,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/dondon/cabinet/htjs-002_3.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "liberesta:10000108",
+     "rawName": "【クーポンで最安5580円】「楽天1位」加湿器 ハイブリッド加湿器 大容量 5L 超音波式 加熱式 加湿器 おしゃれ 4重除菌 6段階調節 卓上加湿器 上部給水 湿度設定 自動湿度調節 空焚き防止 UVライト付き タイマー アロマ対応 静音 節電 省エネ エコ 軽量",
+     "name": "加湿器 ハイブリッド加湿器 大容量 5L 超音波式 加熱式 加湿器",
+     "price": 6780,
+     "shop": "LIBER-E",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u2jdo.p3pr225b.g00u2jdo.p3pr3b64/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fliberesta%2Faqua-m1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fliberesta%2Fi%2F10000108%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u2jdo.p3pr225b.g00u2jdo.p3pr3b64/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fliberesta%2Faqua-m1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fliberesta%2Fi%2F10000108%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 11469,
+     "reviewAverage": 4.29,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/liberesta/cabinet/12178158/12277475/m1-5580.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "milicute-himawari:10000017",
+     "rawName": "「クーポンで最安1,504円」「楽天1位！」加湿器 卓上 超音波 七色LED 次亜塩素酸水対応 350ml 大容量 2種類加湿モード 空焚き防止 水漏れ防止 静音 保湿 車載 USB給電式 充電式 ミニ 乾燥/花粉症対策 車用 寝室 家庭 子供部屋 お手入れ簡単 オフィス 2026",
+     "name": "加湿器 卓上 超音波 七色LED 次亜塩素酸水対応 350ml",
+     "price": 1880,
+     "shop": "mili cute アクア",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uhmwo.p3pr29f7.g00uhmwo.p3pr3448/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmilicute-himawari%2Fx06-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmilicute-himawari%2Fi%2F10000017%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uhmwo.p3pr29f7.g00uhmwo.p3pr3448/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmilicute-himawari%2Fx06-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmilicute-himawari%2Fi%2F10000017%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 9603,
+     "reviewAverage": 4.45,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/milicute-himawari/cabinet/10096580/1504-06.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-09_s2_reel1_01.jpg",
+    "docs/media/2026-11-09_s2_reel1_02.jpg",
+    "docs/media/2026-11-09_s2_reel1_03.jpg",
+    "docs/media/2026-11-09_s2_reel1_04.jpg"
+   ],
+   "video": "docs/media/2026-11-09_s2_reel1.mp4"
+  },
+  {
+   "date": "2026-11-09",
+   "genre": "blanket",
+   "title": "電気毛布を買う前の3チェック",
+   "caption": "【PR】電気毛布、買う前にここだけは確認👇\n\n電気毛布を選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　サイズと使い方\n敷き用・掛け用・兼用のどれか、サイズとあわせて確認する。\n\n✔ CHECK2　消費電力と電気代の目安\n消費電力（W）と、電気代の目安が書かれていれば計算の前提（単価）も見る。\n\n✔ CHECK3　洗濯と使用上の注意\n洗濯できるか、乾燥機の可否、折り曲げなどの注意を読む。\n\n■ 例として、2026/11/9に楽天市場でレビューの多かった商品\n・電気毛布 ロングサイズ 電気敷き毛布 ふんわりあったかボア加工（タウンランド Townland）3,980円、★4.37／598件\n・電気毛布 掛け敷き 45800mAh バッテリー 有り 無し 60℃（ASKRTECH）4,390円、★4.26／549件\n・PSE認証済み 掛け毛布 190*130 電気 毛布 電気毛布 掛け（homeycozy）8,839円、★4.52／517件\n\n※2026/11/9に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 電気毛布を選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#電気毛布 #電気毛布 #寒さ対策 #冬支度 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "電気毛布｜買う前メモ",
+     "title": "電気毛布を買う前の\n3チェック",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "blanket",
+     "topic": "電気毛布",
+     "pre": "買う前の",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-0937"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "電気毛布 ロングサイズ 電気敷き毛布 ふんわりあったかボア加工",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/townland/cabinet/denkimoufu/na-08sl-sugiyama11.jpg?_ex=700x700",
+     "price": "3,980円",
+     "review": "★4.37",
+     "count": "598件",
+     "postage": "送料込み",
+     "shop": "タウンランド Townland",
+     "check": "サイズと使い方",
+     "body": [
+      "敷き用・掛け用・兼用のどれか、",
+      "サイズとあわせて確認する。"
+     ],
+     "date": "2026/11/9"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "電気毛布 掛け敷き 45800mAh バッテリー 有り 無し 60℃",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/askrtech/cabinet/mainimg/pd-02.jpg?_ex=700x700",
+     "price": "4,390円",
+     "review": "★4.26",
+     "count": "549件",
+     "postage": "送料込み",
+     "shop": "ASKRTECH",
+     "check": "消費電力と電気代の目安",
+     "body": [
+      "消費電力（W）と、",
+      "電気代の目安が書かれていれば",
+      "計算の前提（単価）も見る。"
+     ],
+     "date": "2026/11/9"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "PSE認証済み 掛け毛布 190*130 電気 毛布 電気毛布 掛け",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/homeycozy/cabinet/10128404/11199489/12434002/3299-hm.jpg?_ex=700x700",
+     "price": "8,839円",
+     "review": "★4.52",
+     "count": "517件",
+     "postage": "送料込み",
+     "shop": "homeycozy",
+     "check": "洗濯と使用上の注意",
+     "body": [
+      "洗濯できるか、乾燥機の可否、",
+      "折り曲げなどの注意を読む。"
+     ],
+     "date": "2026/11/9"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "townland:10000479",
+     "rawName": "【日本製】電気毛布 ロングサイズ 電気敷き毛布 ふんわりあったかボア加工 電気敷毛布 電気しき 電気ブランケット シングル【RCP】 電気毛布(ロング)",
+     "name": "電気毛布 ロングサイズ 電気敷き毛布 ふんわりあったかボア加工",
+     "price": 3980,
+     "shop": "タウンランド Townland",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qegto.p3pr2ccc.g00qegto.p3pr392f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftownland%2Fr-na-08sl-be%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftownland%2Fi%2F10000479%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qegto.p3pr2ccc.g00qegto.p3pr392f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftownland%2Fr-na-08sl-be%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftownland%2Fi%2F10000479%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 598,
+     "reviewAverage": 4.37,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/townland/cabinet/denkimoufu/na-08sl-sugiyama11.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "askrtech:10000591",
+     "rawName": "【クーポンで3,690円〜】 電気毛布 掛け敷き 45800mAh バッテリー 有り 無し 60℃ 極暖 速暖 ひざ掛け 150×80cm 大判サイズ 電気ブランケット ヒーター 温度調節 USB給電 自動電源オフ ダニ退治 洗える 肌触り 敷毛布 省エネ 膝掛け 掛け毛布 ふわふわ NTC過熱制御",
+     "name": "電気毛布 掛け敷き 45800mAh バッテリー 有り 無し 60℃",
+     "price": 4390,
+     "shop": "ASKRTECH",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tbi3o.p3pr27fc.g00tbi3o.p3pr30e1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faskrtech%2Ff01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faskrtech%2Fi%2F10000591%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tbi3o.p3pr27fc.g00tbi3o.p3pr30e1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faskrtech%2Ff01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faskrtech%2Fi%2F10000591%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 549,
+     "reviewAverage": 4.26,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/askrtech/cabinet/mainimg/pd-02.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "homeycozy:10000854",
+     "rawName": "【★クーポンで3299円～】PSE認証済み 掛け毛布 190*130 電気 毛布 電気毛布 掛け 電熱毛布 電気もうふ モウフ 速暖 ふわふわ 洗える 温度調節 タイマー 電気ブランケット 厚手 シングル ダブル 省エネ コンセント 大判サイズ 洗える電気毛布 ブランケット",
+     "name": "PSE認証済み 掛け毛布 190*130 電気 毛布 電気毛布 掛け",
+     "price": 8839,
+     "shop": "homeycozy",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ts9zo.p3pr21d6.g00ts9zo.p3pr3ba7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhomeycozy%2Fdrt05-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhomeycozy%2Fi%2F10000854%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ts9zo.p3pr21d6.g00ts9zo.p3pr3ba7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhomeycozy%2Fdrt05-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhomeycozy%2Fi%2F10000854%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 517,
+     "reviewAverage": 4.52,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/homeycozy/cabinet/10128404/11199489/12434002/3299-hm.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-09_s2_reel2_01.jpg",
+    "docs/media/2026-11-09_s2_reel2_02.jpg",
+    "docs/media/2026-11-09_s2_reel2_03.jpg",
+    "docs/media/2026-11-09_s2_reel2_04.jpg"
+   ],
+   "video": "docs/media/2026-11-09_s2_reel2.mp4"
   }
  ],
  "stories": [
@@ -5188,6 +5443,16 @@
     "docs/media/2026-11-08_story.jpg"
    ],
    "media_id": "18117310901015529"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "電気毛布を買う前の3チェック",
+   "head": "サイズと使い方",
+   "status": "ready",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-09_story_s2.jpg"
+   ]
   }
  ]
 }
