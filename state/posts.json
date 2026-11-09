@@ -5359,7 +5359,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/piary/cabinet/shohin/cataloggift/cg06.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "1",
    "images": [
@@ -5368,7 +5368,8 @@
     "docs/media/2026-11-09_s1_reel1_03.jpg",
     "docs/media/2026-11-09_s1_reel1_04.jpg"
    ],
-   "video": "docs/media/2026-11-09_s1_reel1.mp4"
+   "video": "docs/media/2026-11-09_s1_reel1.mp4",
+   "media_id": "18117624179039322"
   },
   {
    "date": "2026-11-09",
@@ -5486,7 +5487,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/next-online/cabinet/06938766/09640027/km_sum.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "1",
    "images": [
@@ -5495,7 +5496,8 @@
     "docs/media/2026-11-09_s1_reel2_03.jpg",
     "docs/media/2026-11-09_s1_reel2_04.jpg"
    ],
-   "video": "docs/media/2026-11-09_s1_reel2.mp4"
+   "video": "docs/media/2026-11-09_s1_reel2.mp4",
+   "media_id": "17972020895962619"
   },
   {
    "date": "2026-11-09",
@@ -5613,7 +5615,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/nactasukaru/cabinet/item_img/10035_new_b.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "carousel",
    "slot": "1",
    "images": [
@@ -5621,7 +5623,8 @@
     "docs/media/2026-11-09_s1_carousel1_02.jpg",
     "docs/media/2026-11-09_s1_carousel1_03.jpg",
     "docs/media/2026-11-09_s1_carousel1_04.jpg"
-   ]
+   ],
+   "media_id": "18114941786127798"
   }
  ],
  "stories": [
@@ -5840,11 +5843,12 @@
    "date": "2026-11-09",
    "title": "スポンジ、買う前にここ見て",
    "head": "使う場所の素材を確かめる",
-   "status": "ready",
+   "status": "posted",
    "slot": "1",
    "images": [
     "docs/media/2026-11-09_story.jpg"
-   ]
+   ],
+   "media_id": "18181925938451833"
   }
  ]
 }
