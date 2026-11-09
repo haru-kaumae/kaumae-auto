@@ -5743,7 +5743,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/hitidear/cabinet/14171273/zt1-2.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -5752,7 +5752,8 @@
     "docs/media/2026-11-10_s2_reel1_03.jpg",
     "docs/media/2026-11-10_s2_reel1_04.jpg"
    ],
-   "video": "docs/media/2026-11-10_s2_reel1.mp4"
+   "video": "docs/media/2026-11-10_s2_reel1.mp4",
+   "media_id": "18132909067891252"
   },
   {
    "date": "2026-11-10",
@@ -5870,7 +5871,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/try3/cabinet/08735386/imgrc0098772859.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -5879,7 +5880,8 @@
     "docs/media/2026-11-10_s2_reel2_03.jpg",
     "docs/media/2026-11-10_s2_reel2_04.jpg"
    ],
-   "video": "docs/media/2026-11-10_s2_reel2.mp4"
+   "video": "docs/media/2026-11-10_s2_reel2.mp4",
+   "media_id": "18043674338832950"
   }
  ],
  "stories": [
@@ -6109,11 +6111,12 @@
    "date": "2026-11-10",
    "title": "ポチる前に！電気敷毛布の確認リスト",
    "head": "消費電力と電気代の目安",
-   "status": "ready",
+   "status": "posted",
    "slot": "2",
    "images": [
     "docs/media/2026-11-10_story_s2.jpg"
-   ]
+   ],
+   "media_id": "18014192480955452"
   }
  ]
 }
