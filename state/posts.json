@@ -5882,6 +5882,384 @@
    ],
    "video": "docs/media/2026-11-10_s2_reel2.mp4",
    "media_id": "18043674338832950"
+  },
+  {
+   "date": "2026-11-10",
+   "genre": "gift",
+   "title": "カタログギフト選びで見落としやすい3つのこと",
+   "caption": "【PR】カタログギフト、買う前にここだけは確認👇\n\nカタログギフトを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　予算とコース\n贈る相手と場面に合う価格のコースを選ぶ。\n\n✔ CHECK2　のし・包装・カード\nのし・包装・メッセージカードに対応しているか確認する。\n\n✔ CHECK3　届け日と有効期限\n届け日の指定ができるか、カタログの申込期限も見る。\n\n■ 例として、2026/11/10に楽天市場でレビューの多かった商品\n・Premium EL シトロン カタログギフト 3,190円コース（ギフト工房 愛来-内祝・引出物通販）2,680円、★4.79／986件\n・4年連続ギフト大賞 カタログギフト ポスト投函 最高級 ザ（ソムリエ@ギフト）2,880円、★4.67／972件\n・DEAN＆DELUCA ギフトカタログ カタログギフト グルメ（アンティナギフトスタジオ）6,600円、★4.81／964件\n\n※2026/11/10に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 カタログギフトを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#カタログギフト #ギフト #カタログギフト #贈り物 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "カタログギフト｜買う前メモ",
+     "title": "カタログギフト選びで\n見落としやすい\n3つのこと",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "gift",
+     "topic": "カタログギフト",
+     "pre": "見落としやすい",
+     "num": "3",
+     "post": "つのこと",
+     "month": "2026.11月",
+     "seed": "2026-11-1043"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "Premium EL シトロン カタログギフト 3,190円コース",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/aikuru/cabinet/event/1104_prem_2900.jpg?_ex=700x700",
+     "price": "2,680円",
+     "review": "★4.79",
+     "count": "986件",
+     "postage": "送料込み",
+     "shop": "ギフト工房 愛来-内祝・引出物通販",
+     "check": "予算とコース",
+     "body": [
+      "贈る相手と場面に合う",
+      "価格のコースを選ぶ。"
+     ],
+     "date": "2026/11/10"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "4年連続ギフト大賞 カタログギフト ポスト投函 最高級 ザ",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellevie-harima/cabinet/1104/gift/catalog2800_m.jpg?_ex=700x700",
+     "price": "2,880円",
+     "review": "★4.67",
+     "count": "972件",
+     "postage": "送料込み",
+     "shop": "ソムリエ@ギフト",
+     "check": "のし・包装・カード",
+     "body": [
+      "のし・包装・メッセージカードに",
+      "対応しているか確認する。"
+     ],
+     "date": "2026/11/10"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "DEAN＆DELUCA ギフトカタログ カタログギフト グルメ",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/antina/cabinet/products_201/20177010_14.jpg?_ex=700x700",
+     "price": "6,600円",
+     "review": "★4.81",
+     "count": "964件",
+     "postage": "送料込み",
+     "shop": "アンティナギフトスタジオ",
+     "check": "届け日と有効期限",
+     "body": [
+      "届け日の指定ができるか、",
+      "カタログの申込期限も見る。"
+     ],
+     "date": "2026/11/10"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "aikuru:10125532",
+     "rawName": "Premium EL シトロン カタログギフト 3,190円コース",
+     "name": "Premium EL シトロン カタログギフト 3,190円コース",
+     "price": 2680,
+     "shop": "ギフト工房 愛来-内祝・引出物通販",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pye9o.p3pr24ad.g00pye9o.p3pr35b7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faikuru%2Fbb2500%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faikuru%2Fi%2F10125532%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pye9o.p3pr24ad.g00pye9o.p3pr35b7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faikuru%2Fbb2500%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faikuru%2Fi%2F10125532%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 986,
+     "reviewAverage": 4.79,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/aikuru/cabinet/event/1104_prem_2900.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "bellevie-harima:10046941",
+     "rawName": "4年連続ギフト大賞 カタログギフト ポスト投函 最高級 ザ プレミアムカタログギフト ブラック シルバー ゴールド 2900円コース ギフトカタログ （S-BO）(メール便)(手提げ袋不可) 引き出物 結婚内祝い 内祝い グルメ (ソレイユコース) gws 送料無料 お歳暮 冬ギフト",
+     "name": "4年連続ギフト大賞 カタログギフト ポスト投函 最高級 ザ",
+     "price": 2880,
+     "shop": "ソムリエ@ギフト",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q1q9o.p3pr2fa6.g00q1q9o.p3pr34c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellevie-harima%2Fcatalog-selection-mail_2500%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellevie-harima%2Fi%2F10046941%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q1q9o.p3pr2fa6.g00q1q9o.p3pr34c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellevie-harima%2Fcatalog-selection-mail_2500%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellevie-harima%2Fi%2F10046941%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 972,
+     "reviewAverage": 4.67,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellevie-harima/cabinet/1104/gift/catalog2800_m.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "antina:10005933",
+     "rawName": "【ポイント10倍】DEAN＆DELUCA ギフトカタログ(ブックタイプ) ＜WHITE-BC(ホワイト-BC)＞ カタログギフト グルメ 内祝い 結婚祝い 結婚内祝い 出産祝い 引き出物 おしゃれ 結婚 快気 内祝 引出物 引っ越し 新築 お祝い お返し ディーン アンド デルーカ",
+     "name": "DEAN＆DELUCA ギフトカタログ カタログギフト グルメ",
+     "price": 6600,
+     "shop": "アンティナギフトスタジオ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rfaao.p3pr2e3f.g00rfaao.p3pr3ec2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fantina%2F14177010%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fantina%2Fi%2F10005933%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rfaao.p3pr2e3f.g00rfaao.p3pr3ec2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fantina%2F14177010%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fantina%2Fi%2F10005933%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 964,
+     "reviewAverage": 4.81,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/antina/cabinet/products_201/20177010_14.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-10_s1_reel1_01.jpg",
+    "docs/media/2026-11-10_s1_reel1_02.jpg",
+    "docs/media/2026-11-10_s1_reel1_03.jpg",
+    "docs/media/2026-11-10_s1_reel1_04.jpg"
+   ],
+   "video": "docs/media/2026-11-10_s1_reel1.mp4"
+  },
+  {
+   "date": "2026-11-10",
+   "genre": "sweets",
+   "title": "ミックスナッツ、買う前にここ見て",
+   "caption": "【PR】ミックスナッツ、買う前にここだけは確認👇\n\nミックスナッツを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　内容量と賞味期限\n量と、届いてからの賞味期限の目安を確認する。\n\n✔ CHECK2　保存方法\n常温・冷蔵・冷凍のどれか。冷凍なら冷凍庫の空きを先に見る。\n\n✔ CHECK3　アレルギー表示\n原材料とアレルギー表示を商品ページとパッケージで確認する。\n\n■ 例として、2026/11/10に楽天市場でレビューの多かった商品\n・管理栄養士監修 ミックスナッツ 無塩ナッツ 850g／有塩ナッツ（食はこ 楽天市場店）1,680円、★4.54／3,841件\n・ななつのしあわせミックスナッツ チョコレート とろけるカカオ仕立て（タマチャンショップ）1,260円、★4.52／3,698件\n・ミックスナッツ 850g 素焼きミックスナッツ（NUT HYOUGO 商店）1,760円、★4.60／3,471件\n\n※2026/11/10に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 ミックスナッツを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#ミックスナッツ #お取り寄せ #おやつ #楽天グルメ #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "おやつ・お取り寄せ｜買う前メモ",
+     "title": "ミックスナッツ、\n買う前に\nここ見て",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "sweets",
+     "topic": "ミックスナッツ",
+     "pre": "買う前にここ見て",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-1044"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "管理栄養士監修 ミックスナッツ 無塩ナッツ 850g／有塩ナッツ",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/shokunohakobune/cabinet/06336114/06535365/imgrc0146532658.jpg?_ex=700x700",
+     "price": "1,680円",
+     "review": "★4.54",
+     "count": "3,841件",
+     "postage": "送料込み",
+     "shop": "食はこ 楽天市場店",
+     "check": "内容量と賞味期限",
+     "body": [
+      "量と、届いてからの",
+      "賞味期限の目安を確認する。"
+     ],
+     "date": "2026/11/10"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "ななつのしあわせミックスナッツ チョコレート とろけるカカオ仕立て",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/kyunan/cabinet/snack/chocolate/nutschoco2611_tm1.jpg?_ex=700x700",
+     "price": "1,260円",
+     "review": "★4.52",
+     "count": "3,698件",
+     "postage": "送料込み",
+     "shop": "タマチャンショップ",
+     "check": "保存方法",
+     "body": [
+      "常温・冷蔵・冷凍のどれか。",
+      "冷凍なら冷凍庫の空きを先に見る。"
+     ],
+     "date": "2026/11/10"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "ミックスナッツ 850g 素焼きミックスナッツ",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/nuthyougo/cabinet/item190.jpg?_ex=700x700",
+     "price": "1,760円",
+     "review": "★4.60",
+     "count": "3,471件",
+     "postage": "送料込み",
+     "shop": "NUT HYOUGO 商店",
+     "check": "アレルギー表示",
+     "body": [
+      "原材料とアレルギー表示を",
+      "商品ページとパッケージで確認する。"
+     ],
+     "date": "2026/11/10"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "shokunohakobune:10000050",
+     "rawName": "管理栄養士監修 ミックスナッツ 無塩ナッツ 850g／有塩ナッツ 700g／小魚入り 700g 3種ナッツ 選べる 無添加ナッツ 大容量ナッツ 贅沢3種 無添加 無塩 無油 アーモンド くるみ カシューナッツ 大容量 お得用 美容 健康 おやつ おつまみ R",
+     "name": "管理栄養士監修 ミックスナッツ 無塩ナッツ 850g／有塩ナッツ",
+     "price": 1680,
+     "shop": "食はこ 楽天市場店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tbjao.p3pr25bb.g00tbjao.p3pr3c8c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshokunohakobune%2Frmix250-4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshokunohakobune%2Fi%2F10000050%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tbjao.p3pr25bb.g00tbjao.p3pr3c8c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshokunohakobune%2Frmix250-4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshokunohakobune%2Fi%2F10000050%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 3841,
+     "reviewAverage": 4.54,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/shokunohakobune/cabinet/06336114/06535365/imgrc0146532658.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "kyunan:10021440",
+     "rawName": "＼累計300,000袋突破／ ななつのしあわせミックスナッツ チョコレート とろけるカカオ仕立て アーモンド クルミ マカデミア カシューナッツ ピスタチオ プレゼント 母の日 父の日 ギフト おすすめ",
+     "name": "ななつのしあわせミックスナッツ チョコレート とろけるカカオ仕立て",
+     "price": 1260,
+     "shop": "タマチャンショップ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pwf8o.p3pr299d.g00pwf8o.p3pr341a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkyunan%2F4535640136513%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkyunan%2Fi%2F10021440%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pwf8o.p3pr299d.g00pwf8o.p3pr341a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkyunan%2F4535640136513%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkyunan%2Fi%2F10021440%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 3698,
+     "reviewAverage": 4.52,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kyunan/cabinet/snack/chocolate/nutschoco2611_tm1.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "nuthyougo:10000223",
+     "rawName": "ミックスナッツ 850g 送料無料 素焼きミックスナッツ 大人気3種類素焼きナッツ プレミアム ミックスナッツ 素焼きアーモンド 素焼きカシューナッツ 生くるみ 自然 ナッツ おつまみ おやつ『無添加・無塩・植物油不使用』",
+     "name": "ミックスナッツ 850g 素焼きミックスナッツ",
+     "price": 1760,
+     "shop": "NUT HYOUGO 商店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00trtso.p3pr2290.g00trtso.p3pr3372/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnuthyougo%2Fitem190%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnuthyougo%2Fi%2F10000223%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00trtso.p3pr2290.g00trtso.p3pr3372/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnuthyougo%2Fitem190%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnuthyougo%2Fi%2F10000223%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 3471,
+     "reviewAverage": 4.6,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/nuthyougo/cabinet/item190.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-10_s1_reel2_01.jpg",
+    "docs/media/2026-11-10_s1_reel2_02.jpg",
+    "docs/media/2026-11-10_s1_reel2_03.jpg",
+    "docs/media/2026-11-10_s1_reel2_04.jpg"
+   ],
+   "video": "docs/media/2026-11-10_s1_reel2.mp4"
+  },
+  {
+   "date": "2026-11-10",
+   "genre": "storage",
+   "title": "収納家具を買う前の3チェック",
+   "caption": "【PR】収納家具、買う前にここだけは確認👇\n\n収納家具を選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　置き場所の3か所を測る\n幅・奥行・高さを測る。扉や引き出しが開く範囲も忘れずに。\n\n✔ CHECK2　内寸と外寸を分けて見る\n入れたい物は「内寸」、置き場所は「外寸」と比べる。\n\n✔ CHECK3　耐荷重を確認\n上に物を置く・重い物を入れるなら耐荷重の表記を確認する。書かれていなければ問い合わせる。\n\n■ 例として、2026/11/10に楽天市場でレビューの多かった商品\n・ハンガーラック 頑丈 大容量 収納付き 洋服 収納 衣類収納（ラック・照明 専門店 オールライト）5,980円、★4.65／3,082件\n・ウォールシェルフ 幅45cm 奥行9cm｜木製飾り棚 賃貸OK（雑貨屋 Cheerful(チアフル)）3,790円、★4.57／2,971件\n・キッチンワゴン ワゴン 2段 3段 4段 高さ調節 ハンドル（NOKKIストア）5,450円、★4.20／2,770件\n\n※2026/11/10に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 収納家具を選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#収納 #収納アイデア #整理整頓 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "収納家具｜買う前メモ",
+     "title": "収納家具を買う前の\n3チェック",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "storage",
+     "topic": "収納家具",
+     "pre": "買う前の",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-1045"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "ハンガーラック 頑丈 大容量 収納付き 洋服 収納 衣類収納",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-rack/cabinet/rack/el25-90183/20260819kaishuu/el25-90183_02.jpg?_ex=700x700",
+     "price": "5,980円",
+     "review": "★4.65",
+     "count": "3,082件",
+     "postage": "送料込み",
+     "shop": "ラック・照明 専門店 オールライト",
+     "check": "置き場所の3か所を測る",
+     "body": [
+      "幅・奥行・高さを測る。",
+      "扉や引き出しが開く範囲も忘れずに。"
+     ],
+     "date": "2026/11/10"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "ウォールシェルフ 幅45cm 奥行9cm｜木製飾り棚 賃貸OK",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/auc-sbase2008/cabinet/00996508/cheerful-shelf/imgrc0104492828.jpg?_ex=700x700",
+     "price": "3,790円",
+     "review": "★4.57",
+     "count": "2,971件",
+     "postage": "送料別",
+     "shop": "雑貨屋 Cheerful(チアフル)",
+     "check": "内寸と外寸を分けて見る",
+     "body": [
+      "入れたい物は「内寸」、",
+      "置き場所は「外寸」と比べる。"
+     ],
+     "date": "2026/11/10"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "キッチンワゴン ワゴン 2段 3段 4段 高さ調節 ハンドル",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/diydiy/cabinet/04134628/08705696/samneil-wagon-001_2.jpg?_ex=700x700",
+     "price": "5,450円",
+     "review": "★4.20",
+     "count": "2,770件",
+     "postage": "送料込み",
+     "shop": "NOKKIストア",
+     "check": "耐荷重を確認",
+     "body": [
+      "上に物を置く・重い物を入れるなら",
+      "耐荷重の表記を確認する。",
+      "書かれていなければ問い合わせる。"
+     ],
+     "date": "2026/11/10"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "e-rack:10003762",
+     "rawName": "★P5倍!!10日限定★ハンガーラック 頑丈 大容量 収納付き 洋服 収納 衣類収納 ワードローブ スチールラック ハンガー コート掛け 棚付き キャスター付き スリム メタル ラック クローゼット収納 省スペース 幅90 奥行45 ドウシシャ",
+     "name": "ハンガーラック 頑丈 大容量 収納付き 洋服 収納 衣類収納",
+     "price": 5980,
+     "shop": "ラック・照明 専門店 オールライト",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rfnao.p3pr2923.g00rfnao.p3pr39cf/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-rack%2Fel25-90183%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-rack%2Fi%2F10003762%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rfnao.p3pr2923.g00rfnao.p3pr39cf/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-rack%2Fel25-90183%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-rack%2Fi%2F10003762%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 3082,
+     "reviewAverage": 4.65,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-rack/cabinet/rack/el25-90183/20260819kaishuu/el25-90183_02.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "auc-sbase2008:10001993",
+     "rawName": "【選べるカラー3個セット】ウォールシェルフ 幅45cm 奥行9cm｜木製飾り棚 賃貸OK 石膏ボード対応｜簡単取付 壁掛け棚 小棚 神棚・お札立て・ペット仏壇に最適｜北欧風デザイン 小物収納ラック",
+     "name": "ウォールシェルフ 幅45cm 奥行9cm｜木製飾り棚 賃貸OK",
+     "price": 3790,
+     "shop": "雑貨屋 Cheerful(チアフル)",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qotyo.p3pr2914.g00qotyo.p3pr3136/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-sbase2008%2F10001993%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-sbase2008%2Fi%2F10001993%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qotyo.p3pr2914.g00qotyo.p3pr3136/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-sbase2008%2F10001993%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-sbase2008%2Fi%2F10001993%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 2971,
+     "reviewAverage": 4.57,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/auc-sbase2008/cabinet/00996508/cheerful-shelf/imgrc0104492828.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "diydiy:10001066",
+     "rawName": "【10日限定★P4倍＆抽選100%Pバック】キッチンワゴン ワゴン 2段 3段 4段 高さ調節 ハンドル キャスター付き バスケットトローリー【送料無料】 天板 スリム キッチン収納",
+     "name": "キッチンワゴン ワゴン 2段 3段 4段 高さ調節 ハンドル",
+     "price": 5450,
+     "shop": "NOKKIストア",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rrcto.p3pr2048.g00rrcto.p3pr317e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdiydiy%2Fwagon-001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdiydiy%2Fi%2F10001066%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rrcto.p3pr2048.g00rrcto.p3pr317e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdiydiy%2Fwagon-001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdiydiy%2Fi%2F10001066%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 2770,
+     "reviewAverage": 4.2,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/diydiy/cabinet/04134628/08705696/samneil-wagon-001_2.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "carousel",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-10_s1_carousel1_01.jpg",
+    "docs/media/2026-11-10_s1_carousel1_02.jpg",
+    "docs/media/2026-11-10_s1_carousel1_03.jpg",
+    "docs/media/2026-11-10_s1_carousel1_04.jpg"
+   ]
   }
  ],
  "stories": [
@@ -6117,6 +6495,16 @@
     "docs/media/2026-11-10_story_s2.jpg"
    ],
    "media_id": "18014192480955452"
+  },
+  {
+   "date": "2026-11-10",
+   "title": "収納家具を買う前の3チェック",
+   "head": "内寸と外寸を分けて見る",
+   "status": "ready",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-10_story.jpg"
+   ]
   }
  ]
 }
