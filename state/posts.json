@@ -5998,7 +5998,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/antina/cabinet/products_201/20177010_14.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "1",
    "images": [
@@ -6007,7 +6007,8 @@
     "docs/media/2026-11-10_s1_reel1_03.jpg",
     "docs/media/2026-11-10_s1_reel1_04.jpg"
    ],
-   "video": "docs/media/2026-11-10_s1_reel1.mp4"
+   "video": "docs/media/2026-11-10_s1_reel1.mp4",
+   "media_id": "18102503993353346"
   },
   {
    "date": "2026-11-10",
@@ -6124,7 +6125,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/nuthyougo/cabinet/item190.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "1",
    "images": [
@@ -6133,7 +6134,8 @@
     "docs/media/2026-11-10_s1_reel2_03.jpg",
     "docs/media/2026-11-10_s1_reel2_04.jpg"
    ],
-   "video": "docs/media/2026-11-10_s1_reel2.mp4"
+   "video": "docs/media/2026-11-10_s1_reel2.mp4",
+   "media_id": "18123231119515565"
   },
   {
    "date": "2026-11-10",
@@ -6251,7 +6253,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/diydiy/cabinet/04134628/08705696/samneil-wagon-001_2.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "carousel",
    "slot": "1",
    "images": [
@@ -6259,7 +6261,8 @@
     "docs/media/2026-11-10_s1_carousel1_02.jpg",
     "docs/media/2026-11-10_s1_carousel1_03.jpg",
     "docs/media/2026-11-10_s1_carousel1_04.jpg"
-   ]
+   ],
+   "media_id": "18351359869248331"
   }
  ],
  "stories": [
@@ -6500,11 +6503,12 @@
    "date": "2026-11-10",
    "title": "収納家具を買う前の3チェック",
    "head": "内寸と外寸を分けて見る",
-   "status": "ready",
+   "status": "posted",
    "slot": "1",
    "images": [
     "docs/media/2026-11-10_story.jpg"
-   ]
+   ],
+   "media_id": "17916856089511733"
   }
  ]
 }
