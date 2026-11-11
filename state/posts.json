@@ -7020,7 +7020,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/daiwasangyou/cabinet/09252944/13728539/car-humidifier-2083.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "failed",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -7147,7 +7147,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/u-denki/cabinet/ranking/imgrc0125611450.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -7156,7 +7156,8 @@
     "docs/media/2026-11-12_s2_reel2_03.jpg",
     "docs/media/2026-11-12_s2_reel2_04.jpg"
    ],
-   "video": "docs/media/2026-11-12_s2_reel2.mp4"
+   "video": "docs/media/2026-11-12_s2_reel2.mp4",
+   "media_id": "18191011654365696"
   }
  ],
  "stories": [
@@ -7430,11 +7431,12 @@
    "date": "2026-11-12",
    "title": "電気毛布、買う前にここ見て",
    "head": "サイズと使い方",
-   "status": "ready",
+   "status": "posted",
    "slot": "2",
    "images": [
     "docs/media/2026-11-12_story_s2.jpg"
-   ]
+   ],
+   "media_id": "18079532327447963"
   }
  ]
 }
