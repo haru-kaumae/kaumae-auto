@@ -6636,7 +6636,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/marry-gift/cabinet/event_scene/tsuujou/precious_nce1-11.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "1",
    "images": [
@@ -6645,7 +6645,8 @@
     "docs/media/2026-11-11_s1_reel1_03.jpg",
     "docs/media/2026-11-11_s1_reel1_04.jpg"
    ],
-   "video": "docs/media/2026-11-11_s1_reel1.mp4"
+   "video": "docs/media/2026-11-11_s1_reel1.mp4",
+   "media_id": "18083447792361483"
   },
   {
    "date": "2026-11-11",
@@ -6763,7 +6764,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/next-online/cabinet/gold/product/10121414/burashi-samune3.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "1",
    "images": [
@@ -6772,7 +6773,8 @@
     "docs/media/2026-11-11_s1_reel2_03.jpg",
     "docs/media/2026-11-11_s1_reel2_04.jpg"
    ],
-   "video": "docs/media/2026-11-11_s1_reel2.mp4"
+   "video": "docs/media/2026-11-11_s1_reel2.mp4",
+   "media_id": "18140261884731740"
   },
   {
    "date": "2026-11-11",
@@ -6890,7 +6892,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/goodlifeshop/cabinet/kitchen8/4970840640840-000001.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "carousel",
    "slot": "1",
    "images": [
@@ -6898,7 +6900,8 @@
     "docs/media/2026-11-11_s1_carousel1_02.jpg",
     "docs/media/2026-11-11_s1_carousel1_03.jpg",
     "docs/media/2026-11-11_s1_carousel1_04.jpg"
-   ]
+   ],
+   "media_id": "18129707873309266"
   }
  ],
  "stories": [
@@ -7161,11 +7164,12 @@
    "date": "2026-11-11",
    "title": "ポチる前に！キッチン用品の確認リスト",
    "head": "素材とお手入れを見る",
-   "status": "ready",
+   "status": "posted",
    "slot": "1",
    "images": [
     "docs/media/2026-11-11_story.jpg"
-   ]
+   ],
+   "media_id": "18079204865450165"
   }
  ]
 }
