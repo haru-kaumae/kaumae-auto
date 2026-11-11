@@ -6520,6 +6520,385 @@
    ],
    "video": "docs/media/2026-11-11_s2_reel2.mp4",
    "media_id": "17922800205243073"
+  },
+  {
+   "date": "2026-11-11",
+   "genre": "gift",
+   "title": "カタログギフト、買う前にここ見て",
+   "caption": "【PR】カタログギフト、買う前にここだけは確認👇\n\nカタログギフトを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　予算とコース\n贈る相手と場面に合う価格のコースを選ぶ。\n\n✔ CHECK2　のし・包装・カード\nのし・包装・メッセージカードに対応しているか確認する。\n\n✔ CHECK3　届け日と有効期限\n届け日の指定ができるか、カタログの申込期限も見る。\n\n■ 例として、2026/11/11に楽天市場でレビューの多かった商品\n・当日出荷 カタログギフト グルメ 内祝い 20900円コース（愛dealギフト-内祝い・引き出物）15,084円、★4.68／413件\n・内祝い カタログギフト 4290円コース ゆうパケット配送（ギフト工房 愛来-内祝・引出物通販）3,448円、★4.75／406件\n・高評価 4.74 最高級カタログギフトSCENE 内祝い お返し（【公式】ギフトフィールドマリー）3,780円、★4.74／398件\n\n※2026/11/11に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 カタログギフトを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#カタログギフト #ギフト #カタログギフト #贈り物 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "カタログギフト｜買う前メモ",
+     "title": "カタログギフト、\n買う前に\nここ見て",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "gift",
+     "topic": "カタログギフト",
+     "pre": "買う前にここ見て",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-1148"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "当日出荷 カタログギフト グルメ 内祝い 20900円コース",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/jyoei/cabinet/e-choice_kouga/21525-3.jpg?_ex=700x700",
+     "price": "15,084円",
+     "review": "★4.68",
+     "count": "413件",
+     "postage": "送料込み",
+     "shop": "愛dealギフト-内祝い・引き出物",
+     "check": "予算とコース",
+     "body": [
+      "贈る相手と場面に合う",
+      "価格のコースを選ぶ。"
+     ],
+     "date": "2026/11/11"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "内祝い カタログギフト 4290円コース ゆうパケット配送",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/aikuru/cabinet/catalog-hyoushi/prem_3900.jpg?_ex=700x700",
+     "price": "3,448円",
+     "review": "★4.75",
+     "count": "406件",
+     "postage": "送料込み",
+     "shop": "ギフト工房 愛来-内祝・引出物通販",
+     "check": "のし・包装・カード",
+     "body": [
+      "のし・包装・メッセージカードに",
+      "対応しているか確認する。"
+     ],
+     "date": "2026/11/11"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "高評価 4.74 最高級カタログギフトSCENE 内祝い お返し",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/marry-gift/cabinet/event_scene/tsuujou/precious_nce1-11.jpg?_ex=700x700",
+     "price": "3,780円",
+     "review": "★4.74",
+     "count": "398件",
+     "postage": "送料別",
+     "shop": "【公式】ギフトフィールドマリー",
+     "check": "届け日と有効期限",
+     "body": [
+      "届け日の指定ができるか、",
+      "カタログの申込期限も見る。"
+     ],
+     "date": "2026/11/11"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "jyoei:10000611",
+     "rawName": "当日出荷 カタログギフト グルメ 内祝い 20900円コース 出産祝い 結婚内祝い お返し カタログ E-BOO-X 選べる ギフトカタログ 出産内祝い 結婚祝い 快気祝い 退職祝い おしゃれ 引き出物 引出物 法人 企業 七五三 お歳暮",
+     "name": "当日出荷 カタログギフト グルメ 内祝い 20900円コース",
+     "price": 15084,
+     "shop": "愛dealギフト-内祝い・引き出物",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pzibo.p3pr2386.g00pzibo.p3pr333f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyoei%2F21525%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjyoei%2Fi%2F10000611%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pzibo.p3pr2386.g00pzibo.p3pr333f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyoei%2F21525%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjyoei%2Fi%2F10000611%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 413,
+     "reviewAverage": 4.68,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/jyoei/cabinet/e-choice_kouga/21525-3.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "aikuru:10125561",
+     "rawName": "内祝い カタログギフト 4290円コース 送料無料 ゆうパケット配送 「Premium El」 ギフト お返し 内祝い 出産内祝い 結婚内祝い お返し 入園内祝い 快気祝い (3900円)",
+     "name": "内祝い カタログギフト 4290円コース ゆうパケット配送",
+     "price": 3448,
+     "shop": "ギフト工房 愛来-内祝・引出物通販",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pye9o.p3pr24ad.g00pye9o.p3pr35b7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faikuru%2Fbb3500%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faikuru%2Fi%2F10125561%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pye9o.p3pr24ad.g00pye9o.p3pr35b7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faikuru%2Fbb3500%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faikuru%2Fi%2F10125561%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 406,
+     "reviewAverage": 4.75,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/aikuru/cabinet/catalog-hyoushi/prem_3900.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "marry-gift:10055923",
+     "rawName": "【本日 P5倍】高評価★4.74 最高級カタログギフトSCENE 内祝い お返し カタログギフト 香典返し グルメ 肉 お肉 出産内祝い 結婚内祝い 結婚 出産祝い 結婚祝い お祝い【4400円コース(CE)】ギフトカード 出産祝い",
+     "name": "高評価 4.74 最高級カタログギフトSCENE 内祝い お返し",
+     "price": 3780,
+     "shop": "【公式】ギフトフィールドマリー",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qa7ro.p3pr2564.g00qa7ro.p3pr3a1d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmarry-gift%2Fprecious_ce%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmarry-gift%2Fi%2F10055923%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qa7ro.p3pr2564.g00qa7ro.p3pr3a1d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmarry-gift%2Fprecious_ce%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmarry-gift%2Fi%2F10055923%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 398,
+     "reviewAverage": 4.74,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/marry-gift/cabinet/event_scene/tsuujou/precious_nce1-11.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-11_s1_reel1_01.jpg",
+    "docs/media/2026-11-11_s1_reel1_02.jpg",
+    "docs/media/2026-11-11_s1_reel1_03.jpg",
+    "docs/media/2026-11-11_s1_reel1_04.jpg"
+   ],
+   "video": "docs/media/2026-11-11_s1_reel1.mp4"
+  },
+  {
+   "date": "2026-11-11",
+   "genre": "clean",
+   "title": "掃除用品を買う前の3チェック",
+   "caption": "【PR】掃除用品、買う前にここだけは確認👇\n\n掃除用品を選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　使う場所の素材を確かめる\n塗装・コーティング・木材など傷つきやすい素材に使えるか、注意書きを確認する。\n\n✔ CHECK2　サイズと対応の表記を見る\n対応口径・対応サイズ・対応機種が書かれていれば、先に自宅で測る。\n\n✔ CHECK3　セット数と替えを確認\n何個入りか、替えやフィルターを別に買う必要があるかを見る。\n\n■ 例として、2026/11/11に楽天市場でレビューの多かった商品\n・ゴミが見えない 排水口 ゴミ受け 100均ネットOK お風呂（Magico楽天市場店）1,980円、★4.64／692件\n・新生活 マグネット付き 浴室お掃除3点セット ｜お風呂洗い 浴室洗い（丸福商店）3,500円、★4.55／687件\n・ごっそり取れる 落下防止対策済 ななめ ドラム式 乾燥フィルター用（Nextオンライン）1,780円、★4.44／683件\n\n※2026/11/11に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 掃除用品を選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#掃除グッズ #掃除 #大掃除 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "掃除用品｜買う前メモ",
+     "title": "掃除用品を買う前の\n3チェック",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "clean",
+     "topic": "掃除用品",
+     "pre": "買う前の",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-1149"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "ゴミが見えない 排水口 ゴミ受け 100均ネットOK お風呂",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/kweg/cabinet/items/magico/drainnetholder_v2/kakurenbo_kuma_1st.jpg?_ex=700x700",
+     "price": "1,980円",
+     "review": "★4.64",
+     "count": "692件",
+     "postage": "送料込み",
+     "shop": "Magico楽天市場店",
+     "check": "使う場所の素材を確かめる",
+     "body": [
+      "塗装・コーティング・木材など",
+      "傷つきやすい素材に使えるか、",
+      "注意書きを確認する。"
+     ],
+     "date": "2026/11/11"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "新生活 マグネット付き 浴室お掃除3点セット ｜お風呂洗い 浴室洗い",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/store-marufuku/cabinet/shohin/set/anbi-s01024_1.jpg?_ex=700x700",
+     "price": "3,500円",
+     "review": "★4.55",
+     "count": "687件",
+     "postage": "送料別",
+     "shop": "丸福商店",
+     "check": "サイズと対応の表記を見る",
+     "body": [
+      "対応口径・対応サイズ・対応機種が",
+      "書かれていれば、先に自宅で測る。"
+     ],
+     "date": "2026/11/11"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "ごっそり取れる 落下防止対策済 ななめ ドラム式 乾燥フィルター用",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/next-online/cabinet/gold/product/10121414/burashi-samune3.jpg?_ex=700x700",
+     "price": "1,780円",
+     "review": "★4.44",
+     "count": "683件",
+     "postage": "送料込み",
+     "shop": "Nextオンライン",
+     "check": "セット数と替えを確認",
+     "body": [
+      "何個入りか、替えやフィルターを",
+      "別に買う必要があるかを見る。"
+     ],
+     "date": "2026/11/11"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "kweg:10000238",
+     "rawName": "＼ 楽天ランキング1位 ／ ゴミが見えない 排水口 ゴミ受け 100均ネットOK お風呂 【 かくれんぼネットホルダー | Magico 】 ステンレス 日本製 送料無料 髪の毛 ヘアキャッチャー 排水溝 ネット 浴室 お風呂掃除 一人暮らし 賃貸 新生活 ペットの毛 実用的 プレゼント",
+     "name": "ゴミが見えない 排水口 ゴミ受け 100均ネットOK お風呂",
+     "price": 1980,
+     "shop": "Magico楽天市場店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rzdpo.p3pr21fd.g00rzdpo.p3pr3e4a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkweg%2Fmagico_drainnetholder%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkweg%2Fi%2F10000238%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rzdpo.p3pr21fd.g00rzdpo.p3pr3e4a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkweg%2Fmagico_drainnetholder%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkweg%2Fi%2F10000238%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 692,
+     "reviewAverage": 4.64,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kweg/cabinet/items/magico/drainnetholder_v2/kakurenbo_kuma_1st.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "store-marufuku:10005314",
+     "rawName": "送料無料 新生活 マグネット付き 浴室お掃除3点セット【浴槽洗い・浴室床洗い・浴室水切りワイパー】｜お風呂洗い 浴室洗い 浴槽 バス清掃 バスブラシ 磁石 磁着 バスクリーナー 浴槽クリーナー お風呂掃除 バススポンジ ウォータースクイジー 水切り スクイージー ワイパー",
+     "name": "新生活 マグネット付き 浴室お掃除3点セット ｜お風呂洗い 浴室洗い",
+     "price": 3500,
+     "shop": "丸福商店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tgo8o.p3pr22a5.g00tgo8o.p3pr3048/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstore-marufuku%2Fanbi-s01024%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fstore-marufuku%2Fi%2F10005314%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tgo8o.p3pr22a5.g00tgo8o.p3pr3048/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstore-marufuku%2Fanbi-s01024%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fstore-marufuku%2Fi%2F10005314%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 687,
+     "reviewAverage": 4.55,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/store-marufuku/cabinet/shohin/set/anbi-s01024_1.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "next-online:10000233",
+     "rawName": "【楽天6冠達成】ごっそり取れる！ 落下防止対策済 ななめ ドラム式 乾燥フィルター用 おそうじブラシ 互換品 ドラム式洗濯機 お掃除ブラシ ホコリ取り 洗濯乾燥機 洗濯機 乾燥機 隙間ブラシ クリーニングブラシ 乾燥フィルター 掃除 詰まり防止 埃取り 乾燥時間短縮",
+     "name": "ごっそり取れる 落下防止対策済 ななめ ドラム式 乾燥フィルター用",
+     "price": 1780,
+     "shop": "Nextオンライン",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tfbho.p3pr2b68.g00tfbho.p3pr3515/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnext-online%2F10000240%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnext-online%2Fi%2F10000233%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tfbho.p3pr2b68.g00tfbho.p3pr3515/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnext-online%2F10000240%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnext-online%2Fi%2F10000233%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 683,
+     "reviewAverage": 4.44,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/next-online/cabinet/gold/product/10121414/burashi-samune3.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-11_s1_reel2_01.jpg",
+    "docs/media/2026-11-11_s1_reel2_02.jpg",
+    "docs/media/2026-11-11_s1_reel2_03.jpg",
+    "docs/media/2026-11-11_s1_reel2_04.jpg"
+   ],
+   "video": "docs/media/2026-11-11_s1_reel2.mp4"
+  },
+  {
+   "date": "2026-11-11",
+   "genre": "kitchen",
+   "title": "ポチる前に！キッチン用品の確認リスト",
+   "caption": "【PR】キッチン用品、買う前にここだけは確認👇\n\nキッチン用品を選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　置き場所を測る\n置きたい場所の幅・奥行・高さを測り、商品ページの外寸と比べる。\n\n✔ CHECK2　対応の表記を見る\n食洗機・電子レンジ・IHなど使いたい機器に対応しているか、商品ページの表記で確認する。\n\n✔ CHECK3　素材とお手入れを見る\n素材の名前と、お手入れ方法・使用上の注意の欄を読む。\n\n■ 例として、2026/11/11に楽天市場でレビューの多かった商品\n・日本製 高品質 排気口カバー ih カバー 排気口 コンロカバー（e-kit(いーきっと)）3,380円、★4.75／27,310件\n・箸10膳セット 選べる福袋 3種 おしゃれ ギフト 漆 うるし 箸（弁当箱&キッチン 漆器かりん本舗）1,000円、★4.59／19,601件\n・ワンダーシェフ 高圧力鍋 5.5L 圧力鍋 魔法のクイック料理 両手（グットライフショップ）13,750円、★4.53／11,000件\n\n※2026/11/11に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 キッチン用品を選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#キッチングッズ #キッチン用品 #キッチン収納 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "キッチン用品｜買う前メモ",
+     "title": "ポチる前に！\nキッチン用品の\n確認リスト",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "kitchen",
+     "topic": "キッチン用品",
+     "pre": "ポチる前に！",
+     "num": "3",
+     "post": "つの確認",
+     "month": "2026.11月",
+     "seed": "2026-11-1150"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "日本製 高品質 排気口カバー ih カバー 排気口 コンロカバー",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kit/cabinet/description/ek-hkc/ek-hkc_1.jpg?_ex=700x700",
+     "price": "3,380円",
+     "review": "★4.75",
+     "count": "27,310件",
+     "postage": "送料込み",
+     "shop": "e-kit(いーきっと)",
+     "check": "置き場所を測る",
+     "body": [
+      "置きたい場所の幅・奥行・高さを測り、",
+      "商品ページの外寸と比べる。"
+     ],
+     "date": "2026/11/11"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "箸10膳セット 選べる福袋 3種 おしゃれ ギフト 漆 うるし 箸",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/karinhonpo2951/cabinet/set/set-014.jpg?_ex=700x700",
+     "price": "1,000円",
+     "review": "★4.59",
+     "count": "19,601件",
+     "postage": "送料込み",
+     "shop": "弁当箱&キッチン 漆器かりん本舗",
+     "check": "対応の表記を見る",
+     "body": [
+      "食洗機・電子レンジ・IHなど",
+      "使いたい機器に対応しているか、",
+      "商品ページの表記で確認する。"
+     ],
+     "date": "2026/11/11"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "ワンダーシェフ 高圧力鍋 5.5L 圧力鍋 魔法のクイック料理 両手",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/goodlifeshop/cabinet/kitchen8/4970840640840-000001.jpg?_ex=700x700",
+     "price": "13,750円",
+     "review": "★4.53",
+     "count": "11,000件",
+     "postage": "送料込み",
+     "shop": "グットライフショップ",
+     "check": "素材とお手入れを見る",
+     "body": [
+      "素材の名前と、",
+      "お手入れ方法・使用上の注意の欄を読む。"
+     ],
+     "date": "2026/11/11"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "e-kit:10042679",
+     "rawName": "[圧倒的高評価] 日本製 高品質 [CICADA] 排気口カバー ih カバー 排気口 コンロカバー フラット IH対応 コンロ スマート キッチン グリル カバー 油はねガード ガスコンロ スリム 排気口カバーフラット [ステンレス/スチール 60cm/75cm ブラック/ホワイト]",
+     "name": "日本製 高品質 排気口カバー ih カバー 排気口 コンロカバー",
+     "price": 3380,
+     "shop": "e-kit(いーきっと)",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00sw2co.p3pr220c.g00sw2co.p3pr3190/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kit%2Fek-hk60f01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-kit%2Fi%2F10042679%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00sw2co.p3pr220c.g00sw2co.p3pr3190/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kit%2Fek-hk60f01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-kit%2Fi%2F10042679%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 27310,
+     "reviewAverage": 4.75,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kit/cabinet/description/ek-hkc/ek-hkc_1.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "karinhonpo2951:10000954",
+     "rawName": "箸10膳セット 選べる福袋 3種 おしゃれ ギフト プレゼント 漆 うるし 箸 カトラリー 和食器 和風 食器 雑貨 北欧 ぽっきり まとめ買い ノベルティ 家族 ポイント消化 消費 プチギフト 粗品 おうち時間 巣ごもり",
+     "name": "箸10膳セット 選べる福袋 3種 おしゃれ ギフト 漆 うるし 箸",
+     "price": 1000,
+     "shop": "弁当箱&キッチン 漆器かりん本舗",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qx13o.p3pr2c29.g00qx13o.p3pr36d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkarinhonpo2951%2Fset-014%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkarinhonpo2951%2Fi%2F10000954%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qx13o.p3pr2c29.g00qx13o.p3pr36d0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkarinhonpo2951%2Fset-014%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkarinhonpo2951%2Fi%2F10000954%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 19601,
+     "reviewAverage": 4.59,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/karinhonpo2951/cabinet/set/set-014.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "goodlifeshop:10001840",
+     "rawName": "＼レビューで1000円クーポン!／ ワンダーシェフ 高圧力鍋 5.5L 圧力鍋 魔法のクイック料理 【当店限定！パッキン＆カレーレシピ付】 両手 超高圧＆高圧切替 蒸気排出式 浜田先生 レシピ付 セット 両手鍋 両手圧力鍋 5.5L 圧力鍋レシピ100 【国内検品合格正規品】",
+     "name": "ワンダーシェフ 高圧力鍋 5.5L 圧力鍋 魔法のクイック料理 両手",
+     "price": 13750,
+     "shop": "グットライフショップ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pyb7o.p3pr2bcd.g00pyb7o.p3pr3714/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgoodlifeshop%2Fwc02077%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgoodlifeshop%2Fi%2F10001840%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pyb7o.p3pr2bcd.g00pyb7o.p3pr3714/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgoodlifeshop%2Fwc02077%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgoodlifeshop%2Fi%2F10001840%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 11000,
+     "reviewAverage": 4.53,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/goodlifeshop/cabinet/kitchen8/4970840640840-000001.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "carousel",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-11_s1_carousel1_01.jpg",
+    "docs/media/2026-11-11_s1_carousel1_02.jpg",
+    "docs/media/2026-11-11_s1_carousel1_03.jpg",
+    "docs/media/2026-11-11_s1_carousel1_04.jpg"
+   ]
   }
  ],
  "stories": [
@@ -6777,6 +7156,16 @@
     "docs/media/2026-11-11_story_s2.jpg"
    ],
    "media_id": "18083467628721676"
+  },
+  {
+   "date": "2026-11-11",
+   "title": "ポチる前に！キッチン用品の確認リスト",
+   "head": "素材とお手入れを見る",
+   "status": "ready",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-11_story.jpg"
+   ]
   }
  ]
 }
