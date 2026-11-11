@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-12 04:29",
- "followers": 10,
- "media": 34,
+ "updated": "2026-11-12 08:19",
+ "followers": 11,
+ "media": 35,
  "posts": [
   {
    "date": "2026-11-02",
@@ -536,14 +536,30 @@
    "total_interactions": 0
   },
   {
+   "date": "2026-11-12",
+   "slot": "2",
+   "kind": "reel",
+   "title": "電気毛布、買う前にここ見て",
+   "genre": "blanket",
+   "likes": 0,
+   "comments": 0,
+   "permalink": "https://www.instagram.com/reel/DfnkoO7HDJI/",
+   "reach": 0,
+   "saved": 0,
+   "shares": 0,
+   "views": 0,
+   "total_interactions": 0,
+   "avg_watch": 0.0
+  },
+  {
    "date": "2026-11-11",
    "slot": "2",
    "kind": "story",
    "title": "電気毛布選びで見落としやすい3つのこと",
    "genre": "",
-   "likes": 0,
-   "comments": 0,
-   "permalink": "https://www.instagram.com/stories/kaumae._.memo/4027606345541215633",
+   "likes": null,
+   "comments": null,
+   "permalink": "",
    "reach": null,
    "saved": null,
    "shares": null,
@@ -564,7 +580,30 @@
    "shares": null,
    "views": null,
    "total_interactions": null
+  },
+  {
+   "date": "2026-11-12",
+   "slot": "2",
+   "kind": "story",
+   "title": "電気毛布、買う前にここ見て",
+   "genre": "",
+   "likes": 0,
+   "comments": 0,
+   "permalink": "https://www.instagram.com/stories/kaumae._.memo/4028349842799386116",
+   "reach": null,
+   "saved": null,
+   "shares": null,
+   "views": null,
+   "total_interactions": null
   }
  ],
- "problems": []
+ "problems": [
+  {
+   "date": "2026-11-12",
+   "slot": "2",
+   "kind": "reel",
+   "title": "加湿器選びで見落としやすい3つのこと",
+   "status": "failed"
+  }
+ ]
 }
