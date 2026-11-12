@@ -7539,6 +7539,260 @@
     "docs/media/2026-11-12_s1_carousel1_04.jpg"
    ],
    "media_id": "17899729737654763"
+  },
+  {
+   "date": "2026-11-13",
+   "genre": "humid",
+   "title": "加湿器、買う前にここ見て",
+   "caption": "【PR】加湿器、買う前にここだけは確認👇\n\n加湿器を選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　加湿方式を確認\n気化式・スチーム式・超音波式・ハイブリッド式などの方式を商品ページの仕様欄で確認する。\n\n✔ CHECK2　適用畳数を確認\n木造とプレハブ（鉄骨）で適用畳数が違うことが多い。使う部屋の広さと比べる。\n\n✔ CHECK3　給水とお手入れ\n上から給水か、タンクを外すか。フィルター交換の有無も見る。\n\n■ 例として、2026/11/13に楽天市場でレビューの多かった商品\n・バルミューダ レイン 気化式加湿器 おしゃれ 上部給水 18畳（インテリアショップ roomy）79,200円、★4.57／370件\n・小型 加湿器 卓上 静音 USB給電式 ｜ 除菌 アロマ 7色（デイリーコンパス）1,280円、★4.28／357件\n・加湿器 卓上 コードレス 小型 超音波式 ダブルノズル 2方向噴霧（カカショップ）2,680円、★4.46／342件\n\n※2026/11/13に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 加湿器を選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#加湿器 #加湿器 #乾燥対策 #季節家電 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "加湿器｜買う前メモ",
+     "title": "加湿器、\n買う前に\nここ見て",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "humid",
+     "topic": "加湿器",
+     "pre": "買う前にここ見て",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-1356"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "バルミューダ レイン 気化式加湿器 おしゃれ 上部給水 18畳",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/roomy/cabinet/500cart_all/500cart_11g/p10-5/mtb2014-hw080-1_gt01.jpg?_ex=700x700",
+     "price": "79,200円",
+     "review": "★4.57",
+     "count": "370件",
+     "postage": "送料込み",
+     "shop": "インテリアショップ roomy",
+     "check": "加湿方式を確認",
+     "body": [
+      "気化式・スチーム式・超音波式・",
+      "ハイブリッド式などの方式を",
+      "商品ページの仕様欄で確認する。"
+     ],
+     "date": "2026/11/13"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "小型 加湿器 卓上 静音 USB給電式 ｜ 除菌 アロマ 7色",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/dailycompass/cabinet/products/07624559/1-6.jpg?_ex=700x700",
+     "price": "1,280円",
+     "review": "★4.28",
+     "count": "357件",
+     "postage": "送料別",
+     "shop": "デイリーコンパス",
+     "check": "適用畳数を確認",
+     "body": [
+      "木造とプレハブ（鉄骨）で",
+      "適用畳数が違うことが多い。",
+      "使う部屋の広さと比べる。"
+     ],
+     "date": "2026/11/13"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "加湿器 卓上 コードレス 小型 超音波式 ダブルノズル 2方向噴霧",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/kakashop078/cabinet/10948721/0-0.jpg?_ex=700x700",
+     "price": "2,680円",
+     "review": "★4.46",
+     "count": "342件",
+     "postage": "送料込み",
+     "shop": "カカショップ",
+     "check": "給水とお手入れ",
+     "body": [
+      "上から給水か、タンクを外すか。",
+      "フィルター交換の有無も見る。"
+     ],
+     "date": "2026/11/13"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "roomy:10006254",
+     "rawName": "【正規販売店】バルミューダ レイン 気化式加湿器 おしゃれ 上部給水 18畳 加湿器 加湿機 4L 静音 静か 省エネ 節電 リビング 寝室 乾燥対策 オフィス 冬 加湿 上から給水 ホワイト シンプル ウィルス対策 バルミューダデザイン 正規品 AHM01JP-WH［ BALMUDA Rain ］",
+     "name": "バルミューダ レイン 気化式加湿器 おしゃれ 上部給水 18畳",
+     "price": 79200,
+     "shop": "インテリアショップ roomy",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qb0lo.p3pr216f.g00qb0lo.p3pr329c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Fmtb13oct10b03%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Froomy%2Fi%2F10006254%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qb0lo.p3pr216f.g00qb0lo.p3pr329c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Fmtb13oct10b03%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Froomy%2Fi%2F10006254%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 370,
+     "reviewAverage": 4.57,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/roomy/cabinet/500cart_all/500cart_11g/p10-5/mtb2014-hw080-1_gt01.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "dailycompass:10000085",
+     "rawName": "小型 加湿器 卓上 静音 USB給電式 ｜ 除菌 アロマ 7色 LEDランプ 大容量 250ml 持ち運び便利 空焚き防止",
+     "name": "小型 加湿器 卓上 静音 USB給電式 ｜ 除菌 アロマ 7色",
+     "price": 1280,
+     "shop": "デイリーコンパス",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ts1go.p3pr25c8.g00ts1go.p3pr3538/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdailycompass%2Fhumidifier%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdailycompass%2Fi%2F10000085%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ts1go.p3pr25c8.g00ts1go.p3pr3538/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdailycompass%2Fhumidifier%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdailycompass%2Fi%2F10000085%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 357,
+     "reviewAverage": 4.28,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/dailycompass/cabinet/products/07624559/1-6.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "kakashop078:10000128",
+     "rawName": "【冬の人気アイテム】 加湿器 卓上 コードレス 小型 超音波式 ダブルノズル 2方向噴霧 USB充電式 角度調整 大容量280ml 静音 タイマー LEDライト アロマ対応 空焚き防止 水漏れ防止 乾燥 花粉症対策 オフィス 保湿 車載 車用 寝室 家庭 子供部屋 冬対策 送料無料",
+     "name": "加湿器 卓上 コードレス 小型 超音波式 ダブルノズル 2方向噴霧",
+     "price": 2680,
+     "shop": "カカショップ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u2hso.p3pr2a13.g00u2hso.p3pr3557/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkakashop078%2Fka-humidifier03%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkakashop078%2Fi%2F10000128%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u2hso.p3pr2a13.g00u2hso.p3pr3557/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkakashop078%2Fka-humidifier03%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkakashop078%2Fi%2F10000128%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 342,
+     "reviewAverage": 4.46,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kakashop078/cabinet/10948721/0-0.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-13_s2_reel1_01.jpg",
+    "docs/media/2026-11-13_s2_reel1_02.jpg",
+    "docs/media/2026-11-13_s2_reel1_03.jpg",
+    "docs/media/2026-11-13_s2_reel1_04.jpg"
+   ],
+   "video": "docs/media/2026-11-13_s2_reel1.mp4"
+  },
+  {
+   "date": "2026-11-13",
+   "genre": "gift",
+   "title": "カタログギフトを買う前の3チェック",
+   "caption": "【PR】カタログギフト、買う前にここだけは確認👇\n\nカタログギフトを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　予算とコース\n贈る相手と場面に合う価格のコースを選ぶ。\n\n✔ CHECK2　のし・包装・カード\nのし・包装・メッセージカードに対応しているか確認する。\n\n✔ CHECK3　届け日と有効期限\n届け日の指定ができるか、カタログの申込期限も見る。\n\n■ 例として、2026/11/13に楽天市場でレビューの多かった商品\n・香典返し カタログギフト 満中陰志 お香典返し 法事 四十九日 法要（ギフトジャパン）13,992円、★4.76／394件\n・高評価 4.59 最高級カタログギフトSCENE 内祝い お返し（【公式】ギフトフィールドマリー）2,979円、★4.59／377件\n・当日出荷 カタログギフト EOJ 内祝い 出産内祝い 引き出物（愛dealギフト-内祝い・引き出物）6,000円、★4.62／377件\n\n※2026/11/13に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 カタログギフトを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#カタログギフト #ギフト #カタログギフト #贈り物 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "カタログギフト｜買う前メモ",
+     "title": "カタログギフトを買う前の\n3チェック",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "gift",
+     "topic": "カタログギフト",
+     "pre": "買う前の",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-1357"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "香典返し カタログギフト 満中陰志 お香典返し 法事 四十九日 法要",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/gift-jpn/cabinet/01945687/tn_15900.jpg?_ex=700x700",
+     "price": "13,992円",
+     "review": "★4.76",
+     "count": "394件",
+     "postage": "送料込み",
+     "shop": "ギフトジャパン",
+     "check": "予算とコース",
+     "body": [
+      "贈る相手と場面に合う",
+      "価格のコースを選ぶ。"
+     ],
+     "date": "2026/11/13"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "高評価 4.59 最高級カタログギフトSCENE 内祝い お返し",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/marry-gift/cabinet/event_scene/tsuujou/precious_be_m.jpg?_ex=700x700",
+     "price": "2,979円",
+     "review": "★4.59",
+     "count": "377件",
+     "postage": "送料込み",
+     "shop": "【公式】ギフトフィールドマリー",
+     "check": "のし・包装・カード",
+     "body": [
+      "のし・包装・メッセージカードに",
+      "対応しているか確認する。"
+     ],
+     "date": "2026/11/13"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "当日出荷 カタログギフト EOJ 内祝い 出産内祝い 引き出物",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/jyoei/cabinet/e-choice_kouga/pk-okurimono/navy/mail-catalog-5775.jpg?_ex=700x700",
+     "price": "6,000円",
+     "review": "★4.62",
+     "count": "377件",
+     "postage": "送料込み",
+     "shop": "愛dealギフト-内祝い・引き出物",
+     "check": "届け日と有効期限",
+     "body": [
+      "届け日の指定ができるか、",
+      "カタログの申込期限も見る。"
+     ],
+     "date": "2026/11/13"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "gift-jpn:10002837",
+     "rawName": "香典返し カタログギフト 送料無料 15900円コース/20%OFF 満中陰志 お香典返し 法事 四十九日 法要 忌明け 49日",
+     "name": "香典返し カタログギフト 満中陰志 お香典返し 法事 四十九日 法要",
+     "price": 13992,
+     "shop": "ギフトジャパン",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r4zxo.p3pr24ca.g00r4zxo.p3pr3cb3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgift-jpn%2F001-16275%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgift-jpn%2Fi%2F10002837%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r4zxo.p3pr24ca.g00r4zxo.p3pr3cb3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgift-jpn%2F001-16275%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgift-jpn%2Fi%2F10002837%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 394,
+     "reviewAverage": 4.76,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/gift-jpn/cabinet/01945687/tn_15900.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "marry-gift:10067267",
+     "rawName": "【本日 P2倍】高評価★4.59 最高級カタログギフトSCENE 内祝い お返し カタログギフト 香典返し 出産内祝い結婚内祝い 結婚 出産祝い 結婚祝い お祝い【 3400円コース (BE) 】【 追跡可能 メール便 ポスト投函 】",
+     "name": "高評価 4.59 最高級カタログギフトSCENE 内祝い お返し",
+     "price": 2979,
+     "shop": "【公式】ギフトフィールドマリー",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qa7ro.p3pr2564.g00qa7ro.p3pr3a1d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmarry-gift%2Fprecious_be_m%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmarry-gift%2Fi%2F10067267%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qa7ro.p3pr2564.g00qa7ro.p3pr3a1d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmarry-gift%2Fprecious_be_m%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmarry-gift%2Fi%2F10067267%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 377,
+     "reviewAverage": 4.59,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/marry-gift/cabinet/event_scene/tsuujou/precious_be_m.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "jyoei:10107008",
+     "rawName": "当日出荷 ポイント5倍 カタログギフト 送料無料 ◇EOJ 内祝い 出産内祝い 引き出物 香典返し 快気祝い 結婚祝い 引出物 入学内祝い ギフト 引っ越し 引越し お返し お祝いギフトカタログ 法人 E-EO-X ジャストプライス ぽっきり 6000",
+     "name": "当日出荷 カタログギフト EOJ 内祝い 出産内祝い 引き出物",
+     "price": 6000,
+     "shop": "愛dealギフト-内祝い・引き出物",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pzibo.p3pr2386.g00pzibo.p3pr333f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyoei%2Fmail-catalog-5775%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjyoei%2Fi%2F10107008%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pzibo.p3pr2386.g00pzibo.p3pr333f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyoei%2Fmail-catalog-5775%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjyoei%2Fi%2F10107008%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 377,
+     "reviewAverage": 4.62,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/jyoei/cabinet/e-choice_kouga/pk-okurimono/navy/mail-catalog-5775.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-13_s2_reel2_01.jpg",
+    "docs/media/2026-11-13_s2_reel2_02.jpg",
+    "docs/media/2026-11-13_s2_reel2_03.jpg",
+    "docs/media/2026-11-13_s2_reel2_04.jpg"
+   ],
+   "video": "docs/media/2026-11-13_s2_reel2.mp4"
   }
  ],
  "stories": [
@@ -7829,6 +8083,16 @@
     "docs/media/2026-11-12_story.jpg"
    ],
    "media_id": "18127645861915740"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "カタログギフトを買う前の3チェック",
+   "head": "のし・包装・カード",
+   "status": "ready",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-13_story_s2.jpg"
+   ]
   }
  ]
 }
