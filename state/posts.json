@@ -7274,7 +7274,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ringbellshop/cabinet/catalog/taiken_gift/cgshoku_2.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "1",
    "images": [
@@ -7283,7 +7283,8 @@
     "docs/media/2026-11-12_s1_reel1_03.jpg",
     "docs/media/2026-11-12_s1_reel1_04.jpg"
    ],
-   "video": "docs/media/2026-11-12_s1_reel1.mp4"
+   "video": "docs/media/2026-11-12_s1_reel1.mp4",
+   "media_id": "18128102983903632"
   },
   {
    "date": "2026-11-12",
@@ -7400,7 +7401,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bokunotamatebakoyafish/cabinet/cake/choco/honki-mode455-2-img.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "1",
    "images": [
@@ -7409,7 +7410,8 @@
     "docs/media/2026-11-12_s1_reel2_03.jpg",
     "docs/media/2026-11-12_s1_reel2_04.jpg"
    ],
-   "video": "docs/media/2026-11-12_s1_reel2.mp4"
+   "video": "docs/media/2026-11-12_s1_reel2.mp4",
+   "media_id": "18219454492350814"
   },
   {
    "date": "2026-11-12",
@@ -7527,7 +7529,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kaiteki-homes/cabinet/fujiboueki2/c08cubebox_1.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "carousel",
    "slot": "1",
    "images": [
@@ -7535,7 +7537,8 @@
     "docs/media/2026-11-12_s1_carousel1_02.jpg",
     "docs/media/2026-11-12_s1_carousel1_03.jpg",
     "docs/media/2026-11-12_s1_carousel1_04.jpg"
-   ]
+   ],
+   "media_id": "17899729737654763"
   }
  ],
  "stories": [
@@ -7820,11 +7823,12 @@
    "date": "2026-11-12",
    "title": "収納ボックス選びで見落としやすい3つのこと",
    "head": "置き場所の3か所を測る",
-   "status": "ready",
+   "status": "posted",
    "slot": "1",
    "images": [
     "docs/media/2026-11-12_story.jpg"
-   ]
+   ],
+   "media_id": "18127645861915740"
   }
  ]
 }
