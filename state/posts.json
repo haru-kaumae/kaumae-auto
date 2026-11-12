@@ -7657,7 +7657,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kakashop078/cabinet/10948721/0-0.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -7666,7 +7666,8 @@
     "docs/media/2026-11-13_s2_reel1_03.jpg",
     "docs/media/2026-11-13_s2_reel1_04.jpg"
    ],
-   "video": "docs/media/2026-11-13_s2_reel1.mp4"
+   "video": "docs/media/2026-11-13_s2_reel1.mp4",
+   "media_id": "18068402621686100"
   },
   {
    "date": "2026-11-13",
@@ -7783,7 +7784,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/jyoei/cabinet/e-choice_kouga/pk-okurimono/navy/mail-catalog-5775.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -7792,7 +7793,8 @@
     "docs/media/2026-11-13_s2_reel2_03.jpg",
     "docs/media/2026-11-13_s2_reel2_04.jpg"
    ],
-   "video": "docs/media/2026-11-13_s2_reel2.mp4"
+   "video": "docs/media/2026-11-13_s2_reel2.mp4",
+   "media_id": "18287162422288050"
   }
  ],
  "stories": [
@@ -8088,11 +8090,12 @@
    "date": "2026-11-13",
    "title": "カタログギフトを買う前の3チェック",
    "head": "のし・包装・カード",
-   "status": "ready",
+   "status": "posted",
    "slot": "2",
    "images": [
     "docs/media/2026-11-13_story_s2.jpg"
-   ]
+   ],
+   "media_id": "18116437222856130"
   }
  ]
 }
