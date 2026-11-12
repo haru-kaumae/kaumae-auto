@@ -7158,6 +7158,384 @@
    ],
    "video": "docs/media/2026-11-12_s2_reel2.mp4",
    "media_id": "18191011654365696"
+  },
+  {
+   "date": "2026-11-12",
+   "genre": "gift",
+   "title": "カタログギフトを買う前の3チェック",
+   "caption": "【PR】カタログギフト、買う前にここだけは確認👇\n\nカタログギフトを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　予算とコース\n贈る相手と場面に合う価格のコースを選ぶ。\n\n✔ CHECK2　のし・包装・カード\nのし・包装・メッセージカードに対応しているか確認する。\n\n✔ CHECK3　届け日と有効期限\n届け日の指定ができるか、カタログの申込期限も見る。\n\n■ 例として、2026/11/12に楽天市場でレビューの多かった商品\n・内祝い カタログギフト 17490円コース ゆうパケット配送（ギフト工房 愛来-内祝・引出物通販）13,072円、★4.79／567件\n・カタログギフト 1万円コース code℃（コードシーギフトセレクション）8,140円、★4.67／564件\n・選べる食事 カタログギフト ギフト 贈答 内祝い お礼 お祝い（ギフトを贈るならリンベル<公式>）11,990円、★4.76／551件\n\n※2026/11/12に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 カタログギフトを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#カタログギフト #ギフト #カタログギフト #贈り物 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "カタログギフト｜買う前メモ",
+     "title": "カタログギフトを買う前の\n3チェック",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "gift",
+     "topic": "カタログギフト",
+     "pre": "買う前の",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-1253"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "内祝い カタログギフト 17490円コース ゆうパケット配送",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/aikuru/cabinet/catalog-hyoushi/prem_15900.jpg?_ex=700x700",
+     "price": "13,072円",
+     "review": "★4.79",
+     "count": "567件",
+     "postage": "送料込み",
+     "shop": "ギフト工房 愛来-内祝・引出物通販",
+     "check": "予算とコース",
+     "body": [
+      "贈る相手と場面に合う",
+      "価格のコースを選ぶ。"
+     ],
+     "date": "2026/11/12"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "カタログギフト 1万円コース code℃",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/patie/cabinet/products_page/catalog/premium/catalog10800.jpg?_ex=700x700",
+     "price": "8,140円",
+     "review": "★4.67",
+     "count": "564件",
+     "postage": "送料別",
+     "shop": "コードシーギフトセレクション",
+     "check": "のし・包装・カード",
+     "body": [
+      "のし・包装・メッセージカードに",
+      "対応しているか確認する。"
+     ],
+     "date": "2026/11/12"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "選べる食事 カタログギフト ギフト 贈答 内祝い お礼 お祝い",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/ringbellshop/cabinet/catalog/taiken_gift/cgshoku_2.jpg?_ex=700x700",
+     "price": "11,990円",
+     "review": "★4.76",
+     "count": "551件",
+     "postage": "送料込み",
+     "shop": "ギフトを贈るならリンベル<公式>",
+     "check": "届け日と有効期限",
+     "body": [
+      "届け日の指定ができるか、",
+      "カタログの申込期限も見る。"
+     ],
+     "date": "2026/11/12"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "aikuru:10125567",
+     "rawName": "内祝い カタログギフト 17490円コース 送料無料 ゆうパケット配送 「Premium El」ギフト 御祝い お返し 内祝い 出産内祝い 結婚内祝い お祝い お返し 入園内祝い 快気祝い 15900円",
+     "name": "内祝い カタログギフト 17490円コース ゆうパケット配送",
+     "price": 13072,
+     "shop": "ギフト工房 愛来-内祝・引出物通販",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pye9o.p3pr24ad.g00pye9o.p3pr35b7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faikuru%2Fbb15500%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faikuru%2Fi%2F10125567%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pye9o.p3pr24ad.g00pye9o.p3pr35b7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faikuru%2Fbb15500%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faikuru%2Fi%2F10125567%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 567,
+     "reviewAverage": 4.79,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/aikuru/cabinet/catalog-hyoushi/prem_15900.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "patie:10000945",
+     "rawName": "カタログギフト 1万円コース (10900円コース) code℃ コードシープレミアムカタログギフト 内祝い 割引32%OFF（WHT-S-AOOコース）結婚祝い お返し 出産 結婚内祝い 香典返し 人気 グルメカタログ gws 誕生日プレゼント プレゼント 七五三内祝い お歳暮 冬ギフト",
+     "name": "カタログギフト 1万円コース code℃",
+     "price": 8140,
+     "shop": "コードシーギフトセレクション",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rdnjo.p3pr24e3.g00rdnjo.p3pr3af4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpatie%2Fcatalog-selection_aoo%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpatie%2Fi%2F10000945%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rdnjo.p3pr24e3.g00rdnjo.p3pr3af4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpatie%2Fcatalog-selection_aoo%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpatie%2Fi%2F10000945%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 564,
+     "reviewAverage": 4.67,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/patie/cabinet/products_page/catalog/premium/catalog10800.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "ringbellshop:10000361",
+     "rawName": "【楽天1位受賞】選べる食事 カタログギフト 送料無料 ギフト 贈答 内祝い お礼 お祝い 御祝い 母の日 父の日 お中元 敬老の日 お歳暮 グルメ 体験ギフト グルメ 商品券 金券 ギフト券 高級 お取り寄せ",
+     "name": "選べる食事 カタログギフト ギフト 贈答 内祝い お礼 お祝い",
+     "price": 11990,
+     "shop": "ギフトを贈るならリンベル<公式>",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qtf7o.p3pr2631.g00qtf7o.p3pr3461/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fringbellshop%2Fy894-011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fringbellshop%2Fi%2F10000361%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qtf7o.p3pr2631.g00qtf7o.p3pr3461/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fringbellshop%2Fy894-011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fringbellshop%2Fi%2F10000361%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 551,
+     "reviewAverage": 4.76,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ringbellshop/cabinet/catalog/taiken_gift/cgshoku_2.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-12_s1_reel1_01.jpg",
+    "docs/media/2026-11-12_s1_reel1_02.jpg",
+    "docs/media/2026-11-12_s1_reel1_03.jpg",
+    "docs/media/2026-11-12_s1_reel1_04.jpg"
+   ],
+   "video": "docs/media/2026-11-12_s1_reel1.mp4"
+  },
+  {
+   "date": "2026-11-12",
+   "genre": "sweets",
+   "title": "ポチる前に！チョコレートの確認リスト",
+   "caption": "【PR】チョコレート、買う前にここだけは確認👇\n\nチョコレートを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　内容量と賞味期限\n量と、届いてからの賞味期限の目安を確認する。\n\n✔ CHECK2　保存方法\n常温・冷蔵・冷凍のどれか。冷凍なら冷凍庫の空きを先に見る。\n\n✔ CHECK3　アレルギー表示\n原材料とアレルギー表示を商品ページとパッケージで確認する。\n\n■ 例として、2026/11/12に楽天市場でレビューの多かった商品\n・リンツ Lindt チョコレート リンドール テイスティングセット（リンツ チョコレート 楽天市場店）2,980円、★4.74／5,092件\n・お歳暮 スイーツ ギフト お菓子 チョコ 洋菓子 チョコレート（神戸フランツ スイーツ&ギフト）1,296円、★4.45／4,970件\n・割れチョコ 訳あり チョコレート 是非食べ比べて見てください（大浜スイーツアカデミー）3,998円、★4.43／4,121件\n\n※2026/11/12に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 チョコレートを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#チョコレート #お取り寄せ #おやつ #楽天グルメ #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "おやつ・お取り寄せ｜買う前メモ",
+     "title": "ポチる前に！\nチョコレートの\n確認リスト",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "sweets",
+     "topic": "チョコレート",
+     "pre": "ポチる前に！",
+     "num": "3",
+     "post": "つの確認",
+     "month": "2026.11月",
+     "seed": "2026-11-1254"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "リンツ Lindt チョコレート リンドール テイスティングセット",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/lindt-chocolate/cabinet/9702280_2.jpg?_ex=700x700",
+     "price": "2,980円",
+     "review": "★4.74",
+     "count": "5,092件",
+     "postage": "送料込み",
+     "shop": "リンツ チョコレート 楽天市場店",
+     "check": "内容量と賞味期限",
+     "body": [
+      "量と、届いてからの",
+      "賞味期限の目安を確認する。"
+     ],
+     "date": "2026/11/12"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "お歳暮 スイーツ ギフト お菓子 チョコ 洋菓子 チョコレート",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_gold/frantz/photo/640/wd-03-no1.jpg?_ex=700x700",
+     "price": "1,296円",
+     "review": "★4.45",
+     "count": "4,970件",
+     "postage": "送料別",
+     "shop": "神戸フランツ スイーツ&ギフト",
+     "check": "保存方法",
+     "body": [
+      "常温・冷蔵・冷凍のどれか。",
+      "冷凍なら冷凍庫の空きを先に見る。"
+     ],
+     "date": "2026/11/12"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "割れチョコ 訳あり チョコレート 是非食べ比べて見てください",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/bokunotamatebakoyafish/cabinet/cake/choco/honki-mode455-2-img.jpg?_ex=700x700",
+     "price": "3,998円",
+     "review": "★4.43",
+     "count": "4,121件",
+     "postage": "送料込み",
+     "shop": "大浜スイーツアカデミー",
+     "check": "アレルギー表示",
+     "body": [
+      "原材料とアレルギー表示を",
+      "商品ページとパッケージで確認する。"
+     ],
+     "date": "2026/11/12"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "lindt-chocolate:10000932",
+     "rawName": "〔ソーシャルギフト対象〕【公式】 リンツ Lindt チョコレート リンドール テイスティングセット 15種16個入｜クリスマス ギフト プレゼント 可愛い お菓子 おしゃれ 個包装 小分け 誕生日 手土産 お礼 職場 熨斗【レビューキャンペーン対象】",
+     "name": "リンツ Lindt チョコレート リンドール テイスティングセット",
+     "price": 2980,
+     "shop": "リンツ チョコレート 楽天市場店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00sjjgo.p3pr2174.g00sjjgo.p3pr3a26/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flindt-chocolate%2F9700304%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flindt-chocolate%2Fi%2F10000932%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00sjjgo.p3pr2174.g00sjjgo.p3pr3a26/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flindt-chocolate%2F9700304%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flindt-chocolate%2Fi%2F10000932%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 5092,
+     "reviewAverage": 4.74,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/lindt-chocolate/cabinet/9702280_2.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "frantz:10001238",
+     "rawName": "お歳暮 スイーツ ギフト お菓子 チョコ 洋菓子 チョコレート おしゃれ フリーズドライ いちご 神戸苺トリュフ(70g) お取り寄せスイーツ 苺スイーツ 引菓子 引き菓子 贈り物 苺 プレゼント お取り寄せ 内祝い 御祝 御礼",
+     "name": "お歳暮 スイーツ ギフト お菓子 チョコ 洋菓子 チョコレート",
+     "price": 1296,
+     "shop": "神戸フランツ スイーツ&ギフト",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00psryo.p3pr28d1.g00psryo.p3pr3696/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffrantz%2F713237%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffrantz%2Fi%2F10001238%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00psryo.p3pr28d1.g00psryo.p3pr3696/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffrantz%2F713237%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffrantz%2Fi%2F10001238%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 4970,
+     "reviewAverage": 4.45,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_gold/frantz/photo/640/wd-03-no1.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "bokunotamatebakoyafish:10002852",
+     "rawName": "割れチョコ 訳あり チョコレート 「是非食べ比べて見てください★★★★ 絶対後悔させない!27種類より2個 選べる割れチョコ (通常200g×2袋／ハイカカオ2種は1袋170g)」 送料無料 [ チョコ スイーツ 大浜スイーツアカデミー ]",
+     "name": "割れチョコ 訳あり チョコレート 是非食べ比べて見てください",
+     "price": 3998,
+     "shop": "大浜スイーツアカデミー",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00svnuo.p3pr2fcd.g00svnuo.p3pr3a14/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbokunotamatebakoyafish%2Fhonki-mode455-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbokunotamatebakoyafish%2Fi%2F10002852%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00svnuo.p3pr2fcd.g00svnuo.p3pr3a14/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbokunotamatebakoyafish%2Fhonki-mode455-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbokunotamatebakoyafish%2Fi%2F10002852%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 4121,
+     "reviewAverage": 4.43,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bokunotamatebakoyafish/cabinet/cake/choco/honki-mode455-2-img.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-12_s1_reel2_01.jpg",
+    "docs/media/2026-11-12_s1_reel2_02.jpg",
+    "docs/media/2026-11-12_s1_reel2_03.jpg",
+    "docs/media/2026-11-12_s1_reel2_04.jpg"
+   ],
+   "video": "docs/media/2026-11-12_s1_reel2.mp4"
+  },
+  {
+   "date": "2026-11-12",
+   "genre": "storage",
+   "title": "収納ボックス選びで見落としやすい3つのこと",
+   "caption": "【PR】収納ボックス、買う前にここだけは確認👇\n\n収納ボックスを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　置き場所の3か所を測る\n幅・奥行・高さを測る。扉や引き出しが開く範囲も忘れずに。\n\n✔ CHECK2　内寸と外寸を分けて見る\n入れたい物は「内寸」、置き場所は「外寸」と比べる。\n\n✔ CHECK3　耐荷重を確認\n上に物を置く・重い物を入れるなら耐荷重の表記を確認する。書かれていなければ問い合わせる。\n\n■ 例として、2026/11/12に楽天市場でレビューの多かった商品\n・収納ボックス 収納ケース クラフト収納ボックスMサイズ 同柄セット（HAT-SHOP）2,860円、★4.63／5,865件\n・収納ボックス 木天板付き新発売 キャスター付き 5面開閉 折りたたみ（EXCEPTION本店）4,280円、★4.50／5,662件\n・キューブボックス 扉付き オープン 棚付 収納ボックス（おしゃれ家具・照明の快適ホームズ）1,450円、★4.35／4,900件\n\n※2026/11/12に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 収納ボックスを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#収納ボックス #収納 #収納アイデア #整理整頓 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "収納家具｜買う前メモ",
+     "title": "収納ボックス選びで\n見落としやすい\n3つのこと",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "storage",
+     "topic": "収納ボックス",
+     "pre": "見落としやすい",
+     "num": "3",
+     "post": "つのこと",
+     "month": "2026.11月",
+     "seed": "2026-11-1255"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "収納ボックス 収納ケース クラフト収納ボックスMサイズ 同柄セット",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/hat-shop/cabinet/syuno/01571048/kraft_box_01.jpg?_ex=700x700",
+     "price": "2,860円",
+     "review": "★4.63",
+     "count": "5,865件",
+     "postage": "送料込み",
+     "shop": "HAT-SHOP",
+     "check": "置き場所の3か所を測る",
+     "body": [
+      "幅・奥行・高さを測る。",
+      "扉や引き出しが開く範囲も忘れずに。"
+     ],
+     "date": "2026/11/12"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "収納ボックス 木天板付き新発売 キャスター付き 5面開閉 折りたたみ",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/exception5251/cabinet/11219683/11219687/main_image/imgrc0114783368.jpg?_ex=700x700",
+     "price": "4,280円",
+     "review": "★4.50",
+     "count": "5,662件",
+     "postage": "送料別",
+     "shop": "EXCEPTION本店",
+     "check": "内寸と外寸を分けて見る",
+     "body": [
+      "入れたい物は「内寸」、",
+      "置き場所は「外寸」と比べる。"
+     ],
+     "date": "2026/11/12"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "キューブボックス 扉付き オープン 棚付 収納ボックス",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/kaiteki-homes/cabinet/fujiboueki2/c08cubebox_1.jpg?_ex=700x700",
+     "price": "1,450円",
+     "review": "★4.35",
+     "count": "4,900件",
+     "postage": "送料別",
+     "shop": "おしゃれ家具・照明の快適ホームズ",
+     "check": "耐荷重を確認",
+     "body": [
+      "上に物を置く・重い物を入れるなら",
+      "耐荷重の表記を確認する。",
+      "書かれていなければ問い合わせる。"
+     ],
+     "date": "2026/11/12"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "hat-shop:10001289",
+     "rawName": "収納ボックス　収納ケース【送料無料】クラフト収納ボックスMサイズ　同柄セット　書類収納　押入れ収納 フタ付き　クラフトボックス　A4　おしゃれ　シンプル",
+     "name": "収納ボックス 収納ケース クラフト収納ボックスMサイズ 同柄セット",
+     "price": 2860,
+     "shop": "HAT-SHOP",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pwzzo.p3pr2dee.g00pwzzo.p3pr3e55/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhat-shop%2F10001289%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhat-shop%2Fi%2F10001289%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pwzzo.p3pr2dee.g00pwzzo.p3pr3e55/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhat-shop%2F10001289%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhat-shop%2Fi%2F10001289%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 5865,
+     "reviewAverage": 4.63,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/hat-shop/cabinet/syuno/01571048/kraft_box_01.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "exception5251:10000379",
+     "rawName": "【楽天総合ランキング1位】収納ボックス 木天板付き新発売 キャスター付き 5面開閉 折りたたみ 収納ケース フタ付き おしゃれ 中身が見える 衣装ケース 押入れ クローゼット 衣類 布団 積み重ね コンパクト 27L/40L/53L/82L f-00003",
+     "name": "収納ボックス 木天板付き新発売 キャスター付き 5面開閉 折りたたみ",
+     "price": 4280,
+     "shop": "EXCEPTION本店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uaejo.p3pr2e38.g00uaejo.p3pr3450/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fexception5251%2Ff-00003%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fexception5251%2Fi%2F10000379%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uaejo.p3pr2e38.g00uaejo.p3pr3450/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fexception5251%2Ff-00003%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fexception5251%2Fi%2F10000379%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 5662,
+     "reviewAverage": 4.5,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/exception5251/cabinet/11219683/11219687/main_image/imgrc0114783368.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "kaiteki-homes:10076107",
+     "rawName": "キューブボックス 扉付き オープン 棚付 収納ボックス カラーボックス 2段 3段 目隠し A4 収納棚 おしゃれ ロッカー 木製 ディスプレイラック スリム インテリア 本棚 ウッドラック シンプル リビング 子供部屋 誕生日 プレゼント スタッキング CUBE BOX キュビーノ CUBINO",
+     "name": "キューブボックス 扉付き オープン 棚付 収納ボックス",
+     "price": 1450,
+     "shop": "おしゃれ家具・照明の快適ホームズ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qegdo.p3pr21eb.g00qegdo.p3pr33c8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkaiteki-homes%2Fc08cubebox%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkaiteki-homes%2Fi%2F10076107%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qegdo.p3pr21eb.g00qegdo.p3pr33c8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkaiteki-homes%2Fc08cubebox%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkaiteki-homes%2Fi%2F10076107%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 4900,
+     "reviewAverage": 4.35,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kaiteki-homes/cabinet/fujiboueki2/c08cubebox_1.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "carousel",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-12_s1_carousel1_01.jpg",
+    "docs/media/2026-11-12_s1_carousel1_02.jpg",
+    "docs/media/2026-11-12_s1_carousel1_03.jpg",
+    "docs/media/2026-11-12_s1_carousel1_04.jpg"
+   ]
   }
  ],
  "stories": [
@@ -7437,6 +7815,16 @@
     "docs/media/2026-11-12_story_s2.jpg"
    ],
    "media_id": "18079532327447963"
+  },
+  {
+   "date": "2026-11-12",
+   "title": "収納ボックス選びで見落としやすい3つのこと",
+   "head": "置き場所の3か所を測る",
+   "status": "ready",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-12_story.jpg"
+   ]
   }
  ]
 }
