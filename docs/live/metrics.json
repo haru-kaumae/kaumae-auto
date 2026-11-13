@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-14 06:17",
+ "updated": "2026-11-14 08:10",
  "followers": 15,
- "media": 43,
+ "media": 45,
  "posts": [
   {
    "date": "2026-11-02",
@@ -623,12 +623,12 @@
    "likes": 0,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/DfqFJmvCDDU/",
-   "reach": 19,
+   "reach": 43,
    "saved": 0,
    "shares": 0,
-   "views": 20,
+   "views": 41,
    "total_interactions": 0,
-   "avg_watch": 1.4
+   "avg_watch": 1.2
   },
   {
    "date": "2026-11-13",
@@ -639,12 +639,12 @@
    "likes": 1,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/DfquQR7FXgX/",
-   "reach": 3,
+   "reach": 4,
    "saved": 0,
    "shares": 0,
-   "views": 4,
+   "views": 5,
    "total_interactions": 1,
-   "avg_watch": 2.4
+   "avg_watch": 2.1
   },
   {
    "date": "2026-11-13",
@@ -678,14 +678,46 @@
    "total_interactions": 1
   },
   {
+   "date": "2026-11-14",
+   "slot": "2",
+   "kind": "reel",
+   "title": "加湿器を買う前の3チェック",
+   "genre": "humid",
+   "likes": 0,
+   "comments": 0,
+   "permalink": "https://www.instagram.com/reel/Dfsp2haAnzO/",
+   "reach": 4,
+   "saved": 0,
+   "shares": 0,
+   "views": 5,
+   "total_interactions": 0,
+   "avg_watch": 1.7
+  },
+  {
+   "date": "2026-11-14",
+   "slot": "2",
+   "kind": "reel",
+   "title": "ポチる前に！電気毛布の確認リスト",
+   "genre": "blanket",
+   "likes": 0,
+   "comments": 0,
+   "permalink": "https://www.instagram.com/reel/Dfsp82-AhSI/",
+   "reach": 1,
+   "saved": 0,
+   "shares": 0,
+   "views": 1,
+   "total_interactions": 0,
+   "avg_watch": 0.9
+  },
+  {
    "date": "2026-11-13",
    "slot": "2",
    "kind": "story",
    "title": "カタログギフトを買う前の3チェック",
    "genre": "",
-   "likes": 0,
-   "comments": 0,
-   "permalink": "https://www.instagram.com/stories/kaumae._.memo/4029055858843314660",
+   "likes": null,
+   "comments": null,
+   "permalink": "",
    "reach": null,
    "saved": null,
    "shares": null,
@@ -701,6 +733,21 @@
    "likes": 0,
    "comments": 0,
    "permalink": "https://www.instagram.com/stories/kaumae._.memo/4029237807046521096",
+   "reach": null,
+   "saved": null,
+   "shares": null,
+   "views": null,
+   "total_interactions": null
+  },
+  {
+   "date": "2026-11-14",
+   "slot": "2",
+   "kind": "story",
+   "title": "ポチる前に！電気毛布の確認リスト",
+   "genre": "",
+   "likes": 0,
+   "comments": 0,
+   "permalink": "https://www.instagram.com/stories/kaumae._.memo/4029780581902946243",
    "reach": null,
    "saved": null,
    "shares": null,
