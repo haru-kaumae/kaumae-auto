@@ -148,8 +148,8 @@ footer{font-size:12px;color:var(--muted)}
     <div class="track" id="track"><div class="axis"></div></div>
     <div class="ticks" aria-hidden="true"><span>0時</span><span>6時</span><span>12時</span><span>18時</span><span>24時</span></div>
     <div class="sched">
-      <span class="chip"><b>7:00</b> カルーセル＋リール＋ストーリーズ</span>
-      <span class="chip"><b>13:00</b> カルーセル＋リール＋ストーリーズ</span>
+      <span class="chip"><b>7:00</b> リール2本＋ストーリーズ（1日1回）</span>
+      
       <span class="chip">2時間ごと 数字の集計</span>
       <span class="chip">毎週日曜 21:00 在庫確認</span>
     </div>
@@ -215,7 +215,7 @@ const steps = [
   d:["表紙の背景はCC0などのフリー写真","商品画像は加工せず、周りの帯に文字を置く"]},
  {lane:2,t:"ネットに置く",who:"auto",s:"画像と商品一覧ページをGitHub Pagesで公開",
   d:["Instagramは公開URLの画像しか受け取れないため"]},
- {lane:2,t:"時刻まで待つ",who:"auto",s:"1時間前に始めて、7:00か13:00まで待つ",
+ {lane:2,t:"時刻まで待つ",who:"auto",s:"1時間前に始めて、7:00まで待つ",
   d:["GitHubの定時起動は遅れることがあるため"]},
  {lane:2,t:"直前の再確認",who:"auto",s:"在庫切れ・価格の大きな変化がないか確認",
   d:["在庫切れや10%以上の値動きがあれば、その投稿だけ止める"]},
@@ -247,7 +247,7 @@ show(0);
 const jst = () => new Date(Date.now() + 9 * 3600e3);
 const hm = d => `${String(d.getUTCHours()).padStart(2,'0')}:${String(d.getUTCMinutes()).padStart(2,'0')}`;
 const tr = $('track');
-[[6,"6:00","準備",0],[7,"7:00","投稿",1],[12,"12:00","準備",0],[13,"13:00","投稿",1]].forEach(([h,t,l,p]) => {
+[[6,"6:00","準備",0],[7,"7:00","投稿",1]].forEach(([h,t,l,p]) => {
   const e = document.createElement('div'); e.className = 'ev' + (p ? ' post' : ''); e.style.left = (h/24*100) + '%';
   e.innerHTML = `<i></i><b>${t}</b><em>${l}</em>`; tr.appendChild(e);
 });
@@ -256,10 +256,10 @@ function tick() {
   let m = tr.querySelector('.now'); if (!m) { m = document.createElement('div'); m.className = 'now'; tr.appendChild(m); }
   m.style.left = (h/24*100) + '%'; m.innerHTML = `<span>いま ${hm(n)}</span>`;
   // 次の投稿までのカウントダウン
-  const targets = [7, 13, 31].map(x => x - h).filter(x => x > 0);
+  const targets = [7, 31].map(x => x - h).filter(x => x > 0);
   const left = Math.min(...targets) * 3600, H = Math.floor(left/3600), M = Math.floor(left%3600/60), S = Math.floor(left%60);
   $('count').textContent = `${String(H).padStart(2,'0')}:${String(M).padStart(2,'0')}:${String(S).padStart(2,'0')}`;
-  $('countLabel').textContent = `次の投稿（${h < 7 || h >= 13 ? '7:00' : '13:00'}）まで`;
+  $('countLabel').textContent = '次の投稿（7:00）まで';
 }
 tick(); setInterval(tick, 1000);
 
