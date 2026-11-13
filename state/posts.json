@@ -7795,6 +7795,386 @@
    ],
    "video": "docs/media/2026-11-13_s2_reel2.mp4",
    "media_id": "18287162422288050"
+  },
+  {
+   "date": "2026-11-13",
+   "genre": "blanket",
+   "title": "ポチる前に！電気毛布の確認リスト",
+   "caption": "【PR】電気毛布、買う前にここだけは確認👇\n\n電気毛布を選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　サイズと使い方\n敷き用・掛け用・兼用のどれか、サイズとあわせて確認する。\n\n✔ CHECK2　消費電力と電気代の目安\n消費電力（W）と、電気代の目安が書かれていれば計算の前提（単価）も見る。\n\n✔ CHECK3　洗濯と使用上の注意\n洗濯できるか、乾燥機の可否、折り曲げなどの注意を読む。\n\n■ 例として、2026/11/13に楽天市場でレビューの多かった商品\n・電気毛布 洗濯ネット 190*130cm 140＊80cm（MOSMEE(モスミー)）9,960円、★4.63／2,553件\n・電気毛布 日本製 電気毛布 敷き 電気毛布 掛け敷き 電気敷き毛布（ライフジョイ工房）3,100円、★4.52／2,310件\n・AI自動温度調節 ふわとろ毛布 電気毛布 掛け敷き（baieiten fashion 2号店）7,480円、★4.48／1,775件\n\n※2026/11/13に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 電気毛布を選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#電気毛布 #電気毛布 #寒さ対策 #冬支度 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "電気毛布｜買う前メモ",
+     "title": "ポチる前に！\n電気毛布の\n確認リスト",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "blanket",
+     "topic": "電気毛布",
+     "pre": "ポチる前に！",
+     "num": "3",
+     "post": "つの確認",
+     "month": "2026.11月",
+     "seed": "2026-11-1358"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "電気毛布 洗濯ネット 190*130cm 140＊80cm",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/itsube-souken/cabinet/10326922/12472599/14033888/imgrc0144190413.jpg?_ex=700x700",
+     "price": "9,960円",
+     "review": "★4.63",
+     "count": "2,553件",
+     "postage": "送料別",
+     "shop": "MOSMEE(モスミー)",
+     "check": "サイズと使い方",
+     "body": [
+      "敷き用・掛け用・兼用のどれか、",
+      "サイズとあわせて確認する。"
+     ],
+     "date": "2026/11/13"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "電気毛布 日本製 電気毛布 敷き 電気毛布 掛け敷き 電気敷き毛布",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/lifejoy-shop/cabinet/12974530/12987708/imgrc0144632092.jpg?_ex=700x700",
+     "price": "3,100円",
+     "review": "★4.52",
+     "count": "2,310件",
+     "postage": "送料込み",
+     "shop": "ライフジョイ工房",
+     "check": "消費電力と電気代の目安",
+     "body": [
+      "消費電力（W）と、",
+      "電気代の目安が書かれていれば",
+      "計算の前提（単価）も見る。"
+     ],
+     "date": "2026/11/13"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "AI自動温度調節 ふわとろ毛布 電気毛布 掛け敷き",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/baieitenfashionnigou/cabinet/imgrc0122113549.jpg?_ex=700x700",
+     "price": "7,480円",
+     "review": "★4.48",
+     "count": "1,775件",
+     "postage": "送料込み",
+     "shop": "baieiten fashion 2号店",
+     "check": "洗濯と使用上の注意",
+     "body": [
+      "洗濯できるか、乾燥機の可否、",
+      "折り曲げなどの注意を読む。"
+     ],
+     "date": "2026/11/13"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "itsube-souken:10000266",
+     "rawName": "「クーポン利用で4482円～★楽天1位」電気毛布 洗濯ネット 190*130cm 140＊80cm 120*60cm 毛布 掛け敷き 洗える 1-10時間 タイマー付き 8段階温度 抗菌防臭 ダニ退治 自動電源オフ 電気ひざ掛け 肩掛け 膝掛け 毛布 電気ブランケットふわふわ電気毛布",
+     "name": "電気毛布 洗濯ネット 190*130cm 140＊80cm",
+     "price": 9960,
+     "shop": "MOSMEE(モスミー)",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u10vo.p3pr2911.g00u10vo.p3pr33d2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fitsube-souken%2Fppr-blanket%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fitsube-souken%2Fi%2F10000266%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u10vo.p3pr2911.g00u10vo.p3pr33d2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fitsube-souken%2Fppr-blanket%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fitsube-souken%2Fi%2F10000266%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 2553,
+     "reviewAverage": 4.63,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/itsube-souken/cabinet/10326922/12472599/14033888/imgrc0144190413.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "lifejoy-shop:10000044",
+     "rawName": "電気毛布 日本製 電気毛布 敷き 電気毛布 掛け敷き 電気敷き毛布 掛け敷き毛布 掛け敷き兼用 タイマー シングル セミダブル 130cm×80cm 188cm×130cm 室温センサー メーカー 一年保証 JBS401D_B JBS401G JBK551 JBK551G ギフト",
+     "name": "電気毛布 日本製 電気毛布 敷き 電気毛布 掛け敷き 電気敷き毛布",
+     "price": 3100,
+     "shop": "ライフジョイ工房",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00t1dwo.p3pr2f1b.g00t1dwo.p3pr341a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flifejoy-shop%2Fjbs401%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flifejoy-shop%2Fi%2F10000044%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00t1dwo.p3pr2f1b.g00t1dwo.p3pr341a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flifejoy-shop%2Fjbs401%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flifejoy-shop%2Fi%2F10000044%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 2310,
+     "reviewAverage": 4.52,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/lifejoy-shop/cabinet/12974530/12987708/imgrc0144632092.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "baieitenfashionnigou:10000205",
+     "rawName": "クーポンで最安3,980円~「楽天1位」【返品&交換保証 送料無料】AI自動温度調節 ふわとろ毛布 電気毛布 掛け敷き モコモコブランケット 炭素繊維ヒーター 極上ふわとろ 毛布ブランケッシングル 即暖 電気毛布 ひざ掛け 電気ブランケット 洗える ふわもこ",
+     "name": "AI自動温度調節 ふわとろ毛布 電気毛布 掛け敷き",
+     "price": 7480,
+     "shop": "baieiten fashion 2号店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u4xuo.p3pr2013.g00u4xuo.p3pr3dd6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbaieitenfashionnigou%2Fxt061%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbaieitenfashionnigou%2Fi%2F10000205%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u4xuo.p3pr2013.g00u4xuo.p3pr3dd6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbaieitenfashionnigou%2Fxt061%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbaieitenfashionnigou%2Fi%2F10000205%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 1775,
+     "reviewAverage": 4.48,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/baieitenfashionnigou/cabinet/imgrc0122113549.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-13_s1_reel1_01.jpg",
+    "docs/media/2026-11-13_s1_reel1_02.jpg",
+    "docs/media/2026-11-13_s1_reel1_03.jpg",
+    "docs/media/2026-11-13_s1_reel1_04.jpg"
+   ],
+   "video": "docs/media/2026-11-13_s1_reel1.mp4"
+  },
+  {
+   "date": "2026-11-13",
+   "genre": "clean",
+   "title": "モップ選びで見落としやすい3つのこと",
+   "caption": "【PR】モップ、買う前にここだけは確認👇\n\nモップを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　使う場所の素材を確かめる\n塗装・コーティング・木材など傷つきやすい素材に使えるか、注意書きを確認する。\n\n✔ CHECK2　サイズと対応の表記を見る\n対応口径・対応サイズ・対応機種が書かれていれば、先に自宅で測る。\n\n✔ CHECK3　セット数と替えを確認\n何個入りか、替えやフィルターを別に買う必要があるかを見る。\n\n■ 例として、2026/11/13に楽天市場でレビューの多かった商品\n・回転モップ アイリスオーヤマ 洗濯機能付き 360°KMO-490S（便利生活 マイルーム）5,700円、★4.27／387件\n・モコモコ省スペースモップ｜フロア用／掃除道具・木製ハンドル・おしゃ…（くらしの雑貨 むろの屋）9,320円、★4.37／351件\n・回転モップ 手回しタイプ 取替モップ付き モップ 水拭き 掃除 洗浄（快適空間のお手伝い B&C）4,210円、★4.42／346件\n\n※2026/11/13に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 モップを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#モップ #掃除グッズ #掃除 #大掃除 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "掃除用品｜買う前メモ",
+     "title": "モップ選びで\n見落としやすい\n3つのこと",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "clean",
+     "topic": "モップ",
+     "pre": "見落としやすい",
+     "num": "3",
+     "post": "つのこと",
+     "month": "2026.11月",
+     "seed": "2026-11-1359"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "回転モップ アイリスオーヤマ 洗濯機能付き 360°KMO-490S",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/enetroom/cabinet/jisyahin20/536508-s.jpg?_ex=700x700",
+     "price": "5,700円",
+     "review": "★4.27",
+     "count": "387件",
+     "postage": "送料込み",
+     "shop": "便利生活 マイルーム",
+     "check": "使う場所の素材を確かめる",
+     "body": [
+      "塗装・コーティング・木材など",
+      "傷つきやすい素材に使えるか、",
+      "注意書きを確認する。"
+     ],
+     "date": "2026/11/13"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "モコモコ省スペースモップ｜フロア用／掃除道具・木製ハンドル・おしゃ…",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/muronoya/cabinet/02634117/02635321/mokoimage2024.jpg?_ex=700x700",
+     "price": "9,320円",
+     "review": "★4.37",
+     "count": "351件",
+     "postage": "送料別",
+     "shop": "くらしの雑貨 むろの屋",
+     "check": "サイズと対応の表記を見る",
+     "body": [
+      "対応口径・対応サイズ・対応機種が",
+      "書かれていれば、先に自宅で測る。"
+     ],
+     "date": "2026/11/13"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "回転モップ 手回しタイプ 取替モップ付き モップ 水拭き 掃除 洗浄",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/bandc/cabinet/jishahin50/250030.jpg?_ex=700x700",
+     "price": "4,210円",
+     "review": "★4.42",
+     "count": "346件",
+     "postage": "送料込み",
+     "shop": "快適空間のお手伝い B&C",
+     "check": "セット数と替えを確認",
+     "body": [
+      "何個入りか、替えやフィルターを",
+      "別に買う必要があるかを見る。"
+     ],
+     "date": "2026/11/13"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "enetroom:10023027",
+     "rawName": "回転モップ アイリスオーヤマ 洗濯機能付き 360°KMO-490S モップ 水拭き 業務用 清掃 清掃用品 掃除 掃除用品 玄関 家庭用 業務用 ほうき エコ 掃除 雑巾 脱水 簡単 床掃除 畳掃除 スピン アイリスオーヤマ 水拭き 回転 フローリング",
+     "name": "回転モップ アイリスオーヤマ 洗濯機能付き 360°KMO-490S",
+     "price": 5700,
+     "shop": "便利生活 マイルーム",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00prkeo.p3pr29b6.g00prkeo.p3pr3eaa/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fenetroom%2F536508%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fenetroom%2Fi%2F10023027%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00prkeo.p3pr29b6.g00prkeo.p3pr3eaa/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fenetroom%2F536508%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fenetroom%2Fi%2F10023027%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 387,
+     "reviewAverage": 4.27,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/enetroom/cabinet/jisyahin20/536508-s.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "muronoya:10000485",
+     "rawName": "モコモコ省スペースモップ｜フロア用／掃除道具・木製ハンドル・おしゃれ",
+     "name": "モコモコ省スペースモップ｜フロア用／掃除道具・木製ハンドル・おしゃ…",
+     "price": 9320,
+     "shop": "くらしの雑貨 むろの屋",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qphjo.p3pr20f3.g00qphjo.p3pr3571/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmuronoya%2Fmocomoco%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmuronoya%2Fi%2F10000485%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qphjo.p3pr20f3.g00qphjo.p3pr3571/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmuronoya%2Fmocomoco%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmuronoya%2Fi%2F10000485%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 351,
+     "reviewAverage": 4.37,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/muronoya/cabinet/02634117/02635321/mokoimage2024.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "bandc:10036370",
+     "rawName": "★ランキング1位獲得★回転モップ 手回しタイプ 取替モップ付き モップ 水拭き 掃除 洗浄 脱水 自立式 マイクロファイバー 手回し 押す 掃除モップ クリーナー フロアモップ 床掃除 KMT-420 水拭き フローリング アイリスオーヤマ [RNG]",
+     "name": "回転モップ 手回しタイプ 取替モップ付き モップ 水拭き 掃除 洗浄",
+     "price": 4210,
+     "shop": "快適空間のお手伝い B&C",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qr6eo.p3pr2318.g00qr6eo.p3pr3808/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbandc%2F250030%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbandc%2Fi%2F10036370%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qr6eo.p3pr2318.g00qr6eo.p3pr3808/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbandc%2F250030%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbandc%2Fi%2F10036370%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 346,
+     "reviewAverage": 4.42,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bandc/cabinet/jishahin50/250030.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-13_s1_reel2_01.jpg",
+    "docs/media/2026-11-13_s1_reel2_02.jpg",
+    "docs/media/2026-11-13_s1_reel2_03.jpg",
+    "docs/media/2026-11-13_s1_reel2_04.jpg"
+   ],
+   "video": "docs/media/2026-11-13_s1_reel2.mp4"
+  },
+  {
+   "date": "2026-11-13",
+   "genre": "kitchen",
+   "title": "水切りラック、買う前にここ見て",
+   "caption": "【PR】水切りラック、買う前にここだけは確認👇\n\n水切りラックを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　置き場所を測る\n置きたい場所の幅・奥行・高さを測り、商品ページの外寸と比べる。\n\n✔ CHECK2　対応の表記を見る\n食洗機・電子レンジ・IHなど使いたい機器に対応しているか、商品ページの表記で確認する。\n\n✔ CHECK3　素材とお手入れを見る\n素材の名前と、お手入れ方法・使用上の注意の欄を読む。\n\n■ 例として、2026/11/13に楽天市場でレビューの多かった商品\n・燕三条 水切りラック 伸縮 正規品 水切りかご ラック ステンレス（ラックタウン-収納用品の店-）8,960円、★4.53／3,483件\n・水切りラック 水切りかご シンク上 伸縮 ステンレス 食器ラック（エンブリス楽天市場店）4,598円、★4.49／3,293件\n・レビュー3000件超の水切りラック｜伸縮可能なステンレス製、洗いや…（sarasa design store）6,061円、★4.22／3,157件\n\n※2026/11/13に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 水切りラックを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#水切りラック #キッチングッズ #キッチン用品 #キッチン収納 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "キッチン用品｜買う前メモ",
+     "title": "水切りラック、\n買う前に\nここ見て",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "kitchen",
+     "topic": "水切りラック",
+     "pre": "買う前にここ見て",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-1360"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "燕三条 水切りラック 伸縮 正規品 水切りかご ラック ステンレス",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/rack-town/cabinet/03297173/13867126/smn.jpg?_ex=700x700",
+     "price": "8,960円",
+     "review": "★4.53",
+     "count": "3,483件",
+     "postage": "送料込み",
+     "shop": "ラックタウン-収納用品の店-",
+     "check": "置き場所を測る",
+     "body": [
+      "置きたい場所の幅・奥行・高さを測り、",
+      "商品ページの外寸と比べる。"
+     ],
+     "date": "2026/11/13"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "水切りラック 水切りかご シンク上 伸縮 ステンレス 食器ラック",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/enbliss/cabinet/13433734/imgrc0184415686.jpg?_ex=700x700",
+     "price": "4,598円",
+     "review": "★4.49",
+     "count": "3,293件",
+     "postage": "送料込み",
+     "shop": "エンブリス楽天市場店",
+     "check": "対応の表記を見る",
+     "body": [
+      "食洗機・電子レンジ・IHなど",
+      "使いたい機器に対応しているか、",
+      "商品ページの表記で確認する。"
+     ],
+     "date": "2026/11/13"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "レビュー3000件超の水切りラック｜伸縮可能なステンレス製、洗いや…",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/sarasa-designstore/cabinet/c05/nsp002-005_ver1.jpg?_ex=700x700",
+     "price": "6,061円",
+     "review": "★4.22",
+     "count": "3,157件",
+     "postage": "送料込み",
+     "shop": "sarasa design store",
+     "check": "素材とお手入れを見る",
+     "body": [
+      "素材の名前と、",
+      "お手入れ方法・使用上の注意の欄を読む。"
+     ],
+     "date": "2026/11/13"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "rack-town:10001175",
+     "rawName": "【BLACK FRIDAY★先取りセール】 燕三条 水切りラック 伸縮 正規品 水切りかご ラック ステンレス キッチンラック おしゃれ 食器置き 日本製 大容量 スライド 箸立て まな板 包丁 コップ 省スペース シンク横 スリム 狭いキッチン 一人暮らし ブラックフライデー 2026",
+     "name": "燕三条 水切りラック 伸縮 正規品 水切りかご ラック ステンレス",
+     "price": 8960,
+     "shop": "ラックタウン-収納用品の店-",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r1lto.p3pr2c3e.g00r1lto.p3pr364d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frack-town%2Fmm-700076%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frack-town%2Fi%2F10001175%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r1lto.p3pr2c3e.g00r1lto.p3pr364d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frack-town%2Fmm-700076%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frack-town%2Fi%2F10001175%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 3483,
+     "reviewAverage": 4.53,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/rack-town/cabinet/03297173/13867126/smn.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "enbliss:10000259",
+     "rawName": "【着後レビューで特典】水切りラック 水切りかご シンク上 伸縮 ステンレス 食器ラック 食器かご キッチンラック キッチン VE HOME 大容量 送料無料",
+     "name": "水切りラック 水切りかご シンク上 伸縮 ステンレス 食器ラック",
+     "price": 4598,
+     "shop": "エンブリス楽天市場店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00trp2o.p3pr269c.g00trp2o.p3pr3146/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fenbliss%2Fwr2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fenbliss%2Fi%2F10000259%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00trp2o.p3pr269c.g00trp2o.p3pr3146/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fenbliss%2Fwr2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fenbliss%2Fi%2F10000259%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 3293,
+     "reviewAverage": 4.49,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/enbliss/cabinet/13433734/imgrc0184415686.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "sarasa-designstore:10000065",
+     "rawName": "レビュー3000件超の水切りラック｜伸縮可能なステンレス製、洗いやすくて錆びにくい、対応シンク幅約38〜59cm［nsp ディッシュラック フラットバー］水切りカゴ 水切りかご 食器 キッチン ディッシュ ラック サラサデザインストア ＃SL_KT",
+     "name": "レビュー3000件超の水切りラック｜伸縮可能なステンレス製、洗いや…",
+     "price": 6061,
+     "shop": "sarasa design store",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r1oso.p3pr214f.g00r1oso.p3pr366d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsarasa-designstore%2Fnsp002%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsarasa-designstore%2Fi%2F10000065%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00r1oso.p3pr214f.g00r1oso.p3pr366d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsarasa-designstore%2Fnsp002%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsarasa-designstore%2Fi%2F10000065%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 3157,
+     "reviewAverage": 4.22,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sarasa-designstore/cabinet/c05/nsp002-005_ver1.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "carousel",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-13_s1_carousel1_01.jpg",
+    "docs/media/2026-11-13_s1_carousel1_02.jpg",
+    "docs/media/2026-11-13_s1_carousel1_03.jpg",
+    "docs/media/2026-11-13_s1_carousel1_04.jpg"
+   ]
   }
  ],
  "stories": [
@@ -8096,6 +8476,16 @@
     "docs/media/2026-11-13_story_s2.jpg"
    ],
    "media_id": "18116437222856130"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "水切りラック、買う前にここ見て",
+   "head": "対応の表記を見る",
+   "status": "ready",
+   "slot": "1",
+   "images": [
+    "docs/media/2026-11-13_story.jpg"
+   ]
   }
  ]
 }
