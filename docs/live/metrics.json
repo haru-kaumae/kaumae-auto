@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-13 22:42",
- "followers": 14,
+ "updated": "2026-11-14 00:15",
+ "followers": 15,
  "media": 43,
  "posts": [
   {
@@ -623,12 +623,12 @@
    "likes": 0,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/DfqFJmvCDDU/",
-   "reach": 4,
+   "reach": 7,
    "saved": 0,
    "shares": 0,
-   "views": 5,
+   "views": 8,
    "total_interactions": 0,
-   "avg_watch": 1.6
+   "avg_watch": 1.7
   },
   {
    "date": "2026-11-13",
@@ -639,12 +639,12 @@
    "likes": 1,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/DfquQR7FXgX/",
-   "reach": 1,
+   "reach": 3,
    "saved": 0,
    "shares": 0,
-   "views": 1,
+   "views": 4,
    "total_interactions": 1,
-   "avg_watch": 1.6
+   "avg_watch": 2.4
   },
   {
    "date": "2026-11-13",
@@ -676,36 +676,6 @@
    "shares": 0,
    "views": 1,
    "total_interactions": 1
-  },
-  {
-   "date": "2026-11-12",
-   "slot": "2",
-   "kind": "story",
-   "title": "電気毛布、買う前にここ見て",
-   "genre": "",
-   "likes": null,
-   "comments": null,
-   "permalink": "",
-   "reach": null,
-   "saved": null,
-   "shares": null,
-   "views": null,
-   "total_interactions": null
-  },
-  {
-   "date": "2026-11-12",
-   "slot": "1",
-   "kind": "story",
-   "title": "収納ボックス選びで見落としやすい3つのこと",
-   "genre": "",
-   "likes": null,
-   "comments": null,
-   "permalink": "",
-   "reach": null,
-   "saved": null,
-   "shares": null,
-   "views": null,
-   "total_interactions": null
   },
   {
    "date": "2026-11-13",
