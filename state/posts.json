@@ -8296,7 +8296,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/msut/cabinet/11255087/11255088/h-00001-new.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -8305,7 +8305,8 @@
     "docs/media/2026-11-14_s2_reel1_03.jpg",
     "docs/media/2026-11-14_s2_reel1_04.jpg"
    ],
-   "video": "docs/media/2026-11-14_s2_reel1.mp4"
+   "video": "docs/media/2026-11-14_s2_reel1.mp4",
+   "media_id": "17968245650984267"
   },
   {
    "date": "2026-11-14",
@@ -8423,7 +8424,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/migaber/cabinet/11532533/12354816/12390756/3999.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -8432,7 +8433,8 @@
     "docs/media/2026-11-14_s2_reel2_03.jpg",
     "docs/media/2026-11-14_s2_reel2_04.jpg"
    ],
-   "video": "docs/media/2026-11-14_s2_reel2.mp4"
+   "video": "docs/media/2026-11-14_s2_reel2.mp4",
+   "media_id": "17969726793192586"
   }
  ],
  "stories": [
@@ -8750,11 +8752,12 @@
    "date": "2026-11-14",
    "title": "ポチる前に！電気毛布の確認リスト",
    "head": "洗濯と使用上の注意",
-   "status": "ready",
+   "status": "posted",
    "slot": "2",
    "images": [
     "docs/media/2026-11-14_story_s2.jpg"
-   ]
+   ],
+   "media_id": "18570715948076679"
   }
  ]
 }
