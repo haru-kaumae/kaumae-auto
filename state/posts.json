@@ -7912,7 +7912,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/baieitenfashionnigou/cabinet/imgrc0122113549.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "1",
    "images": [
@@ -7921,7 +7921,8 @@
     "docs/media/2026-11-13_s1_reel1_03.jpg",
     "docs/media/2026-11-13_s1_reel1_04.jpg"
    ],
-   "video": "docs/media/2026-11-13_s1_reel1.mp4"
+   "video": "docs/media/2026-11-13_s1_reel1.mp4",
+   "media_id": "18175350274459969"
   },
   {
    "date": "2026-11-13",
@@ -8039,7 +8040,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bandc/cabinet/jishahin50/250030.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "1",
    "images": [
@@ -8048,7 +8049,8 @@
     "docs/media/2026-11-13_s1_reel2_03.jpg",
     "docs/media/2026-11-13_s1_reel2_04.jpg"
    ],
-   "video": "docs/media/2026-11-13_s1_reel2.mp4"
+   "video": "docs/media/2026-11-13_s1_reel2.mp4",
+   "media_id": "18053454764820653"
   },
   {
    "date": "2026-11-13",
@@ -8166,7 +8168,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sarasa-designstore/cabinet/c05/nsp002-005_ver1.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "carousel",
    "slot": "1",
    "images": [
@@ -8174,7 +8176,8 @@
     "docs/media/2026-11-13_s1_carousel1_02.jpg",
     "docs/media/2026-11-13_s1_carousel1_03.jpg",
     "docs/media/2026-11-13_s1_carousel1_04.jpg"
-   ]
+   ],
+   "media_id": "17924052429444249"
   }
  ],
  "stories": [
@@ -8481,11 +8484,12 @@
    "date": "2026-11-13",
    "title": "水切りラック、買う前にここ見て",
    "head": "対応の表記を見る",
-   "status": "ready",
+   "status": "posted",
    "slot": "1",
    "images": [
     "docs/media/2026-11-13_story.jpg"
-   ]
+   ],
+   "media_id": "17917897407536526"
   }
  ]
 }
