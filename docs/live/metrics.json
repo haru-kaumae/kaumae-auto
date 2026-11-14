@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15 02:09",
+ "updated": "2026-11-15 04:16",
  "followers": 20,
  "media": 45,
  "posts": [
@@ -549,7 +549,7 @@
    "shares": 0,
    "views": 5,
    "total_interactions": 1,
-   "avg_watch": 1.4
+   "avg_watch": 1.9
   },
   {
    "date": "2026-11-12",
@@ -671,7 +671,7 @@
    "likes": 2,
    "comments": 0,
    "permalink": "https://www.instagram.com/p/Dfqukf3lOMS/",
-   "reach": 6,
+   "reach": 7,
    "saved": 0,
    "shares": 0,
    "views": 7,
@@ -686,12 +686,12 @@
    "likes": 1,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/Dfsp2haAnzO/",
-   "reach": 27,
+   "reach": 28,
    "saved": 0,
    "shares": 0,
-   "views": 27,
+   "views": 29,
    "total_interactions": 1,
-   "avg_watch": 1.1
+   "avg_watch": 1.5
   },
   {
    "date": "2026-11-14",
@@ -702,10 +702,10 @@
    "likes": 1,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/Dfsp82-AhSI/",
-   "reach": 39,
+   "reach": 40,
    "saved": 0,
    "shares": 0,
-   "views": 43,
+   "views": 45,
    "total_interactions": 1,
    "avg_watch": 1.7
   },
