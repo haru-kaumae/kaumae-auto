@@ -8551,7 +8551,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/oiwaiya/cabinet/04044218/v-choice-n/vchoice_2025_15900.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -8560,7 +8560,8 @@
     "docs/media/2026-11-15_s2_reel1_03.jpg",
     "docs/media/2026-11-15_s2_reel1_04.jpg"
    ],
-   "video": "docs/media/2026-11-15_s2_reel1.mp4"
+   "video": "docs/media/2026-11-15_s2_reel1.mp4",
+   "media_id": "18146955076517013"
   },
   {
    "date": "2026-11-15",
@@ -8679,7 +8680,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/dondon/cabinet/htjs-004_5.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -8688,7 +8689,8 @@
     "docs/media/2026-11-15_s2_reel2_03.jpg",
     "docs/media/2026-11-15_s2_reel2_04.jpg"
    ],
-   "video": "docs/media/2026-11-15_s2_reel2.mp4"
+   "video": "docs/media/2026-11-15_s2_reel2.mp4",
+   "media_id": "18182993545442301"
   }
  ],
  "stories": [
@@ -9017,11 +9019,12 @@
    "date": "2026-11-15",
    "title": "加湿器、買う前にここ見て",
    "head": "加湿方式を確認",
-   "status": "ready",
+   "status": "posted",
    "slot": "2",
    "images": [
     "docs/media/2026-11-15_story_s2.jpg"
-   ]
+   ],
+   "media_id": "18226559491339889"
   }
  ]
 }
