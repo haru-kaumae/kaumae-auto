@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14 12:17",
+ "updated": "2026-11-14 14:20",
  "followers": 17,
  "media": 45,
  "posts": [
@@ -15,7 +15,7 @@
    "reach": 1,
    "saved": 0,
    "shares": 0,
-   "views": 2,
+   "views": 3,
    "total_interactions": 1
   },
   {
@@ -30,7 +30,7 @@
    "reach": 1,
    "saved": 0,
    "shares": 0,
-   "views": 2,
+   "views": 3,
    "total_interactions": 1
   },
   {
@@ -45,7 +45,7 @@
    "reach": 2,
    "saved": 0,
    "shares": 0,
-   "views": 4,
+   "views": 5,
    "total_interactions": 1
   },
   {
@@ -60,7 +60,7 @@
    "reach": 4,
    "saved": 0,
    "shares": 0,
-   "views": 5,
+   "views": 6,
    "total_interactions": 1,
    "avg_watch": 6.1
   },
@@ -76,7 +76,7 @@
    "reach": 2,
    "saved": 0,
    "shares": 0,
-   "views": 4,
+   "views": 5,
    "total_interactions": 1
   },
   {
@@ -423,7 +423,7 @@
    "shares": 0,
    "views": 13,
    "total_interactions": 1,
-   "avg_watch": 6.4
+   "avg_watch": 5.4
   },
   {
    "date": "2026-11-10",
@@ -470,7 +470,7 @@
    "shares": 0,
    "views": 4,
    "total_interactions": 1,
-   "avg_watch": 1.8
+   "avg_watch": 1.6
   },
   {
    "date": "2026-11-11",
@@ -532,7 +532,7 @@
    "reach": 1,
    "saved": 0,
    "shares": 0,
-   "views": 2,
+   "views": 4,
    "total_interactions": 1
   },
   {
@@ -576,7 +576,7 @@
    "likes": 1,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/DfoJjtQk5X-/",
-   "reach": 6,
+   "reach": 7,
    "saved": 0,
    "shares": 0,
    "views": 9,
@@ -589,14 +589,14 @@
    "kind": "carousel",
    "title": "収納ボックス選びで見落としやすい3つのこと",
    "genre": "storage",
-   "likes": 1,
+   "likes": 2,
    "comments": 0,
    "permalink": "https://www.instagram.com/p/DfoJrrDnCP0/",
-   "reach": 1,
+   "reach": 2,
    "saved": 0,
    "shares": 0,
-   "views": 2,
-   "total_interactions": 1
+   "views": 4,
+   "total_interactions": 2
   },
   {
    "date": "2026-11-13",
@@ -607,7 +607,7 @@
    "likes": 1,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/DfqFD_dD4Xj/",
-   "reach": 71,
+   "reach": 72,
    "saved": 0,
    "shares": 0,
    "views": 78,
@@ -639,7 +639,7 @@
    "likes": 2,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/DfquQR7FXgX/",
-   "reach": 8,
+   "reach": 9,
    "saved": 0,
    "shares": 0,
    "views": 10,
@@ -655,10 +655,10 @@
    "likes": 1,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/Dfqubo7jC0E/",
-   "reach": 9,
+   "reach": 18,
    "saved": 0,
    "shares": 0,
-   "views": 11,
+   "views": 17,
    "total_interactions": 1,
    "avg_watch": 1.1
   },
@@ -668,14 +668,14 @@
    "kind": "carousel",
    "title": "水切りラック、買う前にここ見て",
    "genre": "kitchen",
-   "likes": 1,
+   "likes": 2,
    "comments": 0,
    "permalink": "https://www.instagram.com/p/Dfqukf3lOMS/",
-   "reach": 1,
+   "reach": 4,
    "saved": 0,
    "shares": 0,
-   "views": 2,
-   "total_interactions": 1
+   "views": 5,
+   "total_interactions": 2
   },
   {
    "date": "2026-11-14",
@@ -686,7 +686,7 @@
    "likes": 1,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/Dfsp2haAnzO/",
-   "reach": 16,
+   "reach": 17,
    "saved": 0,
    "shares": 0,
    "views": 17,
@@ -702,12 +702,12 @@
    "likes": 1,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/Dfsp82-AhSI/",
-   "reach": 7,
+   "reach": 16,
    "saved": 0,
    "shares": 0,
-   "views": 9,
+   "views": 19,
    "total_interactions": 1,
-   "avg_watch": 1.6
+   "avg_watch": 1.9
   },
   {
    "date": "2026-11-13",
@@ -730,9 +730,9 @@
    "kind": "story",
    "title": "水切りラック、買う前にここ見て",
    "genre": "",
-   "likes": 0,
-   "comments": 0,
-   "permalink": "https://www.instagram.com/stories/kaumae._.memo/4029237807046521096",
+   "likes": null,
+   "comments": null,
+   "permalink": "",
    "reach": null,
    "saved": null,
    "shares": null,
