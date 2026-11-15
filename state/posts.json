@@ -8892,7 +8892,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/mantubiz/cabinet/items-sync/2609-1/80002053-logo-r.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -8901,7 +8901,8 @@
     "docs/media/2026-11-16_s2_reel1_03.jpg",
     "docs/media/2026-11-16_s2_reel1_04.jpg"
    ],
-   "video": "docs/media/2026-11-16_s2_reel1.mp4"
+   "video": "docs/media/2026-11-16_s2_reel1.mp4",
+   "media_id": "18122013859996809"
   },
   {
    "date": "2026-11-16",
@@ -9018,7 +9019,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/mochikichi/cabinet/shohin_gazo/oajimimdk1810_1200.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -9027,7 +9028,8 @@
     "docs/media/2026-11-16_s2_reel2_03.jpg",
     "docs/media/2026-11-16_s2_reel2_04.jpg"
    ],
-   "video": "docs/media/2026-11-16_s2_reel2.mp4"
+   "video": "docs/media/2026-11-16_s2_reel2.mp4",
+   "media_id": "18117361229107342"
   }
  ],
  "stories": [
@@ -9367,11 +9369,12 @@
    "date": "2026-11-16",
    "title": "ポチる前に！おやつ・お取り寄せの確認リスト",
    "head": "保存方法",
-   "status": "ready",
+   "status": "posted",
    "slot": "2",
    "images": [
     "docs/media/2026-11-16_story_s2.jpg"
-   ]
+   ],
+   "media_id": "17852282469697256"
   }
  ]
 }
