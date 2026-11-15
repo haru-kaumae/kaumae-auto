@@ -8775,6 +8775,259 @@
    ],
    "video": "docs/media/2026-11-15_s2_reel2.mp4",
    "media_id": "18182993545442301"
+  },
+  {
+   "date": "2026-11-16",
+   "genre": "blanket",
+   "title": "電気毛布を買う前の3チェック",
+   "caption": "【PR】電気毛布、買う前にここだけは確認👇\n\n電気毛布を選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　サイズと使い方\n敷き用・掛け用・兼用のどれか、サイズとあわせて確認する。\n\n✔ CHECK2　消費電力と電気代の目安\n消費電力（W）と、電気代の目安が書かれていれば計算の前提（単価）も見る。\n\n✔ CHECK3　洗濯と使用上の注意\n洗濯できるか、乾燥機の可否、折り曲げなどの注意を読む。\n\n■ 例として、2026/11/16に楽天市場でレビューの多かった商品\n・電気毛布 毛布 掛け もこもこ ふわふわ 厚手 掛け敷き タイマー（MONO KOTO DEPT.）7,800円、★4.41／896件\n・電気毛布 1時間0.36円 10段階温調 ダニ退治 ひざ掛け（Hagoogi公式 楽天市場店）8,680円、★4.65／799件\n・電気毛布 掛け敷き 兼用 洗える 着る 8way 電気毛布 ひざ掛け（マンツウオンラインショップ）5,480円、★4.27／683件\n\n※2026/11/16に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 電気毛布を選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#電気毛布 #電気毛布 #寒さ対策 #冬支度 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "電気毛布｜買う前メモ",
+     "title": "電気毛布を買う前の\n3チェック",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "blanket",
+     "topic": "電気毛布",
+     "pre": "買う前の",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-1665"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "電気毛布 毛布 掛け もこもこ ふわふわ 厚手 掛け敷き タイマー",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/hayaritsushin/cabinet/fix/01/cloudblanket_th_d0.jpg?_ex=700x700",
+     "price": "7,800円",
+     "review": "★4.41",
+     "count": "896件",
+     "postage": "送料込み",
+     "shop": "MONO KOTO DEPT.",
+     "check": "サイズと使い方",
+     "body": [
+      "敷き用・掛け用・兼用のどれか、",
+      "サイズとあわせて確認する。"
+     ],
+     "date": "2026/11/16"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "電気毛布 1時間0.36円 10段階温調 ダニ退治 ひざ掛け",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/hagoogi/cabinet/12517922/13857539/13857546/imgrc0109276061.jpg?_ex=700x700",
+     "price": "8,680円",
+     "review": "★4.65",
+     "count": "799件",
+     "postage": "送料込み",
+     "shop": "Hagoogi公式 楽天市場店",
+     "check": "消費電力と電気代の目安",
+     "body": [
+      "消費電力（W）と、",
+      "電気代の目安が書かれていれば",
+      "計算の前提（単価）も見る。"
+     ],
+     "date": "2026/11/16"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "電気毛布 掛け敷き 兼用 洗える 着る 8way 電気毛布 ひざ掛け",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/mantubiz/cabinet/items-sync/2609-1/80002053-logo-r.jpg?_ex=700x700",
+     "price": "5,480円",
+     "review": "★4.27",
+     "count": "683件",
+     "postage": "送料込み",
+     "shop": "マンツウオンラインショップ",
+     "check": "洗濯と使用上の注意",
+     "body": [
+      "洗濯できるか、乾燥機の可否、",
+      "折り曲げなどの注意を読む。"
+     ],
+     "date": "2026/11/16"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "hayaritsushin:10003601",
+     "rawName": "《高評価4.41》【★即納】【1年保証】 電気毛布 毛布 掛け もこもこ ふわふわ 厚手 掛け敷き タイマー ひざ掛け 洗える シングル 2枚合わせ 電磁波カット 電気ブランケット ブランケット ダブル 電気掛け毛布 敷き おしゃれ 暖かい",
+     "name": "電気毛布 毛布 掛け もこもこ ふわふわ 厚手 掛け敷き タイマー",
+     "price": 7800,
+     "shop": "MONO KOTO DEPT.",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00sykso.p3pr23bd.g00sykso.p3pr3a54/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhayaritsushin%2Ffluffyblanket%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhayaritsushin%2Fi%2F10003601%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00sykso.p3pr23bd.g00sykso.p3pr3a54/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhayaritsushin%2Ffluffyblanket%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhayaritsushin%2Fi%2F10003601%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 896,
+     "reviewAverage": 4.41,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/hayaritsushin/cabinet/fix/01/cloudblanket_th_d0.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "hagoogi:10000255",
+     "rawName": "【2026改良モデル&楽天3部門1位】電気毛布 1時間0.36円 10段階温調 ダニ退治 ひざ掛け 掛け敷き 肩掛け 190*130cm 抗菌防臭 ダニ退治 自動電源オフ 丸洗い 速暖 恒温加熱 頭寒足熱 ダブル ふわふわ クリスマス ギフト厚手生地 ふわふわ 暖房器具 HAGOOGI【S/M/L/P】",
+     "name": "電気毛布 1時間0.36円 10段階温調 ダニ退治 ひざ掛け",
+     "price": 8680,
+     "shop": "Hagoogi公式 楽天市場店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00trzxo.p3pr2782.g00trzxo.p3pr3264/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhagoogi%2Fjob-31201%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhagoogi%2Fi%2F10000255%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00trzxo.p3pr2782.g00trzxo.p3pr3264/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhagoogi%2Fjob-31201%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhagoogi%2Fi%2F10000255%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 799,
+     "reviewAverage": 4.65,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/hagoogi/cabinet/12517922/13857539/13857546/imgrc0109276061.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "mantubiz:10020317",
+     "rawName": "1350円OFFクーポンあり! 電気毛布 掛け敷き 兼用 洗える 着る 8way 電気毛布 ひざ掛け コードレス 電気ブランケット usb 着る タイプ こたつ 大きい 温かい 裏起毛 電気ひざ掛け おしゃれ 軽量 着る 毛布 キャンプ 車中泊 レディース 冬 節電 省エネ ルームウェア",
+     "name": "電気毛布 掛け敷き 兼用 洗える 着る 8way 電気毛布 ひざ掛け",
+     "price": 5480,
+     "shop": "マンツウオンラインショップ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00quzgo.p3pr2e9e.g00quzgo.p3pr397d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmantubiz%2F80002053%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmantubiz%2Fi%2F10020317%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00quzgo.p3pr2e9e.g00quzgo.p3pr397d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmantubiz%2F80002053%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmantubiz%2Fi%2F10020317%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 683,
+     "reviewAverage": 4.27,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/mantubiz/cabinet/items-sync/2609-1/80002053-logo-r.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-16_s2_reel1_01.jpg",
+    "docs/media/2026-11-16_s2_reel1_02.jpg",
+    "docs/media/2026-11-16_s2_reel1_03.jpg",
+    "docs/media/2026-11-16_s2_reel1_04.jpg"
+   ],
+   "video": "docs/media/2026-11-16_s2_reel1.mp4"
+  },
+  {
+   "date": "2026-11-16",
+   "genre": "sweets",
+   "title": "ポチる前に！おやつ・お取り寄せの確認リスト",
+   "caption": "【PR】おやつ・お取り寄せ、買う前にここだけは確認👇\n\nおやつ・お取り寄せを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　内容量と賞味期限\n量と、届いてからの賞味期限の目安を確認する。\n\n✔ CHECK2　保存方法\n常温・冷蔵・冷凍のどれか。冷凍なら冷凍庫の空きを先に見る。\n\n✔ CHECK3　アレルギー表示\n原材料とアレルギー表示を商品ページとパッケージで確認する。\n\n■ 例として、2026/11/16に楽天市場でレビューの多かった商品\n・3種 ミックスナッツ 1kg / 850g / 無添加 産地直輸入（calinuts）1,650円、★4.61／48,325件\n・冬ギフト 神戸 ワッフルケーキ 8種 選べる コロコロ くるくる（ワッフル・ケーキの店R.L）3,580円、★4.41／32,975件\n・もち吉 お味見セット もちの縁 味まどか（おせんべい・おかきの老舗 もち吉）1,296円、★4.69／30,100件\n\n※2026/11/16に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 おやつ・お取り寄せを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#お取り寄せ #おやつ #楽天グルメ #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "おやつ・お取り寄せ｜買う前メモ",
+     "title": "ポチる前に！\nおやつ・お取り寄せの\n確認リスト",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "sweets",
+     "topic": "おやつ・お取り寄せ",
+     "pre": "ポチる前に！",
+     "num": "3",
+     "post": "つの確認",
+     "month": "2026.11月",
+     "seed": "2026-11-1666"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "3種 ミックスナッツ 1kg / 850g / 無添加 産地直輸入",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/calinuts/cabinet/item/3mx850g/260928-3mx-main-4.jpg?_ex=700x700",
+     "price": "1,650円",
+     "review": "★4.61",
+     "count": "48,325件",
+     "postage": "送料込み",
+     "shop": "calinuts",
+     "check": "内容量と賞味期限",
+     "body": [
+      "量と、届いてからの",
+      "賞味期限の目安を確認する。"
+     ],
+     "date": "2026/11/16"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "冬ギフト 神戸 ワッフルケーキ 8種 選べる コロコロ くるくる",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/rl-waffle/cabinet/0-set-kobe/01.jpg?_ex=700x700",
+     "price": "3,580円",
+     "review": "★4.41",
+     "count": "32,975件",
+     "postage": "送料込み",
+     "shop": "ワッフル・ケーキの店R.L",
+     "check": "保存方法",
+     "body": [
+      "常温・冷蔵・冷凍のどれか。",
+      "冷凍なら冷凍庫の空きを先に見る。"
+     ],
+     "date": "2026/11/16"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "もち吉 お味見セット もちの縁 味まどか",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/mochikichi/cabinet/shohin_gazo/oajimimdk1810_1200.jpg?_ex=700x700",
+     "price": "1,296円",
+     "review": "★4.69",
+     "count": "30,100件",
+     "postage": "送料込み",
+     "shop": "おせんべい・おかきの老舗 もち吉",
+     "check": "アレルギー表示",
+     "body": [
+      "原材料とアレルギー表示を",
+      "商品ページとパッケージで確認する。"
+     ],
+     "date": "2026/11/16"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "calinuts:10000078",
+     "rawName": "3種 ミックスナッツ 1kg / 850g / 無添加 産地直輸入 くるみ アーモンド カシューナッツ 無塩 添加物不使用 植物油不使用",
+     "name": "3種 ミックスナッツ 1kg / 850g / 無添加 産地直輸入",
+     "price": 1650,
+     "shop": "calinuts",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s4zro.p3pr28d1.g00s4zro.p3pr36cf/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcalinuts%2Fn-1g-010%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcalinuts%2Fi%2F10000078%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00s4zro.p3pr28d1.g00s4zro.p3pr36cf/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcalinuts%2Fn-1g-010%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcalinuts%2Fi%2F10000078%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 48325,
+     "reviewAverage": 4.61,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/calinuts/cabinet/item/3mx850g/260928-3mx-main-4.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "rl-waffle:10000107",
+     "rawName": "冬ギフト ネット限定 神戸 ワッフルケーキ 8種 選べる コロコロ くるくる ブラウニーセット | ギフト お菓子 スイーツ お菓子詰め合わせ おしゃれ ロールケーキ 焼きがし お返し 送料無料 誕生日プレゼント 内祝い 洋菓子 4000円以内 お菓子ギフト",
+     "name": "冬ギフト 神戸 ワッフルケーキ 8種 選べる コロコロ くるくる",
+     "price": 3580,
+     "shop": "ワッフル・ケーキの店R.L",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pq4wo.p3pr2159.g00pq4wo.p3pr38b8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frl-waffle%2F0-set-kobe%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frl-waffle%2Fi%2F10000107%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pq4wo.p3pr2159.g00pq4wo.p3pr38b8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frl-waffle%2F0-set-kobe%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frl-waffle%2Fi%2F10000107%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 32975,
+     "reviewAverage": 4.41,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/rl-waffle/cabinet/0-set-kobe/01.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "mochikichi:10000534",
+     "rawName": "（※期日指定12月29日までお届け可）もち吉 【送料無料】お味見セット もちの縁 味まどか (商品カタログ入り)［※お味見セットのみのご注文の場合、代金引換はできません。］",
+     "name": "もち吉 お味見セット もちの縁 味まどか",
+     "price": 1296,
+     "shop": "おせんべい・おかきの老舗 もち吉",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q93uo.p3pr2f00.g00q93uo.p3pr3b05/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmochikichi%2F01214%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmochikichi%2Fi%2F10000534%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q93uo.p3pr2f00.g00q93uo.p3pr3b05/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmochikichi%2F01214%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmochikichi%2Fi%2F10000534%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 30100,
+     "reviewAverage": 4.69,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/mochikichi/cabinet/shohin_gazo/oajimimdk1810_1200.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-16_s2_reel2_01.jpg",
+    "docs/media/2026-11-16_s2_reel2_02.jpg",
+    "docs/media/2026-11-16_s2_reel2_03.jpg",
+    "docs/media/2026-11-16_s2_reel2_04.jpg"
+   ],
+   "video": "docs/media/2026-11-16_s2_reel2.mp4"
   }
  ],
  "stories": [
@@ -9109,6 +9362,16 @@
     "docs/media/2026-11-15_story_s2.jpg"
    ],
    "media_id": "18226559491339889"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "ポチる前に！おやつ・お取り寄せの確認リスト",
+   "head": "保存方法",
+   "status": "ready",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-16_story_s2.jpg"
+   ]
   }
  ]
 }
