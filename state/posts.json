@@ -9147,7 +9147,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/apricot-r/cabinet/yamasoro6/78-3690.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -9156,7 +9156,8 @@
     "docs/media/2026-11-17_s2_reel1_03.jpg",
     "docs/media/2026-11-17_s2_reel1_04.jpg"
    ],
-   "video": "docs/media/2026-11-17_s2_reel1.mp4"
+   "video": "docs/media/2026-11-17_s2_reel1.mp4",
+   "media_id": "17877397215593668"
   },
   {
    "date": "2026-11-17",
@@ -9275,7 +9276,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/horiuchimirror/cabinet/12704891/imgrc0344938315.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -9284,7 +9285,8 @@
     "docs/media/2026-11-17_s2_reel2_03.jpg",
     "docs/media/2026-11-17_s2_reel2_04.jpg"
    ],
-   "video": "docs/media/2026-11-17_s2_reel2.mp4"
+   "video": "docs/media/2026-11-17_s2_reel2.mp4",
+   "media_id": "17968448696985173"
   }
  ],
  "stories": [
@@ -9635,11 +9637,12 @@
    "date": "2026-11-17",
    "title": "加湿器、買う前にここ見て",
    "head": "給水とお手入れ",
-   "status": "ready",
+   "status": "posted",
    "slot": "2",
    "images": [
     "docs/media/2026-11-17_story_s2.jpg"
-   ]
+   ],
+   "media_id": "18088942778348459"
   }
  ]
 }
