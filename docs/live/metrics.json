@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16 20:45",
+ "updated": "2026-11-17 00:34",
  "followers": 31,
  "media": 49,
  "posts": [
@@ -513,7 +513,7 @@
    "likes": 0,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/Dflk1mmAtxx/",
-   "reach": 15,
+   "reach": 16,
    "saved": 0,
    "shares": 0,
    "views": 14,
@@ -529,10 +529,10 @@
    "likes": 1,
    "comments": 0,
    "permalink": "https://www.instagram.com/p/Dflk9qRl7Xm/",
-   "reach": 2,
+   "reach": 3,
    "saved": 0,
    "shares": 0,
-   "views": 4,
+   "views": 5,
    "total_interactions": 1
   },
   {
@@ -544,7 +544,7 @@
    "likes": 1,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/DfnkoO7HDJI/",
-   "reach": 3,
+   "reach": 4,
    "saved": 0,
    "shares": 0,
    "views": 5,
@@ -576,12 +576,12 @@
    "likes": 1,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/DfoJjtQk5X-/",
-   "reach": 8,
+   "reach": 9,
    "saved": 0,
    "shares": 0,
-   "views": 10,
+   "views": 12,
    "total_interactions": 1,
-   "avg_watch": 1.8
+   "avg_watch": 2.6
   },
   {
    "date": "2026-11-12",
@@ -592,10 +592,10 @@
    "likes": 2,
    "comments": 0,
    "permalink": "https://www.instagram.com/p/DfoJrrDnCP0/",
-   "reach": 3,
+   "reach": 4,
    "saved": 0,
    "shares": 0,
-   "views": 5,
+   "views": 6,
    "total_interactions": 2
   },
   {
@@ -686,12 +686,12 @@
    "likes": 1,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/Dfsp2haAnzO/",
-   "reach": 31,
+   "reach": 32,
    "saved": 0,
    "shares": 0,
-   "views": 32,
+   "views": 33,
    "total_interactions": 1,
-   "avg_watch": 1.8
+   "avg_watch": 1.9
   },
   {
    "date": "2026-11-14",
@@ -702,7 +702,7 @@
    "likes": 1,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/Dfsp82-AhSI/",
-   "reach": 41,
+   "reach": 42,
    "saved": 0,
    "shares": 0,
    "views": 46,
@@ -718,10 +718,10 @@
    "likes": 2,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/DfvOo2wACjw/",
-   "reach": 115,
+   "reach": 116,
    "saved": 0,
    "shares": 0,
-   "views": 120,
+   "views": 121,
    "total_interactions": 2,
    "avg_watch": 1.1
   },
@@ -734,7 +734,7 @@
    "likes": 2,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/DfvOuMqj8NY/",
-   "reach": 61,
+   "reach": 62,
    "saved": 0,
    "shares": 0,
    "views": 64,
@@ -750,10 +750,10 @@
    "likes": 0,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/Dfxzb01lzS5/",
-   "reach": 34,
+   "reach": 38,
    "saved": 0,
    "shares": 0,
-   "views": 34,
+   "views": 38,
    "total_interactions": 0,
    "avg_watch": 1.1
   },
@@ -766,27 +766,12 @@
    "likes": 0,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/DfxzjFeEeDN/",
-   "reach": 106,
+   "reach": 115,
    "saved": 0,
    "shares": 0,
-   "views": 113,
+   "views": 124,
    "total_interactions": 0,
-   "avg_watch": 1.4
-  },
-  {
-   "date": "2026-11-15",
-   "slot": "2",
-   "kind": "story",
-   "title": "加湿器、買う前にここ見て",
-   "genre": "",
-   "likes": null,
-   "comments": null,
-   "permalink": "",
-   "reach": null,
-   "saved": null,
-   "shares": null,
-   "views": null,
-   "total_interactions": null
+   "avg_watch": 1.5
   },
   {
    "date": "2026-11-16",
