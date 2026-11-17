@@ -9403,7 +9403,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ringbellshop/cabinet/catalog/wagyu/cgwagyu_2.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -9412,7 +9412,8 @@
     "docs/media/2026-11-18_s2_reel1_03.jpg",
     "docs/media/2026-11-18_s2_reel1_04.jpg"
    ],
-   "video": "docs/media/2026-11-18_s2_reel1.mp4"
+   "video": "docs/media/2026-11-18_s2_reel1.mp4",
+   "media_id": "18061011593810577"
   },
   {
    "date": "2026-11-18",
@@ -9530,7 +9531,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/yamatoya-d/cabinet/09731461/1-soft2.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -9539,7 +9540,8 @@
     "docs/media/2026-11-18_s2_reel2_03.jpg",
     "docs/media/2026-11-18_s2_reel2_04.jpg"
    ],
-   "video": "docs/media/2026-11-18_s2_reel2.mp4"
+   "video": "docs/media/2026-11-18_s2_reel2.mp4",
+   "media_id": "18001874118043598"
   }
  ],
  "stories": [
@@ -9901,11 +9903,12 @@
    "date": "2026-11-18",
    "title": "ポチる前に！スポンジの確認リスト",
    "head": "使う場所の素材を確かめる",
-   "status": "ready",
+   "status": "posted",
    "slot": "2",
    "images": [
     "docs/media/2026-11-18_story_s2.jpg"
-   ]
+   ],
+   "media_id": "17921167587526862"
   }
  ]
 }
