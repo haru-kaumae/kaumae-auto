@@ -9659,7 +9659,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/yellowstudio/cabinet/itemimg/35151_tn.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -9668,7 +9668,8 @@
     "docs/media/2026-11-19_s2_reel1_03.jpg",
     "docs/media/2026-11-19_s2_reel1_04.jpg"
    ],
-   "video": "docs/media/2026-11-19_s2_reel1.mp4"
+   "video": "docs/media/2026-11-19_s2_reel1.mp4",
+   "media_id": "18380092009240194"
   },
   {
    "date": "2026-11-19",
@@ -9786,7 +9787,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/gmy-japan/cabinet/1028/1.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -9795,7 +9796,8 @@
     "docs/media/2026-11-19_s2_reel2_03.jpg",
     "docs/media/2026-11-19_s2_reel2_04.jpg"
    ],
-   "video": "docs/media/2026-11-19_s2_reel2.mp4"
+   "video": "docs/media/2026-11-19_s2_reel2.mp4",
+   "media_id": "17954734059301489"
   }
  ],
  "stories": [
@@ -10168,11 +10170,12 @@
    "date": "2026-11-19",
    "title": "電気ひざ掛け、買う前にここ見て",
    "head": "消費電力と電気代の目安",
-   "status": "ready",
+   "status": "posted",
    "slot": "2",
    "images": [
     "docs/media/2026-11-19_story_s2.jpg"
-   ]
+   ],
+   "media_id": "18134503015748285"
   }
  ]
 }
