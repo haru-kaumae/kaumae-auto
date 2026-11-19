@@ -9798,6 +9798,260 @@
    ],
    "video": "docs/media/2026-11-19_s2_reel2.mp4",
    "media_id": "17954734059301489"
+  },
+  {
+   "date": "2026-11-20",
+   "genre": "humid",
+   "title": "加湿器を買う前の3チェック",
+   "caption": "【PR】加湿器、買う前にここだけは確認👇\n\n加湿器を選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　加湿方式を確認\n気化式・スチーム式・超音波式・ハイブリッド式などの方式を商品ページの仕様欄で確認する。\n\n✔ CHECK2　適用畳数を確認\n木造とプレハブ（鉄骨）で適用畳数が違うことが多い。使う部屋の広さと比べる。\n\n✔ CHECK3　給水とお手入れ\n上から給水か、タンクを外すか。フィルター交換の有無も見る。\n\n■ 例として、2026/11/20に楽天市場でレビューの多かった商品\n・加湿器 卓上 上部給水 アロマ 小型 スリム エレス エルズ（インテリアショップ roomy）8,140円、★4.44／4,422件\n・エレス 加湿器 卓上 超音波式加湿器 エルズヒュミディファイア（セレクトショップ・AQUA(アクア)）8,140円、★4.44／2,743件\n・加湿器 卓上 オフィス 加湿器 コンパクト 380ml 5重除菌（tomoro公式ショップ）4,480円、★4.34／2,473件\n\n※2026/11/20に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 加湿器を選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#加湿器 #加湿器 #乾燥対策 #季節家電 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "加湿器｜買う前メモ",
+     "title": "加湿器を買う前の\n3チェック",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "humid",
+     "topic": "加湿器",
+     "pre": "買う前の",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-2073"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "加湿器 卓上 上部給水 アロマ 小型 スリム エレス エルズ",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/roomy/cabinet/500cart_all/500cart_11g/p10n-7/elc2011-rx008-1_gt01.jpg?_ex=700x700",
+     "price": "8,140円",
+     "review": "★4.44",
+     "count": "4,422件",
+     "postage": "送料込み",
+     "shop": "インテリアショップ roomy",
+     "check": "加湿方式を確認",
+     "body": [
+      "気化式・スチーム式・超音波式・",
+      "ハイブリッド式などの方式を",
+      "商品ページの仕様欄で確認する。"
+     ],
+     "date": "2026/11/20"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "エレス 加湿器 卓上 超音波式加湿器 エルズヒュミディファイア",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/importshopaqua/cabinet/zoom_b/omk0/10/lshudf.jpg?_ex=700x700",
+     "price": "8,140円",
+     "review": "★4.44",
+     "count": "2,743件",
+     "postage": "送料込み",
+     "shop": "セレクトショップ・AQUA(アクア)",
+     "check": "適用畳数を確認",
+     "body": [
+      "木造とプレハブ（鉄骨）で",
+      "適用畳数が違うことが多い。",
+      "使う部屋の広さと比べる。"
+     ],
+     "date": "2026/11/20"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "加湿器 卓上 オフィス 加湿器 コンパクト 380ml 5重除菌",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/otokukan/cabinet/bl20js/l20zt_tr.jpg?_ex=700x700",
+     "price": "4,480円",
+     "review": "★4.34",
+     "count": "2,473件",
+     "postage": "送料込み",
+     "shop": "tomoro公式ショップ",
+     "check": "給水とお手入れ",
+     "body": [
+      "上から給水か、タンクを外すか。",
+      "フィルター交換の有無も見る。"
+     ],
+     "date": "2026/11/20"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "roomy:10015651",
+     "rawName": "【特典付き】加湿器 卓上 上部給水 アロマ 小型 スリム エレス エルズ ヒュミディファイア ジェット おしゃれ リビング 寝室 オフィス 超音波式加湿器 超音波加湿器 超音波 スリム アロマ加湿器 加湿機 キャンドル LEDライト ELAiCE LS-HFJ24［ L's Humidifier jet ］",
+     "name": "加湿器 卓上 上部給水 アロマ 小型 スリム エレス エルズ",
+     "price": 8140,
+     "shop": "インテリアショップ roomy",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qb0lo.p3pr216f.g00qb0lo.p3pr329c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Felc17oct27e01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Froomy%2Fi%2F10015651%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qb0lo.p3pr216f.g00qb0lo.p3pr329c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Felc17oct27e01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Froomy%2Fi%2F10015651%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 4422,
+     "reviewAverage": 4.44,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/roomy/cabinet/500cart_all/500cart_11g/p10n-7/elc2011-rx008-1_gt01.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "importshopaqua:10008009",
+     "rawName": "エレス 加湿器 卓上 超音波式加湿器 エルズヒュミディファイア ジェット LS-HFJ24 超音波加湿器 超音波加湿器 超音波 超音波式 おしゃれ 上部給水 アロマ 小型 スリム リビング オフィス 寝室 ELAiCE",
+     "name": "エレス 加湿器 卓上 超音波式加湿器 エルズヒュミディファイア",
+     "price": 8140,
+     "shop": "セレクトショップ・AQUA(アクア)",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pz5qo.p3pr2f2d.g00pz5qo.p3pr30ec/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fimportshopaqua%2Flshudf%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fimportshopaqua%2Fi%2F10008009%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pz5qo.p3pr2f2d.g00pz5qo.p3pr30ec/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fimportshopaqua%2Flshudf%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fimportshopaqua%2Fi%2F10008009%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 2743,
+     "reviewAverage": 4.44,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/importshopaqua/cabinet/zoom_b/omk0/10/lshudf.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "otokukan:10000093",
+     "rawName": "【COUPONで2,680円】 加湿器 卓上 オフィス 加湿器 コンパクト 380ml 5重除菌 UV-C除菌 2600mAh電池内蔵 60ml/hパワー 12時間加湿 イオンで空気清浄 次亜塩素酸水対応 アロマ 超音波 加湿器 大容量 スチーム式 静音 2加湿モード 銀イオン除菌 合金抗菌プレート",
+     "name": "加湿器 卓上 オフィス 加湿器 コンパクト 380ml 5重除菌",
+     "price": 4480,
+     "shop": "tomoro公式ショップ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ty7ho.p3pr21ba.g00ty7ho.p3pr3ce4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fotokukan%2Fb1s06js%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fotokukan%2Fi%2F10000093%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ty7ho.p3pr21ba.g00ty7ho.p3pr3ce4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fotokukan%2Fb1s06js%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fotokukan%2Fi%2F10000093%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 2473,
+     "reviewAverage": 4.34,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/otokukan/cabinet/bl20js/l20zt_tr.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-20_s2_reel1_01.jpg",
+    "docs/media/2026-11-20_s2_reel1_02.jpg",
+    "docs/media/2026-11-20_s2_reel1_03.jpg",
+    "docs/media/2026-11-20_s2_reel1_04.jpg"
+   ],
+   "video": "docs/media/2026-11-20_s2_reel1.mp4"
+  },
+  {
+   "date": "2026-11-20",
+   "genre": "gift",
+   "title": "ポチる前に！カタログギフトの確認リスト",
+   "caption": "【PR】カタログギフト、買う前にここだけは確認👇\n\nカタログギフトを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　予算とコース\n贈る相手と場面に合う価格のコースを選ぶ。\n\n✔ CHECK2　のし・包装・カード\nのし・包装・メッセージカードに対応しているか確認する。\n\n✔ CHECK3　届け日と有効期限\n届け日の指定ができるか、カタログの申込期限も見る。\n\n■ 例として、2026/11/20に楽天市場でレビューの多かった商品\n・カタログギフト 15900円 1万5千円コース 出産内祝い 結婚祝い（ソムリエ@ギフト）12,360円、★4.68／10,658件\n・DEAN＆DELUCA ギフトカタログ カタログギフト グルメ（アンティナギフトスタジオ）4,400円、★4.80／1,776件\n・内祝い カタログギフト 5000円 code℃（コードシーギフトセレクション）4,660円、★4.64／1,504件\n\n※2026/11/20に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 カタログギフトを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#カタログギフト #ギフト #カタログギフト #贈り物 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "カタログギフト｜買う前メモ",
+     "title": "ポチる前に！\nカタログギフトの\n確認リスト",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "gift",
+     "topic": "カタログギフト",
+     "pre": "ポチる前に！",
+     "num": "3",
+     "post": "つの確認",
+     "month": "2026.11月",
+     "seed": "2026-11-2074"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "カタログギフト 15900円 1万5千円コース 出産内祝い 結婚祝い",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellevie-harima/cabinet/1119/gift/catalog15800_bs.jpg?_ex=700x700",
+     "price": "12,360円",
+     "review": "★4.68",
+     "count": "10,658件",
+     "postage": "送料込み",
+     "shop": "ソムリエ@ギフト",
+     "check": "予算とコース",
+     "body": [
+      "贈る相手と場面に合う",
+      "価格のコースを選ぶ。"
+     ],
+     "date": "2026/11/20"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "DEAN＆DELUCA ギフトカタログ カタログギフト グルメ",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/antina/cabinet/products_259/25965_14.jpg?_ex=700x700",
+     "price": "4,400円",
+     "review": "★4.80",
+     "count": "1,776件",
+     "postage": "送料込み",
+     "shop": "アンティナギフトスタジオ",
+     "check": "のし・包装・カード",
+     "body": [
+      "のし・包装・メッセージカードに",
+      "対応しているか確認する。"
+     ],
+     "date": "2026/11/20"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "内祝い カタログギフト 5000円 code℃",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/patie/cabinet/1119/gift/catalog5800.jpg?_ex=700x700",
+     "price": "4,660円",
+     "review": "★4.64",
+     "count": "1,504件",
+     "postage": "送料込み",
+     "shop": "コードシーギフトセレクション",
+     "check": "届け日と有効期限",
+     "body": [
+      "届け日の指定ができるか、",
+      "カタログの申込期限も見る。"
+     ],
+     "date": "2026/11/20"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "bellevie-harima:10028386",
+     "rawName": "カタログギフト 楽天ランキング1位 [ソムリエアットギフト 最高級 ザ プレミアムカタログギフト ブラック シルバー ゴールド] 15900円(S-AEO) 1万5千円コース 出産内祝い 結婚祝い 新築祝い 内祝い お返し (グルメ/ブランド/スイーツ）gws 送料無料 七五三 お歳暮 冬ギフト",
+     "name": "カタログギフト 15900円 1万5千円コース 出産内祝い 結婚祝い",
+     "price": 12360,
+     "shop": "ソムリエ@ギフト",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q1q9o.p3pr2fa6.g00q1q9o.p3pr34c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellevie-harima%2F10028386%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellevie-harima%2Fi%2F10028386%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q1q9o.p3pr2fa6.g00q1q9o.p3pr34c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellevie-harima%2F10028386%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellevie-harima%2Fi%2F10028386%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 10658,
+     "reviewAverage": 4.68,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellevie-harima/cabinet/1119/gift/catalog15800_bs.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "antina:10005932",
+     "rawName": "【ポイント10倍】DEAN＆DELUCA ギフトカタログ(ブックタイプ) カタログギフト グルメ 内祝い 結婚祝い 結婚内祝い 出産祝い 引き出物 おしゃれ 結婚 快気 内祝 引出物 引っ越し 新築 お祝い お返し ディーン アンド デルーカ",
+     "name": "DEAN＆DELUCA ギフトカタログ カタログギフト グルメ",
+     "price": 4400,
+     "shop": "アンティナギフトスタジオ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rfaao.p3pr2e3f.g00rfaao.p3pr3ec2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fantina%2F14177006%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fantina%2Fi%2F10005932%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rfaao.p3pr2e3f.g00rfaao.p3pr3ec2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fantina%2F14177006%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fantina%2Fi%2F10005932%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 1776,
+     "reviewAverage": 4.8,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/antina/cabinet/products_259/25965_14.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "patie:10000956",
+     "rawName": "内祝い カタログギフト 5000円 楽天ランキング1位 code℃ コードシープレミアムカタログギフト（WHT-S-EO）割引 出産祝い 結婚祝い 出産内祝い お返し グルメ おしゃれ 新築祝い まとめ買い 中身が見える gws cj 送料無料 プレゼント 七五三内祝い お歳暮 冬ギフト",
+     "name": "内祝い カタログギフト 5000円 code℃",
+     "price": 4660,
+     "shop": "コードシーギフトセレクション",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rdnjo.p3pr24e3.g00rdnjo.p3pr3af4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpatie%2Fcatalog-selection_eo%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpatie%2Fi%2F10000956%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rdnjo.p3pr24e3.g00rdnjo.p3pr3af4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpatie%2Fcatalog-selection_eo%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpatie%2Fi%2F10000956%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 1504,
+     "reviewAverage": 4.64,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/patie/cabinet/1119/gift/catalog5800.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-20_s2_reel2_01.jpg",
+    "docs/media/2026-11-20_s2_reel2_02.jpg",
+    "docs/media/2026-11-20_s2_reel2_03.jpg",
+    "docs/media/2026-11-20_s2_reel2_04.jpg"
+   ],
+   "video": "docs/media/2026-11-20_s2_reel2.mp4"
   }
  ],
  "stories": [
@@ -10176,6 +10430,16 @@
     "docs/media/2026-11-19_story_s2.jpg"
    ],
    "media_id": "18134503015748285"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "ポチる前に！カタログギフトの確認リスト",
+   "head": "届け日と有効期限",
+   "status": "ready",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-20_story_s2.jpg"
+   ]
   }
  ]
 }
