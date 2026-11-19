@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19 10:47",
+ "updated": "2026-11-19 12:21",
  "followers": 39,
  "media": 55,
  "posts": [
@@ -209,9 +209,9 @@
    "kind": "reel",
    "title": "ブラシ選びで見落としやすい3つのこと",
    "genre": "clean",
-   "likes": null,
-   "comments": null,
-   "permalink": "",
+   "likes": 0,
+   "comments": 0,
+   "permalink": "https://www.instagram.com/reel/DfbRkvDiOdu/",
    "reach": 15,
    "saved": 0,
    "shares": 0,
@@ -655,12 +655,12 @@
    "likes": 2,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/Dfqubo7jC0E/",
-   "reach": 22,
+   "reach": 23,
    "saved": 0,
    "shares": 0,
-   "views": 21,
+   "views": 22,
    "total_interactions": 2,
-   "avg_watch": 1.8
+   "avg_watch": 1.9
   },
   {
    "date": "2026-11-13",
