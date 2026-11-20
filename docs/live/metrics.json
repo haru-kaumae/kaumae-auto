@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21 02:25",
+ "updated": "2026-11-21 04:32",
  "followers": 40,
  "media": 57,
  "posts": [
@@ -734,11 +734,11 @@
    "likes": 3,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/DfvOuMqj8NY/",
-   "reach": 64,
-   "saved": 0,
-   "shares": 0,
-   "views": 67,
-   "total_interactions": 3,
+   "reach": null,
+   "saved": null,
+   "shares": null,
+   "views": null,
+   "total_interactions": null,
    "avg_watch": 1.8
   },
   {
