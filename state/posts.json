@@ -10054,6 +10054,259 @@
    ],
    "video": "docs/media/2026-11-20_s2_reel2.mp4",
    "media_id": "18062030486560723"
+  },
+  {
+   "date": "2026-11-21",
+   "genre": "sweets",
+   "title": "チョコレート選びで見落としやすい3つのこと",
+   "caption": "【PR】チョコレート、買う前にここだけは確認👇\n\nチョコレートを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　内容量と賞味期限\n量と、届いてからの賞味期限の目安を確認する。\n\n✔ CHECK2　保存方法\n常温・冷蔵・冷凍のどれか。冷凍なら冷凍庫の空きを先に見る。\n\n✔ CHECK3　アレルギー表示\n原材料とアレルギー表示を商品ページとパッケージで確認する。\n\n■ 例として、2026/11/21に楽天市場でレビューの多かった商品\n・マカダミア キャラメルサンド 5個入・10個入 チョコレート（maison du miel）2,680円、★4.73／3,266件\n・リンツ リンドール チョコレート アソート 24個 36個 48個（すずや恵比寿堂）2,160円、★4.64／3,035件\n・ショーコラ 4個入 チョコレート 横浜 バニラビーンズ |（横浜チョコレートのバニラビーンズ）1,987円、★4.45／2,973件\n\n※2026/11/21に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 チョコレートを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#チョコレート #お取り寄せ #おやつ #楽天グルメ #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "おやつ・お取り寄せ｜買う前メモ",
+     "title": "チョコレート選びで\n見落としやすい\n3つのこと",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "sweets",
+     "topic": "チョコレート",
+     "pre": "見落としやすい",
+     "num": "3",
+     "post": "つのこと",
+     "month": "2026.11月",
+     "seed": "2026-11-2175"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "マカダミア キャラメルサンド 5個入・10個入 チョコレート",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/maisondumiel/cabinet/cr/kago/caramelsand_kago_01.jpg?_ex=700x700",
+     "price": "2,680円",
+     "review": "★4.73",
+     "count": "3,266件",
+     "postage": "送料込み",
+     "shop": "maison du miel",
+     "check": "内容量と賞味期限",
+     "body": [
+      "量と、届いてからの",
+      "賞味期限の目安を確認する。"
+     ],
+     "date": "2026/11/21"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "リンツ リンドール チョコレート アソート 24個 36個 48個",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/suzuyaebisudo/cabinet/product/item03/lindor26-assort_01v7.jpg?_ex=700x700",
+     "price": "2,160円",
+     "review": "★4.64",
+     "count": "3,035件",
+     "postage": "送料込み",
+     "shop": "すずや恵比寿堂",
+     "check": "保存方法",
+     "body": [
+      "常温・冷蔵・冷凍のどれか。",
+      "冷凍なら冷凍庫の空きを先に見る。"
+     ],
+     "date": "2026/11/21"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "ショーコラ 4個入 チョコレート 横浜 バニラビーンズ |",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/vanilla/cabinet/500/standard/normal/179.jpg?_ex=700x700",
+     "price": "1,987円",
+     "review": "★4.45",
+     "count": "2,973件",
+     "postage": "送料別",
+     "shop": "横浜チョコレートのバニラビーンズ",
+     "check": "アレルギー表示",
+     "body": [
+      "原材料とアレルギー表示を",
+      "商品ページとパッケージで確認する。"
+     ],
+     "date": "2026/11/21"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "maisondumiel:10000009",
+     "rawName": "【5%OFFクーポン★11/19 20:00-11/25 1:59】《TVで紹介されました》マカダミア キャラメルサンド 5個入・10個入 ◆ チョコレート 焼き菓子 ナッツ ギフト スイーツ 高級 個包装 クッキー お取り寄せ 洋菓子 プレゼント サブレ 詰め合わせ",
+     "name": "マカダミア キャラメルサンド 5個入・10個入 チョコレート",
+     "price": 2680,
+     "shop": "maison du miel",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u17ao.p3pr27f7.g00u17ao.p3pr37f3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmaisondumiel%2Fcaramelsand5%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmaisondumiel%2Fi%2F10000009%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u17ao.p3pr27f7.g00u17ao.p3pr37f3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmaisondumiel%2Fcaramelsand5%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmaisondumiel%2Fi%2F10000009%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 3266,
+     "reviewAverage": 4.73,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/maisondumiel/cabinet/cr/kago/caramelsand_kago_01.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "suzuyaebisudo:10000320",
+     "rawName": "リンツ リンドール レビュー投稿で500円クーポン チョコレート アソート 24個 36個 48個 300g 450g 600g 24粒 36粒 48粒 LINDOR Lindt ボンボン チョコ バレンタイン ホワイトデー 卒業 送別 お配り ばら撒き プチギフト Xmas クリスマス 大容量 プレゼント 贈り物",
+     "name": "リンツ リンドール チョコレート アソート 24個 36個 48個",
+     "price": 2160,
+     "shop": "すずや恵比寿堂",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tx9ao.p3pr299d.g00tx9ao.p3pr330f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuzuyaebisudo%2Fr-lindor-48%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsuzuyaebisudo%2Fi%2F10000320%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tx9ao.p3pr299d.g00tx9ao.p3pr330f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuzuyaebisudo%2Fr-lindor-48%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsuzuyaebisudo%2Fi%2F10000320%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 3035,
+     "reviewAverage": 4.64,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/suzuyaebisudo/cabinet/product/item03/lindor26-assort_01v7.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "vanilla:10001123",
+     "rawName": "ショーコラ 4個入 チョコレート 横浜 バニラビーンズ | チョコサンド チョコ 洋菓子 お菓子 高級 チョコレートギフト お歳暮 クリスマス",
+     "name": "ショーコラ 4個入 チョコレート 横浜 バニラビーンズ |",
+     "price": 1987,
+     "shop": "横浜チョコレートのバニラビーンズ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pjsxo.p3pr2fe8.g00pjsxo.p3pr321c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvanilla%2F179%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fvanilla%2Fi%2F10001123%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pjsxo.p3pr2fe8.g00pjsxo.p3pr321c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvanilla%2F179%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fvanilla%2Fi%2F10001123%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 2973,
+     "reviewAverage": 4.45,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/vanilla/cabinet/500/standard/normal/179.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-21_s2_reel1_01.jpg",
+    "docs/media/2026-11-21_s2_reel1_02.jpg",
+    "docs/media/2026-11-21_s2_reel1_03.jpg",
+    "docs/media/2026-11-21_s2_reel1_04.jpg"
+   ],
+   "video": "docs/media/2026-11-21_s2_reel1.mp4"
+  },
+  {
+   "date": "2026-11-21",
+   "genre": "blanket",
+   "title": "ブランケット、買う前にここ見て",
+   "caption": "【PR】ブランケット、買う前にここだけは確認👇\n\nブランケットを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　サイズと使い方\n敷き用・掛け用・兼用のどれか、サイズとあわせて確認する。\n\n✔ CHECK2　消費電力と電気代の目安\n消費電力（W）と、電気代の目安が書かれていれば計算の前提（単価）も見る。\n\n✔ CHECK3　洗濯と使用上の注意\n洗濯できるか、乾燥機の可否、折り曲げなどの注意を読む。\n\n■ 例として、2026/11/21に楽天市場でレビューの多かった商品\n・ふわとろ毛布 電気毛布 掛け敷き モコモコブランケット 極上ふわとろ（Hitidear）12,900円、★4.56／3,913件\n・PSE認証済み ふわふわ電気毛布 電磁波カット ブランケット 電気（Katu）10,999円、★4.65／1,240件\n・電気毛布 電気ひざ掛け ひざ掛け 電気ブランケット 日本製 洗える（ライフジョイ工房）3,990円、★4.59／1,017件\n\n※2026/11/21に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 ブランケットを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#ブランケット #電気毛布 #寒さ対策 #冬支度 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "電気毛布｜買う前メモ",
+     "title": "ブランケット、\n買う前に\nここ見て",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "blanket",
+     "topic": "ブランケット",
+     "pre": "買う前にここ見て",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-2176"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "ふわとろ毛布 電気毛布 掛け敷き モコモコブランケット 極上ふわとろ",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/hitidear/cabinet/10065696/10914652/g1-5805.jpg?_ex=700x700",
+     "price": "12,900円",
+     "review": "★4.56",
+     "count": "3,913件",
+     "postage": "送料込み",
+     "shop": "Hitidear",
+     "check": "サイズと使い方",
+     "body": [
+      "敷き用・掛け用・兼用のどれか、",
+      "サイズとあわせて確認する。"
+     ],
+     "date": "2026/11/21"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "PSE認証済み ふわふわ電気毛布 電磁波カット ブランケット 電気",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/katushop/cabinet/11970786/11970951/12091887/4399-kt.jpg?_ex=700x700",
+     "price": "10,999円",
+     "review": "★4.65",
+     "count": "1,240件",
+     "postage": "送料別",
+     "shop": "Katu",
+     "check": "消費電力と電気代の目安",
+     "body": [
+      "消費電力（W）と、",
+      "電気代の目安が書かれていれば",
+      "計算の前提（単価）も見る。"
+     ],
+     "date": "2026/11/21"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "電気毛布 電気ひざ掛け ひざ掛け 電気ブランケット 日本製 洗える",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/lifejoy-shop/cabinet/14255781/jbh161.jpg?_ex=700x700",
+     "price": "3,990円",
+     "review": "★4.59",
+     "count": "1,017件",
+     "postage": "送料込み",
+     "shop": "ライフジョイ工房",
+     "check": "洗濯と使用上の注意",
+     "body": [
+      "洗濯できるか、乾燥機の可否、",
+      "折り曲げなどの注意を読む。"
+     ],
+     "date": "2026/11/21"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "hitidear:10000173",
+     "rawName": "【クーポンで最安5805円】「楽天1位」ふわとろ毛布 電気毛布 掛け敷き モコモコブランケット 極上ふわとろ 毛布ブランケット もこもこ ふわふわ シングル 即暖 保温 電気毛布 ひざ掛け シングル 電気ブランケット 洗える ふわもこ 2枚合わせ毛布 厚手 あったかい",
+     "name": "ふわとろ毛布 電気毛布 掛け敷き モコモコブランケット 極上ふわとろ",
+     "price": 12900,
+     "shop": "Hitidear",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uab6o.p3pr2d2e.g00uab6o.p3pr386b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhitidear%2Fcozywave-g1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhitidear%2Fi%2F10000173%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00uab6o.p3pr2d2e.g00uab6o.p3pr386b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhitidear%2Fcozywave-g1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhitidear%2Fi%2F10000173%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 3913,
+     "reviewAverage": 4.56,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/hitidear/cabinet/10065696/10914652/g1-5805.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "katushop:10000129",
+     "rawName": "クーポンで4399円から！★クーポンあり★PSE認証済み★ふわふわ電気毛布 電磁波カット ブランケット 電気 毛布 電気毛布 掛け 電気もうふ モウフ 速暖 洗える 温度調節 タイマー 電気ブランケット 厚手 シングル ダブル 省エネ コンセント",
+     "name": "PSE認証済み ふわふわ電気毛布 電磁波カット ブランケット 電気",
+     "price": 10999,
+     "shop": "Katu",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u5pko.p3pr2564.g00u5pko.p3pr394c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkatushop%2Fdrt06%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkatushop%2Fi%2F10000129%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u5pko.p3pr2564.g00u5pko.p3pr394c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkatushop%2Fdrt06%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkatushop%2Fi%2F10000129%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 1240,
+     "reviewAverage": 4.65,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/katushop/cabinet/11970786/11970951/12091887/4399-kt.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "lifejoy-shop:10000093",
+     "rawName": "［BLACK FRIDAY★限定セール］電気毛布 電気ひざ掛け ひざ掛け 電気ブランケット 日本製 洗える 選べるサイズ 色 柄 120cm 140cm 160cm ダニ退治 省エネ 温度調節 メーカー 1年保証 ライフジョイ チェック ベージュ オレンジ グリーン JPN121_JPN141_JPN161 ギフト",
+     "name": "電気毛布 電気ひざ掛け ひざ掛け 電気ブランケット 日本製 洗える",
+     "price": 3990,
+     "shop": "ライフジョイ工房",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00t1dwo.p3pr2f1b.g00t1dwo.p3pr341a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flifejoy-shop%2Fjbh161%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flifejoy-shop%2Fi%2F10000093%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00t1dwo.p3pr2f1b.g00t1dwo.p3pr341a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flifejoy-shop%2Fjbh161%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flifejoy-shop%2Fi%2F10000093%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 1017,
+     "reviewAverage": 4.59,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/lifejoy-shop/cabinet/14255781/jbh161.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-21_s2_reel2_01.jpg",
+    "docs/media/2026-11-21_s2_reel2_02.jpg",
+    "docs/media/2026-11-21_s2_reel2_03.jpg",
+    "docs/media/2026-11-21_s2_reel2_04.jpg"
+   ],
+   "video": "docs/media/2026-11-21_s2_reel2.mp4"
   }
  ],
  "stories": [
@@ -10443,6 +10696,16 @@
     "docs/media/2026-11-20_story_s2.jpg"
    ],
    "media_id": "18093918662226044"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "ブランケット、買う前にここ見て",
+   "head": "サイズと使い方",
+   "status": "ready",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-21_story_s2.jpg"
+   ]
   }
  ]
 }
