@@ -10426,7 +10426,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/rackworld/cabinet/tenposupport01/imgrc0107637972.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -10435,7 +10435,8 @@
     "docs/media/2026-11-22_s2_reel1_03.jpg",
     "docs/media/2026-11-22_s2_reel1_04.jpg"
    ],
-   "video": "docs/media/2026-11-22_s2_reel1.mp4"
+   "video": "docs/media/2026-11-22_s2_reel1.mp4",
+   "media_id": "18023211194949273"
   },
   {
    "date": "2026-11-22",
@@ -10554,7 +10555,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/hitidear/cabinet/10065696/10914652/sp21--9660.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -10563,7 +10564,8 @@
     "docs/media/2026-11-22_s2_reel2_03.jpg",
     "docs/media/2026-11-22_s2_reel2_04.jpg"
    ],
-   "video": "docs/media/2026-11-22_s2_reel2.mp4"
+   "video": "docs/media/2026-11-22_s2_reel2.mp4",
+   "media_id": "18202349575391746"
   }
  ],
  "stories": [
@@ -10969,11 +10971,12 @@
    "date": "2026-11-22",
    "title": "ポチる前に！加湿器の確認リスト",
    "head": "適用畳数を確認",
-   "status": "ready",
+   "status": "posted",
    "slot": "2",
    "images": [
     "docs/media/2026-11-22_story_s2.jpg"
-   ]
+   ],
+   "media_id": "18128901002301671"
   }
  ]
 }
