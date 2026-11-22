@@ -10724,7 +10724,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/patie/cabinet/1119/gift/catalog15800.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -10733,7 +10733,8 @@
     "docs/media/2026-11-23_s2_reel1_03.jpg",
     "docs/media/2026-11-23_s2_reel1_04.jpg"
    ],
-   "video": "docs/media/2026-11-23_s2_reel1.mp4"
+   "video": "docs/media/2026-11-23_s2_reel1.mp4",
+   "media_id": "18071691197787906"
   },
   {
    "date": "2026-11-23",
@@ -10851,7 +10852,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kaihyaku/cabinet/catalog_01/imgrc0160979308.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -10860,7 +10861,8 @@
     "docs/media/2026-11-23_s2_reel2_03.jpg",
     "docs/media/2026-11-23_s2_reel2_04.jpg"
    ],
-   "video": "docs/media/2026-11-23_s2_reel2.mp4"
+   "video": "docs/media/2026-11-23_s2_reel2.mp4",
+   "media_id": "17966231841220531"
   }
  ],
  "stories": [
@@ -11277,11 +11279,12 @@
    "date": "2026-11-23",
    "title": "掃除用品、買う前にここ見て",
    "head": "セット数と替えを確認",
-   "status": "ready",
+   "status": "posted",
    "slot": "2",
    "images": [
     "docs/media/2026-11-23_story_s2.jpg"
-   ]
+   ],
+   "media_id": "18493385752128390"
   }
  ]
 }
