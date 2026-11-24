@@ -11119,6 +11119,260 @@
    ],
    "video": "docs/media/2026-11-24_s2_reel2.mp4",
    "media_id": "18149819488626952"
+  },
+  {
+   "date": "2026-11-25",
+   "genre": "humid",
+   "title": "加湿器選びで見落としやすい3つのこと",
+   "caption": "【PR】加湿器、買う前にここだけは確認👇\n\n加湿器を選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　加湿方式を確認\n気化式・スチーム式・超音波式・ハイブリッド式などの方式を商品ページの仕様欄で確認する。\n\n✔ CHECK2　適用畳数を確認\n木造とプレハブ（鉄骨）で適用畳数が違うことが多い。使う部屋の広さと比べる。\n\n✔ CHECK3　給水とお手入れ\n上から給水か、タンクを外すか。フィルター交換の有無も見る。\n\n■ 例として、2026/11/25に楽天市場でレビューの多かった商品\n・加湿器 アロマディフューザー 超音波式 卓上 小型 アロマ対応（Aooka）2,999円、★4.48／718件\n・加湿器 卓上 大容量 超音波 恒湿モード 湿度設定 アロマ タイマー（KLOUDIC楽天市場店）5,780円、★4.45／706件\n・ミッフィー えんとつのお家 加湿器 miffy 大容量 450ml（丹波貿易 楽天市場店）2,980円、★4.54／692件\n\n※2026/11/25に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 加湿器を選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#加湿器 #加湿器 #乾燥対策 #季節家電 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "加湿器｜買う前メモ",
+     "title": "加湿器選びで\n見落としやすい\n3つのこと",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "humid",
+     "topic": "加湿器",
+     "pre": "見落としやすい",
+     "num": "3",
+     "post": "つのこと",
+     "month": "2026.11月",
+     "seed": "2026-11-2583"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "加湿器 アロマディフューザー 超音波式 卓上 小型 アロマ対応",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/aooka/cabinet/10011212/10058095/1a.jpg?_ex=700x700",
+     "price": "2,999円",
+     "review": "★4.48",
+     "count": "718件",
+     "postage": "送料込み",
+     "shop": "Aooka",
+     "check": "加湿方式を確認",
+     "body": [
+      "気化式・スチーム式・超音波式・",
+      "ハイブリッド式などの方式を",
+      "商品ページの仕様欄で確認する。"
+     ],
+     "date": "2026/11/25"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "加湿器 卓上 大容量 超音波 恒湿モード 湿度設定 アロマ タイマー",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/gaoye/cabinet/js07_black/imgrc0110935251.jpg?_ex=700x700",
+     "price": "5,780円",
+     "review": "★4.45",
+     "count": "706件",
+     "postage": "送料込み",
+     "shop": "KLOUDIC楽天市場店",
+     "check": "適用畳数を確認",
+     "body": [
+      "木造とプレハブ（鉄骨）で",
+      "適用畳数が違うことが多い。",
+      "使う部屋の広さと比べる。"
+     ],
+     "date": "2026/11/25"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "ミッフィー えんとつのお家 加湿器 miffy 大容量 450ml",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/tamba/cabinet/10449963/xu-1128_00.jpg?_ex=700x700",
+     "price": "2,980円",
+     "review": "★4.54",
+     "count": "692件",
+     "postage": "送料込み",
+     "shop": "丹波貿易 楽天市場店",
+     "check": "給水とお手入れ",
+     "body": [
+      "上から給水か、タンクを外すか。",
+      "フィルター交換の有無も見る。"
+     ],
+     "date": "2026/11/25"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "aooka:10000759",
+     "rawName": "＼11/25限定5,000円以上購入で10%OFFクーポン／★楽天1位常連★加湿器 アロマディフューザー 超音波式 卓上 小型 アロマ対応 タイマー 7色LEDライト 空焚き防止 コンパクト インテリア お手入れ簡単 300ml 大容量 12畳対応 乾燥対策 噴霧式ディフューザー ACアダプタータイプ",
+     "name": "加湿器 アロマディフューザー 超音波式 卓上 小型 アロマ対応",
+     "price": 2999,
+     "shop": "Aooka",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00trm8o.p3pr2889.g00trm8o.p3pr3df0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faooka%2Fxxj-01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faooka%2Fi%2F10000759%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00trm8o.p3pr2889.g00trm8o.p3pr3df0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faooka%2Fxxj-01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faooka%2Fi%2F10000759%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 718,
+     "reviewAverage": 4.48,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/aooka/cabinet/10011212/10058095/1a.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "gaoye:10000010",
+     "rawName": "【クーポンで最安5280円】 加湿器 卓上 大容量 超音波 恒湿モード 湿度設定 アロマ タイマー 6L 3段階ミスト 最大50時間連続加湿 睡眠モード 上部給水 最大加湿280ml/h メモリー機能 省エネ 静音 空焚き防止 取っ手付きタンク リビング 寝室 おしゃれ お手入れ簡単 KLOUDIC",
+     "name": "加湿器 卓上 大容量 超音波 恒湿モード 湿度設定 アロマ タイマー",
+     "price": 5780,
+     "shop": "KLOUDIC楽天市場店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tvt4o.p3pr2a79.g00tvt4o.p3pr3226/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgaoye%2Fmame-js06-rms-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgaoye%2Fi%2F10000010%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tvt4o.p3pr2a79.g00tvt4o.p3pr3226/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgaoye%2Fmame-js06-rms-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgaoye%2Fi%2F10000010%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 706,
+     "reviewAverage": 4.45,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/gaoye/cabinet/js07_black/imgrc0110935251.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "tamba:10006016",
+     "rawName": "ミッフィー えんとつのお家 加湿器 miffy 大容量 450ml 部屋 超音波 おしゃれ 卓上 usb ギフト 大容量 オフィス 小型 デスク 静音 お手入れ簡単 ピンク イエロー ブルー USB給電 上部給水 2段階調整スプレー 最大10時間 レビュープレゼント",
+     "name": "ミッフィー えんとつのお家 加湿器 miffy 大容量 450ml",
+     "price": 2980,
+     "shop": "丹波貿易 楽天市場店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tehzo.p3pr2c6d.g00tehzo.p3pr302b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftamba%2Fxu-1128%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftamba%2Fi%2F10006016%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tehzo.p3pr2c6d.g00tehzo.p3pr302b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftamba%2Fxu-1128%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftamba%2Fi%2F10006016%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 692,
+     "reviewAverage": 4.54,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/tamba/cabinet/10449963/xu-1128_00.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-25_s2_reel1_01.jpg",
+    "docs/media/2026-11-25_s2_reel1_02.jpg",
+    "docs/media/2026-11-25_s2_reel1_03.jpg",
+    "docs/media/2026-11-25_s2_reel1_04.jpg"
+   ],
+   "video": "docs/media/2026-11-25_s2_reel1.mp4"
+  },
+  {
+   "date": "2026-11-25",
+   "genre": "gift",
+   "title": "カタログギフト、買う前にここ見て",
+   "caption": "【PR】カタログギフト、買う前にここだけは確認👇\n\nカタログギフトを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　予算とコース\n贈る相手と場面に合う価格のコースを選ぶ。\n\n✔ CHECK2　のし・包装・カード\nのし・包装・メッセージカードに対応しているか確認する。\n\n✔ CHECK3　届け日と有効期限\n届け日の指定ができるか、カタログの申込期限も見る。\n\n■ 例として、2026/11/25に楽天市場でレビューの多かった商品\n・カタログギフト Premium El クレソン 11990円コース（ギフト工房 愛来-内祝・引出物通販）8,659円、★4.79／974件\n・高評価 4.8 美味百撰 カタログギフト グルメ ギフト 贈答（ギフトを贈るならリンベル<公式>）4,400円、★4.80／920件\n・4年連続ギフト大賞 カタログギフト ポスト投函 最高級 ザ（ソムリエ@ギフト）3,280円、★4.65／919件\n\n※2026/11/25に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 カタログギフトを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#カタログギフト #ギフト #カタログギフト #贈り物 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "カタログギフト｜買う前メモ",
+     "title": "カタログギフト、\n買う前に\nここ見て",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "gift",
+     "topic": "カタログギフト",
+     "pre": "買う前にここ見て",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-2584"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "カタログギフト Premium El クレソン 11990円コース",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/aikuru/cabinet/event/1119_prem_10900.jpg?_ex=700x700",
+     "price": "8,659円",
+     "review": "★4.79",
+     "count": "974件",
+     "postage": "送料込み",
+     "shop": "ギフト工房 愛来-内祝・引出物通販",
+     "check": "予算とコース",
+     "body": [
+      "贈る相手と場面に合う",
+      "価格のコースを選ぶ。"
+     ],
+     "date": "2026/11/25"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "高評価 4.8 美味百撰 カタログギフト グルメ ギフト 贈答",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/ringbellshop/cabinet/point10/catalog/bimi100/cgbimi100_5.jpg?_ex=700x700",
+     "price": "4,400円",
+     "review": "★4.80",
+     "count": "920件",
+     "postage": "送料込み",
+     "shop": "ギフトを贈るならリンベル<公式>",
+     "check": "のし・包装・カード",
+     "body": [
+      "のし・包装・メッセージカードに",
+      "対応しているか確認する。"
+     ],
+     "date": "2026/11/25"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "4年連続ギフト大賞 カタログギフト ポスト投函 最高級 ザ",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellevie-harima/cabinet/1125/gift/catalog3300_m.jpg?_ex=700x700",
+     "price": "3,280円",
+     "review": "★4.65",
+     "count": "919件",
+     "postage": "送料込み",
+     "shop": "ソムリエ@ギフト",
+     "check": "届け日と有効期限",
+     "body": [
+      "届け日の指定ができるか、",
+      "カタログの申込期限も見る。"
+     ],
+     "date": "2026/11/25"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "aikuru:10125566",
+     "rawName": "カタログギフト Premium El クレソン 11990円コース 内祝い 出産内祝い 結婚内祝い お返し 快気祝い 記念品 法人ギフト 送料無料 ゆうパケット",
+     "name": "カタログギフト Premium El クレソン 11990円コース",
+     "price": 8659,
+     "shop": "ギフト工房 愛来-内祝・引出物通販",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pye9o.p3pr24ad.g00pye9o.p3pr35b7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faikuru%2Fbb10500%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faikuru%2Fi%2F10125566%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pye9o.p3pr24ad.g00pye9o.p3pr35b7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faikuru%2Fbb10500%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faikuru%2Fi%2F10125566%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 974,
+     "reviewAverage": 4.79,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/aikuru/cabinet/event/1119_prem_10900.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "ringbellshop:10000329",
+     "rawName": "【11/25限定★ポイント10倍】高評価☆4.8【楽天1位受賞】美味百撰 カタログギフト グルメ 送料無料 ギフト 贈答 内祝い お礼 お祝い 御祝い 母の日 父の日 お中元 敬老の日 お歳暮 グルメ ご当地グルメ 高級 お取り寄せ",
+     "name": "高評価 4.8 美味百撰 カタログギフト グルメ ギフト 贈答",
+     "price": 4400,
+     "shop": "ギフトを贈るならリンベル<公式>",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qtf7o.p3pr2631.g00qtf7o.p3pr3461/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fringbellshop%2F822-002%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fringbellshop%2Fi%2F10000329%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qtf7o.p3pr2631.g00qtf7o.p3pr3461/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fringbellshop%2F822-002%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fringbellshop%2Fi%2F10000329%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 920,
+     "reviewAverage": 4.8,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ringbellshop/cabinet/point10/catalog/bimi100/cgbimi100_5.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "bellevie-harima:10046942",
+     "rawName": "4年連続ギフト大賞 カタログギフト ポスト投函 最高級 ザ プレミアムカタログギフト ブラック シルバー ゴールド 3400円コース ギフトカタログ （S-BE）(メール便)(手提げ袋不可) 引き出物 結婚内祝い 内祝い グルメ (リヴィエールコース) gws お歳暮 冬ギフト",
+     "name": "4年連続ギフト大賞 カタログギフト ポスト投函 最高級 ザ",
+     "price": 3280,
+     "shop": "ソムリエ@ギフト",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q1q9o.p3pr2fa6.g00q1q9o.p3pr34c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellevie-harima%2Fcatalog-selection-mail_3000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellevie-harima%2Fi%2F10046942%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00q1q9o.p3pr2fa6.g00q1q9o.p3pr34c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellevie-harima%2Fcatalog-selection-mail_3000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbellevie-harima%2Fi%2F10046942%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 919,
+     "reviewAverage": 4.65,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bellevie-harima/cabinet/1125/gift/catalog3300_m.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-25_s2_reel2_01.jpg",
+    "docs/media/2026-11-25_s2_reel2_02.jpg",
+    "docs/media/2026-11-25_s2_reel2_03.jpg",
+    "docs/media/2026-11-25_s2_reel2_04.jpg"
+   ],
+   "video": "docs/media/2026-11-25_s2_reel2.mp4"
   }
  ],
  "stories": [
@@ -11552,6 +11806,16 @@
     "docs/media/2026-11-24_story_s2.jpg"
    ],
    "media_id": "18025237475928893"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "カタログギフト、買う前にここ見て",
+   "head": "のし・包装・カード",
+   "status": "ready",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-25_story_s2.jpg"
+   ]
   }
  ]
 }
