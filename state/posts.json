@@ -11491,7 +11491,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/nuts-beans/cabinet/shyouhingyouho/almond_np1kg.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -11500,7 +11500,8 @@
     "docs/media/2026-11-26_s2_reel1_03.jpg",
     "docs/media/2026-11-26_s2_reel1_04.jpg"
    ],
-   "video": "docs/media/2026-11-26_s2_reel1.mp4"
+   "video": "docs/media/2026-11-26_s2_reel1.mp4",
+   "media_id": "18109506338572778"
   },
   {
    "date": "2026-11-26",
@@ -11618,7 +11619,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/lifejoy-shop/cabinet/14255781/jcbr803.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -11627,7 +11628,8 @@
     "docs/media/2026-11-26_s2_reel2_03.jpg",
     "docs/media/2026-11-26_s2_reel2_04.jpg"
    ],
-   "video": "docs/media/2026-11-26_s2_reel2.mp4"
+   "video": "docs/media/2026-11-26_s2_reel2.mp4",
+   "media_id": "17938831080419402"
   }
  ],
  "stories": [
@@ -12077,11 +12079,12 @@
    "date": "2026-11-26",
    "title": "ポチる前に！電気毛布の確認リスト",
    "head": "洗濯と使用上の注意",
-   "status": "ready",
+   "status": "posted",
    "slot": "2",
    "images": [
     "docs/media/2026-11-26_story_s2.jpg"
-   ]
+   ],
+   "media_id": "18341542819273521"
   }
  ]
 }
