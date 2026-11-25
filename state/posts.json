@@ -11375,6 +11375,259 @@
    ],
    "video": "docs/media/2026-11-25_s2_reel2.mp4",
    "media_id": "18102183887550456"
+  },
+  {
+   "date": "2026-11-26",
+   "genre": "sweets",
+   "title": "おやつ・お取り寄せを買う前の3チェック",
+   "caption": "【PR】おやつ・お取り寄せ、買う前にここだけは確認👇\n\nおやつ・お取り寄せを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　内容量と賞味期限\n量と、届いてからの賞味期限の目安を確認する。\n\n✔ CHECK2　保存方法\n常温・冷蔵・冷凍のどれか。冷凍なら冷凍庫の空きを先に見る。\n\n✔ CHECK3　アレルギー表示\n原材料とアレルギー表示を商品ページとパッケージで確認する。\n\n■ 例として、2026/11/26に楽天市場でレビューの多かった商品\n・無塩 工場直送 直火焙煎 素煎り ロースト 食塩 不使用 ナッツ（いなば屋 【楽天市場店】）1,350円、★4.75／5,182件\n・幸田商店 べにはるか 平干しほしいも 茨城県産 国産 紅はるか（ほしいも屋幸田商店）1,680円、★4.58／5,173件\n・無添加素焼きアーモンド1kgカリフォルニア産ノンパレル種（ナッツ&ビーンズ）2,540円、★4.70／5,119件\n\n※2026/11/26に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 おやつ・お取り寄せを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#お取り寄せ #おやつ #楽天グルメ #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "おやつ・お取り寄せ｜買う前メモ",
+     "title": "おやつ・お取り寄せを買う前の\n3チェック",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "sweets",
+     "topic": "おやつ・お取り寄せ",
+     "pre": "買う前の",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-2685"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "無塩 工場直送 直火焙煎 素煎り ロースト 食塩 不使用 ナッツ",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/inaba-peanuts/cabinet/20_page/nuts/mix_inabi/suy_mix_thumb3.jpg?_ex=700x700",
+     "price": "1,350円",
+     "review": "★4.75",
+     "count": "5,182件",
+     "postage": "送料込み",
+     "shop": "いなば屋 【楽天市場店】",
+     "check": "内容量と賞味期限",
+     "body": [
+      "量と、届いてからの",
+      "賞味期限の目安を確認する。"
+     ],
+     "date": "2026/11/26"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "幸田商店 べにはるか 平干しほしいも 茨城県産 国産 紅はるか",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/kouta/cabinet/10981204/imgrc0166423454.jpg?_ex=700x700",
+     "price": "1,680円",
+     "review": "★4.58",
+     "count": "5,173件",
+     "postage": "送料込み",
+     "shop": "ほしいも屋幸田商店",
+     "check": "保存方法",
+     "body": [
+      "常温・冷蔵・冷凍のどれか。",
+      "冷凍なら冷凍庫の空きを先に見る。"
+     ],
+     "date": "2026/11/26"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "無添加素焼きアーモンド1kgカリフォルニア産ノンパレル種",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/nuts-beans/cabinet/shyouhingyouho/almond_np1kg.jpg?_ex=700x700",
+     "price": "2,540円",
+     "review": "★4.70",
+     "count": "5,119件",
+     "postage": "送料込み",
+     "shop": "ナッツ&ビーンズ",
+     "check": "アレルギー表示",
+     "body": [
+      "原材料とアレルギー表示を",
+      "商品ページとパッケージで確認する。"
+     ],
+     "date": "2026/11/26"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "inaba-peanuts:10000010",
+     "rawName": "【素焼きミックスナッツ】 無塩《送料無料》工場直送 直火焙煎 素煎り ロースト 食塩 不使用 ナッツ 木の実 4種類 アーモンド・カシューナッツ・くるみ・マカダミア・マカデミア 小分け 200g×選べる袋数 200g～2kg 低糖質 チャック付き 健康 非常食 楽天限定 EC限定",
+     "name": "無塩 工場直送 直火焙煎 素煎り ロースト 食塩 不使用 ナッツ",
+     "price": 1350,
+     "shop": "いなば屋 【楽天市場店】",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00sc8ro.p3pr2c72.g00sc8ro.p3pr3c61/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Finaba-peanuts%2Fmix_1kg%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Finaba-peanuts%2Fi%2F10000010%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00sc8ro.p3pr2c72.g00sc8ro.p3pr3c61/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Finaba-peanuts%2Fmix_1kg%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Finaba-peanuts%2Fi%2F10000010%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 5182,
+     "reviewAverage": 4.75,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/inaba-peanuts/cabinet/20_page/nuts/mix_inabi/suy_mix_thumb3.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "kouta:10000274",
+     "rawName": "＼15％OFF！／【訳あり】 幸田商店 べにはるか 平干しほしいも 茨城県産 国産 紅はるか 規格外品 食品添加物不使用 砂糖不使用 800g 400g×2袋 ねっとり甘い 干しいも ほし芋 さつまいも おやつ 送料無料 わけあり お菓子",
+     "name": "幸田商店 べにはるか 平干しほしいも 茨城県産 国産 紅はるか",
+     "price": 1680,
+     "shop": "ほしいも屋幸田商店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pxcio.p3pr2784.g00pxcio.p3pr3c54/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkouta%2Fcs2680r%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkouta%2Fi%2F10000274%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pxcio.p3pr2784.g00pxcio.p3pr3c54/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkouta%2Fcs2680r%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkouta%2Fi%2F10000274%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 5173,
+     "reviewAverage": 4.58,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kouta/cabinet/10981204/imgrc0166423454.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "nuts-beans:10000238",
+     "rawName": "無添加素焼きアーモンド1kgカリフォルニア産ノンパレル種《宅配便・送料無料》【大袋1kgノンパレル種食塩不使用】",
+     "name": "無添加素焼きアーモンド1kgカリフォルニア産ノンパレル種",
+     "price": 2540,
+     "shop": "ナッツ&ビーンズ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qp3qo.p3pr25fe.g00qp3qo.p3pr3623/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnuts-beans%2F988005%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnuts-beans%2Fi%2F10000238%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qp3qo.p3pr25fe.g00qp3qo.p3pr3623/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnuts-beans%2F988005%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnuts-beans%2Fi%2F10000238%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 5119,
+     "reviewAverage": 4.7,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/nuts-beans/cabinet/shyouhingyouho/almond_np1kg.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-26_s2_reel1_01.jpg",
+    "docs/media/2026-11-26_s2_reel1_02.jpg",
+    "docs/media/2026-11-26_s2_reel1_03.jpg",
+    "docs/media/2026-11-26_s2_reel1_04.jpg"
+   ],
+   "video": "docs/media/2026-11-26_s2_reel1.mp4"
+  },
+  {
+   "date": "2026-11-26",
+   "genre": "blanket",
+   "title": "ポチる前に！電気毛布の確認リスト",
+   "caption": "【PR】電気毛布、買う前にここだけは確認👇\n\n電気毛布を選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　サイズと使い方\n敷き用・掛け用・兼用のどれか、サイズとあわせて確認する。\n\n✔ CHECK2　消費電力と電気代の目安\n消費電力（W）と、電気代の目安が書かれていれば計算の前提（単価）も見る。\n\n✔ CHECK3　洗濯と使用上の注意\n洗濯できるか、乾燥機の可否、折り曲げなどの注意を読む。\n\n■ 例として、2026/11/26に楽天市場でレビューの多かった商品\n・ふわとろ毛布 電気毛布 掛け敷き兼用 極上ふわとろ 毛布ブランケット（カタリヤショップ）6,980円、★4.56／1,874件\n・日本製 電気敷毛布 電気毛布 洗える ダニ退治 シングル 電気毛布（タウンランド Townland）3,480円、★4.42／1,504件\n・電気毛布 掛け敷き 電気ひざ掛け ひざ掛け 電気敷き毛布 日本製（ライフジョイ工房）3,990円、★4.20／990件\n\n※2026/11/26に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 電気毛布を選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#電気毛布 #寒さ対策 #冬支度 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "電気毛布｜買う前メモ",
+     "title": "ポチる前に！\n電気毛布の\n確認リスト",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "blanket",
+     "topic": "電気毛布",
+     "pre": "ポチる前に！",
+     "num": "3",
+     "post": "つの確認",
+     "month": "2026.11月",
+     "seed": "2026-11-2686"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "ふわとろ毛布 電気毛布 掛け敷き兼用 極上ふわとろ 毛布ブランケット",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/katariyashop/cabinet/13923030/6005.jpg?_ex=700x700",
+     "price": "6,980円",
+     "review": "★4.56",
+     "count": "1,874件",
+     "postage": "送料込み",
+     "shop": "カタリヤショップ",
+     "check": "サイズと使い方",
+     "body": [
+      "敷き用・掛け用・兼用のどれか、",
+      "サイズとあわせて確認する。"
+     ],
+     "date": "2026/11/26"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "日本製 電気敷毛布 電気毛布 洗える ダニ退治 シングル 電気毛布",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/townland/cabinet/denkimoufu/na-023s-sugiyama11.jpg?_ex=700x700",
+     "price": "3,480円",
+     "review": "★4.42",
+     "count": "1,504件",
+     "postage": "送料込み",
+     "shop": "タウンランド Townland",
+     "check": "消費電力と電気代の目安",
+     "body": [
+      "消費電力（W）と、",
+      "電気代の目安が書かれていれば",
+      "計算の前提（単価）も見る。"
+     ],
+     "date": "2026/11/26"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "電気毛布 掛け敷き 電気ひざ掛け ひざ掛け 電気敷き毛布 日本製",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/lifejoy-shop/cabinet/14255781/jcbr803.jpg?_ex=700x700",
+     "price": "3,990円",
+     "review": "★4.20",
+     "count": "990件",
+     "postage": "送料込み",
+     "shop": "ライフジョイ工房",
+     "check": "洗濯と使用上の注意",
+     "body": [
+      "洗濯できるか、乾燥機の可否、",
+      "折り曲げなどの注意を読む。"
+     ],
+     "date": "2026/11/26"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "katariyashop:10000441",
+     "rawName": "【クーポンで3,480円~】「楽天1位」【AI自動温度調節×炭素繊維ヒーター】 ふわとろ毛布 電気毛布 掛け敷き兼用 極上ふわとろ 毛布ブランケット もこもこ ふわふわ シングル ダブル 即暖 電気毛布 ひざ掛け シングル 電気ブランケット 洗える 厚手",
+     "name": "ふわとろ毛布 電気毛布 掛け敷き兼用 極上ふわとろ 毛布ブランケット",
+     "price": 6980,
+     "shop": "カタリヤショップ",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u552o.p3pr205f.g00u552o.p3pr3129/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkatariyashop%2Fflrmt%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkatariyashop%2Fi%2F10000441%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u552o.p3pr205f.g00u552o.p3pr3129/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkatariyashop%2Fflrmt%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkatariyashop%2Fi%2F10000441%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 1874,
+     "reviewAverage": 4.56,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/katariyashop/cabinet/13923030/6005.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "townland:10000033",
+     "rawName": "日本製 電気敷毛布 電気毛布 洗える ダニ退治 シングル【RCP】 電気毛布(しき)",
+     "name": "日本製 電気敷毛布 電気毛布 洗える ダニ退治 シングル 電気毛布",
+     "price": 3480,
+     "shop": "タウンランド Townland",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qegto.p3pr2ccc.g00qegto.p3pr392f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftownland%2Fr-1805050630001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftownland%2Fi%2F10000033%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qegto.p3pr2ccc.g00qegto.p3pr392f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftownland%2Fr-1805050630001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftownland%2Fi%2F10000033%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 1504,
+     "reviewAverage": 4.42,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/townland/cabinet/denkimoufu/na-023s-sugiyama11.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "lifejoy-shop:10000040",
+     "rawName": "［BLACK FRIDAY★限定セール］電気毛布 掛け敷き 電気ひざ掛け ひざ掛け 電気敷き毛布 日本製 フランネル 140cm×80cm 188cm×130cm シングル セミダブル ACコンセント スライド温度調節 メーカー 1年保証 JCBR803_JPN141_JCA552 ギフト プレゼント",
+     "name": "電気毛布 掛け敷き 電気ひざ掛け ひざ掛け 電気敷き毛布 日本製",
+     "price": 3990,
+     "shop": "ライフジョイ工房",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00t1dwo.p3pr2f1b.g00t1dwo.p3pr341a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flifejoy-shop%2Fjbk801f%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flifejoy-shop%2Fi%2F10000040%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00t1dwo.p3pr2f1b.g00t1dwo.p3pr341a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flifejoy-shop%2Fjbk801f%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flifejoy-shop%2Fi%2F10000040%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 990,
+     "reviewAverage": 4.2,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/lifejoy-shop/cabinet/14255781/jcbr803.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-26_s2_reel2_01.jpg",
+    "docs/media/2026-11-26_s2_reel2_02.jpg",
+    "docs/media/2026-11-26_s2_reel2_03.jpg",
+    "docs/media/2026-11-26_s2_reel2_04.jpg"
+   ],
+   "video": "docs/media/2026-11-26_s2_reel2.mp4"
   }
  ],
  "stories": [
@@ -11819,6 +12072,16 @@
     "docs/media/2026-11-25_story_s2.jpg"
    ],
    "media_id": "17921623791463628"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "ポチる前に！電気毛布の確認リスト",
+   "head": "洗濯と使用上の注意",
+   "status": "ready",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-26_story_s2.jpg"
+   ]
   }
  ]
 }
