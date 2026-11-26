@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26 22:50",
+ "updated": "2026-11-27 00:29",
  "followers": 41,
  "media": 69,
  "posts": [
@@ -1019,14 +1019,14 @@
    "kind": "reel",
    "title": "ポチる前に！フライパンの確認リスト",
    "genre": "kitchen",
-   "likes": 1,
+   "likes": 2,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/DgGZ3VcDmhp/",
    "reach": 17,
    "saved": 0,
    "shares": 0,
-   "views": 20,
-   "total_interactions": 1,
+   "views": 21,
+   "total_interactions": 2,
    "avg_watch": 1.6
   },
   {
@@ -1083,30 +1083,15 @@
    "kind": "reel",
    "title": "ポチる前に！電気毛布の確認リスト",
    "genre": "blanket",
-   "likes": 0,
+   "likes": 1,
    "comments": 0,
    "permalink": "https://www.instagram.com/reel/DgLjeEVyozh/",
-   "reach": 5,
+   "reach": 6,
    "saved": 0,
    "shares": 0,
-   "views": 6,
-   "total_interactions": 0,
-   "avg_watch": 1.0
-  },
-  {
-   "date": "2026-11-25",
-   "slot": "2",
-   "kind": "story",
-   "title": "カタログギフト、買う前にここ見て",
-   "genre": "",
-   "likes": null,
-   "comments": null,
-   "permalink": "",
-   "reach": null,
-   "saved": null,
-   "shares": null,
-   "views": null,
-   "total_interactions": null
+   "views": 7,
+   "total_interactions": 1,
+   "avg_watch": 0.9
   },
   {
    "date": "2026-11-26",
