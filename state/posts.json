@@ -11630,6 +11630,261 @@
    ],
    "video": "docs/media/2026-11-26_s2_reel2.mp4",
    "media_id": "17938831080419402"
+  },
+  {
+   "date": "2026-11-27",
+   "genre": "storage",
+   "title": "収納ボックス選びで見落としやすい3つのこと",
+   "caption": "【PR】収納ボックス、買う前にここだけは確認👇\n\n収納ボックスを選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　置き場所の3か所を測る\n幅・奥行・高さを測る。扉や引き出しが開く範囲も忘れずに。\n\n✔ CHECK2　内寸と外寸を分けて見る\n入れたい物は「内寸」、置き場所は「外寸」と比べる。\n\n✔ CHECK3　耐荷重を確認\n上に物を置く・重い物を入れるなら耐荷重の表記を確認する。書かれていなければ問い合わせる。\n\n■ 例として、2026/11/27に楽天市場でレビューの多かった商品\n・収納ボックス 収納ケース 2セット以上購入で1個おまけ（HAT-SHOP）3,740円、★4.56／1,970件\n・収納ボックス 収納ケース RISUスタックシステムケース ワイド（Living雑貨 リスonlineshop）5,780円、★4.63／1,901件\n・収納ボックス 収納ケース 3個セット 6個セット12個 引き出し（収納・家具・寝具の収納宅配館）4,980円、★4.22／1,736件\n\n※2026/11/27に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 収納ボックスを選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#収納ボックス #収納 #収納アイデア #整理整頓 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "収納家具｜買う前メモ",
+     "title": "収納ボックス選びで\n見落としやすい\n3つのこと",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "storage",
+     "topic": "収納ボックス",
+     "pre": "見落としやすい",
+     "num": "3",
+     "post": "つのこと",
+     "month": "2026.11月",
+     "seed": "2026-11-2787"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "収納ボックス 収納ケース 2セット以上購入で1個おまけ",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/hat-shop/cabinet/syuno/01571048/kraft_l_001-2.jpg?_ex=700x700",
+     "price": "3,740円",
+     "review": "★4.56",
+     "count": "1,970件",
+     "postage": "送料込み",
+     "shop": "HAT-SHOP",
+     "check": "置き場所の3か所を測る",
+     "body": [
+      "幅・奥行・高さを測る。",
+      "扉や引き出しが開く範囲も忘れずに。"
+     ],
+     "date": "2026/11/27"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "収納ボックス 収納ケース RISUスタックシステムケース ワイド",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/risu-onlineshop/cabinet/images/risu/scc_w_01na.jpg?_ex=700x700",
+     "price": "5,780円",
+     "review": "★4.63",
+     "count": "1,901件",
+     "postage": "送料込み",
+     "shop": "Living雑貨 リスonlineshop",
+     "check": "内寸と外寸を分けて見る",
+     "body": [
+      "入れたい物は「内寸」、",
+      "置き場所は「外寸」と比べる。"
+     ],
+     "date": "2026/11/27"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "収納ボックス 収納ケース 3個セット 6個セット12個 引き出し",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/rack-kan/cabinet/samune01/imgrc0119521739.jpg?_ex=700x700",
+     "price": "4,980円",
+     "review": "★4.22",
+     "count": "1,736件",
+     "postage": "送料込み",
+     "shop": "収納・家具・寝具の収納宅配館",
+     "check": "耐荷重を確認",
+     "body": [
+      "上に物を置く・重い物を入れるなら",
+      "耐荷重の表記を確認する。",
+      "書かれていなければ問い合わせる。"
+     ],
+     "date": "2026/11/27"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "hat-shop:10001814",
+     "rawName": "収納ボックス　収納ケース　2セット以上購入で1個おまけ【送料無料】クラフトボックスLサイズ　4個入り　書類収納　押入れ収納　収納ボックス フタ付き　おしゃれ　収納BOX　ダンボール【365】【AS】",
+     "name": "収納ボックス 収納ケース 2セット以上購入で1個おまけ",
+     "price": 3740,
+     "shop": "HAT-SHOP",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pwzzo.p3pr2dee.g00pwzzo.p3pr3e55/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhat-shop%2F10001814%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhat-shop%2Fi%2F10001814%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pwzzo.p3pr2dee.g00pwzzo.p3pr3e55/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhat-shop%2F10001814%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhat-shop%2Fi%2F10001814%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 1970,
+     "reviewAverage": 4.56,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/hat-shop/cabinet/syuno/01571048/kraft_l_001-2.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "risu-onlineshop:10002384",
+     "rawName": "収納ボックス 収納ケース RISUスタックシステムケース ワイド【2段セット】 カラーボックス チェスト おしゃれ 送料無料 北欧 引き出し クローゼット プラスチック 押し入れ収納 衣類 奥行50 50cm 日本製 天板 リス",
+     "name": "収納ボックス 収納ケース RISUスタックシステムケース ワイド",
+     "price": 5780,
+     "shop": "Living雑貨 リスonlineshop",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rbwuo.p3pr28dd.g00rbwuo.p3pr3597/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frisu-onlineshop%2F16578-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frisu-onlineshop%2Fi%2F10002384%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00rbwuo.p3pr28dd.g00rbwuo.p3pr3597/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frisu-onlineshop%2F16578-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frisu-onlineshop%2Fi%2F10002384%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 1901,
+     "reviewAverage": 4.63,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/risu-onlineshop/cabinet/images/risu/scc_w_01na.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "rack-kan:10091813",
+     "rawName": "収納ボックス 収納ケース 3個セット 6個セット12個 引き出し 小物 衣装ケース アイリスオーヤマ プラスチック 押入れ 幅39cm 奥行50cm 高さ23.2cm チェスト 寝室 子供部屋 洗面所 ランドリーチェスト 衣類収納 タンス 新生活BC-L",
+     "name": "収納ボックス 収納ケース 3個セット 6個セット12個 引き出し",
+     "price": 4980,
+     "shop": "収納・家具・寝具の収納宅配館",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pr3yo.p3pr2481.g00pr3yo.p3pr3132/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frack-kan%2F1898536%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frack-kan%2Fi%2F10091813%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00pr3yo.p3pr2481.g00pr3yo.p3pr3132/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frack-kan%2F1898536%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frack-kan%2Fi%2F10091813%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 1736,
+     "reviewAverage": 4.22,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/rack-kan/cabinet/samune01/imgrc0119521739.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-27_s2_reel1_01.jpg",
+    "docs/media/2026-11-27_s2_reel1_02.jpg",
+    "docs/media/2026-11-27_s2_reel1_03.jpg",
+    "docs/media/2026-11-27_s2_reel1_04.jpg"
+   ],
+   "video": "docs/media/2026-11-27_s2_reel1.mp4"
+  },
+  {
+   "date": "2026-11-27",
+   "genre": "humid",
+   "title": "加湿器、買う前にここ見て",
+   "caption": "【PR】加湿器、買う前にここだけは確認👇\n\n加湿器を選ぶ時に、商品ページで先に見ておきたい3つをまとめました。\n\n✔ CHECK1　加湿方式を確認\n気化式・スチーム式・超音波式・ハイブリッド式などの方式を商品ページの仕様欄で確認する。\n\n✔ CHECK2　適用畳数を確認\n木造とプレハブ（鉄骨）で適用畳数が違うことが多い。使う部屋の広さと比べる。\n\n✔ CHECK3　給水とお手入れ\n上から給水か、タンクを外すか。フィルター交換の有無も見る。\n\n■ 例として、2026/11/27に楽天市場でレビューの多かった商品\n・加湿器 大容量 卓上 おしゃれ 上から給水 アロマ加湿器 小型（ハンファダイレクト楽天市場店）3,680円、★4.33／2,193件\n・2026最新モデル 加湿器 スチーム 卓上 超音波 大容量 3L（TsubasaLife 楽天市場店）3,580円、★4.62／2,021件\n・ハイブリッド加湿器 加湿器 大容量 8L 超音波式 加熱式（My Home Shop 日用品楽天市場店）13,800円、★4.37／1,835件\n\n※2026/11/27に楽天ウェブサービスで取得した情報です。価格・在庫・仕様は変わることがあるので、購入前にリンク先で確認してください。\n※使用した感想ではなく、公開されている商品情報を整理して紹介しています。\n※商品画像は楽天市場の各ショップのものです。\n\n紹介した商品は、プロフィールのリンク（楽天市場）から見られます。\n📌 保存しておくと、買う前に見返せます。\n💬 加湿器を選ぶ時、ほかに何を確認していますか？コメントで教えてください。\n\n#加湿器 #加湿器 #乾燥対策 #季節家電 #楽天市場 #楽天で見つけた #買う前チェック #暮らしを整える #かうまえメモ",
+   "slides": [
+    {
+     "kind": "cover",
+     "kicker": "加湿器｜買う前メモ",
+     "title": "加湿器、\n買う前に\nここ見て",
+     "sub": "楽天市場でレビューの多い商品つき",
+     "genre": "humid",
+     "topic": "加湿器",
+     "pre": "買う前にここ見て",
+     "num": "3",
+     "post": "チェック",
+     "month": "2026.11月",
+     "seed": "2026-11-2788"
+    },
+    {
+     "kind": "item",
+     "no": 1,
+     "head": "加湿器 大容量 卓上 おしゃれ 上から給水 アロマ加湿器 小型",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/hanwha/cabinet/08361904/hg-asl008_260126.jpg?_ex=700x700",
+     "price": "3,680円",
+     "review": "★4.33",
+     "count": "2,193件",
+     "postage": "送料込み",
+     "shop": "ハンファダイレクト楽天市場店",
+     "check": "加湿方式を確認",
+     "body": [
+      "気化式・スチーム式・超音波式・",
+      "ハイブリッド式などの方式を",
+      "商品ページの仕様欄で確認する。"
+     ],
+     "date": "2026/11/27"
+    },
+    {
+     "kind": "item",
+     "no": 2,
+     "head": "2026最新モデル 加湿器 スチーム 卓上 超音波 大容量 3L",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/tsubasakaden/cabinet/13855424/imgrc0155123552.jpg?_ex=700x700",
+     "price": "3,580円",
+     "review": "★4.62",
+     "count": "2,021件",
+     "postage": "送料別",
+     "shop": "TsubasaLife 楽天市場店",
+     "check": "適用畳数を確認",
+     "body": [
+      "木造とプレハブ（鉄骨）で",
+      "適用畳数が違うことが多い。",
+      "使う部屋の広さと比べる。"
+     ],
+     "date": "2026/11/27"
+    },
+    {
+     "kind": "item",
+     "no": 3,
+     "head": "ハイブリッド加湿器 加湿器 大容量 8L 超音波式 加熱式",
+     "url": "https://thumbnail.image.rakuten.co.jp/@0_mall/myhomeshop/cabinet/10352264/11312293/imgrc0344913287.jpg?_ex=700x700",
+     "price": "13,800円",
+     "review": "★4.37",
+     "count": "1,835件",
+     "postage": "送料込み",
+     "shop": "My Home Shop 日用品楽天市場店",
+     "check": "給水とお手入れ",
+     "body": [
+      "上から給水か、タンクを外すか。",
+      "フィルター交換の有無も見る。"
+     ],
+     "date": "2026/11/27"
+    }
+   ],
+   "products": [
+    {
+     "itemCode": "hanwha:10000700",
+     "rawName": "【楽天1位】 加湿器 大容量 卓上 おしゃれ 上から給水 アロマ加湿器 小型 しずく型 超音波加湿器 超音波式 アロマディフューザー 4リットル 4L 4.0L 4000ml 抗菌 保湿 乾燥 花粉 ウィルス対策 オフィス 寝室 子供部屋 静音 省エネ LED 上部給水 送料無料",
+     "name": "加湿器 大容量 卓上 おしゃれ 上から給水 アロマ加湿器 小型",
+     "price": 3680,
+     "shop": "ハンファダイレクト楽天市場店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qjlso.p3pr2848.g00qjlso.p3pr325e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhanwha%2Fuma-dew%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhanwha%2Fi%2F10000700%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00qjlso.p3pr2848.g00qjlso.p3pr325e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhanwha%2Fuma-dew%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhanwha%2Fi%2F10000700%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 2193,
+     "reviewAverage": 4.33,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/hanwha/cabinet/08361904/hg-asl008_260126.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "tsubasakaden:10000006",
+     "rawName": "2026最新モデル 加湿器 スチーム 卓上 超音波 大容量 3L 3重除菌 3段階調整 タイマー お手入れ簡単 LEDライト 吹出口360°回転 18畳対応 静音省エネ 空焚き防止 床置き/オフィス/部屋/美肌/乾燥/ウィルス/風邪",
+     "name": "2026最新モデル 加湿器 スチーム 卓上 超音波 大容量 3L",
+     "price": 3580,
+     "shop": "TsubasaLife 楽天市場店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ur9ao.p3pr2d35.g00ur9ao.p3pr3cfe/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftsubasakaden%2Fj3%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftsubasakaden%2Fi%2F10000006%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ur9ao.p3pr2d35.g00ur9ao.p3pr3cfe/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftsubasakaden%2Fj3%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftsubasakaden%2Fi%2F10000006%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 2021,
+     "reviewAverage": 4.62,
+     "availability": 1,
+     "postageFlag": 1,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/tsubasakaden/cabinet/13855424/imgrc0155123552.jpg?_ex=700x700"
+    },
+    {
+     "itemCode": "myhomeshop:10000089",
+     "rawName": "ハイブリッド加湿器 ＜今だけCOUPONで半額＞【楽天1位・レビュー1700件越えの人気商品】加湿器 大容量 8L 超音波式 加熱式 タワー型加湿器 6重除菌 UV除菌 AI恒湿 上から給水 お手入れ簡単 40畳対応 静音 リモコン アロマ 省エネ 節電【7日間返品保証＋2年保証】UVC証明&PSE",
+     "name": "ハイブリッド加湿器 加湿器 大容量 8L 超音波式 加熱式",
+     "price": 13800,
+     "shop": "My Home Shop 日用品楽天市場店",
+     "itemUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tz25o.p3pr22de.g00tz25o.p3pr349a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmyhomeshop%2Fgy-jsq-7l%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmyhomeshop%2Fi%2F10000089%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00tz25o.p3pr22de.g00tz25o.p3pr349a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmyhomeshop%2Fgy-jsq-7l%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmyhomeshop%2Fi%2F10000089%2F&rafcid=wsc_i_is_58a0c30e-3ab0-4727-9eaa-36bc4de02c36",
+     "reviewCount": 1835,
+     "reviewAverage": 4.37,
+     "availability": 1,
+     "postageFlag": 0,
+     "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/myhomeshop/cabinet/10352264/11312293/imgrc0344913287.jpg?_ex=700x700"
+    }
+   ],
+   "status": "ready",
+   "format": "reel",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-27_s2_reel2_01.jpg",
+    "docs/media/2026-11-27_s2_reel2_02.jpg",
+    "docs/media/2026-11-27_s2_reel2_03.jpg",
+    "docs/media/2026-11-27_s2_reel2_04.jpg"
+   ],
+   "video": "docs/media/2026-11-27_s2_reel2.mp4"
   }
  ],
  "stories": [
@@ -12085,6 +12340,16 @@
     "docs/media/2026-11-26_story_s2.jpg"
    ],
    "media_id": "18341542819273521"
+  },
+  {
+   "date": "2026-11-27",
+   "title": "加湿器、買う前にここ見て",
+   "head": "加湿方式を確認",
+   "status": "ready",
+   "slot": "2",
+   "images": [
+    "docs/media/2026-11-27_story_s2.jpg"
+   ]
   }
  ]
 }
