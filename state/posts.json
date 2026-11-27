@@ -12003,7 +12003,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/antina/cabinet/products_250/25078008_14.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -12012,7 +12012,8 @@
     "docs/media/2026-11-28_s2_reel1_03.jpg",
     "docs/media/2026-11-28_s2_reel1_04.jpg"
    ],
-   "video": "docs/media/2026-11-28_s2_reel1.mp4"
+   "video": "docs/media/2026-11-28_s2_reel1.mp4",
+   "media_id": "18034215530860382"
   },
   {
    "date": "2026-11-28",
@@ -12130,7 +12131,7 @@
      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kaihyaku/cabinet/catalog_set/imgrc0162526052.jpg?_ex=700x700"
     }
    ],
-   "status": "ready",
+   "status": "posted",
    "format": "reel",
    "slot": "2",
    "images": [
@@ -12139,7 +12140,8 @@
     "docs/media/2026-11-28_s2_reel2_03.jpg",
     "docs/media/2026-11-28_s2_reel2_04.jpg"
    ],
-   "video": "docs/media/2026-11-28_s2_reel2.mp4"
+   "video": "docs/media/2026-11-28_s2_reel2.mp4",
+   "media_id": "18203487874386299"
   }
  ],
  "stories": [
@@ -12611,11 +12613,12 @@
    "date": "2026-11-28",
    "title": "ポチる前に！スポンジの確認リスト",
    "head": "サイズと対応の表記を見る",
-   "status": "ready",
+   "status": "posted",
    "slot": "2",
    "images": [
     "docs/media/2026-11-28_story_s2.jpg"
-   ]
+   ],
+   "media_id": "17962462281013587"
   }
  ]
 }
